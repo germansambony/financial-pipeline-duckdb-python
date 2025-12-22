@@ -4,50 +4,50 @@
 
 # 📊 Innova Financial Data Warehouse: El Backend de la Inteligencia SaaS
 
-Este proyecto implementa un Pipeline de Datos integral para **Innova**, una empresa SaaS líder en soluciones financieras. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando una arquitectura de medallas (Medallion Architecture) y un modelo dimensional en estrella (Star Schema) para potenciar la toma de decisiones estratégicas.
+Este proyecto implementa un Pipeline de Datos integral para **Innova**, una empresa SaaS líder en soluciones financieras. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando una arquitectura de medallas (Medallion Architecture), un proceso ELT y un modelo dimensional en estrella (Star Schema) para potenciar la toma de decisiones estratégicas.
 
 ---
 
-## 🏗️ 1. Arquitectura de la Solución
+##  1. Arquitectura de la Solución
 
 Se ha seleccionado una arquitectura basada en **DuckDB** por su alto rendimiento en procesamiento analítico (OLAP) y su facilidad de orquestación mediante Python.
 
 ### Capas de Datos (Medallion Architecture):
-1.  **Capa RAW (Bronce):** Ingesta directa de archivos CSV. Los datos se cargan "as-is" pero con metadatos de auditoría (`filename`, `load_date`).
-2.  **Capa SILVER (Plata):** Limpieza y estandarización. Se eliminan duplicados mediante lógica de ventanas (`QUALIFY`), se formatean tipos de datos y se manejan inconsistencias de negocio (ej. fechas de fin de suscripción inválidas).
+1.  **Capa RAW (Bronce):** Ingesta directa de archivos CSV. Los datos se extraen y cargan (EL) con  metadatos para procesos de soporte, trazabilidad y auditoría (`filename`, `load_date`).
+2.  **Capa SILVER (Plata):** Limpieza, transformacion y estandarización. Se eliminan duplicados mediante lógica de ventanas (`QUALIFY`), se formatean y transforman tipos de datos, se crean nuevas columnas de transformacion y se manejan inconsistencias de negocio (ej. fechas de fin de suscripción inválidas).
 3.  **Capa GOLD (Oro):** Modelado analítico. Aquí reside el **Modelo en Estrella**, optimizado para consultas de BI y métricas complejas como MRR, CAC y FCF.
 
 ---
 
-## 📉 2. Modelo Dimensional Propuesto
+##  2. Modelo Dimensional Propuesto
 
 Para satisfacer las necesidades del equipo financiero, el modelo Gold se estructura de la siguiente manera:
 
 ### Tablas de Hechos (Facts):
--   **`GOLD.FACT_MRR_MONTHLY`**: Grano mensual por suscripción activa. Utiliza lógica recursiva para "llenar los huecos" de meses entre la fecha de inicio y fin, permitiendo ver la evolución del ingreso recurrente.
+-   **`GOLD.FACT_MRR_MONTHLY`**: Grano mensual por suscripción activa. Utiliza lógica recursiva para "llenar los huecos" de meses entre la fecha de inicio y fin, permitiendo ver la evolución del ingreso recurrente MRR.
 -   **`GOLD.FACT_CASHFLOW`**: Grano transaccional. Consolida entradas (Pagos) y salidas (Gastos) en una única estructura para calcular el flujo de caja neto.
 
 ### Tablas de Dimensiones (Dims):
--   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada dinámicamente para facilitar el *time-intelligence* en Power BI.
+-   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada con logica recursiva para eficiencia en Power BI.
 -   **`SILVER.S_CUSTOMERS`**: Atributos del cliente (segmento, país, canal).
 -   **`SILVER.S_EMPLOYEES`**: Datos de nómina y geografía.
 
 ---
 
-## ⚙️ 3. Pipeline ETL y Orquestación
+##  3. Pipeline ELT y Orquestación
 
 El flujo de datos es gobernado por un orquestador central en Python (`main_orchestrator.py`):
 
-1.  **Extracción (`extract.py`):** Lee archivos CSV, normaliza nombres de columnas (snake_case) y registra las tablas en el motor DuckDB.
-2.  **Transformación (`silver_transformations.sql`):** Aplica lógica de limpieza. Se destaca la creación de la tabla `S_TABLA_ERROR` para identificar registros de suscripciones descartados por errores de lógica de fechas.
-3.  **Modelado (`gold_metrics.sql`):** Implementa las métricas financieras core.
-4.  **Exposición (`bi_views.sql`):** Crea vistas optimizadas para consumo externo y exporta archivos **Parquet**, asegurando un rendimiento superior y menor peso que el formato CSV.
+1.  **Extracción (`extract.py`):** Lee archivos CSV, normaliza nombres de columnas y registra las tablas en el motor DuckDB. Codigo centralizado en escalabilidad y validacion de archivos.
+2.  **Transformación (`silver_transformations.sql`):** Aplica lógica de limpieza y transformacion. Se destaca la creación de la tabla `S_TABLA_ERROR` para identificar registros de suscripciones descartados por errores de lógica de fechas y duplicados.
+3.  **Modelado (`gold_metrics.sql`):** Implementa las métricas financieras core y agrupaciones para eficiencia en consultas
+4.  **Exposición (`bi_views.sql` y `main_orchestrator`):** Crea vistas optimizadas para consumo externo, el orquestador realiza el pipeline  y exporta archivos **.Parquet**, asegurando un rendimiento superior y menor peso que el formato CSV. Esto para ser leido desde Power Bi
 
 ---
 
-## 🧪 4. Consultas de Negocio (Resultados 2024)
+##  4. Consultas clave de Negocio (Resultados 2024)
 
-Basado en el modelo implementado, se han respondido las siguientes métricas clave:
+Basado en el modelo implementado , en `Respuestas_prueba.sql`, se han respondido las siguientes métricas clave:
 
 | Pregunta | Resultado |
 | :--- | :--- |
@@ -60,37 +60,40 @@ Basado en el modelo implementado, se han respondido las siguientes métricas cla
 
 ---
 
-## 📊 5. Dashboard Ejecutivo - Innova Finance
+## 5. Dashboard Ejecutivo - Innova Finance
 
 El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad en tiempo real.
 
-![Dashboard Innova Finance](ruta_a_tu_imagen/dashboard.png) *(Nota: Asegúrate de guardar la imagen en tu repositorio)*
+![Dashboard Innova Finance](INNOVA_BI_DASH.png) 
 
 **Visualizaciones incluidas:**
 -   **Evolución del MRR:** Tendencia mensual segmentada por plan.
 -   **Análisis de CAC:** Comparativa de eficiencia por canal de adquisición.
--   **Cash Flow Bridge:** Visualización de Inflows vs. Outflows.
--   **Segmentación Geográfica:** Desempeño por país.
+-   **Cash Flow:** Visualización de Inflows vs. Outflows.
 
 ---
 
-## 🚀 6. Escalabilidad y Futuro (Bonus)
+## 6. Escalabilidad y Futuro 
 
 ### Escalabilidad a Nuevos Países y Monedas:
--   **Multimoneda:** Para escalar a otras divisas, se propone añadir una tabla de hechos `DIM_EXCHANGE_RATES` (tasas de cambio diarias). Las tablas Gold incluirían columnas `amount_local` y `amount_usd`, realizando la conversión dinámicamente mediante un `JOIN` con la tabla de tasas.
--   **Nuevos Países:** La estructura actual es agnóstica al país. Solo requiere añadir el nuevo valor en la fuente y el modelo lo absorberá automáticamente.
+-   **Multimoneda:** Para escalar a otras divisas, simplemente se propone añadir una tabla de tasas de cambio diarias `S_EXCHANGE_RATES`, cruzarlas mediante un `JOIN` en la capa SILVER y obtener la transformacion en las tablas silver con las columnas `amount_local` y `amount_usd`, realizando la conversión dinámicamente.
+-   **Nuevos Países:** La estructura actual funciona a cualquier país sin complicaciones. Solo requiere añadir el nuevo valor en la fuente y el modelo lo absorberá automáticamente.
 
 ### Automatización y DevOps:
--   **dbt (data build tool):** Se recomienda migrar los scripts SQL a dbt para manejar linaje de datos, pruebas automáticas de integridad y documentación integrada.
--   **Airflow/Prefect:** Para una orquestación robusta con reintentos, alertas y programación de tareas (CRON).
+-   **dbt (data build tool):** Para una implementación productiva en Innova, propongo migrar las transformaciones SQL a dbt (data build tool) para obtener las siguientes ventajas:
+Modelado Incremental (Append): Optimización del pipeline cambiando la materialización de table (overwrite) a incremental. Esto permite procesar solo las nuevas transacciones diarias, reduciendo drásticamente el consumo de cómputo y memoria.
+Gestión de Infraestructura: Configuración de perfiles de conexión para asignar modelos pesados (Capa Gold) a clusters de alta memoria y modelos ligeros a clusters económicos.
+Data Quality & Alarms: Implementación de tests de unicidad y consistencia financiera con alertas automáticas ante anomalías en métricas críticas como el MRR.
+Seguridad: Aplicación de políticas de encriptación a nivel de columna para datos sensibles de nómina y clientes, asegurando el cumplimiento de normativas de privacidad.
 
 ### IA y Machine Learning:
 -   **Forecast Financiero:** Utilizar modelos de series temporales (Prophet o ARIMA) sobre la tabla `FACT_MRR_MONTHLY` para predecir ingresos futuros.
--   **Clasificación Inteligente:** Usar NLP para categorizar automáticamente gastos basados en el nombre del proveedor en caso de categorías ambiguas en el CSV.
+-   **Clasificación Inteligente:** Implementar técnicas de Procesamiento de Lenguaje Natural (NLP) para leer descripciones de los proveedores en los archivos de gastos. Esto permitiría clasificar automáticamente un gasto como "Infraestructura" o "Marketing" aunque el nombre del proveedor sea ambiguo o nuevo, reduciendo el error humano y el trabajo manual de limpieza en la capa Silver.
+
 
 ---
 
-## 🛠️ 7. Configuración del Proyecto
+## 7. Configuración del Proyecto
 
 ### Requisitos Previos:
 -   Python 3.8+
@@ -112,5 +115,5 @@ python main_orchestrator.py
 
 ---
 
-**Autor:** [Tu Nombre] - Data Engineer Principal
-**Contacto:** [Tu Email/LinkedIn]
+**Autor:** [German Camilo Sambony Ledezma] - Data Engineer 
+**Contacto:** [camilosambony@gmail.com/[LinkedIn](https://www.linkedin.com/in/germansambony-dataengineer/)]
