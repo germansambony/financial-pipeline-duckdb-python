@@ -113,6 +113,10 @@ python main_orchestrator.py
 ```
 *Esto generará el archivo `innova.duckdb` y los archivos `.parquet` en la carpeta `Outputs_parquet/`.*
 
+Para explorar las tablas de las capas **Silver** y **Gold**, se recomienda utilizar:
+* **DBeaver:** Conector nativo de DuckDB disponible.
+* **DataGrip:** Ideal para análisis avanzado de SQL.
+
 ---
 
 **Autor:** [German Camilo Sambony Ledezma] - Data Engineer 
