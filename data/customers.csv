@@ -1,0 +1,1001 @@
+customer_id,country,acquisition_channel,segment,registration_date
+Client_001,United States,Paid,Freelancer,2024-07-21 14:05:47
+Client_002,Costa Rica,Referral,Enterprise,2024-01-21 18:24:51
+Client_003,Mexico,Organic,Freelancer,2024-09-24 17:10:01
+Client_004,United States,Organic,Freelancer,2024-02-27 07:34:35
+Client_005,United States,Organic,SMB,2024-02-15 02:56:46
+Client_006,Costa Rica,Organic,SMB,2024-11-21 18:57:52
+Client_007,Mexico,Direct,Freelancer,2024-12-13 13:03:37
+Client_008,Mexico,Organic,SMB,2024-02-03 07:28:37
+Client_009,United States,Direct,Enterprise,2024-09-03 01:13:53
+Client_010,Panama,Direct,Enterprise,2024-05-26 15:33:00
+Client_011,United States,Organic,SMB,2024-10-06 12:50:42
+Client_012,United States,Organic,Enterprise,2024-04-30 17:40:45
+Client_013,United States,Paid,SMB,2024-05-27 20:30:15
+Client_014,United States,Referral,Freelancer,2024-03-02 04:51:53
+Client_015,Costa Rica,Organic,Freelancer,2024-02-13 04:59:09
+Client_016,Mexico,Paid,Enterprise,2024-05-12 19:53:49
+Client_017,Costa Rica,Paid,SMB,2024-03-02 12:52:21
+Client_018,Costa Rica,Referral,SMB,2024-02-02 11:06:42
+Client_019,Costa Rica,Direct,Enterprise,2024-02-18 02:47:43
+Client_020,United States,Organic,Freelancer,2024-02-21 22:43:18
+Client_021,Panama,Referral,Enterprise,2024-11-05 22:39:09
+Client_022,Mexico,Organic,Freelancer,2024-05-18 21:42:32
+Client_023,Panama,Paid,SMB,2024-04-20 03:10:06
+Client_024,Costa Rica,Paid,Freelancer,2024-08-13 19:37:56
+Client_025,Costa Rica,Direct,Enterprise,2024-12-27 08:02:42
+Client_026,Panama,Paid,SMB,2024-03-22 23:56:49
+Client_027,Panama,Paid,Enterprise,2024-09-23 03:09:14
+Client_028,Panama,Referral,Enterprise,2024-08-29 19:29:38
+Client_029,Costa Rica,Organic,Freelancer,2024-04-26 19:19:45
+Client_030,Costa Rica,Organic,Enterprise,2024-07-27 16:16:13
+Client_031,Mexico,Referral,Freelancer,2024-12-07 00:32:19
+Client_032,Mexico,Direct,SMB,2024-05-15 15:44:17
+Client_033,Costa Rica,Organic,Freelancer,2024-01-18 06:04:47
+Client_034,Panama,Paid,SMB,2024-05-31 06:43:21
+Client_035,Panama,Organic,Freelancer,2024-04-17 18:36:08
+Client_036,Mexico,Paid,Enterprise,2024-08-29 03:17:21
+Client_037,Costa Rica,Direct,Freelancer,2024-05-18 18:54:52
+Client_038,Mexico,Referral,Freelancer,2024-05-11 05:01:41
+Client_039,Mexico,Organic,SMB,2024-03-02 00:41:04
+Client_040,United States,Referral,Enterprise,2024-02-13 20:29:23
+Client_041,United States,Organic,Freelancer,2024-08-27 00:42:06
+Client_042,United States,Paid,Enterprise,2024-05-13 13:37:17
+Client_043,Panama,Referral,Freelancer,2024-11-13 10:13:20
+Client_044,Costa Rica,Organic,Freelancer,2024-08-21 03:54:21
+Client_045,Costa Rica,Paid,Enterprise,2024-12-13 20:06:13
+Client_046,Costa Rica,Referral,Freelancer,2024-03-01 00:29:33
+Client_047,Costa Rica,Referral,Enterprise,2024-05-27 07:45:00
+Client_048,United States,Organic,Freelancer,2024-09-07 02:45:07
+Client_049,Panama,Organic,SMB,2024-05-07 13:26:26
+Client_050,Panama,Organic,Enterprise,2024-01-12 05:03:36
+Client_051,United States,Paid,Freelancer,2024-08-30 23:55:49
+Client_052,Panama,Organic,Freelancer,2024-10-12 18:48:56
+Client_053,United States,Referral,SMB,2024-04-21 13:39:24
+Client_054,Costa Rica,Referral,Enterprise,2024-01-18 05:53:56
+Client_055,United States,Organic,Freelancer,2024-08-15 09:29:05
+Client_056,Costa Rica,Organic,SMB,2024-10-08 23:19:35
+Client_057,Costa Rica,Direct,Freelancer,2024-03-24 02:12:36
+Client_058,Mexico,Referral,Enterprise,2024-04-28 00:46:25
+Client_059,United States,Paid,Freelancer,2024-10-30 14:35:47
+Client_060,Mexico,Direct,Freelancer,2024-04-27 00:11:04
+Client_061,United States,Organic,Freelancer,2024-10-24 16:58:54
+Client_062,United States,Organic,Freelancer,2024-04-18 05:59:31
+Client_063,Mexico,Referral,SMB,2024-04-01 11:40:28
+Client_064,Mexico,Organic,SMB,2024-05-11 22:59:07
+Client_065,United States,Paid,Enterprise,2024-06-12 08:30:03
+Client_066,Panama,Referral,SMB,2024-08-30 19:38:07
+Client_067,Costa Rica,Organic,SMB,2024-08-28 23:21:35
+Client_068,Mexico,Referral,Enterprise,2024-05-19 16:54:55
+Client_069,Costa Rica,Organic,SMB,2024-01-27 21:08:43
+Client_070,Panama,Organic,SMB,2024-12-20 08:47:08
+Client_071,Panama,Organic,Enterprise,2024-12-02 02:59:42
+Client_072,Panama,Paid,Enterprise,2024-11-01 07:31:25
+Client_073,Mexico,Paid,Enterprise,2024-02-24 22:32:51
+Client_074,Panama,Referral,Freelancer,2024-04-10 00:02:25
+Client_075,Mexico,Organic,Freelancer,2024-08-02 12:09:00
+Client_076,Panama,Organic,Enterprise,2024-07-22 22:05:47
+Client_077,Costa Rica,Paid,Enterprise,2024-01-11 00:10:45
+Client_078,Costa Rica,Organic,Enterprise,2024-01-17 12:42:07
+Client_079,United States,Paid,Freelancer,2024-09-10 13:21:32
+Client_080,Costa Rica,Organic,Freelancer,2024-04-12 13:01:30
+Client_081,United States,Referral,SMB,2024-04-29 07:51:25
+Client_082,Costa Rica,Organic,SMB,2024-02-19 05:54:09
+Client_083,Mexico,Organic,Enterprise,2024-03-28 16:03:07
+Client_084,Costa Rica,Direct,Freelancer,2024-09-26 14:09:26
+Client_085,United States,Paid,Freelancer,2024-06-27 07:52:50
+Client_086,United States,Organic,Freelancer,2024-06-30 08:38:54
+Client_087,Panama,Organic,Enterprise,2024-11-27 04:13:38
+Client_088,Mexico,Direct,SMB,2024-04-06 11:48:20
+Client_089,Costa Rica,Direct,Enterprise,2024-12-30 01:58:42
+Client_090,Panama,Paid,SMB,2024-07-31 21:09:53
+Client_091,Costa Rica,Direct,SMB,2024-11-27 20:05:29
+Client_092,Costa Rica,Referral,Enterprise,2024-02-10 15:44:24
+Client_093,Panama,Direct,SMB,2024-06-21 19:22:41
+Client_094,Panama,Referral,SMB,2024-01-12 06:19:41
+Client_095,Panama,Paid,Freelancer,2024-05-13 03:56:58
+Client_096,Panama,Paid,SMB,2024-07-30 10:40:49
+Client_097,Panama,Paid,Enterprise,2024-06-02 18:10:04
+Client_098,Costa Rica,Paid,Enterprise,2024-04-24 20:14:22
+Client_099,Panama,Paid,SMB,2024-01-24 20:42:54
+Client_100,Mexico,Referral,Freelancer,2024-12-19 18:13:28
+Client_101,United States,Referral,Freelancer,2024-02-02 07:05:58
+Client_102,Panama,Paid,SMB,2024-08-26 20:42:58
+Client_103,Panama,Direct,SMB,2024-11-24 04:48:08
+Client_104,Costa Rica,Organic,Enterprise,2024-03-21 17:56:50
+Client_105,Panama,Paid,SMB,2024-08-02 14:45:40
+Client_106,Panama,Direct,Freelancer,2024-07-27 15:44:08
+Client_107,Panama,Organic,SMB,2024-03-12 21:11:55
+Client_108,Costa Rica,Paid,Enterprise,2024-11-14 03:40:45
+Client_109,Panama,Paid,Enterprise,2024-12-28 16:14:42
+Client_110,United States,Referral,Enterprise,2024-10-19 20:41:42
+Client_111,Costa Rica,Organic,Enterprise,2024-08-19 17:11:43
+Client_112,United States,Organic,Enterprise,2024-07-23 17:02:07
+Client_113,Costa Rica,Direct,SMB,2024-02-12 22:59:44
+Client_114,Panama,Referral,SMB,2024-03-21 00:21:23
+Client_115,United States,Referral,SMB,2024-01-19 17:55:15
+Client_116,Costa Rica,Referral,SMB,2024-08-12 03:52:06
+Client_117,Mexico,Referral,Enterprise,2024-04-25 22:18:15
+Client_118,Panama,Organic,Freelancer,2024-03-14 02:06:08
+Client_119,Costa Rica,Organic,SMB,2024-10-29 09:20:36
+Client_120,Mexico,Paid,Freelancer,2024-10-17 12:41:10
+Client_121,Costa Rica,Paid,SMB,2024-04-12 00:53:15
+Client_122,Mexico,Referral,SMB,2024-03-18 20:27:31
+Client_123,Panama,Referral,Freelancer,2024-04-03 08:03:40
+Client_124,United States,Referral,Enterprise,2024-11-29 11:21:23
+Client_125,Mexico,Paid,SMB,2024-12-28 04:44:19
+Client_126,Costa Rica,Direct,SMB,2024-06-28 03:41:47
+Client_127,Panama,Direct,SMB,2024-07-31 01:23:49
+Client_128,Mexico,Paid,Freelancer,2024-07-28 04:47:34
+Client_129,Costa Rica,Paid,Enterprise,2024-10-03 18:15:13
+Client_130,Costa Rica,Paid,Freelancer,2024-10-10 20:44:46
+Client_131,Costa Rica,Paid,Freelancer,2024-05-30 16:16:36
+Client_132,Mexico,Paid,Enterprise,2024-07-07 11:41:39
+Client_133,Mexico,Paid,Freelancer,2024-11-12 04:53:18
+Client_134,Mexico,Referral,Enterprise,2024-08-10 07:29:01
+Client_135,United States,Referral,SMB,2024-10-07 06:45:19
+Client_136,Mexico,Referral,Enterprise,2024-12-20 01:29:32
+Client_137,Mexico,Referral,SMB,2024-05-12 21:53:38
+Client_138,Mexico,Paid,Freelancer,2024-01-29 10:14:30
+Client_139,United States,Direct,Freelancer,2024-04-12 18:10:34
+Client_140,Mexico,Organic,SMB,2024-01-04 08:14:19
+Client_141,Costa Rica,Paid,Freelancer,2024-09-09 03:32:37
+Client_142,Mexico,Organic,Enterprise,2024-12-25 04:14:05
+Client_143,Costa Rica,Direct,SMB,2024-09-06 03:43:02
+Client_144,Costa Rica,Referral,Freelancer,2024-12-16 13:13:08
+Client_145,Costa Rica,Direct,SMB,2024-07-31 01:50:52
+Client_146,United States,Paid,Enterprise,2024-07-01 22:16:53
+Client_147,United States,Referral,Enterprise,2024-05-23 09:40:20
+Client_148,United States,Paid,Freelancer,2024-06-09 00:08:29
+Client_149,Mexico,Referral,Enterprise,2024-11-13 18:51:34
+Client_150,Costa Rica,Organic,SMB,2024-04-13 23:15:13
+Client_151,United States,Organic,Enterprise,2024-02-19 06:35:41
+Client_152,United States,Organic,SMB,2024-08-25 16:44:10
+Client_153,Mexico,Direct,SMB,2024-08-12 14:20:04
+Client_154,United States,Paid,Enterprise,2024-06-26 07:55:33
+Client_155,Mexico,Direct,Freelancer,2024-03-04 09:24:53
+Client_156,Panama,Organic,Enterprise,2024-04-09 10:56:14
+Client_157,United States,Paid,SMB,2024-07-18 23:53:56
+Client_158,Panama,Organic,SMB,2024-05-03 03:33:29
+Client_159,Mexico,Direct,Enterprise,2024-03-04 23:50:46
+Client_160,Costa Rica,Direct,Freelancer,2024-08-01 14:46:17
+Client_161,United States,Direct,Freelancer,2024-04-19 02:33:27
+Client_162,Mexico,Organic,SMB,2024-07-20 19:55:18
+Client_163,Costa Rica,Paid,SMB,2024-03-28 12:35:16
+Client_164,Costa Rica,Paid,Freelancer,2024-07-30 23:35:28
+Client_165,Panama,Organic,Enterprise,2024-06-07 11:18:36
+Client_166,Mexico,Paid,SMB,2024-08-02 03:58:12
+Client_167,Costa Rica,Organic,SMB,2024-11-03 03:04:57
+Client_168,United States,Paid,Freelancer,2024-12-05 08:16:49
+Client_169,United States,Referral,Enterprise,2024-08-01 16:40:12
+Client_170,Panama,Referral,Freelancer,2024-12-20 02:58:28
+Client_171,Costa Rica,Direct,Enterprise,2024-06-25 03:53:24
+Client_172,Mexico,Referral,Enterprise,2024-08-19 18:07:13
+Client_173,United States,Referral,Enterprise,2024-04-15 05:17:24
+Client_174,Costa Rica,Referral,SMB,2024-11-16 17:06:52
+Client_175,Costa Rica,Organic,Freelancer,2024-06-26 12:01:35
+Client_176,Panama,Referral,Freelancer,2024-06-21 22:39:31
+Client_177,United States,Referral,Enterprise,2024-07-28 19:56:00
+Client_178,United States,Direct,SMB,2024-01-18 22:55:30
+Client_179,Mexico,Referral,SMB,2024-01-12 05:47:28
+Client_180,United States,Referral,Freelancer,2024-02-23 21:50:51
+Client_181,Mexico,Paid,SMB,2024-09-28 16:08:42
+Client_182,United States,Direct,SMB,2024-03-03 06:05:50
+Client_183,Panama,Direct,Enterprise,2024-12-21 05:54:28
+Client_184,United States,Direct,SMB,2024-01-31 04:16:51
+Client_185,Mexico,Direct,Enterprise,2024-01-20 14:23:59
+Client_186,Mexico,Direct,Freelancer,2024-08-03 08:58:30
+Client_187,Panama,Direct,SMB,2024-02-09 18:46:12
+Client_188,United States,Organic,Freelancer,2024-07-11 04:29:13
+Client_189,United States,Referral,Freelancer,2024-04-19 08:25:33
+Client_190,Panama,Direct,SMB,2024-03-21 02:11:15
+Client_191,United States,Referral,SMB,2024-09-19 17:42:57
+Client_192,United States,Referral,Freelancer,2024-08-04 21:46:27
+Client_193,Mexico,Organic,SMB,2024-03-05 03:35:11
+Client_194,United States,Direct,Enterprise,2024-05-28 05:45:31
+Client_195,United States,Paid,Enterprise,2024-06-11 17:01:05
+Client_196,Panama,Organic,SMB,2024-12-27 07:12:39
+Client_197,Panama,Paid,Freelancer,2024-10-25 04:24:02
+Client_198,Costa Rica,Referral,SMB,2024-02-14 03:45:44
+Client_199,Mexico,Referral,SMB,2024-08-21 22:51:08
+Client_200,United States,Organic,Freelancer,2024-07-10 10:45:07
+Client_201,United States,Organic,Freelancer,2024-01-10 10:57:32
+Client_202,Costa Rica,Paid,Enterprise,2024-11-10 06:09:41
+Client_203,United States,Direct,Freelancer,2024-03-28 22:09:45
+Client_204,Mexico,Paid,Enterprise,2024-07-06 05:39:32
+Client_205,Costa Rica,Organic,Freelancer,2024-06-02 23:05:13
+Client_206,Mexico,Paid,SMB,2024-03-13 13:28:44
+Client_207,Costa Rica,Organic,Enterprise,2024-01-17 12:41:20
+Client_208,Costa Rica,Paid,Enterprise,2024-04-19 20:15:36
+Client_209,Panama,Organic,Enterprise,2024-01-30 04:21:19
+Client_210,Mexico,Organic,SMB,2024-10-08 00:45:04
+Client_211,United States,Organic,SMB,2024-05-01 09:35:51
+Client_212,United States,Direct,SMB,2024-05-24 12:03:20
+Client_213,Mexico,Paid,SMB,2024-09-22 00:17:44
+Client_214,United States,Paid,SMB,2024-02-01 13:13:36
+Client_215,United States,Paid,Enterprise,2024-07-27 13:58:25
+Client_216,Mexico,Organic,SMB,2024-01-06 03:02:19
+Client_217,Costa Rica,Paid,Enterprise,2024-10-30 10:47:11
+Client_218,Mexico,Paid,SMB,2024-08-20 04:16:28
+Client_219,Costa Rica,Organic,Freelancer,2024-10-21 19:00:48
+Client_220,United States,Referral,Enterprise,2024-09-02 06:34:49
+Client_221,United States,Organic,Freelancer,2024-02-01 09:16:33
+Client_222,United States,Paid,Enterprise,2024-12-22 17:43:21
+Client_223,Panama,Organic,Freelancer,2024-06-01 00:51:11
+Client_224,Costa Rica,Referral,SMB,2024-06-14 06:16:27
+Client_225,Panama,Organic,SMB,2024-01-27 20:12:04
+Client_226,Panama,Paid,SMB,2024-08-27 14:07:23
+Client_227,Mexico,Referral,Enterprise,2024-08-06 04:15:06
+Client_228,Panama,Direct,Freelancer,2024-06-11 06:49:26
+Client_229,Mexico,Paid,SMB,2024-06-03 07:07:13
+Client_230,Mexico,Referral,Freelancer,2024-06-24 19:05:43
+Client_231,Panama,Referral,Freelancer,2024-08-11 08:03:06
+Client_232,Costa Rica,Direct,SMB,2024-08-27 04:51:33
+Client_233,Costa Rica,Organic,SMB,2024-07-10 17:47:51
+Client_234,Costa Rica,Organic,Freelancer,2024-01-20 23:50:08
+Client_235,Costa Rica,Paid,SMB,2024-08-14 14:35:58
+Client_236,Costa Rica,Direct,SMB,2024-11-23 00:21:36
+Client_237,Panama,Organic,SMB,2024-07-25 09:34:51
+Client_238,Panama,Direct,Enterprise,2024-09-20 19:41:10
+Client_239,United States,Organic,Freelancer,2024-05-18 08:16:23
+Client_240,Costa Rica,Referral,Freelancer,2024-03-27 01:45:54
+Client_241,Panama,Organic,Enterprise,2024-07-24 08:26:44
+Client_242,United States,Direct,Freelancer,2024-06-01 01:15:11
+Client_243,Costa Rica,Referral,SMB,2024-07-12 21:12:11
+Client_244,Mexico,Referral,Freelancer,2024-08-07 04:38:24
+Client_245,United States,Referral,SMB,2024-10-13 23:33:42
+Client_246,Panama,Direct,Enterprise,2024-01-27 20:34:44
+Client_247,Mexico,Paid,SMB,2024-02-17 12:20:23
+Client_248,Mexico,Paid,Freelancer,2024-05-09 18:19:56
+Client_249,Mexico,Paid,Freelancer,2024-12-02 15:07:51
+Client_250,United States,Direct,Freelancer,2024-11-27 10:03:36
+Client_251,Panama,Referral,Enterprise,2024-07-18 19:45:26
+Client_252,Mexico,Paid,Enterprise,2024-09-24 17:36:42
+Client_253,Costa Rica,Direct,Freelancer,2024-05-18 11:16:16
+Client_254,Mexico,Paid,SMB,2024-03-29 01:52:44
+Client_255,Mexico,Organic,Enterprise,2024-09-18 06:07:46
+Client_256,United States,Paid,Freelancer,2024-02-16 22:30:47
+Client_257,United States,Paid,Freelancer,2024-07-08 03:34:58
+Client_258,Panama,Referral,Enterprise,2024-08-01 13:18:15
+Client_259,Costa Rica,Direct,Enterprise,2024-08-02 18:59:28
+Client_260,United States,Referral,Enterprise,2024-06-16 20:11:48
+Client_261,Mexico,Referral,SMB,2024-02-08 02:48:51
+Client_262,Panama,Referral,SMB,2024-06-04 18:14:44
+Client_263,Mexico,Referral,Freelancer,2024-08-25 18:01:11
+Client_264,Mexico,Referral,Enterprise,2024-03-24 22:56:57
+Client_265,United States,Paid,SMB,2024-02-20 04:18:38
+Client_266,Panama,Referral,Enterprise,2024-12-24 13:55:47
+Client_267,Costa Rica,Referral,Freelancer,2024-10-22 22:28:26
+Client_268,Costa Rica,Direct,SMB,2024-04-09 10:02:27
+Client_269,United States,Organic,SMB,2024-03-01 10:46:38
+Client_270,United States,Paid,SMB,2024-08-27 08:58:58
+Client_271,Panama,Paid,Freelancer,2024-09-11 13:07:18
+Client_272,Costa Rica,Paid,Enterprise,2024-05-08 21:11:14
+Client_273,Costa Rica,Referral,SMB,2024-09-30 19:23:07
+Client_274,Costa Rica,Referral,Freelancer,2024-06-11 23:50:10
+Client_275,Mexico,Referral,Enterprise,2024-04-21 01:39:54
+Client_276,Costa Rica,Direct,Freelancer,2024-10-19 08:13:45
+Client_277,Mexico,Organic,Enterprise,2024-08-18 22:28:20
+Client_278,Panama,Referral,Freelancer,2024-05-16 06:11:16
+Client_279,Mexico,Organic,Enterprise,2024-07-20 11:05:01
+Client_280,Panama,Direct,SMB,2024-04-29 18:35:33
+Client_281,Costa Rica,Paid,Enterprise,2024-11-22 02:35:11
+Client_282,Costa Rica,Referral,Freelancer,2024-11-04 20:11:51
+Client_283,Panama,Organic,Freelancer,2024-12-25 14:25:03
+Client_284,United States,Organic,Enterprise,2024-04-30 09:25:29
+Client_285,Panama,Referral,SMB,2024-09-21 10:57:41
+Client_286,United States,Paid,SMB,2024-08-11 07:57:34
+Client_287,Mexico,Paid,Enterprise,2024-07-20 03:51:59
+Client_288,Mexico,Paid,Enterprise,2024-12-06 06:30:07
+Client_289,Mexico,Direct,Freelancer,2024-12-10 02:54:19
+Client_290,Costa Rica,Organic,SMB,2024-01-24 00:46:08
+Client_291,Mexico,Organic,Enterprise,2024-11-13 06:21:18
+Client_292,United States,Organic,SMB,2024-03-02 09:19:03
+Client_293,Mexico,Direct,Enterprise,2024-06-27 20:45:51
+Client_294,Panama,Organic,Enterprise,2024-03-04 14:59:51
+Client_295,Panama,Direct,SMB,2024-12-25 22:40:08
+Client_296,Costa Rica,Paid,Enterprise,2024-12-10 23:18:25
+Client_297,Panama,Referral,Enterprise,2024-06-12 10:37:02
+Client_298,United States,Organic,Freelancer,2024-05-07 08:54:09
+Client_299,Mexico,Organic,Enterprise,2024-05-10 00:03:14
+Client_300,Costa Rica,Paid,Enterprise,2024-07-27 17:30:24
+Client_301,Mexico,Referral,Enterprise,2024-09-26 02:32:03
+Client_302,Mexico,Direct,Freelancer,2024-10-07 06:21:49
+Client_303,United States,Referral,SMB,2024-05-24 04:46:59
+Client_304,Panama,Paid,Freelancer,2024-02-29 11:13:17
+Client_305,Panama,Paid,Freelancer,2024-12-01 18:11:52
+Client_306,Mexico,Referral,SMB,2024-06-12 00:17:44
+Client_307,Costa Rica,Direct,Freelancer,2024-11-29 03:13:28
+Client_308,Panama,Direct,SMB,2024-12-07 05:49:45
+Client_309,Costa Rica,Organic,Freelancer,2024-03-25 03:35:18
+Client_310,Panama,Direct,SMB,2024-05-23 14:22:53
+Client_311,Costa Rica,Referral,Enterprise,2024-09-14 23:25:50
+Client_312,United States,Paid,Freelancer,2024-04-04 14:22:01
+Client_313,Costa Rica,Organic,Freelancer,2024-04-01 10:14:44
+Client_314,United States,Organic,Freelancer,2024-01-12 14:39:31
+Client_315,United States,Paid,Freelancer,2024-07-05 21:18:03
+Client_316,Costa Rica,Direct,Enterprise,2024-10-04 16:29:14
+Client_317,United States,Paid,Freelancer,2024-06-18 09:41:59
+Client_318,Mexico,Direct,Enterprise,2024-08-15 18:05:53
+Client_319,United States,Paid,Enterprise,2024-01-16 20:41:25
+Client_320,Panama,Referral,Enterprise,2024-03-22 13:11:40
+Client_321,Costa Rica,Direct,Enterprise,2024-08-01 15:18:12
+Client_322,Mexico,Referral,SMB,2024-11-05 22:15:59
+Client_323,Costa Rica,Organic,SMB,2024-10-19 13:53:34
+Client_324,Panama,Paid,Freelancer,2024-09-12 16:00:15
+Client_325,Panama,Organic,SMB,2024-12-18 01:30:07
+Client_326,Panama,Organic,SMB,2024-12-20 04:07:59
+Client_327,United States,Organic,Freelancer,2024-01-12 08:44:43
+Client_328,United States,Organic,Freelancer,2024-01-20 07:25:21
+Client_329,Costa Rica,Paid,Freelancer,2024-06-02 21:22:18
+Client_330,Costa Rica,Organic,SMB,2024-08-20 07:15:21
+Client_331,Mexico,Paid,SMB,2024-04-25 19:48:30
+Client_332,Mexico,Paid,Freelancer,2024-03-12 05:35:12
+Client_333,Costa Rica,Referral,Enterprise,2024-11-04 15:11:35
+Client_334,United States,Direct,Freelancer,2024-08-25 16:38:41
+Client_335,Panama,Direct,Enterprise,2024-10-18 13:57:10
+Client_336,Costa Rica,Paid,Enterprise,2024-03-03 17:15:52
+Client_337,Mexico,Referral,Freelancer,2024-09-04 12:48:24
+Client_338,United States,Paid,Freelancer,2024-02-19 08:33:43
+Client_339,Costa Rica,Paid,Freelancer,2024-04-28 18:38:50
+Client_340,Costa Rica,Paid,SMB,2024-06-08 21:57:33
+Client_341,United States,Referral,Enterprise,2024-04-04 16:44:43
+Client_342,Costa Rica,Direct,SMB,2024-10-17 07:44:57
+Client_343,United States,Referral,SMB,2024-06-26 04:43:04
+Client_344,Panama,Organic,Freelancer,2024-10-04 04:14:13
+Client_345,United States,Referral,SMB,2024-01-18 14:06:43
+Client_346,United States,Referral,Freelancer,2024-11-10 01:19:25
+Client_347,United States,Referral,Enterprise,2024-11-16 06:14:43
+Client_348,Costa Rica,Referral,Freelancer,2024-08-02 10:39:16
+Client_349,Costa Rica,Direct,SMB,2024-07-23 04:10:19
+Client_350,United States,Organic,SMB,2024-04-17 06:35:11
+Client_351,Costa Rica,Direct,Freelancer,2024-07-10 21:33:38
+Client_352,Mexico,Direct,Freelancer,2024-07-23 10:17:17
+Client_353,Mexico,Referral,SMB,2024-08-31 16:46:40
+Client_354,Costa Rica,Paid,Enterprise,2024-09-14 18:54:47
+Client_355,Costa Rica,Paid,Enterprise,2024-01-12 07:53:56
+Client_356,United States,Direct,Freelancer,2024-08-19 11:45:38
+Client_357,Panama,Direct,Enterprise,2024-06-20 08:21:51
+Client_358,Costa Rica,Referral,SMB,2024-08-07 20:13:17
+Client_359,Mexico,Direct,Freelancer,2024-04-09 04:07:18
+Client_360,United States,Referral,SMB,2024-07-31 04:42:14
+Client_361,Costa Rica,Paid,SMB,2024-05-17 09:59:12
+Client_362,Mexico,Paid,Enterprise,2024-01-31 18:38:03
+Client_363,Mexico,Organic,Freelancer,2024-08-29 19:00:56
+Client_364,Panama,Paid,Freelancer,2024-09-03 06:26:54
+Client_365,United States,Direct,Enterprise,2024-04-21 09:38:25
+Client_366,United States,Paid,SMB,2024-06-10 23:15:32
+Client_367,Panama,Referral,SMB,2024-09-07 15:15:24
+Client_368,Panama,Paid,SMB,2024-04-24 23:57:49
+Client_369,United States,Organic,SMB,2024-04-01 04:58:37
+Client_370,United States,Paid,Freelancer,2024-10-28 07:06:47
+Client_371,Costa Rica,Referral,Freelancer,2024-10-25 11:31:57
+Client_372,Costa Rica,Referral,Enterprise,2024-04-05 20:24:07
+Client_373,Panama,Direct,Enterprise,2024-06-04 09:07:57
+Client_374,Costa Rica,Paid,Freelancer,2024-05-29 15:00:22
+Client_375,Mexico,Referral,Freelancer,2024-02-15 02:12:38
+Client_376,Costa Rica,Organic,SMB,2024-12-13 03:17:51
+Client_377,Costa Rica,Direct,SMB,2024-10-03 01:54:18
+Client_378,Mexico,Organic,Enterprise,2024-10-23 11:49:41
+Client_379,Panama,Paid,Freelancer,2024-06-07 10:38:13
+Client_380,Mexico,Paid,Enterprise,2024-01-15 15:38:18
+Client_381,Costa Rica,Paid,Freelancer,2024-07-03 05:47:04
+Client_382,Panama,Direct,SMB,2024-01-25 13:02:19
+Client_383,Costa Rica,Referral,Enterprise,2024-07-23 08:53:48
+Client_384,Mexico,Direct,Enterprise,2024-03-09 19:59:08
+Client_385,Mexico,Organic,Freelancer,2024-02-07 09:33:05
+Client_386,Costa Rica,Direct,SMB,2024-11-13 05:05:05
+Client_387,United States,Organic,Enterprise,2024-11-30 11:44:28
+Client_388,United States,Direct,SMB,2024-10-05 21:36:20
+Client_389,Mexico,Referral,Enterprise,2024-12-25 09:37:18
+Client_390,Mexico,Organic,SMB,2024-10-21 22:48:19
+Client_391,United States,Paid,Freelancer,2024-09-19 17:38:34
+Client_392,United States,Paid,Enterprise,2024-07-27 09:32:33
+Client_393,Costa Rica,Direct,Enterprise,2024-05-07 22:44:46
+Client_394,Costa Rica,Paid,SMB,2024-07-18 19:00:30
+Client_395,United States,Organic,SMB,2024-10-17 22:32:18
+Client_396,Costa Rica,Paid,Enterprise,2024-04-21 06:45:42
+Client_397,Costa Rica,Referral,Freelancer,2024-08-24 21:29:59
+Client_398,Panama,Referral,SMB,2024-11-16 10:32:11
+Client_399,Costa Rica,Direct,SMB,2024-11-06 03:28:12
+Client_400,Mexico,Organic,SMB,2024-12-22 05:54:29
+Client_401,Costa Rica,Referral,Enterprise,2024-06-06 19:34:02
+Client_402,Costa Rica,Referral,Enterprise,2024-01-19 12:25:08
+Client_403,United States,Organic,Enterprise,2024-08-07 05:33:48
+Client_404,Mexico,Paid,Enterprise,2024-03-02 10:56:32
+Client_405,Costa Rica,Paid,Freelancer,2024-01-28 05:50:47
+Client_406,Costa Rica,Direct,Freelancer,2024-05-07 12:45:54
+Client_407,Panama,Paid,Enterprise,2024-02-03 11:27:58
+Client_408,Costa Rica,Organic,Freelancer,2024-08-05 03:28:53
+Client_409,Costa Rica,Referral,SMB,2024-05-05 08:51:30
+Client_410,Panama,Paid,SMB,2024-06-04 16:28:06
+Client_411,United States,Direct,SMB,2024-03-09 20:44:12
+Client_412,Costa Rica,Paid,Enterprise,2024-01-01 08:15:25
+Client_413,Panama,Organic,SMB,2024-10-31 23:49:58
+Client_414,Mexico,Direct,Freelancer,2024-12-07 00:38:03
+Client_415,United States,Paid,Enterprise,2024-06-21 22:25:50
+Client_416,Mexico,Direct,Freelancer,2024-04-16 07:15:36
+Client_417,Mexico,Organic,SMB,2024-06-13 11:50:23
+Client_418,Panama,Referral,SMB,2024-07-23 11:00:52
+Client_419,Costa Rica,Organic,SMB,2024-07-08 23:23:26
+Client_420,Panama,Organic,Enterprise,2024-08-16 13:49:59
+Client_421,Panama,Organic,Freelancer,2024-01-31 19:39:21
+Client_422,Panama,Organic,Enterprise,2024-06-15 18:28:09
+Client_423,Panama,Referral,Enterprise,2024-03-16 12:22:39
+Client_424,United States,Referral,SMB,2024-12-17 04:32:07
+Client_425,Costa Rica,Direct,Enterprise,2024-08-11 06:24:00
+Client_426,Mexico,Paid,Enterprise,2024-12-30 17:27:07
+Client_427,Mexico,Referral,SMB,2024-11-16 16:04:18
+Client_428,Costa Rica,Referral,Enterprise,2024-08-09 22:28:19
+Client_429,Mexico,Paid,SMB,2024-09-26 19:58:31
+Client_430,Costa Rica,Referral,SMB,2024-11-16 19:45:38
+Client_431,Mexico,Organic,SMB,2024-05-31 22:55:27
+Client_432,Panama,Organic,SMB,2024-08-27 10:17:35
+Client_433,Mexico,Paid,Enterprise,2024-06-07 20:56:09
+Client_434,Costa Rica,Direct,SMB,2024-03-06 03:15:45
+Client_435,Costa Rica,Direct,SMB,2024-02-15 06:25:46
+Client_436,Costa Rica,Paid,Enterprise,2024-11-06 06:19:04
+Client_437,Costa Rica,Paid,Enterprise,2024-01-20 18:10:17
+Client_438,Costa Rica,Organic,Freelancer,2024-01-08 23:32:36
+Client_439,United States,Direct,Enterprise,2024-11-19 13:17:51
+Client_440,United States,Referral,Enterprise,2024-05-10 03:51:09
+Client_441,Mexico,Organic,Freelancer,2024-11-24 14:34:14
+Client_442,Costa Rica,Paid,Enterprise,2024-10-05 12:55:54
+Client_443,Mexico,Direct,Enterprise,2024-01-27 02:02:02
+Client_444,Costa Rica,Referral,Enterprise,2024-01-20 02:15:29
+Client_445,Costa Rica,Referral,Enterprise,2024-07-08 23:54:16
+Client_446,United States,Organic,Freelancer,2024-01-13 22:04:31
+Client_447,United States,Direct,Enterprise,2024-05-06 08:27:56
+Client_448,Panama,Direct,Enterprise,2024-02-05 20:59:15
+Client_449,United States,Paid,Freelancer,2024-09-16 23:10:13
+Client_450,Panama,Direct,SMB,2024-08-01 15:27:37
+Client_451,Panama,Direct,Freelancer,2024-06-06 23:48:41
+Client_452,Panama,Organic,SMB,2024-07-19 03:47:05
+Client_453,Panama,Direct,Freelancer,2024-07-20 21:23:01
+Client_454,Panama,Referral,Freelancer,2024-08-14 10:52:59
+Client_455,Mexico,Organic,Enterprise,2024-06-25 06:53:04
+Client_456,United States,Organic,SMB,2024-06-09 00:33:17
+Client_457,Panama,Paid,Enterprise,2024-12-22 07:49:33
+Client_458,Costa Rica,Direct,SMB,2024-09-02 23:45:37
+Client_459,United States,Paid,Freelancer,2024-02-12 22:39:48
+Client_460,United States,Referral,Freelancer,2024-02-07 10:39:52
+Client_461,Panama,Organic,SMB,2024-11-19 07:21:55
+Client_462,Mexico,Organic,Enterprise,2024-11-25 00:54:34
+Client_463,Panama,Organic,Enterprise,2024-11-07 10:01:51
+Client_464,Mexico,Referral,Enterprise,2024-01-23 09:31:30
+Client_465,Costa Rica,Referral,Enterprise,2024-10-26 21:30:06
+Client_466,United States,Paid,Freelancer,2024-02-15 13:41:10
+Client_467,Costa Rica,Paid,Freelancer,2024-03-18 23:56:53
+Client_468,Mexico,Paid,Freelancer,2024-03-23 01:26:15
+Client_469,Mexico,Direct,Freelancer,2024-04-11 21:59:46
+Client_470,Costa Rica,Organic,Freelancer,2024-07-25 03:22:12
+Client_471,Mexico,Organic,Enterprise,2024-02-25 18:37:55
+Client_472,Costa Rica,Paid,Enterprise,2024-05-07 10:14:06
+Client_473,United States,Organic,Enterprise,2024-06-12 22:49:32
+Client_474,Costa Rica,Paid,Enterprise,2024-05-16 05:09:23
+Client_475,United States,Direct,Freelancer,2024-06-14 02:01:55
+Client_476,Costa Rica,Direct,Freelancer,2024-12-12 02:18:49
+Client_477,Mexico,Referral,Freelancer,2024-06-17 04:24:55
+Client_478,Costa Rica,Direct,SMB,2024-11-07 18:18:29
+Client_479,Mexico,Paid,Enterprise,2024-12-19 06:46:58
+Client_480,Costa Rica,Direct,Enterprise,2024-09-06 01:38:33
+Client_481,Costa Rica,Referral,Freelancer,2024-02-14 18:34:12
+Client_482,Panama,Organic,Enterprise,2024-12-03 15:10:29
+Client_483,Mexico,Paid,Enterprise,2024-11-12 17:54:28
+Client_484,Panama,Organic,Freelancer,2024-04-03 10:47:17
+Client_485,Mexico,Referral,SMB,2024-01-16 04:39:03
+Client_486,Panama,Referral,SMB,2024-11-18 23:55:18
+Client_487,United States,Referral,SMB,2024-06-08 23:32:36
+Client_488,Costa Rica,Organic,Freelancer,2024-10-07 01:28:41
+Client_489,Mexico,Organic,Enterprise,2024-04-29 09:30:13
+Client_490,Mexico,Organic,Freelancer,2024-05-20 07:30:53
+Client_491,Costa Rica,Organic,Freelancer,2024-07-14 09:16:51
+Client_492,Mexico,Referral,Enterprise,2024-03-22 02:47:23
+Client_493,Mexico,Referral,SMB,2024-09-12 06:05:44
+Client_494,Panama,Paid,SMB,2024-08-29 15:30:52
+Client_495,Mexico,Paid,Freelancer,2024-12-16 14:43:31
+Client_496,United States,Organic,SMB,2024-07-12 08:30:08
+Client_497,United States,Direct,Freelancer,2024-04-22 13:58:14
+Client_498,Costa Rica,Direct,Freelancer,2024-12-17 16:45:58
+Client_499,Mexico,Referral,Enterprise,2024-08-07 05:47:47
+Client_500,Costa Rica,Referral,Enterprise,2024-04-24 04:41:00
+Client_501,United States,Referral,Enterprise,2024-03-25 12:48:13
+Client_502,Mexico,Paid,Freelancer,2024-08-19 09:21:06
+Client_503,Mexico,Paid,Enterprise,2024-04-26 23:57:11
+Client_504,Costa Rica,Referral,SMB,2024-05-07 23:55:16
+Client_505,United States,Referral,SMB,2024-04-02 09:37:19
+Client_506,Mexico,Referral,Freelancer,2024-11-28 11:59:53
+Client_507,Costa Rica,Direct,Freelancer,2024-12-03 21:14:30
+Client_508,United States,Paid,Enterprise,2024-10-23 21:34:59
+Client_509,Costa Rica,Direct,Freelancer,2024-10-21 17:31:35
+Client_510,Panama,Direct,Freelancer,2024-04-05 16:49:01
+Client_511,Mexico,Referral,SMB,2024-04-20 11:44:23
+Client_512,Panama,Referral,SMB,2024-08-16 07:34:57
+Client_513,United States,Organic,Enterprise,2024-10-06 07:41:17
+Client_514,Panama,Organic,Freelancer,2024-01-15 23:42:09
+Client_515,Panama,Direct,Freelancer,2024-01-29 23:43:14
+Client_516,United States,Paid,SMB,2024-07-27 13:41:50
+Client_517,Costa Rica,Referral,Freelancer,2024-12-29 06:33:31
+Client_518,Panama,Referral,SMB,2024-08-23 11:21:31
+Client_519,Costa Rica,Direct,Enterprise,2024-03-30 06:07:14
+Client_520,Panama,Organic,SMB,2024-10-28 15:37:20
+Client_521,Costa Rica,Paid,Freelancer,2024-07-01 20:12:46
+Client_522,United States,Organic,Enterprise,2024-12-01 08:01:49
+Client_523,Panama,Organic,SMB,2024-01-28 22:46:42
+Client_524,United States,Organic,SMB,2024-07-11 01:15:01
+Client_525,Panama,Organic,Enterprise,2024-01-06 03:03:51
+Client_526,United States,Referral,Enterprise,2024-10-30 21:28:12
+Client_527,United States,Referral,SMB,2024-07-04 19:15:23
+Client_528,Panama,Organic,Freelancer,2024-06-30 07:00:45
+Client_529,Panama,Paid,SMB,2024-09-25 18:26:01
+Client_530,Panama,Direct,Enterprise,2024-08-14 11:26:29
+Client_531,Mexico,Paid,SMB,2024-11-29 21:41:08
+Client_532,Costa Rica,Paid,Enterprise,2024-08-27 12:17:39
+Client_533,Mexico,Paid,Enterprise,2024-03-22 17:26:23
+Client_534,Mexico,Organic,Freelancer,2024-08-20 05:24:34
+Client_535,United States,Referral,Enterprise,2024-05-14 04:01:51
+Client_536,Panama,Paid,Enterprise,2024-11-07 22:29:00
+Client_537,Costa Rica,Organic,Freelancer,2024-12-05 09:33:23
+Client_538,United States,Paid,Enterprise,2024-09-14 23:01:49
+Client_539,Mexico,Paid,Freelancer,2024-01-04 08:49:58
+Client_540,Panama,Organic,Freelancer,2024-02-26 04:52:00
+Client_541,United States,Referral,Enterprise,2024-08-03 08:07:18
+Client_542,Panama,Referral,Enterprise,2024-03-14 16:48:32
+Client_543,United States,Direct,SMB,2024-05-12 09:00:01
+Client_544,Panama,Organic,Freelancer,2024-07-29 11:57:50
+Client_545,Mexico,Direct,SMB,2024-04-02 13:24:03
+Client_546,Costa Rica,Direct,Enterprise,2024-01-03 02:22:40
+Client_547,Mexico,Direct,SMB,2024-08-10 11:14:02
+Client_548,Costa Rica,Referral,Freelancer,2024-08-11 07:03:55
+Client_549,Panama,Organic,SMB,2024-03-05 00:46:50
+Client_550,United States,Direct,Freelancer,2024-02-17 21:31:26
+Client_551,Mexico,Organic,Enterprise,2024-11-02 05:10:34
+Client_552,Costa Rica,Organic,Enterprise,2024-12-16 14:56:56
+Client_553,Mexico,Referral,Freelancer,2024-06-19 07:10:51
+Client_554,Costa Rica,Direct,Enterprise,2024-05-07 16:21:09
+Client_555,Mexico,Direct,Enterprise,2024-04-06 10:45:00
+Client_556,Costa Rica,Organic,Enterprise,2024-03-20 18:55:28
+Client_557,Costa Rica,Paid,Enterprise,2024-12-23 04:41:52
+Client_558,Panama,Referral,Freelancer,2024-08-23 15:56:53
+Client_559,Costa Rica,Referral,SMB,2024-06-16 06:26:11
+Client_560,Panama,Referral,SMB,2024-07-16 18:59:31
+Client_561,Costa Rica,Referral,Enterprise,2024-08-06 19:20:15
+Client_562,United States,Direct,SMB,2024-11-13 00:37:02
+Client_563,United States,Direct,SMB,2024-02-27 02:26:34
+Client_564,United States,Paid,Enterprise,2024-11-05 09:14:54
+Client_565,Costa Rica,Referral,Enterprise,2024-06-30 16:26:45
+Client_566,Panama,Referral,SMB,2024-12-01 14:46:06
+Client_567,Panama,Organic,Freelancer,2024-07-11 02:51:57
+Client_568,Costa Rica,Direct,Enterprise,2024-09-07 03:31:07
+Client_569,United States,Referral,Freelancer,2024-02-20 17:26:34
+Client_570,United States,Paid,SMB,2024-10-05 22:38:30
+Client_571,Panama,Paid,Enterprise,2024-03-18 12:52:24
+Client_572,United States,Direct,Freelancer,2024-09-05 13:32:09
+Client_573,Mexico,Paid,Enterprise,2024-04-01 01:29:51
+Client_574,Panama,Paid,SMB,2024-08-26 01:12:24
+Client_575,United States,Direct,Freelancer,2024-05-31 14:45:07
+Client_576,Panama,Referral,SMB,2024-05-22 04:38:20
+Client_577,Mexico,Referral,SMB,2024-06-02 07:36:41
+Client_578,Panama,Paid,Enterprise,2024-11-13 11:08:33
+Client_579,Panama,Paid,Freelancer,2024-03-02 05:22:10
+Client_580,Panama,Referral,SMB,2024-05-17 03:51:40
+Client_581,Panama,Direct,SMB,2024-09-02 13:00:26
+Client_582,Mexico,Paid,Freelancer,2024-02-07 11:52:16
+Client_583,Costa Rica,Organic,SMB,2024-06-26 13:37:01
+Client_584,Panama,Direct,SMB,2024-01-27 22:08:53
+Client_585,Panama,Paid,Freelancer,2024-04-27 05:21:09
+Client_586,United States,Paid,Freelancer,2024-05-01 23:27:12
+Client_587,Panama,Organic,Freelancer,2024-04-01 23:49:00
+Client_588,United States,Organic,Freelancer,2024-03-07 05:03:46
+Client_589,Costa Rica,Referral,Enterprise,2024-06-07 00:59:32
+Client_590,Mexico,Direct,Freelancer,2024-03-13 00:15:14
+Client_591,Mexico,Direct,Enterprise,2024-03-14 18:47:05
+Client_592,Costa Rica,Referral,Enterprise,2024-02-27 22:30:58
+Client_593,Mexico,Direct,Enterprise,2024-12-03 14:22:17
+Client_594,Costa Rica,Direct,SMB,2024-10-02 12:45:38
+Client_595,Costa Rica,Direct,Enterprise,2024-04-05 03:40:52
+Client_596,Costa Rica,Direct,Enterprise,2024-10-25 01:35:24
+Client_597,Mexico,Direct,SMB,2024-02-09 12:51:11
+Client_598,United States,Organic,SMB,2024-11-14 20:05:56
+Client_599,Costa Rica,Direct,SMB,2024-08-03 21:59:47
+Client_600,Panama,Organic,Freelancer,2024-10-13 17:51:44
+Client_601,Mexico,Direct,SMB,2024-09-30 01:17:08
+Client_602,Costa Rica,Referral,SMB,2024-09-08 15:03:37
+Client_603,Costa Rica,Paid,Enterprise,2024-11-14 11:05:40
+Client_604,Panama,Organic,SMB,2024-05-23 20:41:07
+Client_605,United States,Direct,Freelancer,2024-02-03 04:19:17
+Client_606,United States,Referral,SMB,2024-11-02 17:52:25
+Client_607,United States,Paid,Freelancer,2024-05-03 02:35:47
+Client_608,Costa Rica,Organic,SMB,2024-05-27 11:48:13
+Client_609,Costa Rica,Paid,SMB,2024-03-09 10:35:18
+Client_610,Costa Rica,Referral,SMB,2024-09-29 04:55:02
+Client_611,Mexico,Organic,SMB,2024-07-31 10:39:45
+Client_612,Panama,Paid,Freelancer,2024-06-05 02:23:30
+Client_613,Costa Rica,Direct,Freelancer,2024-12-22 02:01:36
+Client_614,Panama,Organic,Enterprise,2024-12-02 19:33:43
+Client_615,Panama,Paid,Freelancer,2024-05-26 10:23:52
+Client_616,United States,Referral,SMB,2024-12-15 10:09:39
+Client_617,Mexico,Referral,Enterprise,2024-05-08 21:16:24
+Client_618,Costa Rica,Organic,Enterprise,2024-05-12 03:19:17
+Client_619,United States,Paid,Enterprise,2024-11-17 19:25:33
+Client_620,United States,Organic,SMB,2024-02-12 06:16:27
+Client_621,Costa Rica,Organic,Freelancer,2024-11-11 15:08:27
+Client_622,Panama,Paid,SMB,2024-05-06 08:13:47
+Client_623,United States,Paid,Enterprise,2024-01-20 19:27:52
+Client_624,Panama,Direct,SMB,2024-03-09 08:32:30
+Client_625,Mexico,Paid,SMB,2024-02-07 04:28:03
+Client_626,Panama,Referral,Freelancer,2024-02-05 01:17:11
+Client_627,Mexico,Organic,Freelancer,2024-06-13 13:30:00
+Client_628,Panama,Organic,Enterprise,2024-06-22 11:16:51
+Client_629,United States,Referral,SMB,2024-10-04 21:17:08
+Client_630,United States,Paid,SMB,2024-11-17 00:43:09
+Client_631,Mexico,Referral,Freelancer,2024-03-15 08:25:59
+Client_632,Costa Rica,Referral,SMB,2024-04-27 16:12:27
+Client_633,Mexico,Direct,SMB,2024-10-02 00:25:13
+Client_634,Mexico,Referral,SMB,2024-02-16 13:58:53
+Client_635,Panama,Organic,Freelancer,2024-09-07 10:07:17
+Client_636,Panama,Referral,Enterprise,2024-07-12 12:45:15
+Client_637,Mexico,Organic,Enterprise,2024-04-23 10:57:10
+Client_638,United States,Organic,SMB,2024-08-26 04:14:26
+Client_639,Panama,Organic,Enterprise,2024-04-18 02:40:54
+Client_640,Costa Rica,Paid,Freelancer,2024-01-01 05:27:55
+Client_641,Panama,Direct,Freelancer,2024-10-19 03:03:41
+Client_642,Panama,Organic,Enterprise,2024-10-29 11:16:25
+Client_643,Costa Rica,Organic,Enterprise,2024-11-10 09:41:35
+Client_644,Mexico,Paid,SMB,2024-07-18 19:33:35
+Client_645,Costa Rica,Organic,Enterprise,2024-03-19 19:53:25
+Client_646,Mexico,Referral,SMB,2024-12-14 13:30:06
+Client_647,Mexico,Referral,SMB,2024-08-08 02:01:13
+Client_648,Mexico,Direct,Freelancer,2024-02-21 16:05:44
+Client_649,Costa Rica,Organic,Freelancer,2024-06-11 16:54:36
+Client_650,Mexico,Paid,Freelancer,2024-05-04 23:20:37
+Client_651,United States,Referral,Freelancer,2024-05-22 11:27:39
+Client_652,Costa Rica,Paid,Enterprise,2024-01-07 13:14:48
+Client_653,United States,Paid,Freelancer,2024-06-07 21:12:12
+Client_654,Mexico,Referral,Enterprise,2024-03-16 21:55:47
+Client_655,Panama,Paid,Freelancer,2024-04-27 11:53:27
+Client_656,Mexico,Referral,Enterprise,2024-01-08 14:46:43
+Client_657,United States,Paid,SMB,2024-05-04 20:51:29
+Client_658,United States,Referral,Enterprise,2024-01-10 07:38:33
+Client_659,Costa Rica,Organic,Enterprise,2024-12-29 03:37:14
+Client_660,Panama,Direct,Freelancer,2024-11-15 18:43:04
+Client_661,Costa Rica,Referral,Enterprise,2024-04-17 21:26:44
+Client_662,United States,Referral,SMB,2024-02-28 04:40:35
+Client_663,Mexico,Direct,SMB,2024-05-13 16:43:29
+Client_664,Panama,Referral,Freelancer,2024-08-28 21:01:20
+Client_665,Mexico,Referral,SMB,2024-11-05 19:56:10
+Client_666,Mexico,Paid,Enterprise,2024-06-27 15:00:22
+Client_667,Panama,Direct,SMB,2024-01-25 05:08:21
+Client_668,Costa Rica,Organic,Freelancer,2024-03-10 09:18:54
+Client_669,Mexico,Referral,Enterprise,2024-04-29 18:25:18
+Client_670,United States,Direct,Freelancer,2024-11-04 02:58:25
+Client_671,Mexico,Paid,Enterprise,2024-10-19 14:33:03
+Client_672,Panama,Organic,SMB,2024-03-12 20:38:34
+Client_673,Panama,Direct,Freelancer,2024-05-02 03:14:27
+Client_674,Panama,Organic,Freelancer,2024-05-28 13:04:23
+Client_675,Costa Rica,Organic,Enterprise,2024-09-29 10:42:22
+Client_676,Mexico,Organic,Freelancer,2024-12-20 17:06:55
+Client_677,Costa Rica,Referral,Enterprise,2024-12-20 16:20:22
+Client_678,Costa Rica,Referral,Enterprise,2024-05-20 07:47:32
+Client_679,Panama,Paid,Enterprise,2024-09-24 14:01:13
+Client_680,Panama,Paid,Enterprise,2024-08-23 04:04:59
+Client_681,Costa Rica,Direct,SMB,2024-11-17 06:40:55
+Client_682,Mexico,Paid,Enterprise,2024-04-26 14:02:39
+Client_683,United States,Organic,Freelancer,2024-12-25 19:12:13
+Client_684,Costa Rica,Organic,SMB,2024-07-30 16:32:56
+Client_685,Mexico,Referral,Freelancer,2024-04-24 00:24:04
+Client_686,Panama,Organic,SMB,2024-08-23 08:35:05
+Client_687,Panama,Direct,Enterprise,2024-05-28 13:13:56
+Client_688,Mexico,Organic,SMB,2024-11-20 14:40:17
+Client_689,United States,Organic,SMB,2024-08-03 17:54:12
+Client_690,Panama,Direct,Freelancer,2024-10-12 04:37:22
+Client_691,Panama,Paid,Freelancer,2024-11-14 10:20:06
+Client_692,Panama,Paid,Enterprise,2024-05-18 10:47:53
+Client_693,Mexico,Direct,SMB,2024-07-02 11:10:28
+Client_694,Costa Rica,Referral,SMB,2024-05-20 16:37:43
+Client_695,Panama,Organic,SMB,2024-04-25 14:33:20
+Client_696,Costa Rica,Direct,Enterprise,2024-05-28 21:09:38
+Client_697,United States,Organic,Enterprise,2024-07-18 09:35:46
+Client_698,Panama,Referral,Enterprise,2024-06-10 19:45:28
+Client_699,Panama,Organic,Enterprise,2024-03-26 16:12:04
+Client_700,United States,Direct,Enterprise,2024-12-12 05:17:51
+Client_701,Panama,Organic,Freelancer,2024-11-15 01:46:51
+Client_702,Costa Rica,Paid,SMB,2024-10-13 03:37:28
+Client_703,Mexico,Referral,SMB,2024-06-14 10:23:56
+Client_704,Costa Rica,Referral,SMB,2024-08-22 16:07:04
+Client_705,Mexico,Referral,SMB,2024-11-14 15:37:04
+Client_706,Mexico,Direct,SMB,2024-05-19 15:39:29
+Client_707,Costa Rica,Referral,SMB,2024-03-03 12:54:12
+Client_708,Costa Rica,Paid,SMB,2024-11-22 10:38:59
+Client_709,Costa Rica,Direct,SMB,2024-07-14 05:37:02
+Client_710,Costa Rica,Paid,Freelancer,2024-02-18 01:16:25
+Client_711,United States,Organic,SMB,2024-05-24 07:06:32
+Client_712,Panama,Organic,Freelancer,2024-12-07 07:31:18
+Client_713,Mexico,Organic,Enterprise,2024-07-21 03:39:01
+Client_714,Costa Rica,Organic,SMB,2024-11-20 20:54:14
+Client_715,Costa Rica,Paid,Enterprise,2024-10-27 09:36:32
+Client_716,Costa Rica,Direct,Enterprise,2024-07-15 13:41:43
+Client_717,United States,Direct,Enterprise,2024-09-25 03:08:44
+Client_718,Costa Rica,Referral,Freelancer,2024-02-12 02:30:20
+Client_719,Costa Rica,Paid,Enterprise,2024-02-08 00:18:41
+Client_720,Costa Rica,Organic,Enterprise,2024-10-02 09:55:39
+Client_721,Panama,Paid,Enterprise,2024-07-21 00:54:17
+Client_722,United States,Referral,SMB,2024-06-22 03:44:42
+Client_723,Costa Rica,Referral,SMB,2024-09-13 22:05:28
+Client_724,Mexico,Paid,Freelancer,2024-05-11 02:38:30
+Client_725,Mexico,Paid,Freelancer,2024-08-22 03:21:57
+Client_726,Mexico,Paid,SMB,2024-04-07 14:44:00
+Client_727,United States,Direct,Freelancer,2024-08-10 11:44:16
+Client_728,United States,Organic,SMB,2024-06-24 05:40:49
+Client_729,Mexico,Paid,Enterprise,2024-06-27 23:22:45
+Client_730,Costa Rica,Paid,Enterprise,2024-09-14 06:46:29
+Client_731,United States,Paid,Freelancer,2024-06-06 12:26:09
+Client_732,Mexico,Referral,SMB,2024-01-16 23:18:24
+Client_733,Mexico,Referral,SMB,2024-12-01 19:40:57
+Client_734,Costa Rica,Direct,Freelancer,2024-03-26 02:32:52
+Client_735,Panama,Organic,SMB,2024-01-17 15:13:08
+Client_736,United States,Direct,Enterprise,2024-01-20 04:05:21
+Client_737,Costa Rica,Organic,Freelancer,2024-01-07 05:37:25
+Client_738,Mexico,Referral,Freelancer,2024-11-05 11:09:35
+Client_739,Mexico,Referral,SMB,2024-09-13 03:42:48
+Client_740,Costa Rica,Referral,Freelancer,2024-09-03 13:18:57
+Client_741,United States,Direct,SMB,2024-07-08 12:30:01
+Client_742,Panama,Paid,SMB,2024-03-08 12:13:21
+Client_743,Panama,Paid,SMB,2024-05-09 20:07:43
+Client_744,Mexico,Referral,SMB,2024-10-01 04:17:51
+Client_745,United States,Paid,SMB,2024-12-15 19:46:58
+Client_746,Panama,Paid,Freelancer,2024-05-06 01:31:40
+Client_747,United States,Direct,Enterprise,2024-12-18 18:06:30
+Client_748,United States,Organic,Enterprise,2024-11-12 14:57:25
+Client_749,Mexico,Referral,Freelancer,2024-03-16 19:28:11
+Client_750,Panama,Referral,Freelancer,2024-10-11 08:23:10
+Client_751,Costa Rica,Direct,Enterprise,2024-08-21 03:33:59
+Client_752,Mexico,Direct,Enterprise,2024-05-07 07:17:57
+Client_753,Panama,Paid,Enterprise,2024-03-26 07:24:43
+Client_754,Panama,Referral,Enterprise,2024-08-07 06:22:50
+Client_755,Panama,Organic,Enterprise,2024-10-30 23:19:37
+Client_756,Panama,Direct,SMB,2024-03-15 12:45:22
+Client_757,Panama,Organic,Freelancer,2024-09-09 14:33:35
+Client_758,United States,Organic,SMB,2024-09-01 22:23:46
+Client_759,Mexico,Referral,Enterprise,2024-09-06 22:52:46
+Client_760,United States,Referral,Enterprise,2024-09-08 22:52:32
+Client_761,Costa Rica,Direct,Enterprise,2024-10-27 19:27:59
+Client_762,Panama,Referral,SMB,2024-07-09 21:16:15
+Client_763,Mexico,Referral,SMB,2024-02-10 04:22:30
+Client_764,Panama,Referral,Enterprise,2024-09-02 23:26:12
+Client_765,Mexico,Organic,SMB,2024-02-02 00:08:51
+Client_766,United States,Direct,SMB,2024-10-14 14:05:13
+Client_767,Mexico,Paid,Enterprise,2024-04-13 21:32:46
+Client_768,Costa Rica,Organic,SMB,2024-01-31 10:45:23
+Client_769,Costa Rica,Referral,Freelancer,2024-12-01 14:51:25
+Client_770,Mexico,Organic,Freelancer,2024-07-23 04:39:15
+Client_771,Mexico,Referral,Freelancer,2024-07-05 22:53:09
+Client_772,Mexico,Referral,Freelancer,2024-04-25 08:40:46
+Client_773,Mexico,Organic,Enterprise,2024-03-28 07:19:19
+Client_774,Costa Rica,Direct,Enterprise,2024-03-03 07:48:55
+Client_775,Panama,Referral,Enterprise,2024-05-20 16:24:52
+Client_776,Mexico,Direct,Freelancer,2024-06-16 23:44:14
+Client_777,Mexico,Paid,Freelancer,2024-08-15 18:22:13
+Client_778,Costa Rica,Referral,SMB,2024-09-23 22:25:55
+Client_779,Costa Rica,Direct,SMB,2024-06-17 13:32:11
+Client_780,United States,Direct,Freelancer,2024-09-30 01:49:01
+Client_781,Mexico,Paid,Freelancer,2024-08-07 18:42:34
+Client_782,United States,Direct,Freelancer,2024-03-06 21:19:56
+Client_783,Costa Rica,Direct,Freelancer,2024-10-21 14:59:52
+Client_784,Costa Rica,Paid,SMB,2024-09-30 03:29:43
+Client_785,Panama,Referral,Freelancer,2024-01-31 13:18:49
+Client_786,Mexico,Direct,SMB,2024-02-06 06:20:11
+Client_787,United States,Direct,Freelancer,2024-11-13 12:33:29
+Client_788,Costa Rica,Direct,Freelancer,2024-06-12 16:59:28
+Client_789,Costa Rica,Organic,Freelancer,2024-07-04 09:58:22
+Client_790,United States,Paid,SMB,2024-10-07 07:07:45
+Client_791,Panama,Organic,SMB,2024-05-14 10:42:32
+Client_792,Costa Rica,Paid,Enterprise,2024-01-20 23:29:59
+Client_793,Mexico,Referral,Freelancer,2024-05-28 19:50:21
+Client_794,Costa Rica,Referral,Enterprise,2024-05-27 15:35:35
+Client_795,Mexico,Direct,Enterprise,2024-02-28 16:51:55
+Client_796,United States,Paid,SMB,2024-01-06 03:19:05
+Client_797,Mexico,Referral,SMB,2024-10-06 14:53:39
+Client_798,United States,Paid,Enterprise,2024-03-14 00:48:34
+Client_799,Mexico,Referral,Freelancer,2024-07-13 10:14:29
+Client_800,United States,Organic,SMB,2024-08-23 21:12:06
+Client_801,Mexico,Referral,Freelancer,2024-01-27 08:26:27
+Client_802,Panama,Organic,Freelancer,2024-11-13 08:47:18
+Client_803,Mexico,Referral,Enterprise,2024-03-30 00:20:40
+Client_804,Mexico,Direct,Enterprise,2024-12-01 20:41:30
+Client_805,Panama,Organic,Enterprise,2024-09-26 10:19:29
+Client_806,Costa Rica,Referral,Enterprise,2024-04-18 02:06:10
+Client_807,Costa Rica,Direct,SMB,2024-06-26 13:44:36
+Client_808,Mexico,Organic,SMB,2024-06-24 22:22:42
+Client_809,Panama,Direct,Enterprise,2024-01-15 18:03:54
+Client_810,Mexico,Paid,SMB,2024-02-01 21:17:43
+Client_811,United States,Paid,Enterprise,2024-12-15 18:01:47
+Client_812,United States,Organic,Freelancer,2024-01-15 05:20:07
+Client_813,Mexico,Referral,Freelancer,2024-10-19 16:36:39
+Client_814,Costa Rica,Organic,Freelancer,2024-09-10 22:38:51
+Client_815,Costa Rica,Direct,Enterprise,2024-07-07 11:56:11
+Client_816,Mexico,Referral,Freelancer,2024-12-27 22:24:35
+Client_817,Mexico,Paid,SMB,2024-05-29 08:08:04
+Client_818,United States,Referral,Freelancer,2024-03-28 23:35:48
+Client_819,Costa Rica,Paid,Freelancer,2024-02-21 15:45:58
+Client_820,Mexico,Referral,Freelancer,2024-04-11 21:20:08
+Client_821,United States,Referral,SMB,2024-09-22 17:23:58
+Client_822,Costa Rica,Referral,Enterprise,2024-01-27 06:17:50
+Client_823,Panama,Direct,SMB,2024-02-21 01:55:59
+Client_824,United States,Direct,Enterprise,2024-11-10 19:28:45
+Client_825,Costa Rica,Organic,Enterprise,2024-03-29 10:16:07
+Client_826,Costa Rica,Organic,Freelancer,2024-08-14 22:53:05
+Client_827,United States,Paid,Enterprise,2024-03-25 17:55:53
+Client_828,Panama,Direct,SMB,2024-04-23 20:36:11
+Client_829,United States,Paid,SMB,2024-01-30 03:51:47
+Client_830,Costa Rica,Organic,Enterprise,2024-06-04 17:26:29
+Client_831,Mexico,Paid,Freelancer,2024-07-27 17:25:31
+Client_832,Mexico,Organic,Freelancer,2024-04-08 00:27:45
+Client_833,United States,Direct,SMB,2024-07-30 20:22:30
+Client_834,Costa Rica,Referral,Freelancer,2024-07-22 17:15:59
+Client_835,Mexico,Direct,Enterprise,2024-10-06 05:02:58
+Client_836,Costa Rica,Paid,Enterprise,2024-07-04 04:58:20
+Client_837,United States,Paid,SMB,2024-11-22 03:59:22
+Client_838,Mexico,Direct,Enterprise,2024-06-21 08:16:49
+Client_839,Costa Rica,Direct,SMB,2024-08-26 04:43:22
+Client_840,Mexico,Organic,Enterprise,2024-12-11 22:22:31
+Client_841,United States,Paid,SMB,2024-12-16 12:17:41
+Client_842,Costa Rica,Paid,Freelancer,2024-01-05 07:13:36
+Client_843,Mexico,Direct,Enterprise,2024-08-04 20:49:31
+Client_844,United States,Referral,Enterprise,2024-11-29 05:11:28
+Client_845,Mexico,Paid,SMB,2024-04-16 01:29:26
+Client_846,Mexico,Referral,SMB,2024-08-13 13:15:43
+Client_847,Panama,Direct,Enterprise,2024-08-02 15:43:03
+Client_848,Panama,Direct,SMB,2024-06-16 06:15:00
+Client_849,United States,Organic,Enterprise,2024-10-28 21:03:27
+Client_850,Panama,Paid,Freelancer,2024-10-18 01:20:59
+Client_851,United States,Referral,SMB,2024-01-04 05:33:35
+Client_852,Panama,Organic,Enterprise,2024-07-01 06:38:34
+Client_853,Mexico,Paid,Freelancer,2024-02-02 21:47:16
+Client_854,United States,Organic,Freelancer,2024-05-20 08:27:47
+Client_855,United States,Direct,Enterprise,2024-03-26 09:58:53
+Client_856,Mexico,Paid,SMB,2024-10-21 10:26:13
+Client_857,United States,Organic,Enterprise,2024-12-04 22:38:37
+Client_858,United States,Organic,Freelancer,2024-09-22 09:46:29
+Client_859,Panama,Referral,Enterprise,2024-09-21 00:47:14
+Client_860,United States,Organic,SMB,2024-01-23 16:36:24
+Client_861,Costa Rica,Paid,Freelancer,2024-11-30 11:27:07
+Client_862,Mexico,Paid,Enterprise,2024-09-23 05:09:30
+Client_863,Panama,Referral,SMB,2024-09-15 19:55:25
+Client_864,Panama,Paid,Freelancer,2024-12-22 06:21:42
+Client_865,Costa Rica,Direct,SMB,2024-11-03 15:53:51
+Client_866,Mexico,Paid,Freelancer,2024-07-19 21:05:04
+Client_867,Mexico,Paid,Enterprise,2024-07-02 20:27:42
+Client_868,Panama,Organic,SMB,2024-02-18 21:55:56
+Client_869,United States,Organic,Freelancer,2024-09-17 19:11:48
+Client_870,Panama,Paid,SMB,2024-07-10 18:10:28
+Client_871,Mexico,Referral,SMB,2024-11-15 21:54:37
+Client_872,Costa Rica,Organic,Enterprise,2024-04-02 09:36:12
+Client_873,Panama,Referral,SMB,2024-05-14 03:40:17
+Client_874,Mexico,Paid,Freelancer,2024-04-04 01:42:27
+Client_875,Panama,Paid,Freelancer,2024-08-31 02:46:51
+Client_876,United States,Direct,Freelancer,2024-12-10 09:07:49
+Client_877,Panama,Organic,Freelancer,2024-06-09 01:33:45
+Client_878,Panama,Paid,Enterprise,2024-10-06 02:35:10
+Client_879,Mexico,Direct,SMB,2024-10-24 10:29:10
+Client_880,Mexico,Organic,Enterprise,2024-08-27 22:11:11
+Client_881,Mexico,Paid,SMB,2024-08-26 08:40:58
+Client_882,Panama,Paid,SMB,2024-12-22 14:18:44
+Client_883,United States,Organic,SMB,2024-09-08 22:35:04
+Client_884,Costa Rica,Organic,Enterprise,2024-12-18 14:15:30
+Client_885,Costa Rica,Organic,SMB,2024-07-15 22:59:44
+Client_886,Mexico,Paid,Enterprise,2024-10-21 14:46:27
+Client_887,Mexico,Paid,Freelancer,2024-01-31 00:08:56
+Client_888,Panama,Direct,Freelancer,2024-05-11 12:44:03
+Client_889,Costa Rica,Referral,SMB,2024-11-25 11:27:21
+Client_890,Mexico,Organic,Enterprise,2024-03-04 16:59:41
+Client_891,United States,Paid,Freelancer,2024-07-19 04:33:01
+Client_892,United States,Paid,Enterprise,2024-09-02 06:28:20
+Client_893,Mexico,Organic,Enterprise,2024-08-22 00:08:02
+Client_894,Mexico,Referral,SMB,2024-02-14 21:19:23
+Client_895,Costa Rica,Organic,Freelancer,2024-11-24 19:28:28
+Client_896,Costa Rica,Referral,SMB,2024-11-22 06:34:27
+Client_897,Panama,Paid,SMB,2024-07-25 01:46:13
+Client_898,Costa Rica,Referral,Freelancer,2024-03-27 01:28:17
+Client_899,United States,Direct,Freelancer,2024-03-09 06:34:45
+Client_900,United States,Paid,Enterprise,2024-12-19 19:51:46
+Client_901,Mexico,Direct,Freelancer,2024-03-28 23:35:23
+Client_902,Costa Rica,Organic,Enterprise,2024-04-01 23:15:55
+Client_903,Panama,Organic,Enterprise,2024-07-02 11:01:12
+Client_904,United States,Organic,Enterprise,2024-04-30 04:39:38
+Client_905,United States,Referral,Freelancer,2024-05-22 02:19:45
+Client_906,Panama,Paid,SMB,2024-03-06 20:03:58
+Client_907,Panama,Organic,Enterprise,2024-06-09 14:02:19
+Client_908,United States,Organic,SMB,2024-11-01 05:32:27
+Client_909,United States,Paid,SMB,2024-03-18 14:06:00
+Client_910,Panama,Organic,Freelancer,2024-11-05 23:33:40
+Client_911,United States,Direct,SMB,2024-08-02 20:19:35
+Client_912,Mexico,Paid,SMB,2024-04-10 15:50:57
+Client_913,Mexico,Paid,Freelancer,2024-12-01 19:09:09
+Client_914,Panama,Paid,Enterprise,2024-01-07 04:13:54
+Client_915,Costa Rica,Direct,SMB,2024-08-27 16:46:03
+Client_916,Panama,Paid,Freelancer,2024-12-18 02:24:27
+Client_917,Panama,Direct,SMB,2024-04-09 07:00:45
+Client_918,Costa Rica,Paid,SMB,2024-04-03 18:47:53
+Client_919,Costa Rica,Referral,Enterprise,2024-04-16 23:57:35
+Client_920,Costa Rica,Organic,SMB,2024-02-23 12:20:36
+Client_921,Mexico,Referral,Freelancer,2024-06-26 09:02:19
+Client_922,United States,Organic,SMB,2024-10-08 15:27:51
+Client_923,Mexico,Direct,Enterprise,2024-03-02 17:43:53
+Client_924,United States,Referral,Enterprise,2024-12-08 09:05:01
+Client_925,Mexico,Paid,Freelancer,2024-01-17 06:39:28
+Client_926,United States,Organic,Enterprise,2024-09-30 08:41:56
+Client_927,Mexico,Organic,SMB,2024-10-28 01:21:38
+Client_928,Costa Rica,Referral,Enterprise,2024-03-07 23:01:07
+Client_929,Panama,Direct,Freelancer,2024-12-10 02:42:41
+Client_930,Mexico,Referral,Enterprise,2024-07-27 08:32:40
+Client_931,United States,Direct,Enterprise,2024-09-20 06:44:02
+Client_932,Costa Rica,Direct,Enterprise,2024-09-07 11:08:30
+Client_933,Mexico,Organic,Freelancer,2024-07-05 22:21:05
+Client_934,Mexico,Referral,Enterprise,2024-11-26 00:26:33
+Client_935,Costa Rica,Referral,Enterprise,2024-08-06 20:17:14
+Client_936,Mexico,Direct,SMB,2024-05-14 17:15:36
+Client_937,Panama,Referral,Freelancer,2024-10-16 05:05:26
+Client_938,Mexico,Paid,Enterprise,2024-07-04 23:15:59
+Client_939,Panama,Paid,Freelancer,2024-12-10 20:26:39
+Client_940,Panama,Referral,Enterprise,2024-02-10 09:17:09
+Client_941,Costa Rica,Referral,Enterprise,2024-07-02 15:15:28
+Client_942,Mexico,Direct,Enterprise,2024-09-30 21:44:36
+Client_943,Costa Rica,Paid,SMB,2024-03-15 23:34:03
+Client_944,Mexico,Paid,SMB,2024-05-06 02:57:14
+Client_945,Mexico,Organic,SMB,2024-05-06 09:14:54
+Client_946,United States,Direct,Freelancer,2024-07-16 14:12:42
+Client_947,Mexico,Organic,Freelancer,2024-03-07 02:19:14
+Client_948,Costa Rica,Paid,SMB,2024-03-03 20:53:39
+Client_949,Panama,Direct,Freelancer,2024-09-01 13:28:28
+Client_950,Mexico,Referral,Enterprise,2024-08-01 21:09:35
+Client_951,United States,Direct,Enterprise,2024-08-25 16:13:21
+Client_952,Costa Rica,Referral,Enterprise,2024-08-26 04:29:53
+Client_953,Mexico,Referral,SMB,2024-04-30 06:40:34
+Client_954,Costa Rica,Direct,Freelancer,2024-11-26 01:28:07
+Client_955,United States,Referral,SMB,2024-07-08 18:01:27
+Client_956,United States,Organic,Freelancer,2024-12-20 23:43:23
+Client_957,Costa Rica,Paid,Enterprise,2024-04-08 12:35:58
+Client_958,Mexico,Referral,SMB,2024-05-29 10:49:10
+Client_959,Panama,Organic,Freelancer,2024-06-01 14:03:49
+Client_960,United States,Referral,Freelancer,2024-07-26 12:40:40
+Client_961,Mexico,Paid,Enterprise,2024-12-06 06:17:55
+Client_962,Mexico,Organic,SMB,2024-01-31 16:10:35
+Client_963,Panama,Paid,SMB,2024-02-24 20:40:39
+Client_964,United States,Paid,SMB,2024-04-27 05:39:02
+Client_965,United States,Organic,Enterprise,2024-10-17 05:42:46
+Client_966,Mexico,Organic,SMB,2024-12-02 07:34:23
+Client_967,Mexico,Organic,Enterprise,2024-04-22 04:36:14
+Client_968,Panama,Direct,Enterprise,2024-08-08 20:12:50
+Client_969,Panama,Organic,Enterprise,2024-11-26 14:26:11
+Client_970,United States,Organic,Freelancer,2024-12-14 13:03:53
+Client_971,Costa Rica,Organic,SMB,2024-08-28 17:02:16
+Client_972,United States,Organic,SMB,2024-08-16 06:54:38
+Client_973,Mexico,Referral,Enterprise,2024-01-31 23:28:37
+Client_974,United States,Direct,Enterprise,2024-02-19 20:24:46
+Client_975,Costa Rica,Paid,SMB,2024-03-25 20:23:26
+Client_976,Panama,Organic,Enterprise,2024-10-25 12:44:04
+Client_977,Costa Rica,Referral,SMB,2024-04-06 09:44:02
+Client_978,Costa Rica,Referral,Freelancer,2024-09-22 14:12:08
+Client_979,Costa Rica,Referral,Enterprise,2024-12-17 12:30:44
+Client_980,Panama,Paid,SMB,2024-04-12 05:18:44
+Client_981,Costa Rica,Organic,Enterprise,2024-08-22 21:29:17
+Client_982,Costa Rica,Direct,SMB,2024-03-12 09:29:23
+Client_983,Costa Rica,Direct,SMB,2024-02-10 00:10:53
+Client_984,Mexico,Referral,Enterprise,2024-09-14 00:27:15
+Client_985,Costa Rica,Paid,Freelancer,2024-07-18 16:26:51
+Client_986,Panama,Paid,SMB,2024-11-04 05:39:28
+Client_987,Costa Rica,Paid,SMB,2024-01-22 20:40:06
+Client_988,Costa Rica,Direct,SMB,2024-05-14 15:23:52
+Client_989,Panama,Referral,Freelancer,2024-12-23 18:45:54
+Client_990,Costa Rica,Organic,Freelancer,2024-08-07 01:01:47
+Client_991,Panama,Direct,Enterprise,2024-02-15 20:27:56
+Client_992,Costa Rica,Referral,Freelancer,2024-01-21 09:01:02
+Client_993,Panama,Referral,Enterprise,2024-05-03 00:01:21
+Client_994,Costa Rica,Organic,Enterprise,2024-04-25 21:02:42
+Client_995,Costa Rica,Organic,Freelancer,2024-02-16 23:27:28
+Client_996,Mexico,Organic,Enterprise,2024-12-15 22:07:01
+Client_997,Mexico,Paid,Freelancer,2024-11-27 13:24:10
+Client_998,Costa Rica,Organic,Enterprise,2024-01-10 08:46:18
+Client_999,Costa Rica,Referral,Freelancer,2024-10-12 23:45:26
+Client_1000,United States,Organic,Freelancer,2024-09-06 11:23:38

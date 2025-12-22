@@ -1,0 +1,3001 @@
+expense_id,date,provider,category,amount_usd,country
+EXP_00001,2024-12-15 12:47:49,Vendor_041,Infrastructure,2259,Mexico
+EXP_00002,2024-11-21 17:15:37,Vendor_250,Payroll,3284,United States
+EXP_00003,2024-01-24 23:33:51,Vendor_089,Operations,473,Panama
+EXP_00004,2024-05-22 20:24:52,Vendor_092,Other,1386,Costa Rica
+EXP_00005,2024-10-15 07:50:24,Vendor_081,Infrastructure,467,Mexico
+EXP_00006,2024-03-30 13:42:25,Vendor_130,Other,4573,United States
+EXP_00007,2024-07-12 19:30:00,Vendor_091,Infrastructure,4025,Mexico
+EXP_00008,2024-01-04 19:57:29,Vendor_100,Marketing,4869,Mexico
+EXP_00009,2024-12-13 15:58:34,Vendor_078,Operations,3216,Costa Rica
+EXP_00010,2024-08-26 07:24:09,Vendor_043,Marketing,1394,Mexico
+EXP_00011,2024-09-10 02:00:34,Vendor_123,Operations,4076,Costa Rica
+EXP_00012,2024-04-16 03:36:55,Vendor_288,Other,273,Panama
+EXP_00013,2024-05-22 16:15:21,Vendor_023,Other,4231,Costa Rica
+EXP_00014,2024-03-18 07:32:23,Vendor_144,Payroll,4497,Costa Rica
+EXP_00015,2024-01-21 08:51:58,Vendor_258,Other,2180,Panama
+EXP_00016,2024-11-21 05:12:04,Vendor_007,Infrastructure,3934,Costa Rica
+EXP_00017,2024-05-28 18:53:59,Vendor_277,Payroll,2529,United States
+EXP_00018,2024-01-23 15:35:45,Vendor_186,Infrastructure,2873,Mexico
+EXP_00019,2024-01-18 16:00:17,Vendor_095,Payroll,792,Costa Rica
+EXP_00020,2024-03-09 09:09:31,Vendor_025,Infrastructure,4790,Mexico
+EXP_00021,2024-11-04 07:00:51,Vendor_291,Payroll,3129,Costa Rica
+EXP_00022,2024-01-15 19:00:55,Vendor_227,Operations,973,Panama
+EXP_00023,2024-01-03 08:38:25,Vendor_173,Operations,4514,Panama
+EXP_00024,2024-10-20 23:31:31,Vendor_135,Payroll,3196,Mexico
+EXP_00025,2024-04-14 21:56:07,Vendor_288,Marketing,857,Mexico
+EXP_00026,2024-05-05 14:36:50,Vendor_069,Payroll,3724,Mexico
+EXP_00027,2024-08-29 00:46:31,Vendor_281,Marketing,2206,Panama
+EXP_00028,2024-08-17 15:29:47,Vendor_231,Infrastructure,4372,Mexico
+EXP_00029,2024-03-15 10:44:49,Vendor_258,Payroll,1665,Costa Rica
+EXP_00030,2024-04-26 21:43:25,Vendor_173,Marketing,3216,Costa Rica
+EXP_00031,2024-05-16 12:54:08,Vendor_032,Payroll,3623,Mexico
+EXP_00032,2024-04-06 04:30:37,Vendor_200,Operations,408,Panama
+EXP_00033,2024-09-23 22:43:57,Vendor_080,Operations,253,Costa Rica
+EXP_00034,2024-05-10 03:27:57,Vendor_075,Payroll,1066,Panama
+EXP_00035,2024-12-22 10:45:25,Vendor_264,Payroll,1263,Panama
+EXP_00036,2024-01-19 20:11:19,Vendor_085,Other,2916,Panama
+EXP_00037,2024-09-30 03:04:24,Vendor_217,Operations,484,Mexico
+EXP_00038,2024-08-06 08:24:55,Vendor_121,Infrastructure,3819,Panama
+EXP_00039,2024-02-03 04:01:21,Vendor_020,Payroll,2895,Panama
+EXP_00040,2024-12-29 03:12:32,Vendor_149,Other,4819,Mexico
+EXP_00041,2024-07-07 10:42:14,Vendor_007,Payroll,1156,United States
+EXP_00042,2024-01-04 15:03:08,Vendor_086,Operations,1831,Costa Rica
+EXP_00043,2024-07-27 22:55:43,Vendor_147,Marketing,3542,Mexico
+EXP_00044,2024-08-08 15:38:19,Vendor_187,Marketing,1769,Costa Rica
+EXP_00045,2024-02-25 08:36:44,Vendor_193,Operations,4176,Mexico
+EXP_00046,2024-12-17 23:01:38,Vendor_282,Infrastructure,4127,Mexico
+EXP_00047,2024-07-10 08:28:21,Vendor_188,Other,3874,Mexico
+EXP_00048,2024-01-05 18:47:02,Vendor_018,Payroll,1559,Costa Rica
+EXP_00049,2024-12-04 16:29:49,Vendor_149,Payroll,105,Mexico
+EXP_00050,2024-11-26 23:22:00,Vendor_046,Payroll,4886,Mexico
+EXP_00051,2024-03-15 15:45:20,Vendor_012,Other,1741,Mexico
+EXP_00052,2024-05-27 01:45:32,Vendor_230,Other,3929,Costa Rica
+EXP_00053,2024-07-28 06:35:30,Vendor_113,Operations,4980,United States
+EXP_00054,2024-06-11 18:38:28,Vendor_160,Other,716,Mexico
+EXP_00055,2024-10-09 09:53:27,Vendor_227,Payroll,985,Mexico
+EXP_00056,2024-05-31 23:53:29,Vendor_183,Payroll,2170,Mexico
+EXP_00057,2024-04-04 01:20:53,Vendor_055,Other,260,Mexico
+EXP_00058,2024-05-19 01:48:01,Vendor_266,Other,1317,Mexico
+EXP_00059,2024-06-23 08:11:28,Vendor_035,Operations,4278,United States
+EXP_00060,2024-05-02 18:50:01,Vendor_080,Marketing,267,Panama
+EXP_00061,2024-02-15 18:08:20,Vendor_006,Other,4012,Panama
+EXP_00062,2024-07-30 12:53:30,Vendor_127,Marketing,2802,Mexico
+EXP_00063,2024-05-05 14:44:08,Vendor_068,Infrastructure,2702,Costa Rica
+EXP_00064,2024-01-10 19:04:08,Vendor_190,Marketing,4539,United States
+EXP_00065,2024-05-06 18:53:04,Vendor_244,Other,4207,United States
+EXP_00066,2024-06-20 02:26:58,Vendor_009,Payroll,3705,United States
+EXP_00067,2024-06-15 06:59:56,Vendor_157,Payroll,1653,Panama
+EXP_00068,2024-08-10 10:58:45,Vendor_071,Other,549,Costa Rica
+EXP_00069,2024-12-15 11:18:44,Vendor_134,Operations,4769,Panama
+EXP_00070,2024-06-01 18:30:27,Vendor_249,Other,4127,United States
+EXP_00071,2024-05-20 12:30:52,Vendor_044,Other,2637,Panama
+EXP_00072,2024-04-28 03:32:47,Vendor_116,Operations,2809,Panama
+EXP_00073,2024-04-23 02:13:37,Vendor_228,Operations,4660,Mexico
+EXP_00074,2024-08-12 13:16:47,Vendor_057,Infrastructure,3057,Mexico
+EXP_00075,2024-08-31 06:18:19,Vendor_244,Infrastructure,2764,Mexico
+EXP_00076,2024-12-27 04:11:39,Vendor_057,Infrastructure,1889,United States
+EXP_00077,2024-09-15 02:51:07,Vendor_143,Operations,4202,Mexico
+EXP_00078,2024-09-24 20:31:31,Vendor_192,Marketing,3334,United States
+EXP_00079,2024-01-21 01:23:48,Vendor_007,Other,418,Mexico
+EXP_00080,2024-04-14 09:55:10,Vendor_275,Infrastructure,2277,United States
+EXP_00081,2024-03-12 02:53:31,Vendor_134,Marketing,2256,Panama
+EXP_00082,2024-07-23 15:13:53,Vendor_039,Other,2653,Costa Rica
+EXP_00083,2024-03-15 01:46:01,Vendor_193,Marketing,528,United States
+EXP_00084,2024-03-17 10:03:28,Vendor_025,Payroll,4439,Panama
+EXP_00085,2024-10-17 11:12:54,Vendor_102,Payroll,2585,Mexico
+EXP_00086,2024-03-18 16:53:10,Vendor_151,Other,4502,Panama
+EXP_00087,2024-06-06 00:03:35,Vendor_217,Marketing,1000,Panama
+EXP_00088,2024-07-10 21:54:17,Vendor_230,Marketing,1720,Costa Rica
+EXP_00089,2024-01-30 23:47:49,Vendor_267,Operations,3498,Mexico
+EXP_00090,2024-08-13 15:58:40,Vendor_162,Infrastructure,848,United States
+EXP_00091,2024-12-16 23:33:27,Vendor_287,Other,4972,United States
+EXP_00092,2024-08-28 04:11:45,Vendor_166,Marketing,4389,United States
+EXP_00093,2024-04-28 04:38:03,Vendor_247,Infrastructure,2511,Mexico
+EXP_00094,2024-07-25 16:30:26,Vendor_174,Other,1127,United States
+EXP_00095,2024-08-01 03:35:19,Vendor_009,Marketing,4344,Costa Rica
+EXP_00096,2024-07-16 12:09:23,Vendor_276,Payroll,3232,Panama
+EXP_00097,2024-04-16 08:47:16,Vendor_059,Marketing,2941,Mexico
+EXP_00098,2024-09-22 05:40:08,Vendor_085,Payroll,1240,United States
+EXP_00099,2024-11-05 20:28:10,Vendor_150,Payroll,337,Panama
+EXP_00100,2024-10-02 04:44:06,Vendor_060,Operations,4925,Panama
+EXP_00101,2024-05-13 19:44:31,Vendor_125,Operations,4653,Costa Rica
+EXP_00102,2024-04-10 11:26:17,Vendor_041,Infrastructure,2632,United States
+EXP_00103,2024-10-13 14:34:35,Vendor_173,Other,1854,Mexico
+EXP_00104,2024-12-06 12:57:42,Vendor_260,Infrastructure,4909,Panama
+EXP_00105,2024-10-12 17:25:52,Vendor_173,Operations,1710,Costa Rica
+EXP_00106,2024-10-16 03:48:32,Vendor_186,Infrastructure,3218,Panama
+EXP_00107,2024-12-09 06:06:54,Vendor_241,Other,4539,Costa Rica
+EXP_00108,2024-10-30 10:45:27,Vendor_094,Other,1587,Costa Rica
+EXP_00109,2024-09-18 02:12:57,Vendor_063,Marketing,4858,Panama
+EXP_00110,2024-11-30 02:21:04,Vendor_221,Infrastructure,3294,Panama
+EXP_00111,2024-05-31 18:23:43,Vendor_008,Operations,345,United States
+EXP_00112,2024-01-10 09:59:05,Vendor_213,Marketing,1377,Mexico
+EXP_00113,2024-12-24 12:30:38,Vendor_209,Infrastructure,2428,Costa Rica
+EXP_00114,2024-12-01 22:54:39,Vendor_209,Other,1656,Costa Rica
+EXP_00115,2024-07-10 10:58:25,Vendor_085,Operations,1657,Panama
+EXP_00116,2024-06-05 10:05:23,Vendor_207,Infrastructure,2322,Panama
+EXP_00117,2024-10-09 08:28:40,Vendor_153,Other,2432,Panama
+EXP_00118,2024-06-14 05:49:26,Vendor_161,Other,404,Mexico
+EXP_00119,2024-03-11 07:39:40,Vendor_116,Infrastructure,3022,Panama
+EXP_00120,2024-07-29 01:21:00,Vendor_251,Infrastructure,892,Costa Rica
+EXP_00121,2024-06-16 21:52:43,Vendor_183,Operations,506,Costa Rica
+EXP_00122,2024-07-14 03:03:50,Vendor_164,Marketing,4527,Costa Rica
+EXP_00123,2024-09-28 20:34:19,Vendor_080,Other,2452,Mexico
+EXP_00124,2024-12-03 15:25:45,Vendor_007,Marketing,2137,Mexico
+EXP_00125,2024-01-30 11:07:02,Vendor_087,Marketing,3066,Mexico
+EXP_00126,2024-06-10 02:06:44,Vendor_008,Other,2816,Mexico
+EXP_00127,2024-01-09 03:12:55,Vendor_036,Infrastructure,2920,United States
+EXP_00128,2024-12-27 01:44:59,Vendor_251,Other,4746,United States
+EXP_00129,2024-08-30 23:06:19,Vendor_100,Marketing,3142,United States
+EXP_00130,2024-03-15 22:00:54,Vendor_079,Operations,4102,Panama
+EXP_00131,2024-08-07 11:46:14,Vendor_286,Other,1460,Mexico
+EXP_00132,2024-05-25 02:11:58,Vendor_271,Operations,1153,Mexico
+EXP_00133,2024-11-17 13:26:25,Vendor_221,Infrastructure,539,United States
+EXP_00134,2024-02-26 17:20:00,Vendor_196,Infrastructure,4453,United States
+EXP_00135,2024-04-02 01:18:59,Vendor_226,Operations,882,Mexico
+EXP_00136,2024-11-19 07:47:19,Vendor_087,Operations,2710,United States
+EXP_00137,2024-08-09 23:36:29,Vendor_058,Other,1914,Panama
+EXP_00138,2024-04-28 17:21:52,Vendor_170,Infrastructure,333,Panama
+EXP_00139,2024-12-28 20:16:28,Vendor_097,Operations,2173,Panama
+EXP_00140,2024-02-11 23:44:17,Vendor_146,Payroll,2531,Costa Rica
+EXP_00141,2024-06-28 04:10:30,Vendor_018,Other,4588,Costa Rica
+EXP_00142,2024-10-11 04:05:56,Vendor_184,Other,561,Mexico
+EXP_00143,2024-04-22 12:53:50,Vendor_143,Payroll,1851,Costa Rica
+EXP_00144,2024-04-10 10:14:29,Vendor_062,Infrastructure,938,United States
+EXP_00145,2024-12-17 15:53:15,Vendor_163,Operations,3309,Panama
+EXP_00146,2024-12-23 10:57:27,Vendor_040,Operations,2884,Panama
+EXP_00147,2024-09-23 01:38:03,Vendor_179,Infrastructure,4305,Costa Rica
+EXP_00148,2024-04-15 06:02:23,Vendor_235,Payroll,1451,Panama
+EXP_00149,2024-10-17 16:35:52,Vendor_060,Payroll,305,Panama
+EXP_00150,2024-06-06 19:17:34,Vendor_228,Payroll,1194,Panama
+EXP_00151,2024-03-12 22:09:43,Vendor_239,Other,4405,United States
+EXP_00152,2024-07-22 21:13:47,Vendor_056,Operations,284,Costa Rica
+EXP_00153,2024-03-25 05:55:11,Vendor_234,Marketing,2892,Panama
+EXP_00154,2024-08-02 05:54:53,Vendor_084,Other,4594,Panama
+EXP_00155,2024-06-01 19:58:40,Vendor_203,Other,2829,Panama
+EXP_00156,2024-08-09 11:29:17,Vendor_041,Operations,413,Mexico
+EXP_00157,2024-05-09 17:08:42,Vendor_017,Infrastructure,327,United States
+EXP_00158,2024-08-30 10:46:11,Vendor_105,Operations,3193,Costa Rica
+EXP_00159,2024-03-18 11:59:32,Vendor_025,Infrastructure,4057,Panama
+EXP_00160,2024-08-03 01:52:12,Vendor_093,Operations,4195,United States
+EXP_00161,2024-08-24 23:06:32,Vendor_215,Other,2839,Panama
+EXP_00162,2024-08-03 11:37:09,Vendor_184,Payroll,1026,Costa Rica
+EXP_00163,2024-06-13 23:46:53,Vendor_217,Other,3436,Costa Rica
+EXP_00164,2024-04-21 07:55:17,Vendor_151,Other,3221,Mexico
+EXP_00165,2024-08-25 04:06:21,Vendor_258,Marketing,2208,Mexico
+EXP_00166,2024-06-14 04:32:02,Vendor_119,Other,2455,Mexico
+EXP_00167,2024-10-23 12:06:39,Vendor_134,Other,636,Mexico
+EXP_00168,2024-06-13 11:32:27,Vendor_207,Other,4270,Panama
+EXP_00169,2024-02-16 23:28:13,Vendor_263,Marketing,1541,United States
+EXP_00170,2024-04-01 10:56:33,Vendor_190,Infrastructure,3499,Panama
+EXP_00171,2024-10-25 17:33:37,Vendor_158,Marketing,3452,Mexico
+EXP_00172,2024-01-14 07:50:54,Vendor_076,Payroll,3246,Mexico
+EXP_00173,2024-02-21 18:25:42,Vendor_052,Infrastructure,708,Panama
+EXP_00174,2024-08-17 22:02:44,Vendor_226,Marketing,711,Panama
+EXP_00175,2024-12-08 21:42:35,Vendor_094,Payroll,1120,United States
+EXP_00176,2024-03-30 10:55:21,Vendor_292,Payroll,4980,United States
+EXP_00177,2024-10-23 22:04:00,Vendor_291,Operations,340,Costa Rica
+EXP_00178,2024-05-20 17:35:39,Vendor_178,Operations,2152,United States
+EXP_00179,2024-02-12 20:38:12,Vendor_106,Other,1702,United States
+EXP_00180,2024-09-25 18:08:10,Vendor_076,Infrastructure,2504,Mexico
+EXP_00181,2024-09-24 19:53:04,Vendor_004,Marketing,4589,Mexico
+EXP_00182,2024-12-19 02:40:40,Vendor_187,Other,1514,Costa Rica
+EXP_00183,2024-10-18 12:46:31,Vendor_020,Infrastructure,468,Costa Rica
+EXP_00184,2024-04-20 03:14:53,Vendor_275,Operations,2176,United States
+EXP_00185,2024-10-18 00:19:15,Vendor_136,Marketing,1546,United States
+EXP_00186,2024-10-14 04:17:35,Vendor_027,Payroll,108,Costa Rica
+EXP_00187,2024-04-10 07:27:26,Vendor_136,Payroll,3616,Costa Rica
+EXP_00188,2024-07-07 09:02:02,Vendor_018,Other,4529,Mexico
+EXP_00189,2024-05-22 14:59:28,Vendor_285,Other,2377,Costa Rica
+EXP_00190,2024-11-19 05:33:14,Vendor_138,Marketing,492,Mexico
+EXP_00191,2024-03-26 17:01:59,Vendor_232,Payroll,1951,Mexico
+EXP_00192,2024-11-07 09:23:32,Vendor_257,Other,878,Costa Rica
+EXP_00193,2024-10-31 08:18:40,Vendor_219,Payroll,3531,Costa Rica
+EXP_00194,2024-11-25 22:11:10,Vendor_132,Operations,1798,United States
+EXP_00195,2024-06-23 21:41:05,Vendor_256,Other,3354,United States
+EXP_00196,2024-03-07 19:52:30,Vendor_096,Infrastructure,4582,Mexico
+EXP_00197,2024-08-23 04:47:56,Vendor_274,Other,3371,Mexico
+EXP_00198,2024-02-23 03:31:43,Vendor_015,Operations,3352,Costa Rica
+EXP_00199,2024-04-18 08:54:48,Vendor_179,Marketing,3711,Panama
+EXP_00200,2024-04-25 14:12:09,Vendor_260,Payroll,2712,Panama
+EXP_00201,2024-06-30 23:39:51,Vendor_088,Marketing,1945,Costa Rica
+EXP_00202,2024-12-22 18:14:50,Vendor_094,Other,3608,Mexico
+EXP_00203,2024-05-18 04:50:33,Vendor_028,Infrastructure,3992,Mexico
+EXP_00204,2024-11-27 12:23:03,Vendor_185,Marketing,3211,Panama
+EXP_00205,2024-09-06 08:00:28,Vendor_075,Infrastructure,4417,United States
+EXP_00206,2024-11-19 03:04:40,Vendor_054,Other,1966,Mexico
+EXP_00207,2024-03-14 22:40:17,Vendor_047,Infrastructure,1152,Costa Rica
+EXP_00208,2024-11-28 00:04:22,Vendor_248,Infrastructure,1026,Mexico
+EXP_00209,2024-10-09 06:12:57,Vendor_234,Operations,3872,Mexico
+EXP_00210,2024-06-06 22:00:52,Vendor_118,Marketing,3142,United States
+EXP_00211,2024-11-30 00:11:59,Vendor_260,Other,4325,Panama
+EXP_00212,2024-08-29 04:08:34,Vendor_230,Operations,2195,United States
+EXP_00213,2024-09-14 00:59:11,Vendor_290,Infrastructure,3940,Costa Rica
+EXP_00214,2024-11-14 05:11:37,Vendor_241,Operations,926,Costa Rica
+EXP_00215,2024-02-08 19:42:53,Vendor_182,Operations,3587,United States
+EXP_00216,2024-02-03 01:14:07,Vendor_101,Infrastructure,4795,Costa Rica
+EXP_00217,2024-11-13 22:49:43,Vendor_248,Other,869,Costa Rica
+EXP_00218,2024-12-28 21:19:27,Vendor_113,Payroll,4070,Mexico
+EXP_00219,2024-02-10 11:41:37,Vendor_221,Operations,556,Costa Rica
+EXP_00220,2024-03-19 10:05:55,Vendor_148,Marketing,1172,Mexico
+EXP_00221,2024-03-06 09:36:28,Vendor_296,Infrastructure,2875,Costa Rica
+EXP_00222,2024-05-18 06:02:28,Vendor_197,Payroll,4730,Panama
+EXP_00223,2024-07-17 15:04:04,Vendor_069,Operations,2583,United States
+EXP_00224,2024-07-16 13:00:19,Vendor_288,Infrastructure,2398,Panama
+EXP_00225,2024-06-05 22:56:50,Vendor_024,Infrastructure,3071,United States
+EXP_00226,2024-08-23 23:47:30,Vendor_186,Operations,4029,Mexico
+EXP_00227,2024-08-02 13:55:48,Vendor_170,Marketing,4500,Panama
+EXP_00228,2024-03-02 03:33:02,Vendor_291,Infrastructure,1742,United States
+EXP_00229,2024-02-04 19:59:26,Vendor_032,Infrastructure,1117,Mexico
+EXP_00230,2024-07-28 23:17:45,Vendor_176,Operations,4142,Costa Rica
+EXP_00231,2024-06-02 06:02:20,Vendor_177,Payroll,1563,Costa Rica
+EXP_00232,2024-11-02 16:57:41,Vendor_290,Infrastructure,1611,Mexico
+EXP_00233,2024-03-30 21:05:32,Vendor_144,Infrastructure,3573,United States
+EXP_00234,2024-10-01 03:20:48,Vendor_011,Operations,4571,Mexico
+EXP_00235,2024-11-07 12:20:10,Vendor_147,Infrastructure,3738,United States
+EXP_00236,2024-01-05 20:26:59,Vendor_195,Operations,1821,United States
+EXP_00237,2024-03-05 21:22:49,Vendor_076,Marketing,786,United States
+EXP_00238,2024-03-20 15:42:37,Vendor_160,Operations,4566,Costa Rica
+EXP_00239,2024-06-17 05:10:06,Vendor_100,Payroll,3583,United States
+EXP_00240,2024-12-25 17:11:37,Vendor_116,Infrastructure,4350,Mexico
+EXP_00241,2024-07-31 18:28:21,Vendor_083,Marketing,3732,Costa Rica
+EXP_00242,2024-11-25 19:39:40,Vendor_063,Infrastructure,4877,United States
+EXP_00243,2024-02-21 02:52:31,Vendor_132,Infrastructure,3377,Costa Rica
+EXP_00244,2024-02-13 19:54:07,Vendor_248,Operations,4039,Costa Rica
+EXP_00245,2024-12-22 06:15:29,Vendor_131,Infrastructure,3044,United States
+EXP_00246,2024-06-08 17:47:53,Vendor_158,Marketing,3599,United States
+EXP_00247,2024-08-07 16:11:16,Vendor_216,Other,3018,Mexico
+EXP_00248,2024-06-26 15:16:42,Vendor_034,Infrastructure,1544,Costa Rica
+EXP_00249,2024-11-25 21:51:36,Vendor_298,Operations,187,Panama
+EXP_00250,2024-08-08 02:53:06,Vendor_279,Payroll,1629,Costa Rica
+EXP_00251,2024-03-06 20:05:06,Vendor_296,Infrastructure,3339,United States
+EXP_00252,2024-04-15 06:39:36,Vendor_015,Operations,3285,Panama
+EXP_00253,2024-07-13 06:51:59,Vendor_115,Infrastructure,112,Panama
+EXP_00254,2024-09-07 02:25:00,Vendor_057,Other,3028,United States
+EXP_00255,2024-04-06 07:46:58,Vendor_142,Other,419,Costa Rica
+EXP_00256,2024-08-30 11:21:55,Vendor_207,Marketing,4487,Panama
+EXP_00257,2024-05-02 10:08:59,Vendor_140,Other,4968,Panama
+EXP_00258,2024-07-08 15:14:00,Vendor_107,Operations,1783,Costa Rica
+EXP_00259,2024-03-05 20:45:23,Vendor_291,Other,2549,United States
+EXP_00260,2024-06-19 16:35:11,Vendor_078,Operations,4353,Costa Rica
+EXP_00261,2024-07-04 12:07:32,Vendor_002,Infrastructure,483,Costa Rica
+EXP_00262,2024-08-09 05:54:25,Vendor_274,Marketing,4593,Mexico
+EXP_00263,2024-11-24 03:08:55,Vendor_035,Marketing,1196,Panama
+EXP_00264,2024-11-27 03:12:12,Vendor_265,Other,1069,United States
+EXP_00265,2024-12-10 03:18:00,Vendor_218,Payroll,2620,United States
+EXP_00266,2024-05-01 19:36:41,Vendor_067,Other,3351,Panama
+EXP_00267,2024-11-04 03:25:23,Vendor_069,Payroll,3774,Panama
+EXP_00268,2024-10-21 13:20:18,Vendor_224,Other,293,Panama
+EXP_00269,2024-06-29 15:59:59,Vendor_294,Operations,2944,United States
+EXP_00270,2024-10-30 23:21:07,Vendor_203,Operations,4955,Costa Rica
+EXP_00271,2024-05-20 05:04:28,Vendor_081,Payroll,1352,Costa Rica
+EXP_00272,2024-10-18 07:44:44,Vendor_066,Marketing,894,United States
+EXP_00273,2024-03-13 09:02:14,Vendor_297,Payroll,2822,Costa Rica
+EXP_00274,2024-01-01 08:38:55,Vendor_280,Infrastructure,1726,Mexico
+EXP_00275,2024-01-02 02:20:32,Vendor_261,Marketing,2941,Mexico
+EXP_00276,2024-05-05 16:23:22,Vendor_277,Payroll,190,United States
+EXP_00277,2024-05-22 16:51:22,Vendor_006,Infrastructure,3777,Costa Rica
+EXP_00278,2024-01-05 20:14:57,Vendor_132,Infrastructure,4272,Mexico
+EXP_00279,2024-07-18 12:15:27,Vendor_265,Other,3619,Costa Rica
+EXP_00280,2024-03-29 17:59:21,Vendor_068,Payroll,1420,Panama
+EXP_00281,2024-01-30 10:48:36,Vendor_126,Operations,3559,Costa Rica
+EXP_00282,2024-01-27 05:15:36,Vendor_171,Other,2469,Mexico
+EXP_00283,2024-07-09 07:25:18,Vendor_029,Marketing,2568,Mexico
+EXP_00284,2024-08-18 08:49:16,Vendor_176,Operations,2693,United States
+EXP_00285,2024-03-19 23:05:35,Vendor_292,Infrastructure,1757,United States
+EXP_00286,2024-10-28 15:08:02,Vendor_105,Marketing,3477,Panama
+EXP_00287,2024-12-24 20:50:36,Vendor_045,Other,4137,Mexico
+EXP_00288,2024-08-14 13:16:06,Vendor_101,Infrastructure,445,United States
+EXP_00289,2024-03-16 22:14:42,Vendor_226,Infrastructure,3981,United States
+EXP_00290,2024-10-20 20:15:11,Vendor_104,Infrastructure,1764,United States
+EXP_00291,2024-10-04 02:54:22,Vendor_262,Operations,3973,Panama
+EXP_00292,2024-07-08 14:47:43,Vendor_253,Other,2872,Panama
+EXP_00293,2024-10-05 11:22:42,Vendor_165,Other,749,Mexico
+EXP_00294,2024-04-18 19:14:01,Vendor_292,Operations,2806,Panama
+EXP_00295,2024-08-08 20:05:15,Vendor_212,Other,2012,Mexico
+EXP_00296,2024-05-14 21:48:40,Vendor_144,Infrastructure,3785,Mexico
+EXP_00297,2024-06-10 22:54:00,Vendor_236,Infrastructure,4961,Mexico
+EXP_00298,2024-01-07 07:35:14,Vendor_022,Infrastructure,1909,United States
+EXP_00299,2024-06-12 17:48:07,Vendor_069,Other,3360,Costa Rica
+EXP_00300,2024-07-14 03:41:15,Vendor_069,Payroll,2212,United States
+EXP_00301,2024-02-04 22:49:59,Vendor_246,Marketing,1582,United States
+EXP_00302,2024-11-14 01:05:46,Vendor_063,Payroll,775,Panama
+EXP_00303,2024-01-23 18:04:33,Vendor_237,Operations,575,United States
+EXP_00304,2024-05-05 04:53:07,Vendor_019,Payroll,425,Mexico
+EXP_00305,2024-03-06 18:51:50,Vendor_231,Payroll,3363,Costa Rica
+EXP_00306,2024-11-07 23:47:49,Vendor_229,Operations,2235,Panama
+EXP_00307,2024-01-04 19:40:27,Vendor_127,Payroll,4353,Costa Rica
+EXP_00308,2024-12-30 15:18:48,Vendor_146,Marketing,1396,Panama
+EXP_00309,2024-09-12 11:52:29,Vendor_114,Other,381,United States
+EXP_00310,2024-09-29 12:23:19,Vendor_243,Operations,756,United States
+EXP_00311,2024-03-12 21:29:37,Vendor_145,Payroll,2310,United States
+EXP_00312,2024-07-05 19:51:08,Vendor_041,Infrastructure,3345,United States
+EXP_00313,2024-01-09 03:14:59,Vendor_161,Infrastructure,1000,Panama
+EXP_00314,2024-12-12 01:18:56,Vendor_077,Operations,4526,Panama
+EXP_00315,2024-09-26 15:53:18,Vendor_168,Infrastructure,243,Mexico
+EXP_00316,2024-07-14 20:32:51,Vendor_284,Marketing,3469,Panama
+EXP_00317,2024-02-13 03:17:59,Vendor_110,Payroll,4033,Panama
+EXP_00318,2024-08-10 22:57:21,Vendor_195,Marketing,2587,United States
+EXP_00319,2024-10-04 04:06:23,Vendor_228,Marketing,2635,Mexico
+EXP_00320,2024-01-06 00:40:14,Vendor_167,Other,1513,Costa Rica
+EXP_00321,2024-03-04 18:59:19,Vendor_021,Payroll,1143,Panama
+EXP_00322,2024-02-28 18:16:01,Vendor_165,Operations,2683,Costa Rica
+EXP_00323,2024-04-19 23:03:06,Vendor_130,Infrastructure,3774,United States
+EXP_00324,2024-02-27 15:19:56,Vendor_262,Other,749,United States
+EXP_00325,2024-03-26 00:36:28,Vendor_052,Marketing,4860,Costa Rica
+EXP_00326,2024-02-13 05:28:32,Vendor_261,Infrastructure,3391,Costa Rica
+EXP_00327,2024-05-27 14:03:08,Vendor_175,Payroll,3021,Mexico
+EXP_00328,2024-11-27 15:30:57,Vendor_299,Marketing,272,Panama
+EXP_00329,2024-09-13 20:50:44,Vendor_096,Marketing,3121,Panama
+EXP_00330,2024-12-27 06:30:24,Vendor_040,Payroll,2148,Panama
+EXP_00331,2024-12-16 10:28:59,Vendor_209,Operations,4178,Panama
+EXP_00332,2024-02-26 12:40:36,Vendor_142,Other,3196,Mexico
+EXP_00333,2024-02-10 00:48:52,Vendor_258,Payroll,3027,United States
+EXP_00334,2024-01-13 21:22:55,Vendor_167,Infrastructure,1994,Costa Rica
+EXP_00335,2024-09-16 05:59:18,Vendor_191,Infrastructure,4076,United States
+EXP_00336,2024-12-14 06:02:25,Vendor_119,Marketing,3362,Mexico
+EXP_00337,2024-02-01 19:21:37,Vendor_146,Other,508,Panama
+EXP_00338,2024-10-24 15:04:14,Vendor_129,Operations,3649,United States
+EXP_00339,2024-10-13 23:49:15,Vendor_145,Operations,3475,Panama
+EXP_00340,2024-09-04 05:44:30,Vendor_054,Infrastructure,4122,Costa Rica
+EXP_00341,2024-04-09 06:22:13,Vendor_122,Operations,677,United States
+EXP_00342,2024-02-17 08:18:37,Vendor_124,Infrastructure,3707,Panama
+EXP_00343,2024-11-03 01:14:50,Vendor_167,Other,4277,Mexico
+EXP_00344,2024-10-14 20:22:52,Vendor_143,Marketing,702,Costa Rica
+EXP_00345,2024-12-02 19:35:05,Vendor_022,Infrastructure,3855,Panama
+EXP_00346,2024-11-12 07:02:26,Vendor_276,Other,4169,Panama
+EXP_00347,2024-01-20 07:07:24,Vendor_299,Infrastructure,1087,Mexico
+EXP_00348,2024-08-18 14:38:04,Vendor_277,Payroll,4336,Costa Rica
+EXP_00349,2024-08-21 00:57:27,Vendor_115,Infrastructure,2415,Mexico
+EXP_00350,2024-04-27 14:28:18,Vendor_272,Other,4334,Costa Rica
+EXP_00351,2024-01-09 13:10:33,Vendor_168,Operations,3218,Panama
+EXP_00352,2024-01-18 08:33:07,Vendor_277,Infrastructure,1183,Panama
+EXP_00353,2024-11-08 12:09:49,Vendor_264,Marketing,2708,Costa Rica
+EXP_00354,2024-10-03 01:24:38,Vendor_250,Other,1687,Panama
+EXP_00355,2024-02-27 14:42:24,Vendor_255,Operations,1184,United States
+EXP_00356,2024-12-23 02:58:08,Vendor_058,Other,1849,Panama
+EXP_00357,2024-06-28 17:26:16,Vendor_005,Infrastructure,3266,Costa Rica
+EXP_00358,2024-10-07 09:29:50,Vendor_111,Payroll,1755,United States
+EXP_00359,2024-09-26 14:01:31,Vendor_286,Payroll,3646,Costa Rica
+EXP_00360,2024-07-22 23:41:41,Vendor_265,Marketing,139,United States
+EXP_00361,2024-07-01 08:08:20,Vendor_249,Marketing,1450,United States
+EXP_00362,2024-12-11 13:47:45,Vendor_095,Operations,2094,Mexico
+EXP_00363,2024-11-26 19:04:49,Vendor_297,Payroll,2553,Mexico
+EXP_00364,2024-07-20 17:05:03,Vendor_185,Infrastructure,843,United States
+EXP_00365,2024-08-29 18:52:22,Vendor_229,Other,3382,United States
+EXP_00366,2024-05-26 06:27:33,Vendor_262,Other,4233,United States
+EXP_00367,2024-03-13 05:50:19,Vendor_119,Payroll,2464,Mexico
+EXP_00368,2024-01-28 09:18:21,Vendor_234,Payroll,1206,Mexico
+EXP_00369,2024-11-07 20:08:44,Vendor_282,Other,3527,Mexico
+EXP_00370,2024-08-17 09:08:07,Vendor_202,Operations,729,United States
+EXP_00371,2024-01-13 00:56:34,Vendor_262,Other,4734,United States
+EXP_00372,2024-04-14 21:28:34,Vendor_053,Marketing,2356,Costa Rica
+EXP_00373,2024-03-08 07:59:40,Vendor_161,Infrastructure,4085,Panama
+EXP_00374,2024-06-30 10:19:32,Vendor_244,Payroll,591,Panama
+EXP_00375,2024-07-06 07:28:25,Vendor_094,Payroll,4779,Mexico
+EXP_00376,2024-10-31 08:06:27,Vendor_040,Operations,4253,Mexico
+EXP_00377,2024-09-19 14:24:15,Vendor_280,Marketing,1582,Panama
+EXP_00378,2024-12-03 21:44:59,Vendor_092,Other,2049,Mexico
+EXP_00379,2024-09-22 09:00:55,Vendor_038,Marketing,2543,United States
+EXP_00380,2024-12-06 02:12:31,Vendor_243,Marketing,3233,Panama
+EXP_00381,2024-05-16 13:26:54,Vendor_136,Operations,3617,United States
+EXP_00382,2024-02-25 19:45:26,Vendor_064,Operations,2234,Panama
+EXP_00383,2024-02-23 00:08:33,Vendor_201,Other,1961,Panama
+EXP_00384,2024-10-19 00:52:42,Vendor_262,Other,710,Mexico
+EXP_00385,2024-03-17 14:33:16,Vendor_175,Infrastructure,1247,United States
+EXP_00386,2024-10-03 15:52:21,Vendor_177,Marketing,4841,United States
+EXP_00387,2024-12-22 07:39:38,Vendor_085,Other,2430,Costa Rica
+EXP_00388,2024-03-12 15:43:17,Vendor_160,Operations,2661,United States
+EXP_00389,2024-03-25 10:09:47,Vendor_182,Infrastructure,928,United States
+EXP_00390,2024-12-14 15:07:13,Vendor_036,Infrastructure,1795,Mexico
+EXP_00391,2024-05-20 10:49:44,Vendor_099,Operations,2304,Costa Rica
+EXP_00392,2024-08-10 07:31:44,Vendor_226,Other,2373,United States
+EXP_00393,2024-01-08 17:25:19,Vendor_037,Operations,2980,Mexico
+EXP_00394,2024-06-28 05:43:01,Vendor_273,Other,3565,Panama
+EXP_00395,2024-02-14 00:29:49,Vendor_272,Operations,365,United States
+EXP_00396,2024-12-16 16:58:31,Vendor_186,Operations,1389,Mexico
+EXP_00397,2024-07-27 11:50:57,Vendor_049,Payroll,3720,Panama
+EXP_00398,2024-05-17 21:53:38,Vendor_094,Other,3491,United States
+EXP_00399,2024-01-25 10:27:05,Vendor_226,Marketing,572,United States
+EXP_00400,2024-01-04 01:48:30,Vendor_005,Payroll,2675,Mexico
+EXP_00401,2024-04-01 06:54:17,Vendor_174,Payroll,1996,Panama
+EXP_00402,2024-07-17 03:40:54,Vendor_183,Payroll,3254,Panama
+EXP_00403,2024-11-24 06:39:40,Vendor_073,Payroll,989,Panama
+EXP_00404,2024-01-06 07:21:19,Vendor_145,Marketing,3599,Panama
+EXP_00405,2024-08-21 00:40:12,Vendor_152,Payroll,1711,United States
+EXP_00406,2024-11-22 21:06:34,Vendor_056,Marketing,4576,Panama
+EXP_00407,2024-05-05 03:19:39,Vendor_183,Marketing,285,Mexico
+EXP_00408,2024-05-13 13:57:36,Vendor_122,Payroll,4105,Mexico
+EXP_00409,2024-10-24 16:55:48,Vendor_244,Infrastructure,3433,United States
+EXP_00410,2024-11-28 02:06:34,Vendor_204,Marketing,2326,Mexico
+EXP_00411,2024-11-26 22:21:09,Vendor_079,Payroll,3313,Costa Rica
+EXP_00412,2024-07-23 18:45:45,Vendor_016,Operations,4115,United States
+EXP_00413,2024-12-13 14:41:42,Vendor_126,Operations,1391,Costa Rica
+EXP_00414,2024-11-15 18:59:24,Vendor_087,Other,2773,Panama
+EXP_00415,2024-05-11 11:03:05,Vendor_278,Marketing,2617,Costa Rica
+EXP_00416,2024-11-05 03:51:05,Vendor_043,Marketing,3863,United States
+EXP_00417,2024-06-28 17:36:44,Vendor_079,Operations,3148,Panama
+EXP_00418,2024-12-09 22:23:18,Vendor_277,Marketing,2254,Mexico
+EXP_00419,2024-03-23 03:58:21,Vendor_264,Marketing,3202,United States
+EXP_00420,2024-06-17 02:31:18,Vendor_228,Operations,3718,Panama
+EXP_00421,2024-01-10 10:42:24,Vendor_125,Payroll,3943,United States
+EXP_00422,2024-03-19 17:20:26,Vendor_106,Operations,620,Panama
+EXP_00423,2024-03-24 22:01:55,Vendor_230,Infrastructure,1744,United States
+EXP_00424,2024-04-07 18:09:02,Vendor_134,Operations,754,United States
+EXP_00425,2024-05-24 22:00:38,Vendor_081,Operations,141,United States
+EXP_00426,2024-08-11 18:08:54,Vendor_109,Payroll,3011,United States
+EXP_00427,2024-11-10 05:02:40,Vendor_175,Operations,3884,Costa Rica
+EXP_00428,2024-08-01 00:32:30,Vendor_164,Operations,4051,Panama
+EXP_00429,2024-04-12 13:02:21,Vendor_125,Payroll,1923,Panama
+EXP_00430,2024-10-26 12:47:26,Vendor_023,Operations,2408,United States
+EXP_00431,2024-04-01 06:07:51,Vendor_062,Payroll,1613,United States
+EXP_00432,2024-08-24 09:25:23,Vendor_212,Infrastructure,4866,Mexico
+EXP_00433,2024-10-31 08:50:25,Vendor_252,Payroll,3836,Panama
+EXP_00434,2024-10-09 23:03:03,Vendor_096,Marketing,1380,Costa Rica
+EXP_00435,2024-09-11 04:17:43,Vendor_209,Marketing,3238,Panama
+EXP_00436,2024-02-11 21:13:24,Vendor_057,Payroll,319,Panama
+EXP_00437,2024-04-14 03:09:35,Vendor_234,Operations,3494,Panama
+EXP_00438,2024-10-24 00:15:42,Vendor_065,Other,4109,Mexico
+EXP_00439,2024-01-26 22:52:33,Vendor_293,Other,3907,Costa Rica
+EXP_00440,2024-02-03 22:03:02,Vendor_017,Infrastructure,2132,United States
+EXP_00441,2024-01-04 06:31:14,Vendor_135,Infrastructure,1729,Costa Rica
+EXP_00442,2024-10-20 01:57:57,Vendor_130,Other,3349,United States
+EXP_00443,2024-05-18 21:05:12,Vendor_037,Other,560,United States
+EXP_00444,2024-05-22 07:48:12,Vendor_250,Payroll,389,Costa Rica
+EXP_00445,2024-02-19 17:26:39,Vendor_057,Other,1235,Mexico
+EXP_00446,2024-04-15 20:50:28,Vendor_010,Marketing,2613,Mexico
+EXP_00447,2024-12-03 06:39:04,Vendor_081,Infrastructure,323,United States
+EXP_00448,2024-01-02 17:29:23,Vendor_090,Infrastructure,2545,Mexico
+EXP_00449,2024-05-25 00:49:28,Vendor_120,Marketing,553,Mexico
+EXP_00450,2024-05-06 07:21:20,Vendor_102,Infrastructure,4558,Mexico
+EXP_00451,2024-05-28 21:46:11,Vendor_027,Other,2146,Mexico
+EXP_00452,2024-02-27 15:42:38,Vendor_261,Infrastructure,2822,United States
+EXP_00453,2024-10-31 21:48:26,Vendor_061,Marketing,4198,Mexico
+EXP_00454,2024-06-03 13:57:36,Vendor_136,Infrastructure,4788,Costa Rica
+EXP_00455,2024-03-17 20:46:19,Vendor_097,Other,3975,Costa Rica
+EXP_00456,2024-03-20 19:42:55,Vendor_149,Payroll,790,United States
+EXP_00457,2024-12-30 19:46:52,Vendor_227,Other,948,Panama
+EXP_00458,2024-07-02 05:45:12,Vendor_277,Infrastructure,3486,Mexico
+EXP_00459,2024-06-09 00:49:59,Vendor_228,Operations,4801,Costa Rica
+EXP_00460,2024-07-01 11:40:31,Vendor_249,Infrastructure,4924,Panama
+EXP_00461,2024-08-04 04:39:35,Vendor_258,Infrastructure,2568,Costa Rica
+EXP_00462,2024-03-10 05:43:42,Vendor_220,Marketing,1528,Costa Rica
+EXP_00463,2024-09-02 14:26:07,Vendor_236,Operations,2415,Panama
+EXP_00464,2024-03-11 23:17:58,Vendor_020,Marketing,4025,Mexico
+EXP_00465,2024-06-04 21:28:56,Vendor_138,Marketing,2715,United States
+EXP_00466,2024-09-21 00:18:06,Vendor_189,Other,838,United States
+EXP_00467,2024-06-10 02:02:34,Vendor_105,Payroll,4851,United States
+EXP_00468,2024-05-05 15:10:02,Vendor_098,Infrastructure,2318,Mexico
+EXP_00469,2024-03-22 12:10:04,Vendor_270,Operations,2452,Mexico
+EXP_00470,2024-08-25 08:08:34,Vendor_153,Infrastructure,3339,Costa Rica
+EXP_00471,2024-03-24 05:48:22,Vendor_218,Marketing,974,United States
+EXP_00472,2024-03-17 23:15:33,Vendor_021,Payroll,434,United States
+EXP_00473,2024-09-14 03:37:08,Vendor_272,Marketing,1278,Costa Rica
+EXP_00474,2024-08-20 18:44:14,Vendor_202,Infrastructure,729,Costa Rica
+EXP_00475,2024-11-17 02:30:00,Vendor_160,Other,180,Panama
+EXP_00476,2024-07-04 18:14:43,Vendor_064,Infrastructure,1009,Panama
+EXP_00477,2024-02-09 15:51:46,Vendor_084,Marketing,549,Mexico
+EXP_00478,2024-12-25 07:32:28,Vendor_073,Operations,3170,United States
+EXP_00479,2024-06-17 11:11:22,Vendor_060,Operations,3070,Costa Rica
+EXP_00480,2024-06-22 10:12:34,Vendor_147,Operations,4178,United States
+EXP_00481,2024-02-18 15:37:51,Vendor_047,Operations,2079,Mexico
+EXP_00482,2024-07-09 10:30:24,Vendor_223,Operations,4875,United States
+EXP_00483,2024-04-25 12:26:42,Vendor_158,Payroll,3495,Costa Rica
+EXP_00484,2024-07-17 02:14:47,Vendor_047,Payroll,829,Costa Rica
+EXP_00485,2024-03-31 17:37:47,Vendor_289,Other,3399,Costa Rica
+EXP_00486,2024-05-12 07:28:37,Vendor_210,Operations,3111,Mexico
+EXP_00487,2024-12-20 18:05:53,Vendor_021,Marketing,3120,Costa Rica
+EXP_00488,2024-08-05 02:25:59,Vendor_231,Marketing,1113,Panama
+EXP_00489,2024-06-30 12:15:24,Vendor_298,Infrastructure,4875,Costa Rica
+EXP_00490,2024-02-04 18:59:48,Vendor_105,Operations,1420,United States
+EXP_00491,2024-06-10 05:34:35,Vendor_126,Marketing,3364,Costa Rica
+EXP_00492,2024-10-06 00:12:51,Vendor_299,Other,4708,Costa Rica
+EXP_00493,2024-11-08 06:50:53,Vendor_068,Marketing,4782,United States
+EXP_00494,2024-08-13 22:04:00,Vendor_026,Other,3008,Mexico
+EXP_00495,2024-07-12 22:41:47,Vendor_161,Operations,3143,Mexico
+EXP_00496,2024-02-27 04:01:48,Vendor_108,Infrastructure,2290,Mexico
+EXP_00497,2024-03-03 02:34:56,Vendor_289,Infrastructure,2341,Mexico
+EXP_00498,2024-04-24 13:53:23,Vendor_084,Payroll,2669,Costa Rica
+EXP_00499,2024-09-25 06:21:47,Vendor_041,Operations,3604,Costa Rica
+EXP_00500,2024-05-29 14:05:34,Vendor_200,Marketing,1402,Panama
+EXP_00501,2024-02-17 21:19:24,Vendor_036,Infrastructure,889,Mexico
+EXP_00502,2024-06-05 11:22:16,Vendor_234,Other,3399,United States
+EXP_00503,2024-08-25 19:16:41,Vendor_242,Other,2064,United States
+EXP_00504,2024-08-23 02:50:17,Vendor_020,Marketing,516,United States
+EXP_00505,2024-12-02 15:01:57,Vendor_152,Marketing,3372,United States
+EXP_00506,2024-06-17 09:43:44,Vendor_171,Operations,1444,Panama
+EXP_00507,2024-07-20 03:30:19,Vendor_216,Marketing,2837,Panama
+EXP_00508,2024-08-18 20:54:15,Vendor_232,Marketing,2515,Panama
+EXP_00509,2024-12-16 01:09:47,Vendor_016,Marketing,2745,Mexico
+EXP_00510,2024-11-26 05:09:28,Vendor_283,Infrastructure,2707,Costa Rica
+EXP_00511,2024-07-28 01:41:51,Vendor_165,Operations,904,United States
+EXP_00512,2024-01-07 22:36:17,Vendor_269,Marketing,2865,United States
+EXP_00513,2024-12-17 10:00:47,Vendor_179,Marketing,2052,Panama
+EXP_00514,2024-08-12 21:03:43,Vendor_258,Other,3497,Mexico
+EXP_00515,2024-04-18 08:44:37,Vendor_076,Infrastructure,2063,Panama
+EXP_00516,2024-02-16 12:44:14,Vendor_105,Marketing,4505,United States
+EXP_00517,2024-08-25 08:45:42,Vendor_087,Infrastructure,4898,United States
+EXP_00518,2024-12-06 01:24:42,Vendor_014,Operations,2675,Panama
+EXP_00519,2024-09-23 04:11:08,Vendor_286,Operations,3474,United States
+EXP_00520,2024-07-19 08:02:08,Vendor_247,Payroll,4892,Costa Rica
+EXP_00521,2024-12-20 21:43:25,Vendor_241,Other,3813,Costa Rica
+EXP_00522,2024-03-29 19:41:14,Vendor_009,Payroll,3848,Panama
+EXP_00523,2024-07-03 14:00:20,Vendor_024,Infrastructure,704,Costa Rica
+EXP_00524,2024-01-05 17:37:35,Vendor_112,Other,3450,Costa Rica
+EXP_00525,2024-06-01 12:21:14,Vendor_297,Marketing,3896,Panama
+EXP_00526,2024-04-27 08:27:54,Vendor_217,Other,2800,Panama
+EXP_00527,2024-09-18 00:10:28,Vendor_228,Other,1750,Panama
+EXP_00528,2024-10-06 09:50:26,Vendor_032,Operations,4516,Costa Rica
+EXP_00529,2024-04-22 05:56:17,Vendor_277,Payroll,3648,United States
+EXP_00530,2024-01-12 18:06:37,Vendor_170,Operations,403,Mexico
+EXP_00531,2024-01-07 10:22:56,Vendor_231,Operations,618,United States
+EXP_00532,2024-12-25 14:06:54,Vendor_070,Payroll,4130,Panama
+EXP_00533,2024-12-13 09:39:17,Vendor_111,Operations,1040,United States
+EXP_00534,2024-06-11 16:24:38,Vendor_089,Other,2978,Mexico
+EXP_00535,2024-12-22 19:04:33,Vendor_002,Infrastructure,179,United States
+EXP_00536,2024-10-15 07:40:49,Vendor_056,Marketing,202,Panama
+EXP_00537,2024-12-29 22:51:26,Vendor_158,Marketing,828,Mexico
+EXP_00538,2024-11-01 17:31:32,Vendor_271,Operations,4337,Costa Rica
+EXP_00539,2024-11-25 04:15:00,Vendor_274,Payroll,2550,United States
+EXP_00540,2024-11-17 03:59:14,Vendor_032,Other,1055,Costa Rica
+EXP_00541,2024-05-30 08:07:46,Vendor_270,Operations,3760,Costa Rica
+EXP_00542,2024-04-20 14:56:46,Vendor_190,Other,4965,Mexico
+EXP_00543,2024-01-21 13:49:52,Vendor_210,Other,839,Costa Rica
+EXP_00544,2024-01-29 20:11:14,Vendor_022,Marketing,4357,Costa Rica
+EXP_00545,2024-12-07 11:24:40,Vendor_014,Infrastructure,693,United States
+EXP_00546,2024-06-01 01:27:45,Vendor_206,Infrastructure,3649,Mexico
+EXP_00547,2024-09-03 22:00:16,Vendor_034,Payroll,662,Panama
+EXP_00548,2024-09-23 12:35:04,Vendor_056,Infrastructure,1799,Panama
+EXP_00549,2024-05-09 02:40:31,Vendor_240,Operations,824,Mexico
+EXP_00550,2024-12-24 10:28:47,Vendor_063,Marketing,1533,Costa Rica
+EXP_00551,2024-03-05 16:38:12,Vendor_080,Marketing,1442,United States
+EXP_00552,2024-04-09 09:11:35,Vendor_040,Other,1995,Costa Rica
+EXP_00553,2024-07-13 02:33:46,Vendor_294,Operations,4583,Panama
+EXP_00554,2024-01-07 03:10:11,Vendor_279,Operations,4200,United States
+EXP_00555,2024-06-07 17:20:27,Vendor_256,Other,2382,Mexico
+EXP_00556,2024-09-11 04:57:56,Vendor_110,Other,474,Costa Rica
+EXP_00557,2024-06-25 14:15:01,Vendor_048,Marketing,2422,Costa Rica
+EXP_00558,2024-05-27 05:35:01,Vendor_232,Operations,1494,United States
+EXP_00559,2024-01-13 22:02:41,Vendor_082,Infrastructure,3973,Costa Rica
+EXP_00560,2024-11-01 08:20:25,Vendor_174,Infrastructure,1655,Mexico
+EXP_00561,2024-10-20 15:14:49,Vendor_113,Marketing,1023,United States
+EXP_00562,2024-05-02 17:39:20,Vendor_278,Infrastructure,940,Mexico
+EXP_00563,2024-07-07 01:11:18,Vendor_040,Infrastructure,1830,Mexico
+EXP_00564,2024-01-13 14:51:46,Vendor_030,Operations,4172,Mexico
+EXP_00565,2024-03-05 10:28:17,Vendor_255,Operations,4823,Mexico
+EXP_00566,2024-01-29 15:25:23,Vendor_240,Payroll,2151,Costa Rica
+EXP_00567,2024-05-13 17:43:35,Vendor_183,Operations,4010,United States
+EXP_00568,2024-03-20 23:59:04,Vendor_184,Payroll,1647,Costa Rica
+EXP_00569,2024-07-04 07:34:49,Vendor_042,Operations,4078,Panama
+EXP_00570,2024-04-24 06:36:17,Vendor_127,Other,2553,Mexico
+EXP_00571,2024-08-12 03:13:33,Vendor_082,Operations,1536,Mexico
+EXP_00572,2024-04-30 13:23:49,Vendor_233,Payroll,3360,Panama
+EXP_00573,2024-05-30 20:18:15,Vendor_192,Infrastructure,2464,Panama
+EXP_00574,2024-10-10 07:03:30,Vendor_001,Operations,4714,Mexico
+EXP_00575,2024-12-05 23:22:50,Vendor_207,Infrastructure,1023,Costa Rica
+EXP_00576,2024-08-04 19:51:52,Vendor_197,Infrastructure,1550,Costa Rica
+EXP_00577,2024-06-15 02:18:27,Vendor_283,Operations,1645,Mexico
+EXP_00578,2024-09-25 07:57:49,Vendor_017,Operations,4886,United States
+EXP_00579,2024-07-26 06:55:07,Vendor_169,Other,3913,Panama
+EXP_00580,2024-03-06 14:57:58,Vendor_186,Payroll,3004,Costa Rica
+EXP_00581,2024-01-11 02:04:13,Vendor_122,Operations,2358,United States
+EXP_00582,2024-11-24 15:19:54,Vendor_224,Infrastructure,3964,Mexico
+EXP_00583,2024-04-28 06:16:10,Vendor_127,Infrastructure,4642,Mexico
+EXP_00584,2024-07-07 01:19:00,Vendor_166,Operations,169,Costa Rica
+EXP_00585,2024-09-28 06:51:43,Vendor_122,Payroll,1424,Costa Rica
+EXP_00586,2024-10-05 16:17:23,Vendor_220,Infrastructure,3239,Mexico
+EXP_00587,2024-12-16 02:51:31,Vendor_279,Other,2429,Costa Rica
+EXP_00588,2024-02-20 03:46:28,Vendor_148,Infrastructure,467,Costa Rica
+EXP_00589,2024-05-28 14:19:46,Vendor_292,Payroll,1983,Costa Rica
+EXP_00590,2024-10-15 10:32:08,Vendor_247,Marketing,2188,Mexico
+EXP_00591,2024-07-05 02:18:35,Vendor_188,Other,784,Panama
+EXP_00592,2024-11-26 06:18:39,Vendor_011,Other,1873,United States
+EXP_00593,2024-12-15 03:07:23,Vendor_284,Marketing,3813,Panama
+EXP_00594,2024-06-26 02:44:06,Vendor_045,Other,2664,Mexico
+EXP_00595,2024-05-07 00:56:35,Vendor_124,Other,4041,United States
+EXP_00596,2024-12-15 11:57:58,Vendor_247,Other,3301,Mexico
+EXP_00597,2024-06-14 05:37:27,Vendor_159,Infrastructure,2020,Panama
+EXP_00598,2024-06-12 09:28:42,Vendor_267,Infrastructure,787,Mexico
+EXP_00599,2024-04-22 13:13:37,Vendor_292,Operations,3193,Costa Rica
+EXP_00600,2024-07-09 01:12:22,Vendor_078,Operations,2188,Costa Rica
+EXP_00601,2024-06-12 09:38:51,Vendor_291,Infrastructure,252,Panama
+EXP_00602,2024-02-21 13:54:48,Vendor_151,Other,4753,Costa Rica
+EXP_00603,2024-09-07 18:30:29,Vendor_285,Payroll,4128,Panama
+EXP_00604,2024-12-04 20:54:30,Vendor_151,Marketing,1170,Mexico
+EXP_00605,2024-07-19 00:39:01,Vendor_124,Operations,3890,Mexico
+EXP_00606,2024-05-16 05:57:37,Vendor_228,Other,4198,Panama
+EXP_00607,2024-08-13 06:20:28,Vendor_272,Operations,4971,United States
+EXP_00608,2024-09-24 11:37:44,Vendor_217,Payroll,1159,Panama
+EXP_00609,2024-01-07 00:13:40,Vendor_147,Other,2958,United States
+EXP_00610,2024-08-08 08:53:47,Vendor_218,Infrastructure,4191,Panama
+EXP_00611,2024-04-14 02:16:30,Vendor_096,Payroll,4438,Mexico
+EXP_00612,2024-06-16 10:39:59,Vendor_050,Operations,3921,Costa Rica
+EXP_00613,2024-05-14 11:27:14,Vendor_043,Other,1541,Panama
+EXP_00614,2024-05-26 17:58:27,Vendor_019,Other,2366,United States
+EXP_00615,2024-08-06 19:35:31,Vendor_113,Marketing,2348,Costa Rica
+EXP_00616,2024-06-25 02:59:24,Vendor_213,Marketing,4589,United States
+EXP_00617,2024-08-18 02:07:23,Vendor_018,Marketing,700,United States
+EXP_00618,2024-05-29 14:49:28,Vendor_134,Infrastructure,935,United States
+EXP_00619,2024-09-08 15:15:22,Vendor_291,Other,499,United States
+EXP_00620,2024-01-28 15:32:04,Vendor_014,Other,2428,Panama
+EXP_00621,2024-06-04 00:27:45,Vendor_064,Operations,1107,Costa Rica
+EXP_00622,2024-11-17 13:14:45,Vendor_163,Infrastructure,866,Costa Rica
+EXP_00623,2024-07-13 00:40:43,Vendor_258,Marketing,532,Costa Rica
+EXP_00624,2024-12-11 23:45:01,Vendor_006,Other,499,Costa Rica
+EXP_00625,2024-06-07 13:30:30,Vendor_121,Marketing,428,Mexico
+EXP_00626,2024-04-03 16:52:55,Vendor_153,Payroll,4830,Mexico
+EXP_00627,2024-06-17 15:54:12,Vendor_178,Infrastructure,1871,Panama
+EXP_00628,2024-07-03 00:09:27,Vendor_063,Marketing,1712,Costa Rica
+EXP_00629,2024-09-11 15:01:43,Vendor_258,Infrastructure,4273,Mexico
+EXP_00630,2024-04-01 17:14:37,Vendor_065,Other,4527,Costa Rica
+EXP_00631,2024-04-08 04:46:43,Vendor_187,Payroll,4345,Panama
+EXP_00632,2024-12-07 23:51:18,Vendor_227,Operations,2104,United States
+EXP_00633,2024-07-13 18:29:15,Vendor_199,Payroll,3110,Panama
+EXP_00634,2024-11-23 03:58:52,Vendor_294,Infrastructure,4345,Mexico
+EXP_00635,2024-02-09 13:31:52,Vendor_251,Payroll,1708,Mexico
+EXP_00636,2024-10-30 08:20:41,Vendor_193,Other,3218,Mexico
+EXP_00637,2024-09-17 17:36:03,Vendor_119,Infrastructure,461,Panama
+EXP_00638,2024-09-19 22:47:04,Vendor_179,Infrastructure,1816,Panama
+EXP_00639,2024-05-30 18:07:39,Vendor_052,Other,2521,Panama
+EXP_00640,2024-09-16 10:31:31,Vendor_110,Marketing,4290,Costa Rica
+EXP_00641,2024-09-08 13:05:52,Vendor_224,Operations,3561,Mexico
+EXP_00642,2024-10-07 07:24:35,Vendor_098,Payroll,4081,Panama
+EXP_00643,2024-08-30 18:59:45,Vendor_048,Operations,2229,Panama
+EXP_00644,2024-03-15 01:12:53,Vendor_101,Operations,4828,Costa Rica
+EXP_00645,2024-10-24 03:46:20,Vendor_240,Other,2560,Mexico
+EXP_00646,2024-07-07 03:38:38,Vendor_074,Marketing,2150,United States
+EXP_00647,2024-06-06 16:27:58,Vendor_038,Operations,4208,United States
+EXP_00648,2024-08-03 12:23:03,Vendor_216,Infrastructure,4359,Mexico
+EXP_00649,2024-08-15 02:15:01,Vendor_136,Marketing,4812,Costa Rica
+EXP_00650,2024-01-29 04:04:56,Vendor_006,Other,1468,Mexico
+EXP_00651,2024-04-08 15:04:21,Vendor_247,Operations,4361,United States
+EXP_00652,2024-02-02 11:52:10,Vendor_197,Other,3246,Panama
+EXP_00653,2024-04-26 18:47:18,Vendor_111,Payroll,760,Mexico
+EXP_00654,2024-04-12 11:34:03,Vendor_288,Other,4662,United States
+EXP_00655,2024-02-21 21:07:00,Vendor_038,Infrastructure,615,Panama
+EXP_00656,2024-04-20 06:38:47,Vendor_115,Other,819,Mexico
+EXP_00657,2024-12-10 13:48:49,Vendor_185,Marketing,271,Costa Rica
+EXP_00658,2024-09-23 11:06:41,Vendor_212,Payroll,1569,United States
+EXP_00659,2024-01-09 06:22:34,Vendor_255,Infrastructure,1273,Panama
+EXP_00660,2024-11-03 14:25:11,Vendor_113,Payroll,4766,Panama
+EXP_00661,2024-09-15 13:12:05,Vendor_270,Infrastructure,1274,Costa Rica
+EXP_00662,2024-02-22 17:24:33,Vendor_175,Payroll,3844,United States
+EXP_00663,2024-06-05 06:05:16,Vendor_019,Operations,4308,Panama
+EXP_00664,2024-01-27 22:09:09,Vendor_203,Other,2041,Costa Rica
+EXP_00665,2024-04-26 04:28:56,Vendor_126,Marketing,4131,United States
+EXP_00666,2024-04-06 23:43:17,Vendor_254,Marketing,1497,Costa Rica
+EXP_00667,2024-02-13 01:10:10,Vendor_255,Operations,4121,Costa Rica
+EXP_00668,2024-08-02 14:19:04,Vendor_288,Payroll,797,Costa Rica
+EXP_00669,2024-06-13 16:16:57,Vendor_292,Other,1874,Costa Rica
+EXP_00670,2024-03-26 18:23:26,Vendor_152,Operations,3311,United States
+EXP_00671,2024-04-17 09:08:36,Vendor_199,Payroll,3573,Costa Rica
+EXP_00672,2024-05-14 02:55:33,Vendor_199,Other,4163,Costa Rica
+EXP_00673,2024-03-31 21:29:23,Vendor_175,Payroll,2854,Panama
+EXP_00674,2024-05-23 06:28:34,Vendor_270,Marketing,4551,United States
+EXP_00675,2024-04-15 00:55:37,Vendor_180,Other,4434,United States
+EXP_00676,2024-02-28 05:35:41,Vendor_218,Marketing,3153,Costa Rica
+EXP_00677,2024-01-17 23:36:04,Vendor_118,Marketing,4708,Costa Rica
+EXP_00678,2024-01-17 22:50:58,Vendor_023,Other,2780,Mexico
+EXP_00679,2024-04-19 21:00:44,Vendor_125,Operations,3703,Costa Rica
+EXP_00680,2024-08-23 09:28:33,Vendor_084,Payroll,3444,United States
+EXP_00681,2024-09-05 08:33:18,Vendor_199,Other,1529,Panama
+EXP_00682,2024-03-05 06:16:05,Vendor_187,Marketing,2261,United States
+EXP_00683,2024-03-24 04:53:17,Vendor_092,Payroll,126,Panama
+EXP_00684,2024-03-19 16:31:03,Vendor_182,Other,3871,Costa Rica
+EXP_00685,2024-04-13 04:46:37,Vendor_227,Operations,1541,Mexico
+EXP_00686,2024-12-27 19:50:58,Vendor_199,Other,4787,Panama
+EXP_00687,2024-05-08 14:02:13,Vendor_235,Other,2327,United States
+EXP_00688,2024-03-05 06:14:02,Vendor_044,Infrastructure,666,Costa Rica
+EXP_00689,2024-09-18 16:08:31,Vendor_076,Payroll,346,Panama
+EXP_00690,2024-03-15 23:34:53,Vendor_141,Other,1623,Mexico
+EXP_00691,2024-11-23 01:37:12,Vendor_182,Marketing,2464,Mexico
+EXP_00692,2024-10-18 22:57:02,Vendor_119,Marketing,4065,Mexico
+EXP_00693,2024-01-25 01:49:17,Vendor_040,Infrastructure,3792,Costa Rica
+EXP_00694,2024-11-16 07:21:20,Vendor_260,Marketing,1873,Panama
+EXP_00695,2024-09-08 14:04:02,Vendor_244,Other,3037,Panama
+EXP_00696,2024-09-02 07:24:12,Vendor_129,Payroll,3990,Costa Rica
+EXP_00697,2024-04-22 09:39:13,Vendor_006,Infrastructure,1191,Panama
+EXP_00698,2024-07-30 23:08:11,Vendor_066,Infrastructure,846,Costa Rica
+EXP_00699,2024-03-07 12:08:39,Vendor_219,Operations,1674,Mexico
+EXP_00700,2024-06-20 10:41:28,Vendor_146,Operations,4540,Panama
+EXP_00701,2024-02-09 08:51:33,Vendor_234,Payroll,3701,Mexico
+EXP_00702,2024-01-18 20:20:50,Vendor_029,Payroll,2199,Costa Rica
+EXP_00703,2024-01-14 14:31:05,Vendor_161,Infrastructure,3616,Mexico
+EXP_00704,2024-12-03 18:59:35,Vendor_131,Other,3905,United States
+EXP_00705,2024-01-05 04:16:25,Vendor_148,Other,2952,Costa Rica
+EXP_00706,2024-02-25 06:28:46,Vendor_082,Operations,691,United States
+EXP_00707,2024-07-13 09:33:10,Vendor_083,Payroll,792,Costa Rica
+EXP_00708,2024-06-26 19:09:49,Vendor_073,Payroll,1263,Mexico
+EXP_00709,2024-01-02 07:40:49,Vendor_214,Other,3892,Mexico
+EXP_00710,2024-04-19 03:05:30,Vendor_026,Operations,508,Mexico
+EXP_00711,2024-09-21 19:57:26,Vendor_290,Other,2482,United States
+EXP_00712,2024-11-18 19:05:04,Vendor_071,Other,504,Mexico
+EXP_00713,2024-04-26 06:14:47,Vendor_177,Infrastructure,4842,United States
+EXP_00714,2024-06-21 02:44:27,Vendor_089,Payroll,1583,United States
+EXP_00715,2024-01-08 22:55:32,Vendor_177,Infrastructure,2222,Panama
+EXP_00716,2024-12-24 11:19:36,Vendor_027,Infrastructure,964,Panama
+EXP_00717,2024-07-16 10:57:47,Vendor_289,Other,1684,Panama
+EXP_00718,2024-04-01 01:28:10,Vendor_063,Operations,316,Costa Rica
+EXP_00719,2024-09-20 05:17:31,Vendor_019,Other,842,United States
+EXP_00720,2024-07-14 18:21:54,Vendor_278,Operations,4613,Mexico
+EXP_00721,2024-05-14 02:46:03,Vendor_067,Payroll,3938,Panama
+EXP_00722,2024-09-02 09:58:46,Vendor_238,Marketing,3374,Costa Rica
+EXP_00723,2024-12-21 00:59:03,Vendor_137,Payroll,4851,United States
+EXP_00724,2024-01-22 14:51:12,Vendor_163,Other,963,Costa Rica
+EXP_00725,2024-07-23 04:32:29,Vendor_293,Operations,4082,Mexico
+EXP_00726,2024-07-20 17:43:01,Vendor_028,Marketing,2955,Panama
+EXP_00727,2024-09-14 16:06:21,Vendor_256,Operations,4146,United States
+EXP_00728,2024-01-13 20:28:26,Vendor_291,Operations,3784,Costa Rica
+EXP_00729,2024-01-21 20:36:17,Vendor_112,Marketing,4491,Panama
+EXP_00730,2024-04-19 20:20:37,Vendor_240,Marketing,549,Panama
+EXP_00731,2024-12-23 13:19:06,Vendor_243,Payroll,2250,United States
+EXP_00732,2024-10-31 09:13:34,Vendor_153,Infrastructure,1215,Panama
+EXP_00733,2024-09-23 20:10:34,Vendor_265,Marketing,2937,Costa Rica
+EXP_00734,2024-09-21 00:16:11,Vendor_052,Infrastructure,3528,United States
+EXP_00735,2024-05-22 18:12:34,Vendor_265,Infrastructure,2293,United States
+EXP_00736,2024-11-04 18:38:11,Vendor_054,Infrastructure,3438,Panama
+EXP_00737,2024-03-05 02:14:14,Vendor_133,Infrastructure,2266,Mexico
+EXP_00738,2024-06-11 21:34:00,Vendor_191,Marketing,1626,Mexico
+EXP_00739,2024-09-18 11:31:54,Vendor_124,Operations,363,Mexico
+EXP_00740,2024-02-21 09:36:57,Vendor_218,Marketing,1399,Costa Rica
+EXP_00741,2024-05-28 16:52:33,Vendor_071,Marketing,3518,United States
+EXP_00742,2024-03-04 10:09:44,Vendor_214,Other,3136,Panama
+EXP_00743,2024-07-04 02:26:54,Vendor_033,Other,2812,Mexico
+EXP_00744,2024-09-27 23:20:21,Vendor_171,Payroll,886,Panama
+EXP_00745,2024-08-02 20:34:25,Vendor_291,Infrastructure,4069,Mexico
+EXP_00746,2024-04-21 21:39:51,Vendor_237,Infrastructure,2509,Mexico
+EXP_00747,2024-05-19 11:26:27,Vendor_102,Other,3146,Panama
+EXP_00748,2024-09-10 12:16:26,Vendor_010,Operations,335,Costa Rica
+EXP_00749,2024-05-10 23:00:28,Vendor_041,Payroll,3434,Panama
+EXP_00750,2024-07-11 14:31:10,Vendor_126,Operations,1174,Panama
+EXP_00751,2024-09-27 20:49:11,Vendor_273,Other,4546,Costa Rica
+EXP_00752,2024-09-12 05:49:35,Vendor_011,Operations,4612,Costa Rica
+EXP_00753,2024-05-20 15:41:10,Vendor_195,Infrastructure,2990,Panama
+EXP_00754,2024-09-06 05:24:06,Vendor_020,Other,843,Costa Rica
+EXP_00755,2024-10-22 05:18:50,Vendor_273,Operations,4043,Mexico
+EXP_00756,2024-11-25 11:47:24,Vendor_235,Payroll,1105,Costa Rica
+EXP_00757,2024-11-27 21:02:53,Vendor_227,Payroll,112,Panama
+EXP_00758,2024-02-14 00:42:46,Vendor_227,Marketing,1950,Costa Rica
+EXP_00759,2024-02-10 21:29:21,Vendor_272,Other,3703,United States
+EXP_00760,2024-10-22 01:54:47,Vendor_279,Other,2360,Costa Rica
+EXP_00761,2024-03-02 03:19:29,Vendor_124,Other,4465,Mexico
+EXP_00762,2024-09-21 00:14:58,Vendor_195,Infrastructure,1083,United States
+EXP_00763,2024-04-27 09:14:17,Vendor_071,Infrastructure,4969,Mexico
+EXP_00764,2024-05-13 09:53:42,Vendor_232,Other,2059,Mexico
+EXP_00765,2024-11-10 20:15:18,Vendor_173,Operations,2328,United States
+EXP_00766,2024-07-25 17:29:31,Vendor_203,Infrastructure,1862,Mexico
+EXP_00767,2024-07-09 05:32:54,Vendor_033,Other,1388,United States
+EXP_00768,2024-10-03 00:37:23,Vendor_211,Infrastructure,1116,Mexico
+EXP_00769,2024-10-21 02:12:04,Vendor_182,Marketing,2253,Panama
+EXP_00770,2024-10-15 09:34:46,Vendor_241,Payroll,4682,Mexico
+EXP_00771,2024-04-18 09:19:03,Vendor_051,Marketing,4599,United States
+EXP_00772,2024-11-10 06:33:03,Vendor_029,Other,4585,Panama
+EXP_00773,2024-05-01 06:30:42,Vendor_006,Payroll,707,Panama
+EXP_00774,2024-03-20 19:20:21,Vendor_133,Operations,4144,Costa Rica
+EXP_00775,2024-01-08 09:02:03,Vendor_096,Other,4318,Costa Rica
+EXP_00776,2024-12-23 10:04:40,Vendor_082,Operations,2936,Costa Rica
+EXP_00777,2024-06-13 23:43:05,Vendor_277,Operations,4232,Panama
+EXP_00778,2024-06-12 08:46:05,Vendor_217,Infrastructure,809,Costa Rica
+EXP_00779,2024-09-19 06:42:34,Vendor_280,Infrastructure,866,Panama
+EXP_00780,2024-10-20 22:21:31,Vendor_131,Payroll,4698,Costa Rica
+EXP_00781,2024-05-30 04:24:52,Vendor_086,Payroll,3698,Mexico
+EXP_00782,2024-10-02 03:11:52,Vendor_093,Infrastructure,3064,Costa Rica
+EXP_00783,2024-05-28 13:41:23,Vendor_071,Payroll,191,United States
+EXP_00784,2024-06-08 05:58:42,Vendor_191,Marketing,199,Costa Rica
+EXP_00785,2024-10-03 13:56:44,Vendor_214,Other,3124,Panama
+EXP_00786,2024-05-04 01:13:42,Vendor_047,Marketing,785,United States
+EXP_00787,2024-11-08 15:43:59,Vendor_218,Other,1850,United States
+EXP_00788,2024-06-27 21:24:04,Vendor_089,Infrastructure,4048,Panama
+EXP_00789,2024-07-07 15:50:56,Vendor_275,Marketing,3769,United States
+EXP_00790,2024-05-17 11:40:55,Vendor_227,Operations,493,United States
+EXP_00791,2024-03-05 20:39:38,Vendor_217,Marketing,693,United States
+EXP_00792,2024-07-26 09:00:16,Vendor_240,Payroll,2981,Costa Rica
+EXP_00793,2024-11-29 13:46:00,Vendor_170,Marketing,985,United States
+EXP_00794,2024-11-15 04:46:24,Vendor_232,Infrastructure,3152,Mexico
+EXP_00795,2024-07-31 03:58:27,Vendor_108,Infrastructure,604,Mexico
+EXP_00796,2024-07-09 14:52:09,Vendor_233,Payroll,3850,Costa Rica
+EXP_00797,2024-02-11 10:38:27,Vendor_170,Other,1877,Costa Rica
+EXP_00798,2024-11-04 16:51:22,Vendor_135,Payroll,4537,Mexico
+EXP_00799,2024-03-20 13:24:45,Vendor_131,Other,3597,United States
+EXP_00800,2024-08-14 10:58:00,Vendor_037,Infrastructure,233,Mexico
+EXP_00801,2024-09-19 21:08:48,Vendor_259,Infrastructure,3025,Panama
+EXP_00802,2024-01-15 00:40:41,Vendor_124,Other,4407,United States
+EXP_00803,2024-03-06 22:04:12,Vendor_263,Marketing,684,Mexico
+EXP_00804,2024-03-15 20:12:08,Vendor_217,Marketing,1536,Mexico
+EXP_00805,2024-02-10 01:52:31,Vendor_170,Payroll,456,United States
+EXP_00806,2024-09-21 17:20:03,Vendor_098,Infrastructure,3454,United States
+EXP_00807,2024-11-05 14:32:22,Vendor_186,Marketing,1850,United States
+EXP_00808,2024-04-13 01:49:44,Vendor_213,Infrastructure,1800,Costa Rica
+EXP_00809,2024-05-11 05:07:06,Vendor_232,Payroll,1809,Panama
+EXP_00810,2024-02-06 14:17:10,Vendor_167,Operations,3781,Costa Rica
+EXP_00811,2024-03-01 09:53:37,Vendor_161,Infrastructure,636,Mexico
+EXP_00812,2024-02-06 15:05:57,Vendor_284,Operations,2568,Panama
+EXP_00813,2024-12-17 11:11:08,Vendor_184,Infrastructure,250,Costa Rica
+EXP_00814,2024-04-05 19:49:09,Vendor_025,Other,1855,Mexico
+EXP_00815,2024-09-15 14:26:58,Vendor_142,Operations,2650,United States
+EXP_00816,2024-02-23 02:52:53,Vendor_183,Other,987,Mexico
+EXP_00817,2024-06-29 18:11:06,Vendor_084,Other,3095,United States
+EXP_00818,2024-02-13 14:50:29,Vendor_231,Payroll,4938,Costa Rica
+EXP_00819,2024-12-01 04:18:24,Vendor_223,Payroll,2662,Mexico
+EXP_00820,2024-02-14 08:21:45,Vendor_158,Marketing,1708,Panama
+EXP_00821,2024-10-19 04:55:51,Vendor_185,Operations,1341,Mexico
+EXP_00822,2024-09-21 05:05:12,Vendor_183,Marketing,307,United States
+EXP_00823,2024-12-08 03:37:37,Vendor_085,Operations,3932,Costa Rica
+EXP_00824,2024-10-28 12:12:03,Vendor_065,Payroll,3461,Panama
+EXP_00825,2024-01-09 14:23:22,Vendor_052,Payroll,2999,Panama
+EXP_00826,2024-05-29 19:01:25,Vendor_003,Payroll,3687,Costa Rica
+EXP_00827,2024-03-04 09:59:13,Vendor_077,Operations,2855,Costa Rica
+EXP_00828,2024-12-02 18:45:46,Vendor_135,Payroll,2825,Mexico
+EXP_00829,2024-01-14 03:33:10,Vendor_070,Marketing,4134,Mexico
+EXP_00830,2024-09-07 23:14:31,Vendor_162,Other,2379,Panama
+EXP_00831,2024-06-12 04:40:46,Vendor_096,Operations,1088,Mexico
+EXP_00832,2024-02-06 03:12:54,Vendor_016,Other,2959,United States
+EXP_00833,2024-09-05 21:42:07,Vendor_230,Marketing,4402,United States
+EXP_00834,2024-01-12 13:38:01,Vendor_267,Infrastructure,1749,Mexico
+EXP_00835,2024-07-05 23:44:32,Vendor_006,Payroll,2508,Panama
+EXP_00836,2024-12-15 23:28:41,Vendor_110,Marketing,2520,Mexico
+EXP_00837,2024-04-24 02:58:17,Vendor_143,Infrastructure,1224,Costa Rica
+EXP_00838,2024-08-26 01:19:16,Vendor_155,Operations,628,Costa Rica
+EXP_00839,2024-02-27 02:27:41,Vendor_207,Marketing,1371,Panama
+EXP_00840,2024-03-11 19:52:54,Vendor_166,Operations,1519,Panama
+EXP_00841,2024-05-04 08:32:35,Vendor_260,Other,4273,Costa Rica
+EXP_00842,2024-07-06 22:45:01,Vendor_173,Other,1835,Costa Rica
+EXP_00843,2024-05-23 07:49:12,Vendor_121,Operations,4236,United States
+EXP_00844,2024-03-13 21:24:00,Vendor_140,Other,4485,Mexico
+EXP_00845,2024-06-08 20:30:58,Vendor_168,Other,1248,Panama
+EXP_00846,2024-06-05 16:14:17,Vendor_084,Payroll,1623,Costa Rica
+EXP_00847,2024-04-14 13:54:41,Vendor_194,Operations,2861,Panama
+EXP_00848,2024-03-08 04:31:25,Vendor_276,Operations,810,Costa Rica
+EXP_00849,2024-04-24 18:07:13,Vendor_268,Infrastructure,1060,Panama
+EXP_00850,2024-11-23 18:09:20,Vendor_038,Payroll,3809,Panama
+EXP_00851,2024-05-16 06:36:28,Vendor_242,Marketing,104,United States
+EXP_00852,2024-08-29 09:57:06,Vendor_199,Payroll,217,United States
+EXP_00853,2024-03-29 04:44:25,Vendor_298,Marketing,2891,United States
+EXP_00854,2024-06-16 08:40:52,Vendor_005,Operations,4856,United States
+EXP_00855,2024-04-24 18:05:41,Vendor_103,Payroll,1666,United States
+EXP_00856,2024-06-11 10:11:35,Vendor_138,Infrastructure,4862,Costa Rica
+EXP_00857,2024-11-20 05:58:27,Vendor_293,Other,3472,Mexico
+EXP_00858,2024-05-26 14:58:56,Vendor_066,Marketing,3429,Costa Rica
+EXP_00859,2024-10-17 17:29:31,Vendor_067,Other,2808,Mexico
+EXP_00860,2024-03-17 20:18:55,Vendor_270,Operations,1285,United States
+EXP_00861,2024-12-09 10:28:40,Vendor_047,Operations,3446,Panama
+EXP_00862,2024-01-30 06:44:02,Vendor_180,Operations,4612,Panama
+EXP_00863,2024-01-18 23:56:07,Vendor_068,Other,1247,Mexico
+EXP_00864,2024-02-09 22:52:29,Vendor_115,Operations,3166,Mexico
+EXP_00865,2024-11-19 04:58:27,Vendor_026,Operations,715,Costa Rica
+EXP_00866,2024-06-13 11:57:14,Vendor_047,Other,3220,Mexico
+EXP_00867,2024-03-29 07:50:54,Vendor_207,Operations,1126,Costa Rica
+EXP_00868,2024-11-20 20:00:46,Vendor_073,Marketing,3170,United States
+EXP_00869,2024-11-19 10:02:26,Vendor_259,Payroll,861,Panama
+EXP_00870,2024-05-12 00:18:42,Vendor_030,Marketing,2730,Panama
+EXP_00871,2024-12-10 12:07:15,Vendor_003,Operations,4466,Costa Rica
+EXP_00872,2024-09-19 20:29:07,Vendor_009,Operations,2105,Mexico
+EXP_00873,2024-07-09 01:01:03,Vendor_008,Operations,4922,Costa Rica
+EXP_00874,2024-11-21 12:51:42,Vendor_009,Operations,533,Mexico
+EXP_00875,2024-06-07 21:10:30,Vendor_152,Other,4717,Mexico
+EXP_00876,2024-08-11 22:37:05,Vendor_142,Payroll,3016,Mexico
+EXP_00877,2024-12-15 06:49:43,Vendor_274,Other,4062,Costa Rica
+EXP_00878,2024-09-01 00:19:38,Vendor_027,Other,2637,United States
+EXP_00879,2024-09-21 08:27:57,Vendor_071,Operations,1322,Panama
+EXP_00880,2024-08-22 18:40:17,Vendor_219,Marketing,4631,Costa Rica
+EXP_00881,2024-12-07 00:16:00,Vendor_290,Marketing,2364,United States
+EXP_00882,2024-03-20 16:10:31,Vendor_256,Infrastructure,1633,Panama
+EXP_00883,2024-08-12 20:18:38,Vendor_103,Payroll,4893,Costa Rica
+EXP_00884,2024-09-12 17:49:07,Vendor_147,Infrastructure,891,Costa Rica
+EXP_00885,2024-01-06 01:49:57,Vendor_158,Other,3256,United States
+EXP_00886,2024-08-21 12:28:47,Vendor_140,Infrastructure,1152,Costa Rica
+EXP_00887,2024-07-31 11:39:44,Vendor_143,Infrastructure,2184,Panama
+EXP_00888,2024-10-25 23:43:14,Vendor_109,Infrastructure,2654,United States
+EXP_00889,2024-05-20 09:36:38,Vendor_064,Payroll,3703,Costa Rica
+EXP_00890,2024-07-22 13:09:10,Vendor_271,Marketing,1781,Panama
+EXP_00891,2024-05-09 00:21:46,Vendor_186,Marketing,2407,Costa Rica
+EXP_00892,2024-09-02 03:42:07,Vendor_001,Infrastructure,3822,United States
+EXP_00893,2024-12-06 15:29:17,Vendor_007,Payroll,3426,Costa Rica
+EXP_00894,2024-01-06 02:39:29,Vendor_001,Marketing,2136,Panama
+EXP_00895,2024-02-07 21:30:46,Vendor_261,Operations,3257,Mexico
+EXP_00896,2024-06-23 19:53:02,Vendor_047,Marketing,3825,Costa Rica
+EXP_00897,2024-08-17 00:27:01,Vendor_266,Marketing,2781,Costa Rica
+EXP_00898,2024-06-30 21:19:15,Vendor_002,Payroll,2064,Panama
+EXP_00899,2024-09-24 06:23:10,Vendor_023,Payroll,2559,Panama
+EXP_00900,2024-10-01 15:24:08,Vendor_084,Marketing,521,United States
+EXP_00901,2024-06-22 09:31:25,Vendor_204,Operations,1058,Mexico
+EXP_00902,2024-07-31 03:33:20,Vendor_227,Operations,2146,United States
+EXP_00903,2024-11-21 19:37:52,Vendor_252,Infrastructure,694,Panama
+EXP_00904,2024-04-27 07:03:48,Vendor_151,Infrastructure,2317,Panama
+EXP_00905,2024-05-28 02:46:50,Vendor_247,Marketing,1448,Panama
+EXP_00906,2024-09-28 08:51:03,Vendor_017,Marketing,2929,Panama
+EXP_00907,2024-10-25 08:21:10,Vendor_002,Marketing,327,United States
+EXP_00908,2024-03-09 10:20:42,Vendor_197,Operations,104,Mexico
+EXP_00909,2024-11-03 09:24:50,Vendor_269,Other,251,Panama
+EXP_00910,2024-03-01 06:58:31,Vendor_061,Infrastructure,2368,United States
+EXP_00911,2024-09-23 02:32:29,Vendor_267,Infrastructure,4352,United States
+EXP_00912,2024-01-23 14:31:14,Vendor_097,Other,3429,United States
+EXP_00913,2024-02-20 18:15:29,Vendor_283,Marketing,3177,United States
+EXP_00914,2024-05-31 05:55:57,Vendor_247,Infrastructure,2425,United States
+EXP_00915,2024-12-28 11:52:27,Vendor_035,Operations,4071,Panama
+EXP_00916,2024-05-19 22:31:18,Vendor_274,Other,1104,Panama
+EXP_00917,2024-09-01 17:43:16,Vendor_068,Operations,3760,Mexico
+EXP_00918,2024-05-31 00:07:52,Vendor_189,Marketing,3618,Mexico
+EXP_00919,2024-10-16 01:57:38,Vendor_041,Infrastructure,1094,Mexico
+EXP_00920,2024-04-06 01:52:44,Vendor_096,Operations,1836,Mexico
+EXP_00921,2024-08-24 03:27:08,Vendor_171,Other,1722,Costa Rica
+EXP_00922,2024-08-29 02:57:32,Vendor_067,Marketing,2727,United States
+EXP_00923,2024-05-21 22:11:17,Vendor_119,Infrastructure,2053,United States
+EXP_00924,2024-03-02 05:58:15,Vendor_171,Infrastructure,4808,United States
+EXP_00925,2024-08-24 17:54:16,Vendor_186,Marketing,3592,Costa Rica
+EXP_00926,2024-10-22 06:34:27,Vendor_070,Marketing,2025,United States
+EXP_00927,2024-11-03 08:27:44,Vendor_245,Marketing,272,United States
+EXP_00928,2024-03-26 14:30:47,Vendor_159,Operations,1292,United States
+EXP_00929,2024-07-12 14:50:49,Vendor_284,Payroll,1226,United States
+EXP_00930,2024-04-05 09:35:30,Vendor_107,Infrastructure,327,United States
+EXP_00931,2024-11-26 02:25:09,Vendor_036,Operations,3743,Mexico
+EXP_00932,2024-01-28 16:14:29,Vendor_195,Other,2086,Costa Rica
+EXP_00933,2024-03-04 23:18:35,Vendor_268,Infrastructure,3828,Panama
+EXP_00934,2024-11-28 11:36:34,Vendor_076,Payroll,1334,Mexico
+EXP_00935,2024-11-10 04:14:46,Vendor_280,Other,3866,Costa Rica
+EXP_00936,2024-10-13 10:06:09,Vendor_080,Infrastructure,4716,United States
+EXP_00937,2024-12-01 08:08:52,Vendor_098,Payroll,3815,Costa Rica
+EXP_00938,2024-02-09 23:04:02,Vendor_282,Marketing,4621,United States
+EXP_00939,2024-09-25 13:29:35,Vendor_118,Payroll,2221,United States
+EXP_00940,2024-07-19 22:39:32,Vendor_223,Infrastructure,442,Costa Rica
+EXP_00941,2024-03-16 13:24:34,Vendor_252,Payroll,4566,Panama
+EXP_00942,2024-01-31 19:02:48,Vendor_080,Infrastructure,3031,United States
+EXP_00943,2024-10-08 14:54:47,Vendor_170,Infrastructure,4417,United States
+EXP_00944,2024-01-23 07:22:37,Vendor_157,Payroll,4835,Mexico
+EXP_00945,2024-06-05 01:51:13,Vendor_002,Payroll,1458,Costa Rica
+EXP_00946,2024-08-03 20:30:31,Vendor_203,Other,2521,Costa Rica
+EXP_00947,2024-09-02 12:22:53,Vendor_258,Other,4932,Costa Rica
+EXP_00948,2024-03-23 18:19:35,Vendor_251,Operations,3274,Mexico
+EXP_00949,2024-10-05 13:38:58,Vendor_146,Infrastructure,837,Costa Rica
+EXP_00950,2024-10-14 22:07:37,Vendor_275,Other,4760,Costa Rica
+EXP_00951,2024-07-27 16:50:41,Vendor_019,Operations,1126,United States
+EXP_00952,2024-11-08 12:42:49,Vendor_252,Infrastructure,4739,Panama
+EXP_00953,2024-07-08 13:51:17,Vendor_284,Operations,1203,Panama
+EXP_00954,2024-06-09 09:49:37,Vendor_050,Other,2783,Mexico
+EXP_00955,2024-08-26 07:00:14,Vendor_137,Operations,495,Costa Rica
+EXP_00956,2024-04-12 09:14:43,Vendor_226,Payroll,3039,Mexico
+EXP_00957,2024-05-19 12:34:06,Vendor_221,Operations,4584,Panama
+EXP_00958,2024-11-02 06:48:34,Vendor_113,Marketing,3431,Mexico
+EXP_00959,2024-08-26 09:08:00,Vendor_149,Marketing,1634,United States
+EXP_00960,2024-12-01 08:42:31,Vendor_048,Operations,144,United States
+EXP_00961,2024-06-06 16:07:19,Vendor_058,Marketing,2079,United States
+EXP_00962,2024-01-27 19:49:47,Vendor_197,Operations,1964,Costa Rica
+EXP_00963,2024-12-07 06:11:33,Vendor_225,Operations,1907,United States
+EXP_00964,2024-02-03 16:21:31,Vendor_137,Operations,2374,Mexico
+EXP_00965,2024-02-11 13:48:32,Vendor_195,Marketing,4544,United States
+EXP_00966,2024-02-17 22:17:48,Vendor_206,Infrastructure,2260,Costa Rica
+EXP_00967,2024-04-03 03:32:56,Vendor_018,Operations,3201,United States
+EXP_00968,2024-12-28 21:46:08,Vendor_268,Operations,2423,United States
+EXP_00969,2024-02-16 03:10:38,Vendor_215,Payroll,3533,Costa Rica
+EXP_00970,2024-11-22 03:30:07,Vendor_206,Payroll,4921,Costa Rica
+EXP_00971,2024-07-11 10:37:06,Vendor_124,Other,3607,United States
+EXP_00972,2024-01-24 05:23:52,Vendor_016,Marketing,903,Panama
+EXP_00973,2024-05-21 09:57:36,Vendor_165,Infrastructure,2169,United States
+EXP_00974,2024-08-17 00:31:42,Vendor_148,Operations,4580,Mexico
+EXP_00975,2024-10-20 09:08:49,Vendor_276,Operations,590,Costa Rica
+EXP_00976,2024-10-09 06:42:11,Vendor_233,Marketing,1579,United States
+EXP_00977,2024-02-16 10:19:18,Vendor_025,Other,3035,Panama
+EXP_00978,2024-05-30 01:28:39,Vendor_268,Other,1803,United States
+EXP_00979,2024-06-03 14:38:24,Vendor_295,Payroll,4416,Mexico
+EXP_00980,2024-02-02 11:33:20,Vendor_071,Marketing,3765,Costa Rica
+EXP_00981,2024-02-12 06:56:04,Vendor_200,Other,2112,Mexico
+EXP_00982,2024-09-14 12:15:27,Vendor_047,Other,4786,Panama
+EXP_00983,2024-08-17 05:01:27,Vendor_025,Infrastructure,3330,Mexico
+EXP_00984,2024-12-17 23:22:38,Vendor_213,Payroll,242,Mexico
+EXP_00985,2024-10-30 21:58:24,Vendor_033,Payroll,1949,Costa Rica
+EXP_00986,2024-04-16 10:51:14,Vendor_214,Payroll,4120,Mexico
+EXP_00987,2024-01-25 17:07:40,Vendor_211,Other,144,Panama
+EXP_00988,2024-05-08 20:35:28,Vendor_029,Operations,550,Panama
+EXP_00989,2024-08-29 23:23:09,Vendor_259,Other,1359,Costa Rica
+EXP_00990,2024-06-25 21:20:59,Vendor_039,Other,1103,Panama
+EXP_00991,2024-11-05 15:34:24,Vendor_260,Marketing,4877,Panama
+EXP_00992,2024-04-10 16:40:35,Vendor_165,Payroll,3451,Panama
+EXP_00993,2024-11-24 14:02:48,Vendor_095,Payroll,2096,Panama
+EXP_00994,2024-06-23 05:33:32,Vendor_220,Infrastructure,3774,Panama
+EXP_00995,2024-11-07 15:26:23,Vendor_268,Payroll,3588,Panama
+EXP_00996,2024-11-26 07:03:32,Vendor_118,Other,4988,Panama
+EXP_00997,2024-02-21 15:36:45,Vendor_066,Marketing,3753,United States
+EXP_00998,2024-08-16 04:48:50,Vendor_193,Infrastructure,3132,Panama
+EXP_00999,2024-05-11 14:02:01,Vendor_035,Other,1594,Costa Rica
+EXP_01000,2024-02-23 10:53:10,Vendor_175,Other,1172,United States
+EXP_01001,2024-06-19 20:27:25,Vendor_112,Infrastructure,4212,Panama
+EXP_01002,2024-03-26 23:29:25,Vendor_290,Other,4344,Panama
+EXP_01003,2024-03-03 01:27:54,Vendor_080,Other,1678,Costa Rica
+EXP_01004,2024-10-04 22:53:12,Vendor_111,Marketing,1335,Panama
+EXP_01005,2024-01-09 22:07:31,Vendor_092,Marketing,1839,United States
+EXP_01006,2024-05-30 16:45:55,Vendor_186,Marketing,1115,United States
+EXP_01007,2024-12-02 09:15:11,Vendor_041,Payroll,4912,Costa Rica
+EXP_01008,2024-08-04 10:15:36,Vendor_087,Infrastructure,3065,Panama
+EXP_01009,2024-12-23 12:02:09,Vendor_224,Marketing,1659,Costa Rica
+EXP_01010,2024-01-05 07:47:53,Vendor_051,Other,1668,Panama
+EXP_01011,2024-08-30 09:19:45,Vendor_126,Payroll,2086,United States
+EXP_01012,2024-05-23 17:02:48,Vendor_146,Infrastructure,1610,Panama
+EXP_01013,2024-11-17 05:34:30,Vendor_041,Marketing,4675,Panama
+EXP_01014,2024-01-22 06:28:04,Vendor_024,Marketing,3956,United States
+EXP_01015,2024-10-23 00:58:21,Vendor_284,Infrastructure,1811,United States
+EXP_01016,2024-09-25 16:46:44,Vendor_036,Marketing,4239,United States
+EXP_01017,2024-10-22 02:09:28,Vendor_277,Infrastructure,3627,Panama
+EXP_01018,2024-06-02 14:06:52,Vendor_184,Infrastructure,3968,Costa Rica
+EXP_01019,2024-02-22 23:55:26,Vendor_154,Other,4551,United States
+EXP_01020,2024-09-25 12:38:33,Vendor_182,Infrastructure,4669,Panama
+EXP_01021,2024-10-03 13:21:40,Vendor_154,Operations,3769,Costa Rica
+EXP_01022,2024-06-18 21:57:44,Vendor_150,Marketing,3744,Mexico
+EXP_01023,2024-11-10 10:58:47,Vendor_002,Other,2260,Mexico
+EXP_01024,2024-07-22 12:59:33,Vendor_297,Payroll,1601,Panama
+EXP_01025,2024-05-21 22:52:36,Vendor_054,Operations,914,Panama
+EXP_01026,2024-12-01 07:07:08,Vendor_246,Infrastructure,4165,United States
+EXP_01027,2024-12-22 15:37:08,Vendor_046,Payroll,3425,Panama
+EXP_01028,2024-01-06 16:07:32,Vendor_075,Payroll,4596,Costa Rica
+EXP_01029,2024-08-09 16:27:57,Vendor_149,Payroll,1423,Panama
+EXP_01030,2024-08-28 09:35:28,Vendor_003,Payroll,104,Costa Rica
+EXP_01031,2024-06-21 23:00:42,Vendor_009,Other,3617,Costa Rica
+EXP_01032,2024-03-13 23:45:08,Vendor_002,Other,1358,United States
+EXP_01033,2024-11-19 13:24:02,Vendor_238,Payroll,2134,Costa Rica
+EXP_01034,2024-07-11 20:05:09,Vendor_028,Operations,299,Panama
+EXP_01035,2024-06-26 18:56:56,Vendor_290,Marketing,1805,Costa Rica
+EXP_01036,2024-07-27 12:33:47,Vendor_181,Marketing,4041,Mexico
+EXP_01037,2024-01-15 10:38:06,Vendor_266,Other,4031,Costa Rica
+EXP_01038,2024-01-11 13:40:18,Vendor_083,Operations,2168,Panama
+EXP_01039,2024-03-11 20:37:20,Vendor_253,Operations,3858,United States
+EXP_01040,2024-07-31 14:54:15,Vendor_258,Infrastructure,3245,Panama
+EXP_01041,2024-10-06 05:38:19,Vendor_048,Other,2943,Panama
+EXP_01042,2024-09-29 04:56:12,Vendor_134,Operations,2296,Panama
+EXP_01043,2024-02-13 10:09:01,Vendor_199,Operations,724,Mexico
+EXP_01044,2024-03-25 19:21:28,Vendor_292,Marketing,2233,United States
+EXP_01045,2024-01-29 19:03:05,Vendor_136,Operations,2678,Mexico
+EXP_01046,2024-04-01 23:26:11,Vendor_083,Operations,791,Costa Rica
+EXP_01047,2024-02-26 03:40:41,Vendor_266,Payroll,2697,Costa Rica
+EXP_01048,2024-09-22 06:17:49,Vendor_219,Marketing,913,Mexico
+EXP_01049,2024-06-21 07:35:41,Vendor_019,Marketing,1727,United States
+EXP_01050,2024-04-07 15:10:36,Vendor_018,Payroll,4716,Costa Rica
+EXP_01051,2024-03-26 13:35:48,Vendor_179,Marketing,3692,United States
+EXP_01052,2024-12-15 17:56:13,Vendor_023,Infrastructure,2680,Mexico
+EXP_01053,2024-10-11 08:18:04,Vendor_244,Infrastructure,4032,Costa Rica
+EXP_01054,2024-02-25 05:21:59,Vendor_107,Other,395,Mexico
+EXP_01055,2024-01-02 11:27:14,Vendor_131,Marketing,3351,Costa Rica
+EXP_01056,2024-01-07 01:18:11,Vendor_010,Marketing,1254,Panama
+EXP_01057,2024-08-09 23:45:47,Vendor_199,Infrastructure,4080,United States
+EXP_01058,2024-08-31 13:27:50,Vendor_090,Other,632,Mexico
+EXP_01059,2024-04-12 09:16:17,Vendor_144,Other,987,Panama
+EXP_01060,2024-08-16 21:20:00,Vendor_295,Infrastructure,3372,Mexico
+EXP_01061,2024-06-12 01:28:35,Vendor_109,Infrastructure,3025,Mexico
+EXP_01062,2024-09-03 22:00:07,Vendor_204,Payroll,2532,United States
+EXP_01063,2024-01-29 22:06:54,Vendor_044,Other,3697,Mexico
+EXP_01064,2024-01-20 09:33:04,Vendor_008,Other,2520,United States
+EXP_01065,2024-01-08 11:07:05,Vendor_153,Payroll,3335,Mexico
+EXP_01066,2024-02-04 08:29:01,Vendor_017,Infrastructure,4718,Costa Rica
+EXP_01067,2024-10-21 03:19:09,Vendor_237,Payroll,934,Panama
+EXP_01068,2024-10-06 16:54:10,Vendor_056,Payroll,1477,Costa Rica
+EXP_01069,2024-10-13 17:30:07,Vendor_044,Operations,3580,United States
+EXP_01070,2024-01-30 11:43:31,Vendor_241,Other,4706,United States
+EXP_01071,2024-04-16 07:22:59,Vendor_039,Infrastructure,311,Panama
+EXP_01072,2024-05-16 02:07:11,Vendor_130,Operations,1026,United States
+EXP_01073,2024-01-02 23:21:22,Vendor_098,Operations,2772,Costa Rica
+EXP_01074,2024-12-29 07:36:50,Vendor_281,Operations,4132,Panama
+EXP_01075,2024-02-06 14:25:48,Vendor_080,Infrastructure,444,United States
+EXP_01076,2024-11-23 16:15:34,Vendor_288,Payroll,3182,United States
+EXP_01077,2024-02-29 17:43:51,Vendor_234,Infrastructure,4531,United States
+EXP_01078,2024-01-18 09:57:33,Vendor_169,Other,1801,United States
+EXP_01079,2024-02-16 16:11:08,Vendor_079,Other,4800,Mexico
+EXP_01080,2024-09-23 16:36:03,Vendor_071,Payroll,3946,Mexico
+EXP_01081,2024-12-27 12:43:54,Vendor_263,Infrastructure,4116,Mexico
+EXP_01082,2024-02-18 08:55:03,Vendor_200,Payroll,395,United States
+EXP_01083,2024-09-18 10:33:59,Vendor_211,Payroll,2848,Mexico
+EXP_01084,2024-08-18 19:57:09,Vendor_018,Infrastructure,4583,United States
+EXP_01085,2024-06-26 16:52:00,Vendor_273,Other,1596,Costa Rica
+EXP_01086,2024-03-08 01:04:54,Vendor_210,Infrastructure,3179,United States
+EXP_01087,2024-07-11 22:20:38,Vendor_117,Other,1667,Panama
+EXP_01088,2024-08-24 16:50:28,Vendor_104,Marketing,2075,Panama
+EXP_01089,2024-06-26 07:56:53,Vendor_077,Marketing,4232,Panama
+EXP_01090,2024-06-27 22:21:01,Vendor_011,Marketing,4378,United States
+EXP_01091,2024-11-27 17:07:20,Vendor_051,Operations,4265,Panama
+EXP_01092,2024-12-17 13:05:38,Vendor_007,Other,336,Panama
+EXP_01093,2024-10-18 21:39:55,Vendor_037,Other,563,United States
+EXP_01094,2024-01-03 11:38:11,Vendor_261,Infrastructure,4386,United States
+EXP_01095,2024-05-15 21:27:52,Vendor_062,Other,1029,Mexico
+EXP_01096,2024-01-08 15:11:10,Vendor_200,Infrastructure,1986,United States
+EXP_01097,2024-11-20 13:24:09,Vendor_090,Operations,4011,Mexico
+EXP_01098,2024-05-03 10:34:37,Vendor_079,Infrastructure,4512,United States
+EXP_01099,2024-06-14 20:28:11,Vendor_055,Marketing,817,Costa Rica
+EXP_01100,2024-03-14 04:12:33,Vendor_221,Infrastructure,757,Panama
+EXP_01101,2024-01-21 22:10:21,Vendor_092,Infrastructure,1312,Costa Rica
+EXP_01102,2024-07-26 22:56:12,Vendor_074,Infrastructure,3921,United States
+EXP_01103,2024-11-14 22:18:06,Vendor_056,Other,4152,Costa Rica
+EXP_01104,2024-02-01 20:26:44,Vendor_232,Payroll,2370,Mexico
+EXP_01105,2024-07-31 23:33:38,Vendor_179,Payroll,857,United States
+EXP_01106,2024-01-05 15:36:39,Vendor_061,Payroll,3578,United States
+EXP_01107,2024-03-11 12:29:00,Vendor_117,Other,1330,Costa Rica
+EXP_01108,2024-03-22 22:07:36,Vendor_078,Marketing,3073,Panama
+EXP_01109,2024-04-29 09:46:56,Vendor_236,Payroll,2547,United States
+EXP_01110,2024-03-08 12:03:43,Vendor_033,Payroll,3358,Panama
+EXP_01111,2024-02-16 22:58:12,Vendor_055,Operations,2112,Costa Rica
+EXP_01112,2024-07-25 22:21:49,Vendor_243,Operations,3775,Costa Rica
+EXP_01113,2024-07-14 03:59:04,Vendor_274,Marketing,182,Costa Rica
+EXP_01114,2024-06-02 22:32:10,Vendor_074,Infrastructure,3862,Mexico
+EXP_01115,2024-07-31 02:44:49,Vendor_021,Infrastructure,1500,United States
+EXP_01116,2024-12-25 19:43:40,Vendor_201,Operations,758,Costa Rica
+EXP_01117,2024-06-09 13:52:00,Vendor_154,Operations,2972,Costa Rica
+EXP_01118,2024-06-22 13:01:27,Vendor_254,Marketing,1437,Mexico
+EXP_01119,2024-07-30 20:33:57,Vendor_207,Marketing,3324,United States
+EXP_01120,2024-12-03 01:25:17,Vendor_149,Other,793,Panama
+EXP_01121,2024-04-25 11:33:51,Vendor_183,Infrastructure,4427,United States
+EXP_01122,2024-11-04 04:47:57,Vendor_297,Other,1244,Costa Rica
+EXP_01123,2024-07-02 12:28:17,Vendor_261,Payroll,3356,Panama
+EXP_01124,2024-04-17 06:36:18,Vendor_044,Marketing,3627,Mexico
+EXP_01125,2024-01-23 21:53:56,Vendor_144,Infrastructure,1952,Mexico
+EXP_01126,2024-07-23 02:18:24,Vendor_244,Infrastructure,4583,Costa Rica
+EXP_01127,2024-05-02 07:56:33,Vendor_005,Other,2779,Panama
+EXP_01128,2024-12-07 07:58:50,Vendor_062,Operations,963,United States
+EXP_01129,2024-11-15 23:33:47,Vendor_026,Operations,1349,Costa Rica
+EXP_01130,2024-08-31 03:13:20,Vendor_184,Marketing,1318,Panama
+EXP_01131,2024-03-23 05:48:45,Vendor_036,Operations,1149,Panama
+EXP_01132,2024-04-01 22:34:50,Vendor_030,Payroll,3002,Panama
+EXP_01133,2024-09-10 19:14:30,Vendor_069,Infrastructure,4732,Panama
+EXP_01134,2024-07-20 10:01:26,Vendor_232,Operations,4906,Mexico
+EXP_01135,2024-09-06 04:14:17,Vendor_176,Marketing,1594,Panama
+EXP_01136,2024-05-24 13:18:54,Vendor_278,Payroll,2436,Panama
+EXP_01137,2024-02-21 00:22:05,Vendor_033,Other,467,Costa Rica
+EXP_01138,2024-04-26 22:29:24,Vendor_069,Other,511,Mexico
+EXP_01139,2024-06-09 00:14:17,Vendor_255,Payroll,3193,Mexico
+EXP_01140,2024-11-02 15:02:29,Vendor_050,Marketing,453,Mexico
+EXP_01141,2024-02-27 05:22:04,Vendor_023,Other,1665,United States
+EXP_01142,2024-03-31 12:10:26,Vendor_254,Infrastructure,1438,United States
+EXP_01143,2024-04-03 13:07:54,Vendor_164,Infrastructure,4977,Mexico
+EXP_01144,2024-06-30 02:09:37,Vendor_273,Marketing,428,Costa Rica
+EXP_01145,2024-07-26 17:43:05,Vendor_181,Marketing,1593,Panama
+EXP_01146,2024-04-18 07:34:36,Vendor_250,Infrastructure,2929,Panama
+EXP_01147,2024-04-04 18:50:38,Vendor_237,Marketing,1586,Mexico
+EXP_01148,2024-10-06 22:43:36,Vendor_232,Payroll,3835,Mexico
+EXP_01149,2024-02-15 06:15:29,Vendor_122,Marketing,837,United States
+EXP_01150,2024-11-12 19:16:29,Vendor_242,Infrastructure,3988,Mexico
+EXP_01151,2024-10-23 12:36:56,Vendor_134,Operations,4943,United States
+EXP_01152,2024-08-15 00:25:11,Vendor_071,Marketing,1894,Mexico
+EXP_01153,2024-08-11 11:44:39,Vendor_279,Other,1402,Panama
+EXP_01154,2024-08-15 16:15:34,Vendor_219,Payroll,2768,Mexico
+EXP_01155,2024-02-28 10:12:40,Vendor_185,Payroll,4338,Panama
+EXP_01156,2024-01-31 05:10:50,Vendor_217,Payroll,3982,Mexico
+EXP_01157,2024-03-14 20:01:51,Vendor_281,Other,4266,United States
+EXP_01158,2024-11-21 21:19:46,Vendor_281,Other,737,Mexico
+EXP_01159,2024-01-21 23:35:51,Vendor_125,Payroll,4662,Costa Rica
+EXP_01160,2024-08-06 11:06:24,Vendor_179,Payroll,2741,Panama
+EXP_01161,2024-02-27 14:09:36,Vendor_035,Payroll,140,Panama
+EXP_01162,2024-06-24 15:24:10,Vendor_070,Marketing,4085,Panama
+EXP_01163,2024-04-02 10:06:36,Vendor_178,Other,3046,Mexico
+EXP_01164,2024-05-24 01:21:34,Vendor_049,Infrastructure,870,Costa Rica
+EXP_01165,2024-03-08 21:14:38,Vendor_068,Marketing,4474,Costa Rica
+EXP_01166,2024-07-30 06:07:33,Vendor_007,Infrastructure,3116,United States
+EXP_01167,2024-01-14 18:34:54,Vendor_094,Marketing,3810,United States
+EXP_01168,2024-04-17 20:52:07,Vendor_081,Marketing,157,United States
+EXP_01169,2024-06-04 19:33:59,Vendor_250,Infrastructure,4363,Costa Rica
+EXP_01170,2024-10-12 01:00:41,Vendor_038,Payroll,1753,Panama
+EXP_01171,2024-01-11 07:46:08,Vendor_045,Infrastructure,3337,Panama
+EXP_01172,2024-06-13 17:16:58,Vendor_137,Operations,181,United States
+EXP_01173,2024-04-01 01:12:46,Vendor_229,Other,4329,United States
+EXP_01174,2024-09-19 11:12:56,Vendor_183,Operations,1608,Mexico
+EXP_01175,2024-06-10 02:41:51,Vendor_204,Marketing,361,Mexico
+EXP_01176,2024-08-23 21:38:39,Vendor_111,Infrastructure,3806,Costa Rica
+EXP_01177,2024-09-16 01:04:38,Vendor_068,Payroll,4214,Mexico
+EXP_01178,2024-02-19 05:22:40,Vendor_038,Payroll,2417,United States
+EXP_01179,2024-06-16 06:26:36,Vendor_198,Operations,4772,United States
+EXP_01180,2024-01-31 21:01:45,Vendor_092,Operations,3902,United States
+EXP_01181,2024-10-11 22:06:25,Vendor_264,Marketing,3011,Panama
+EXP_01182,2024-03-08 03:08:55,Vendor_243,Other,768,United States
+EXP_01183,2024-08-23 02:22:47,Vendor_116,Marketing,1370,Mexico
+EXP_01184,2024-05-08 01:08:26,Vendor_095,Payroll,1834,Costa Rica
+EXP_01185,2024-04-06 21:18:04,Vendor_213,Infrastructure,3914,Mexico
+EXP_01186,2024-10-01 12:32:04,Vendor_246,Operations,4119,Panama
+EXP_01187,2024-12-06 09:05:53,Vendor_173,Payroll,4815,Mexico
+EXP_01188,2024-06-20 11:36:50,Vendor_285,Marketing,3957,Mexico
+EXP_01189,2024-11-01 11:33:22,Vendor_079,Other,1999,Panama
+EXP_01190,2024-10-27 14:37:13,Vendor_280,Infrastructure,2331,Mexico
+EXP_01191,2024-10-01 02:19:12,Vendor_149,Other,540,Panama
+EXP_01192,2024-03-26 13:38:37,Vendor_279,Marketing,680,Mexico
+EXP_01193,2024-01-19 15:56:05,Vendor_226,Marketing,3421,Panama
+EXP_01194,2024-03-02 06:27:09,Vendor_118,Payroll,475,Costa Rica
+EXP_01195,2024-07-05 09:44:36,Vendor_073,Infrastructure,3901,Costa Rica
+EXP_01196,2024-08-24 11:12:18,Vendor_006,Marketing,1907,Panama
+EXP_01197,2024-05-19 13:11:36,Vendor_022,Payroll,828,United States
+EXP_01198,2024-01-28 09:42:47,Vendor_179,Marketing,2537,Panama
+EXP_01199,2024-03-21 20:52:54,Vendor_196,Payroll,4375,Mexico
+EXP_01200,2024-04-29 21:08:27,Vendor_109,Other,2523,United States
+EXP_01201,2024-11-12 17:50:37,Vendor_185,Payroll,2991,United States
+EXP_01202,2024-03-06 10:47:24,Vendor_055,Other,2476,United States
+EXP_01203,2024-08-25 23:40:46,Vendor_229,Operations,2068,Panama
+EXP_01204,2024-01-07 09:41:03,Vendor_019,Marketing,2347,Panama
+EXP_01205,2024-02-26 13:34:18,Vendor_216,Operations,2843,United States
+EXP_01206,2024-01-10 03:21:21,Vendor_048,Infrastructure,2956,Panama
+EXP_01207,2024-12-07 04:31:57,Vendor_160,Operations,1859,Costa Rica
+EXP_01208,2024-05-02 01:54:49,Vendor_273,Payroll,2012,Mexico
+EXP_01209,2024-05-29 18:42:28,Vendor_096,Payroll,3772,Mexico
+EXP_01210,2024-12-12 03:12:37,Vendor_030,Infrastructure,3908,Mexico
+EXP_01211,2024-06-14 20:58:29,Vendor_121,Infrastructure,2082,Panama
+EXP_01212,2024-08-01 10:24:34,Vendor_190,Marketing,2777,Mexico
+EXP_01213,2024-07-22 12:11:11,Vendor_152,Payroll,1794,Costa Rica
+EXP_01214,2024-04-02 00:30:50,Vendor_255,Infrastructure,4631,Mexico
+EXP_01215,2024-11-06 03:45:39,Vendor_191,Operations,1837,Costa Rica
+EXP_01216,2024-11-25 02:42:50,Vendor_142,Payroll,145,Panama
+EXP_01217,2024-01-26 00:45:04,Vendor_246,Infrastructure,2041,Panama
+EXP_01218,2024-09-25 14:20:27,Vendor_034,Marketing,4439,Mexico
+EXP_01219,2024-08-26 14:42:27,Vendor_187,Other,255,United States
+EXP_01220,2024-07-19 14:03:42,Vendor_086,Payroll,3565,Costa Rica
+EXP_01221,2024-08-22 03:33:42,Vendor_161,Payroll,1061,United States
+EXP_01222,2024-12-05 16:08:06,Vendor_118,Payroll,1044,Costa Rica
+EXP_01223,2024-12-02 13:12:35,Vendor_111,Payroll,1378,Panama
+EXP_01224,2024-04-04 22:35:05,Vendor_058,Other,1485,Panama
+EXP_01225,2024-07-27 08:42:05,Vendor_018,Other,4154,Costa Rica
+EXP_01226,2024-10-08 09:49:35,Vendor_140,Marketing,4019,Costa Rica
+EXP_01227,2024-08-24 14:35:25,Vendor_194,Payroll,1836,Panama
+EXP_01228,2024-06-28 15:37:00,Vendor_130,Infrastructure,2966,Costa Rica
+EXP_01229,2024-05-28 12:31:29,Vendor_212,Operations,2524,Costa Rica
+EXP_01230,2024-04-27 11:42:01,Vendor_284,Payroll,4348,United States
+EXP_01231,2024-02-29 15:49:39,Vendor_120,Other,3938,Mexico
+EXP_01232,2024-11-18 16:16:23,Vendor_042,Marketing,2919,United States
+EXP_01233,2024-01-18 10:21:21,Vendor_003,Payroll,3323,Panama
+EXP_01234,2024-08-19 02:41:40,Vendor_229,Marketing,2750,United States
+EXP_01235,2024-03-13 21:21:26,Vendor_229,Infrastructure,339,Panama
+EXP_01236,2024-12-27 10:23:05,Vendor_141,Infrastructure,3354,Costa Rica
+EXP_01237,2024-09-27 12:17:25,Vendor_057,Infrastructure,4626,Mexico
+EXP_01238,2024-03-26 16:42:39,Vendor_216,Infrastructure,599,Panama
+EXP_01239,2024-04-24 04:40:45,Vendor_131,Operations,3969,Mexico
+EXP_01240,2024-11-30 12:36:40,Vendor_114,Marketing,4492,Mexico
+EXP_01241,2024-08-10 07:54:57,Vendor_191,Payroll,2330,United States
+EXP_01242,2024-05-13 19:09:07,Vendor_243,Operations,3728,Panama
+EXP_01243,2024-11-15 12:39:18,Vendor_294,Payroll,1529,United States
+EXP_01244,2024-07-01 17:31:07,Vendor_028,Other,626,Costa Rica
+EXP_01245,2024-11-30 05:15:48,Vendor_026,Operations,1908,Costa Rica
+EXP_01246,2024-10-20 15:57:08,Vendor_084,Operations,1310,Panama
+EXP_01247,2024-11-06 03:33:39,Vendor_202,Other,4047,Panama
+EXP_01248,2024-10-30 02:29:12,Vendor_061,Operations,1148,Costa Rica
+EXP_01249,2024-12-08 02:53:31,Vendor_185,Marketing,4494,Panama
+EXP_01250,2024-08-23 13:14:55,Vendor_246,Infrastructure,4768,United States
+EXP_01251,2024-12-02 00:05:13,Vendor_001,Payroll,1254,United States
+EXP_01252,2024-06-05 17:53:23,Vendor_243,Other,775,Panama
+EXP_01253,2024-10-08 05:21:54,Vendor_032,Infrastructure,3138,United States
+EXP_01254,2024-01-12 01:22:32,Vendor_235,Operations,3378,Panama
+EXP_01255,2024-03-18 21:21:10,Vendor_017,Marketing,2385,United States
+EXP_01256,2024-04-16 19:47:36,Vendor_089,Operations,2339,United States
+EXP_01257,2024-11-16 11:15:47,Vendor_052,Other,1151,Mexico
+EXP_01258,2024-05-20 13:41:06,Vendor_164,Operations,3278,United States
+EXP_01259,2024-05-30 12:23:37,Vendor_032,Marketing,3394,Panama
+EXP_01260,2024-03-29 12:37:59,Vendor_198,Operations,528,United States
+EXP_01261,2024-09-25 22:45:23,Vendor_201,Operations,2231,United States
+EXP_01262,2024-08-16 04:46:01,Vendor_107,Operations,597,Costa Rica
+EXP_01263,2024-04-12 20:57:22,Vendor_296,Operations,2384,Panama
+EXP_01264,2024-07-11 17:47:27,Vendor_028,Marketing,3966,United States
+EXP_01265,2024-04-22 11:34:54,Vendor_287,Payroll,950,Mexico
+EXP_01266,2024-06-24 02:34:51,Vendor_119,Infrastructure,2759,Costa Rica
+EXP_01267,2024-07-29 22:32:51,Vendor_031,Other,2991,Mexico
+EXP_01268,2024-05-12 13:43:59,Vendor_154,Payroll,1158,Mexico
+EXP_01269,2024-06-24 06:35:39,Vendor_260,Marketing,2244,Costa Rica
+EXP_01270,2024-07-27 07:23:54,Vendor_107,Other,3404,Mexico
+EXP_01271,2024-10-25 08:19:31,Vendor_251,Other,2672,Panama
+EXP_01272,2024-05-20 10:10:30,Vendor_107,Operations,1881,Panama
+EXP_01273,2024-01-08 08:02:06,Vendor_117,Infrastructure,588,Mexico
+EXP_01274,2024-06-11 11:15:24,Vendor_245,Infrastructure,503,Panama
+EXP_01275,2024-08-02 21:58:58,Vendor_079,Marketing,4969,United States
+EXP_01276,2024-01-29 21:18:08,Vendor_229,Payroll,502,United States
+EXP_01277,2024-11-24 16:59:53,Vendor_023,Operations,3757,United States
+EXP_01278,2024-05-14 04:41:11,Vendor_197,Infrastructure,1901,Mexico
+EXP_01279,2024-05-08 14:13:57,Vendor_188,Operations,283,Mexico
+EXP_01280,2024-11-06 02:28:29,Vendor_217,Payroll,3739,Panama
+EXP_01281,2024-01-06 12:17:22,Vendor_247,Other,1616,Panama
+EXP_01282,2024-05-06 18:25:35,Vendor_154,Payroll,4256,Panama
+EXP_01283,2024-05-26 13:26:15,Vendor_195,Other,1808,Mexico
+EXP_01284,2024-10-11 09:15:33,Vendor_116,Payroll,3793,Panama
+EXP_01285,2024-11-04 06:02:08,Vendor_196,Operations,2047,United States
+EXP_01286,2024-02-19 21:27:20,Vendor_055,Payroll,4341,United States
+EXP_01287,2024-01-30 13:34:34,Vendor_175,Infrastructure,1649,Costa Rica
+EXP_01288,2024-05-23 07:12:24,Vendor_144,Infrastructure,4378,Costa Rica
+EXP_01289,2024-05-13 22:05:12,Vendor_217,Marketing,4510,Costa Rica
+EXP_01290,2024-02-13 09:19:09,Vendor_257,Infrastructure,4048,United States
+EXP_01291,2024-06-19 10:19:24,Vendor_127,Infrastructure,4854,Mexico
+EXP_01292,2024-08-15 01:55:55,Vendor_173,Other,2891,Panama
+EXP_01293,2024-09-18 08:10:29,Vendor_094,Operations,1095,Panama
+EXP_01294,2024-06-10 13:37:41,Vendor_219,Operations,2956,Mexico
+EXP_01295,2024-02-25 23:27:56,Vendor_052,Other,751,Costa Rica
+EXP_01296,2024-04-30 10:23:31,Vendor_019,Infrastructure,992,Mexico
+EXP_01297,2024-12-19 01:41:43,Vendor_237,Payroll,2936,United States
+EXP_01298,2024-08-13 05:17:28,Vendor_171,Other,2102,Mexico
+EXP_01299,2024-10-31 11:37:31,Vendor_275,Operations,1164,United States
+EXP_01300,2024-12-30 05:35:34,Vendor_295,Marketing,2530,United States
+EXP_01301,2024-12-03 17:36:12,Vendor_160,Operations,268,Costa Rica
+EXP_01302,2024-01-22 19:08:49,Vendor_240,Payroll,270,Panama
+EXP_01303,2024-05-19 01:55:45,Vendor_065,Operations,3789,Costa Rica
+EXP_01304,2024-01-10 09:35:55,Vendor_217,Other,838,United States
+EXP_01305,2024-03-28 20:05:34,Vendor_047,Marketing,3627,Costa Rica
+EXP_01306,2024-09-21 09:41:13,Vendor_074,Operations,3662,Panama
+EXP_01307,2024-06-06 00:33:51,Vendor_164,Other,1417,Costa Rica
+EXP_01308,2024-01-30 09:26:18,Vendor_198,Other,1387,United States
+EXP_01309,2024-04-18 05:06:09,Vendor_148,Other,2394,Panama
+EXP_01310,2024-06-04 22:05:39,Vendor_086,Marketing,4343,Costa Rica
+EXP_01311,2024-11-13 15:10:16,Vendor_009,Other,4136,Mexico
+EXP_01312,2024-02-11 09:43:32,Vendor_253,Marketing,4636,Panama
+EXP_01313,2024-03-10 20:56:01,Vendor_232,Payroll,4557,Costa Rica
+EXP_01314,2024-10-16 17:01:39,Vendor_247,Payroll,2369,Mexico
+EXP_01315,2024-12-23 21:40:54,Vendor_001,Payroll,757,Panama
+EXP_01316,2024-07-30 09:29:40,Vendor_267,Other,4303,Mexico
+EXP_01317,2024-04-13 01:28:10,Vendor_105,Marketing,3301,Costa Rica
+EXP_01318,2024-01-15 21:54:15,Vendor_234,Payroll,675,Mexico
+EXP_01319,2024-12-01 08:08:16,Vendor_257,Infrastructure,399,Mexico
+EXP_01320,2024-05-04 08:54:37,Vendor_081,Payroll,3606,United States
+EXP_01321,2024-04-02 18:52:12,Vendor_123,Other,1992,Mexico
+EXP_01322,2024-04-13 10:00:30,Vendor_172,Infrastructure,323,Panama
+EXP_01323,2024-08-22 19:45:40,Vendor_273,Operations,3748,Mexico
+EXP_01324,2024-03-08 13:44:35,Vendor_247,Infrastructure,2841,Mexico
+EXP_01325,2024-01-22 16:47:30,Vendor_194,Operations,1958,Panama
+EXP_01326,2024-04-19 08:24:38,Vendor_112,Infrastructure,3794,Costa Rica
+EXP_01327,2024-12-03 21:12:57,Vendor_023,Marketing,2397,Costa Rica
+EXP_01328,2024-06-13 17:55:43,Vendor_202,Infrastructure,4436,Mexico
+EXP_01329,2024-12-17 13:45:14,Vendor_106,Payroll,2964,Panama
+EXP_01330,2024-05-28 02:05:20,Vendor_094,Operations,3644,Mexico
+EXP_01331,2024-05-09 13:04:53,Vendor_025,Operations,1799,Panama
+EXP_01332,2024-11-10 00:21:43,Vendor_145,Payroll,3434,Panama
+EXP_01333,2024-04-11 11:46:57,Vendor_019,Marketing,2162,Costa Rica
+EXP_01334,2024-01-21 00:14:45,Vendor_210,Infrastructure,764,Mexico
+EXP_01335,2024-09-22 06:46:18,Vendor_082,Marketing,595,Mexico
+EXP_01336,2024-07-06 01:22:08,Vendor_046,Payroll,1564,Mexico
+EXP_01337,2024-01-14 02:01:00,Vendor_035,Infrastructure,4745,Mexico
+EXP_01338,2024-02-16 03:48:15,Vendor_202,Payroll,2184,Mexico
+EXP_01339,2024-05-16 17:22:55,Vendor_023,Operations,3805,Mexico
+EXP_01340,2024-10-28 19:10:29,Vendor_265,Operations,535,United States
+EXP_01341,2024-04-23 10:15:01,Vendor_187,Operations,2440,Mexico
+EXP_01342,2024-07-26 10:23:16,Vendor_298,Other,4496,United States
+EXP_01343,2024-06-29 08:43:02,Vendor_190,Other,1797,United States
+EXP_01344,2024-07-22 12:48:45,Vendor_240,Operations,4111,United States
+EXP_01345,2024-03-15 11:13:08,Vendor_127,Other,1146,Mexico
+EXP_01346,2024-04-02 08:10:38,Vendor_291,Other,2497,Panama
+EXP_01347,2024-02-25 15:34:53,Vendor_111,Payroll,1189,Costa Rica
+EXP_01348,2024-03-09 22:22:31,Vendor_043,Infrastructure,1518,Panama
+EXP_01349,2024-08-16 10:41:21,Vendor_134,Operations,3121,Panama
+EXP_01350,2024-06-17 18:30:29,Vendor_013,Other,3148,Mexico
+EXP_01351,2024-02-25 01:28:36,Vendor_011,Payroll,669,Panama
+EXP_01352,2024-03-09 10:30:01,Vendor_102,Payroll,128,Panama
+EXP_01353,2024-07-14 01:12:49,Vendor_197,Infrastructure,3254,Mexico
+EXP_01354,2024-08-15 05:55:06,Vendor_055,Payroll,3606,Mexico
+EXP_01355,2024-09-24 18:53:00,Vendor_183,Marketing,740,Costa Rica
+EXP_01356,2024-10-30 01:08:06,Vendor_019,Marketing,3304,Costa Rica
+EXP_01357,2024-03-05 07:27:15,Vendor_262,Operations,4310,United States
+EXP_01358,2024-12-08 15:53:09,Vendor_009,Infrastructure,4875,Costa Rica
+EXP_01359,2024-06-21 10:36:04,Vendor_148,Marketing,4276,Mexico
+EXP_01360,2024-07-14 19:30:11,Vendor_025,Infrastructure,2085,Panama
+EXP_01361,2024-02-10 15:31:24,Vendor_072,Operations,2754,Mexico
+EXP_01362,2024-01-30 05:14:57,Vendor_057,Payroll,4916,Mexico
+EXP_01363,2024-08-07 02:54:04,Vendor_022,Payroll,4131,Panama
+EXP_01364,2024-05-18 08:39:40,Vendor_036,Payroll,4267,Costa Rica
+EXP_01365,2024-10-24 16:31:34,Vendor_179,Marketing,2129,Panama
+EXP_01366,2024-09-29 19:58:28,Vendor_068,Infrastructure,573,Mexico
+EXP_01367,2024-12-29 04:17:00,Vendor_001,Marketing,270,Costa Rica
+EXP_01368,2024-01-01 23:04:02,Vendor_048,Other,2187,Mexico
+EXP_01369,2024-08-09 12:14:29,Vendor_152,Infrastructure,3344,Mexico
+EXP_01370,2024-12-17 16:34:47,Vendor_197,Operations,2571,Costa Rica
+EXP_01371,2024-10-26 23:07:06,Vendor_058,Marketing,1345,Panama
+EXP_01372,2024-05-29 04:51:05,Vendor_048,Payroll,897,United States
+EXP_01373,2024-04-18 10:35:05,Vendor_234,Payroll,3846,Costa Rica
+EXP_01374,2024-03-29 15:46:19,Vendor_188,Payroll,2597,Mexico
+EXP_01375,2024-08-20 09:43:29,Vendor_114,Marketing,4840,Mexico
+EXP_01376,2024-10-19 07:07:22,Vendor_090,Marketing,421,Costa Rica
+EXP_01377,2024-08-22 06:00:25,Vendor_169,Payroll,4034,Mexico
+EXP_01378,2024-05-14 03:31:07,Vendor_177,Payroll,3995,United States
+EXP_01379,2024-08-30 02:55:15,Vendor_192,Payroll,1168,Costa Rica
+EXP_01380,2024-07-25 03:18:58,Vendor_133,Other,423,Mexico
+EXP_01381,2024-03-30 09:56:06,Vendor_172,Marketing,3432,United States
+EXP_01382,2024-08-11 10:00:41,Vendor_018,Payroll,2767,Mexico
+EXP_01383,2024-08-05 04:40:39,Vendor_251,Operations,2194,Costa Rica
+EXP_01384,2024-03-31 01:23:51,Vendor_112,Payroll,744,Panama
+EXP_01385,2024-03-26 11:51:09,Vendor_040,Marketing,3944,United States
+EXP_01386,2024-04-24 05:45:07,Vendor_102,Operations,1811,Costa Rica
+EXP_01387,2024-07-10 04:00:30,Vendor_174,Marketing,2780,Costa Rica
+EXP_01388,2024-05-08 04:00:14,Vendor_196,Marketing,940,Costa Rica
+EXP_01389,2024-03-17 05:18:33,Vendor_072,Marketing,402,Panama
+EXP_01390,2024-04-11 08:32:17,Vendor_182,Infrastructure,3361,Mexico
+EXP_01391,2024-08-15 05:26:13,Vendor_241,Operations,4967,Panama
+EXP_01392,2024-02-05 15:15:26,Vendor_289,Other,3860,Costa Rica
+EXP_01393,2024-11-05 04:34:26,Vendor_113,Other,2724,United States
+EXP_01394,2024-03-03 13:59:51,Vendor_163,Infrastructure,435,Mexico
+EXP_01395,2024-06-18 03:20:02,Vendor_039,Marketing,1978,Panama
+EXP_01396,2024-08-31 08:18:09,Vendor_235,Other,3391,United States
+EXP_01397,2024-11-11 02:50:52,Vendor_071,Operations,1952,Costa Rica
+EXP_01398,2024-09-23 15:44:44,Vendor_219,Payroll,4855,United States
+EXP_01399,2024-10-29 18:30:16,Vendor_005,Operations,2100,United States
+EXP_01400,2024-08-31 04:41:44,Vendor_241,Marketing,4807,Costa Rica
+EXP_01401,2024-07-30 10:48:24,Vendor_165,Operations,2229,Panama
+EXP_01402,2024-06-14 05:01:53,Vendor_001,Marketing,1068,Costa Rica
+EXP_01403,2024-03-06 23:55:25,Vendor_184,Operations,2056,United States
+EXP_01404,2024-06-06 08:36:31,Vendor_008,Infrastructure,2625,Costa Rica
+EXP_01405,2024-10-19 19:30:53,Vendor_108,Operations,2446,Mexico
+EXP_01406,2024-12-20 15:50:59,Vendor_185,Other,849,Mexico
+EXP_01407,2024-11-26 13:11:29,Vendor_284,Payroll,2843,United States
+EXP_01408,2024-07-08 08:40:47,Vendor_154,Infrastructure,1399,Costa Rica
+EXP_01409,2024-02-16 10:07:03,Vendor_034,Operations,403,United States
+EXP_01410,2024-02-05 08:55:21,Vendor_022,Marketing,3015,Costa Rica
+EXP_01411,2024-06-04 09:16:48,Vendor_148,Infrastructure,4165,Mexico
+EXP_01412,2024-09-02 03:30:25,Vendor_151,Other,3444,Mexico
+EXP_01413,2024-10-14 10:50:29,Vendor_067,Payroll,135,United States
+EXP_01414,2024-11-27 13:43:04,Vendor_078,Payroll,4617,Mexico
+EXP_01415,2024-06-12 13:22:33,Vendor_232,Operations,3649,United States
+EXP_01416,2024-12-16 17:15:23,Vendor_039,Other,2485,Panama
+EXP_01417,2024-01-09 12:41:40,Vendor_165,Other,4823,United States
+EXP_01418,2024-06-16 19:52:52,Vendor_099,Payroll,1533,Costa Rica
+EXP_01419,2024-12-09 11:38:10,Vendor_129,Payroll,4658,Costa Rica
+EXP_01420,2024-10-19 05:04:39,Vendor_019,Other,180,Costa Rica
+EXP_01421,2024-04-03 00:52:43,Vendor_271,Payroll,1602,United States
+EXP_01422,2024-12-10 18:34:29,Vendor_001,Marketing,4615,Panama
+EXP_01423,2024-04-11 05:51:21,Vendor_287,Payroll,3611,United States
+EXP_01424,2024-11-29 11:54:07,Vendor_180,Marketing,3042,United States
+EXP_01425,2024-02-07 19:33:15,Vendor_256,Payroll,894,Panama
+EXP_01426,2024-12-13 22:38:39,Vendor_174,Infrastructure,1830,Mexico
+EXP_01427,2024-02-15 12:48:49,Vendor_050,Infrastructure,283,Mexico
+EXP_01428,2024-05-23 19:07:23,Vendor_020,Infrastructure,4753,Mexico
+EXP_01429,2024-11-09 00:15:39,Vendor_105,Marketing,1271,Mexico
+EXP_01430,2024-05-04 13:02:12,Vendor_190,Marketing,2142,Mexico
+EXP_01431,2024-11-12 22:53:55,Vendor_239,Operations,1387,Panama
+EXP_01432,2024-05-08 23:28:41,Vendor_043,Operations,3776,Panama
+EXP_01433,2024-07-23 14:58:48,Vendor_005,Payroll,3660,United States
+EXP_01434,2024-08-23 02:21:23,Vendor_248,Marketing,1982,Mexico
+EXP_01435,2024-10-12 09:12:55,Vendor_066,Infrastructure,381,Costa Rica
+EXP_01436,2024-10-07 22:40:32,Vendor_251,Infrastructure,4810,Panama
+EXP_01437,2024-02-16 04:52:20,Vendor_128,Infrastructure,2349,Panama
+EXP_01438,2024-04-21 10:20:58,Vendor_185,Payroll,4769,Mexico
+EXP_01439,2024-12-29 23:11:40,Vendor_188,Marketing,516,Costa Rica
+EXP_01440,2024-07-14 07:48:47,Vendor_183,Payroll,416,Costa Rica
+EXP_01441,2024-11-18 19:46:29,Vendor_071,Other,3399,Panama
+EXP_01442,2024-04-15 11:52:42,Vendor_066,Other,3063,United States
+EXP_01443,2024-07-01 11:01:13,Vendor_250,Operations,1191,Costa Rica
+EXP_01444,2024-02-07 02:47:01,Vendor_155,Marketing,2944,United States
+EXP_01445,2024-09-21 19:32:10,Vendor_079,Infrastructure,3985,Mexico
+EXP_01446,2024-08-02 08:46:13,Vendor_019,Marketing,776,Mexico
+EXP_01447,2024-02-12 19:56:51,Vendor_269,Operations,1224,Mexico
+EXP_01448,2024-04-28 22:44:54,Vendor_045,Infrastructure,2390,United States
+EXP_01449,2024-09-28 14:44:18,Vendor_262,Payroll,1213,Panama
+EXP_01450,2024-11-27 07:21:25,Vendor_222,Infrastructure,2072,United States
+EXP_01451,2024-11-17 19:50:33,Vendor_129,Other,3048,Mexico
+EXP_01452,2024-08-30 11:18:42,Vendor_106,Payroll,4322,Costa Rica
+EXP_01453,2024-12-13 11:43:13,Vendor_251,Infrastructure,4814,Panama
+EXP_01454,2024-03-22 22:24:27,Vendor_121,Payroll,1522,United States
+EXP_01455,2024-03-05 17:14:06,Vendor_230,Other,3473,Costa Rica
+EXP_01456,2024-01-15 18:42:24,Vendor_281,Other,855,Costa Rica
+EXP_01457,2024-09-20 02:19:03,Vendor_227,Marketing,3868,Mexico
+EXP_01458,2024-03-28 08:19:12,Vendor_275,Other,4971,Mexico
+EXP_01459,2024-05-31 16:06:28,Vendor_138,Other,3936,Costa Rica
+EXP_01460,2024-01-28 15:05:03,Vendor_173,Other,4072,Panama
+EXP_01461,2024-08-06 04:25:24,Vendor_271,Operations,4268,United States
+EXP_01462,2024-05-04 13:32:00,Vendor_215,Other,4574,Panama
+EXP_01463,2024-03-03 10:04:40,Vendor_228,Marketing,3092,Panama
+EXP_01464,2024-08-23 04:00:20,Vendor_107,Payroll,591,United States
+EXP_01465,2024-03-05 03:58:32,Vendor_159,Operations,783,United States
+EXP_01466,2024-04-26 02:15:06,Vendor_136,Payroll,2075,United States
+EXP_01467,2024-11-09 21:02:13,Vendor_251,Payroll,403,Panama
+EXP_01468,2024-06-08 08:27:18,Vendor_030,Marketing,4097,Panama
+EXP_01469,2024-06-20 11:48:54,Vendor_098,Operations,2052,United States
+EXP_01470,2024-03-05 13:37:37,Vendor_097,Infrastructure,3669,Costa Rica
+EXP_01471,2024-02-20 15:12:13,Vendor_257,Other,4104,Costa Rica
+EXP_01472,2024-10-31 08:20:31,Vendor_272,Payroll,1360,United States
+EXP_01473,2024-07-05 15:47:16,Vendor_011,Payroll,1130,Panama
+EXP_01474,2024-06-11 14:49:39,Vendor_168,Marketing,4451,United States
+EXP_01475,2024-05-29 03:39:23,Vendor_211,Marketing,1294,Mexico
+EXP_01476,2024-06-10 04:13:38,Vendor_172,Marketing,3459,Costa Rica
+EXP_01477,2024-12-26 16:07:55,Vendor_120,Operations,333,Costa Rica
+EXP_01478,2024-06-26 15:29:48,Vendor_185,Other,3020,Costa Rica
+EXP_01479,2024-04-11 15:20:58,Vendor_039,Operations,1818,United States
+EXP_01480,2024-01-11 22:25:09,Vendor_257,Marketing,592,Mexico
+EXP_01481,2024-02-12 05:18:02,Vendor_279,Marketing,3382,Costa Rica
+EXP_01482,2024-04-06 21:35:42,Vendor_230,Payroll,2114,Mexico
+EXP_01483,2024-02-19 02:05:08,Vendor_115,Operations,4424,Panama
+EXP_01484,2024-08-18 22:12:32,Vendor_091,Operations,444,Panama
+EXP_01485,2024-10-24 05:31:10,Vendor_061,Other,364,Costa Rica
+EXP_01486,2024-11-16 14:08:33,Vendor_103,Operations,3675,Panama
+EXP_01487,2024-11-18 03:25:00,Vendor_215,Other,4939,United States
+EXP_01488,2024-07-20 03:40:06,Vendor_102,Infrastructure,1772,Panama
+EXP_01489,2024-11-14 09:57:12,Vendor_143,Other,3747,United States
+EXP_01490,2024-02-28 02:00:32,Vendor_090,Marketing,528,Panama
+EXP_01491,2024-09-24 16:22:27,Vendor_118,Infrastructure,3262,Mexico
+EXP_01492,2024-11-20 21:29:01,Vendor_139,Payroll,3010,Panama
+EXP_01493,2024-07-29 22:29:02,Vendor_240,Payroll,553,Mexico
+EXP_01494,2024-10-12 21:37:19,Vendor_136,Payroll,448,United States
+EXP_01495,2024-01-24 17:08:58,Vendor_005,Marketing,521,Panama
+EXP_01496,2024-07-06 14:30:26,Vendor_209,Payroll,2862,Panama
+EXP_01497,2024-08-11 12:46:03,Vendor_087,Other,4881,Mexico
+EXP_01498,2024-05-29 20:38:35,Vendor_277,Marketing,681,Panama
+EXP_01499,2024-12-05 12:18:18,Vendor_121,Operations,2762,United States
+EXP_01500,2024-10-09 19:50:39,Vendor_245,Marketing,4358,Mexico
+EXP_01501,2024-07-28 19:21:00,Vendor_090,Marketing,2451,United States
+EXP_01502,2024-06-12 07:58:12,Vendor_140,Operations,2466,Costa Rica
+EXP_01503,2024-09-02 08:38:03,Vendor_112,Other,1129,United States
+EXP_01504,2024-12-05 12:11:21,Vendor_240,Infrastructure,1424,Mexico
+EXP_01505,2024-01-13 17:43:21,Vendor_272,Operations,200,United States
+EXP_01506,2024-07-22 16:17:46,Vendor_143,Marketing,515,Panama
+EXP_01507,2024-06-21 05:49:37,Vendor_207,Payroll,1483,United States
+EXP_01508,2024-09-06 23:55:48,Vendor_119,Operations,2533,Panama
+EXP_01509,2024-03-27 02:32:19,Vendor_084,Operations,1143,Mexico
+EXP_01510,2024-08-22 02:01:48,Vendor_251,Infrastructure,1846,Panama
+EXP_01511,2024-02-01 09:43:44,Vendor_278,Marketing,4591,United States
+EXP_01512,2024-08-12 09:12:43,Vendor_163,Payroll,4543,Costa Rica
+EXP_01513,2024-10-06 17:43:44,Vendor_142,Payroll,1388,Panama
+EXP_01514,2024-04-13 10:03:44,Vendor_031,Infrastructure,4960,Costa Rica
+EXP_01515,2024-11-27 07:21:43,Vendor_091,Payroll,4239,Costa Rica
+EXP_01516,2024-04-13 04:24:47,Vendor_128,Other,4270,Costa Rica
+EXP_01517,2024-04-02 20:14:06,Vendor_267,Operations,4248,Costa Rica
+EXP_01518,2024-09-24 13:07:30,Vendor_036,Operations,4054,United States
+EXP_01519,2024-09-11 15:05:02,Vendor_280,Payroll,137,Panama
+EXP_01520,2024-05-23 02:31:05,Vendor_213,Payroll,865,Mexico
+EXP_01521,2024-06-17 03:01:21,Vendor_233,Payroll,3977,Mexico
+EXP_01522,2024-11-06 16:18:02,Vendor_228,Operations,2564,Panama
+EXP_01523,2024-05-16 00:29:12,Vendor_298,Payroll,4906,Mexico
+EXP_01524,2024-10-08 08:43:10,Vendor_237,Other,4943,Panama
+EXP_01525,2024-04-29 07:29:07,Vendor_021,Other,2991,United States
+EXP_01526,2024-06-21 15:37:39,Vendor_096,Operations,215,Panama
+EXP_01527,2024-04-10 09:52:51,Vendor_051,Marketing,378,United States
+EXP_01528,2024-07-03 00:53:31,Vendor_062,Marketing,553,Panama
+EXP_01529,2024-03-02 02:08:16,Vendor_153,Marketing,3313,Costa Rica
+EXP_01530,2024-11-15 17:22:28,Vendor_224,Other,4803,Costa Rica
+EXP_01531,2024-03-05 18:38:20,Vendor_142,Infrastructure,4564,United States
+EXP_01532,2024-02-13 05:21:25,Vendor_041,Marketing,4565,Mexico
+EXP_01533,2024-11-02 23:09:23,Vendor_166,Infrastructure,400,Costa Rica
+EXP_01534,2024-02-03 13:34:31,Vendor_190,Operations,816,Panama
+EXP_01535,2024-10-12 15:05:51,Vendor_297,Other,1475,Mexico
+EXP_01536,2024-08-23 21:35:58,Vendor_045,Marketing,294,Mexico
+EXP_01537,2024-03-12 16:53:34,Vendor_208,Other,1428,United States
+EXP_01538,2024-12-26 15:00:45,Vendor_096,Operations,4453,Mexico
+EXP_01539,2024-03-10 06:08:45,Vendor_275,Other,2079,United States
+EXP_01540,2024-07-08 04:21:06,Vendor_293,Payroll,1657,Costa Rica
+EXP_01541,2024-10-03 00:34:18,Vendor_235,Marketing,3224,Costa Rica
+EXP_01542,2024-01-22 16:39:20,Vendor_207,Other,4982,Mexico
+EXP_01543,2024-12-14 01:08:28,Vendor_026,Other,628,Mexico
+EXP_01544,2024-08-25 06:46:46,Vendor_207,Other,597,Panama
+EXP_01545,2024-08-21 01:09:59,Vendor_141,Operations,1910,Panama
+EXP_01546,2024-02-05 19:40:38,Vendor_087,Marketing,2945,United States
+EXP_01547,2024-07-17 20:58:16,Vendor_098,Marketing,2225,Mexico
+EXP_01548,2024-10-04 16:10:09,Vendor_023,Payroll,419,Mexico
+EXP_01549,2024-12-12 02:47:26,Vendor_250,Payroll,3463,Panama
+EXP_01550,2024-04-21 23:55:42,Vendor_250,Other,2669,United States
+EXP_01551,2024-01-09 12:50:09,Vendor_148,Marketing,3486,Panama
+EXP_01552,2024-09-23 15:41:59,Vendor_054,Marketing,4809,Mexico
+EXP_01553,2024-10-08 14:14:41,Vendor_039,Other,4825,United States
+EXP_01554,2024-06-03 17:07:03,Vendor_218,Infrastructure,2816,Costa Rica
+EXP_01555,2024-07-17 15:08:37,Vendor_237,Marketing,3438,Mexico
+EXP_01556,2024-11-08 11:27:02,Vendor_277,Other,344,Panama
+EXP_01557,2024-09-23 15:24:44,Vendor_225,Other,2819,United States
+EXP_01558,2024-12-26 17:44:53,Vendor_144,Infrastructure,969,Panama
+EXP_01559,2024-06-20 08:24:29,Vendor_288,Payroll,1559,Costa Rica
+EXP_01560,2024-11-07 00:19:39,Vendor_211,Other,4209,Mexico
+EXP_01561,2024-04-09 17:36:24,Vendor_154,Marketing,770,Mexico
+EXP_01562,2024-02-21 17:26:24,Vendor_259,Payroll,4836,Panama
+EXP_01563,2024-03-03 12:12:15,Vendor_227,Payroll,785,Mexico
+EXP_01564,2024-04-28 11:04:56,Vendor_082,Payroll,2074,Panama
+EXP_01565,2024-06-22 09:02:39,Vendor_088,Other,1111,Panama
+EXP_01566,2024-06-14 18:28:31,Vendor_004,Marketing,1484,United States
+EXP_01567,2024-06-28 05:17:16,Vendor_173,Infrastructure,4238,Costa Rica
+EXP_01568,2024-11-28 03:58:33,Vendor_032,Operations,1010,Mexico
+EXP_01569,2024-10-28 08:21:43,Vendor_234,Operations,1417,Mexico
+EXP_01570,2024-08-01 15:25:04,Vendor_226,Payroll,3226,Panama
+EXP_01571,2024-11-25 10:10:04,Vendor_206,Operations,666,Costa Rica
+EXP_01572,2024-12-28 21:10:01,Vendor_102,Operations,4017,United States
+EXP_01573,2024-08-14 11:02:29,Vendor_058,Other,1565,Panama
+EXP_01574,2024-05-04 23:03:41,Vendor_269,Infrastructure,4302,Costa Rica
+EXP_01575,2024-05-19 07:40:09,Vendor_150,Operations,1307,Mexico
+EXP_01576,2024-03-18 11:48:11,Vendor_252,Infrastructure,3670,United States
+EXP_01577,2024-10-06 06:53:15,Vendor_044,Operations,2565,United States
+EXP_01578,2024-07-07 13:32:30,Vendor_030,Payroll,4244,Panama
+EXP_01579,2024-05-24 22:13:55,Vendor_012,Payroll,4448,Panama
+EXP_01580,2024-06-07 21:56:46,Vendor_014,Infrastructure,4026,United States
+EXP_01581,2024-08-15 21:17:50,Vendor_292,Infrastructure,3240,Mexico
+EXP_01582,2024-02-26 20:56:31,Vendor_045,Infrastructure,3613,Mexico
+EXP_01583,2024-09-09 22:05:14,Vendor_200,Infrastructure,4110,United States
+EXP_01584,2024-08-27 00:09:37,Vendor_024,Marketing,2977,Panama
+EXP_01585,2024-12-11 23:29:22,Vendor_251,Payroll,1500,Panama
+EXP_01586,2024-09-27 04:36:43,Vendor_119,Operations,1668,Mexico
+EXP_01587,2024-10-14 06:33:16,Vendor_078,Marketing,840,Costa Rica
+EXP_01588,2024-11-19 19:31:55,Vendor_242,Infrastructure,799,Costa Rica
+EXP_01589,2024-08-15 22:05:44,Vendor_203,Operations,802,Costa Rica
+EXP_01590,2024-06-25 11:23:00,Vendor_237,Payroll,4488,Mexico
+EXP_01591,2024-07-21 08:49:58,Vendor_294,Infrastructure,1055,United States
+EXP_01592,2024-12-06 02:42:06,Vendor_087,Other,973,Costa Rica
+EXP_01593,2024-09-05 11:41:32,Vendor_210,Infrastructure,2508,Mexico
+EXP_01594,2024-03-25 13:54:22,Vendor_276,Operations,4697,Mexico
+EXP_01595,2024-08-29 03:33:53,Vendor_097,Payroll,3478,Panama
+EXP_01596,2024-11-21 08:14:31,Vendor_002,Infrastructure,1920,Panama
+EXP_01597,2024-05-31 22:32:34,Vendor_229,Payroll,4844,Mexico
+EXP_01598,2024-09-29 18:48:32,Vendor_243,Marketing,4281,Panama
+EXP_01599,2024-11-27 00:23:24,Vendor_258,Other,4491,Panama
+EXP_01600,2024-12-17 22:22:15,Vendor_042,Marketing,3342,Panama
+EXP_01601,2024-10-22 07:54:18,Vendor_213,Other,1479,Mexico
+EXP_01602,2024-05-22 10:10:34,Vendor_296,Marketing,378,Costa Rica
+EXP_01603,2024-02-14 09:46:48,Vendor_003,Payroll,4447,Panama
+EXP_01604,2024-12-15 02:41:27,Vendor_016,Payroll,1131,Mexico
+EXP_01605,2024-07-30 17:42:40,Vendor_279,Marketing,4781,Mexico
+EXP_01606,2024-11-28 09:19:34,Vendor_102,Operations,1443,United States
+EXP_01607,2024-07-12 12:51:02,Vendor_077,Marketing,704,United States
+EXP_01608,2024-11-07 08:24:35,Vendor_202,Infrastructure,2755,Costa Rica
+EXP_01609,2024-08-17 12:47:56,Vendor_055,Operations,691,United States
+EXP_01610,2024-11-23 08:33:32,Vendor_209,Payroll,4054,Mexico
+EXP_01611,2024-03-27 17:30:20,Vendor_081,Marketing,111,United States
+EXP_01612,2024-02-23 17:08:43,Vendor_244,Operations,221,Panama
+EXP_01613,2024-04-20 19:40:39,Vendor_235,Infrastructure,4620,United States
+EXP_01614,2024-06-06 00:55:00,Vendor_114,Other,2376,Mexico
+EXP_01615,2024-04-27 15:22:04,Vendor_067,Payroll,2744,Costa Rica
+EXP_01616,2024-12-24 14:21:31,Vendor_297,Operations,4173,Costa Rica
+EXP_01617,2024-09-25 13:18:20,Vendor_040,Operations,977,Costa Rica
+EXP_01618,2024-05-27 23:18:28,Vendor_221,Operations,885,Costa Rica
+EXP_01619,2024-11-12 22:32:42,Vendor_103,Marketing,2176,Panama
+EXP_01620,2024-02-22 08:12:49,Vendor_295,Payroll,200,Panama
+EXP_01621,2024-01-04 05:12:35,Vendor_053,Payroll,475,Panama
+EXP_01622,2024-10-27 16:59:35,Vendor_296,Marketing,745,United States
+EXP_01623,2024-04-07 03:54:14,Vendor_052,Marketing,3482,United States
+EXP_01624,2024-03-03 04:04:59,Vendor_037,Marketing,3611,United States
+EXP_01625,2024-07-26 02:17:43,Vendor_067,Infrastructure,2840,Costa Rica
+EXP_01626,2024-05-28 21:19:57,Vendor_162,Operations,3628,Costa Rica
+EXP_01627,2024-09-21 21:09:10,Vendor_206,Infrastructure,4916,United States
+EXP_01628,2024-02-26 13:34:14,Vendor_052,Payroll,2123,Panama
+EXP_01629,2024-04-16 08:37:42,Vendor_209,Marketing,4666,Mexico
+EXP_01630,2024-05-08 13:53:51,Vendor_002,Operations,2052,United States
+EXP_01631,2024-02-07 08:59:13,Vendor_129,Other,1145,Mexico
+EXP_01632,2024-09-10 05:12:48,Vendor_178,Operations,2197,Panama
+EXP_01633,2024-09-11 16:25:18,Vendor_164,Other,3922,Mexico
+EXP_01634,2024-02-07 14:35:29,Vendor_022,Operations,4921,Costa Rica
+EXP_01635,2024-03-25 05:42:33,Vendor_227,Marketing,3966,Mexico
+EXP_01636,2024-02-01 17:27:17,Vendor_082,Other,3731,United States
+EXP_01637,2024-09-18 19:26:57,Vendor_164,Other,2114,United States
+EXP_01638,2024-09-19 15:21:52,Vendor_003,Payroll,2449,Panama
+EXP_01639,2024-09-22 11:13:34,Vendor_172,Operations,3498,United States
+EXP_01640,2024-04-21 21:57:35,Vendor_118,Infrastructure,483,Mexico
+EXP_01641,2024-12-29 17:53:27,Vendor_144,Infrastructure,2685,Costa Rica
+EXP_01642,2024-03-08 17:11:34,Vendor_252,Payroll,802,Mexico
+EXP_01643,2024-06-01 10:07:14,Vendor_266,Payroll,2196,Mexico
+EXP_01644,2024-02-17 10:27:27,Vendor_170,Payroll,418,Mexico
+EXP_01645,2024-02-28 02:26:40,Vendor_213,Marketing,120,United States
+EXP_01646,2024-09-22 00:58:11,Vendor_281,Marketing,3604,Panama
+EXP_01647,2024-11-08 12:35:56,Vendor_227,Marketing,691,United States
+EXP_01648,2024-10-08 12:41:45,Vendor_262,Marketing,4204,Mexico
+EXP_01649,2024-10-06 08:52:14,Vendor_255,Payroll,2296,Panama
+EXP_01650,2024-03-01 04:42:18,Vendor_008,Payroll,1560,Panama
+EXP_01651,2024-11-07 05:14:26,Vendor_041,Marketing,2646,Mexico
+EXP_01652,2024-05-11 22:03:58,Vendor_257,Marketing,2011,Mexico
+EXP_01653,2024-11-05 18:50:18,Vendor_131,Other,3226,United States
+EXP_01654,2024-08-18 10:57:06,Vendor_052,Operations,4492,Panama
+EXP_01655,2024-09-23 10:47:29,Vendor_102,Other,2665,Costa Rica
+EXP_01656,2024-04-15 21:00:26,Vendor_219,Operations,1370,Panama
+EXP_01657,2024-02-28 06:27:53,Vendor_244,Marketing,381,United States
+EXP_01658,2024-10-20 12:06:50,Vendor_275,Marketing,2916,Mexico
+EXP_01659,2024-04-12 06:20:52,Vendor_070,Marketing,4452,Panama
+EXP_01660,2024-08-21 15:46:22,Vendor_047,Other,1929,Costa Rica
+EXP_01661,2024-03-09 14:09:39,Vendor_117,Payroll,652,United States
+EXP_01662,2024-05-03 13:33:36,Vendor_078,Operations,3839,Panama
+EXP_01663,2024-03-21 07:14:40,Vendor_005,Other,3064,United States
+EXP_01664,2024-08-22 04:33:04,Vendor_254,Marketing,3567,Panama
+EXP_01665,2024-07-25 20:49:15,Vendor_107,Payroll,3024,Mexico
+EXP_01666,2024-07-21 04:01:45,Vendor_244,Other,2907,Costa Rica
+EXP_01667,2024-03-24 07:45:44,Vendor_173,Operations,3019,Mexico
+EXP_01668,2024-08-30 02:43:20,Vendor_036,Marketing,3104,Panama
+EXP_01669,2024-04-24 03:32:08,Vendor_173,Operations,1670,Costa Rica
+EXP_01670,2024-07-28 00:40:30,Vendor_180,Marketing,2396,Panama
+EXP_01671,2024-02-26 02:07:53,Vendor_267,Marketing,2436,Panama
+EXP_01672,2024-11-06 13:42:53,Vendor_255,Infrastructure,2556,Costa Rica
+EXP_01673,2024-05-26 04:54:37,Vendor_073,Operations,4504,Costa Rica
+EXP_01674,2024-06-13 09:29:29,Vendor_057,Payroll,160,United States
+EXP_01675,2024-02-25 21:38:30,Vendor_066,Marketing,3675,Costa Rica
+EXP_01676,2024-09-10 08:01:32,Vendor_132,Payroll,2928,Mexico
+EXP_01677,2024-08-12 11:05:22,Vendor_260,Other,2674,Costa Rica
+EXP_01678,2024-05-26 23:19:05,Vendor_124,Marketing,3482,Costa Rica
+EXP_01679,2024-12-24 16:25:06,Vendor_092,Marketing,3864,United States
+EXP_01680,2024-11-20 10:25:55,Vendor_274,Marketing,2347,Mexico
+EXP_01681,2024-11-02 04:19:38,Vendor_141,Payroll,3524,Mexico
+EXP_01682,2024-09-13 16:39:17,Vendor_232,Infrastructure,1198,Costa Rica
+EXP_01683,2024-01-16 08:09:20,Vendor_070,Operations,2903,Costa Rica
+EXP_01684,2024-01-15 11:09:14,Vendor_175,Marketing,3207,United States
+EXP_01685,2024-08-15 06:22:21,Vendor_086,Operations,297,Mexico
+EXP_01686,2024-12-19 21:11:30,Vendor_253,Operations,2191,Mexico
+EXP_01687,2024-02-19 19:56:59,Vendor_030,Operations,2788,Panama
+EXP_01688,2024-03-17 06:25:50,Vendor_155,Payroll,1668,United States
+EXP_01689,2024-08-22 23:47:42,Vendor_200,Operations,970,United States
+EXP_01690,2024-08-26 15:07:16,Vendor_156,Other,609,Costa Rica
+EXP_01691,2024-08-25 15:47:38,Vendor_245,Payroll,2563,Mexico
+EXP_01692,2024-03-15 13:43:10,Vendor_020,Payroll,4133,Costa Rica
+EXP_01693,2024-11-21 01:08:03,Vendor_203,Other,2556,United States
+EXP_01694,2024-11-14 09:46:23,Vendor_152,Infrastructure,4491,Mexico
+EXP_01695,2024-04-06 04:44:24,Vendor_077,Infrastructure,1988,Mexico
+EXP_01696,2024-08-15 23:10:31,Vendor_172,Marketing,2350,United States
+EXP_01697,2024-12-02 21:01:51,Vendor_250,Infrastructure,4771,Mexico
+EXP_01698,2024-01-18 10:16:42,Vendor_186,Marketing,1084,Panama
+EXP_01699,2024-08-24 07:12:26,Vendor_128,Operations,895,United States
+EXP_01700,2024-03-17 01:05:12,Vendor_011,Marketing,947,United States
+EXP_01701,2024-01-24 22:39:11,Vendor_242,Infrastructure,1491,Mexico
+EXP_01702,2024-09-20 04:22:37,Vendor_181,Marketing,3093,United States
+EXP_01703,2024-11-07 03:17:02,Vendor_265,Payroll,4557,Costa Rica
+EXP_01704,2024-06-09 22:13:49,Vendor_195,Infrastructure,4671,United States
+EXP_01705,2024-07-07 08:33:49,Vendor_246,Marketing,4499,Costa Rica
+EXP_01706,2024-01-17 14:41:27,Vendor_100,Infrastructure,2332,Panama
+EXP_01707,2024-03-01 15:16:57,Vendor_052,Other,2412,Panama
+EXP_01708,2024-06-25 11:59:08,Vendor_075,Infrastructure,1537,Costa Rica
+EXP_01709,2024-12-08 03:45:36,Vendor_133,Other,501,United States
+EXP_01710,2024-11-25 18:59:02,Vendor_256,Marketing,2320,Costa Rica
+EXP_01711,2024-09-29 07:30:05,Vendor_209,Other,977,Mexico
+EXP_01712,2024-01-14 01:38:56,Vendor_143,Infrastructure,3254,Costa Rica
+EXP_01713,2024-11-19 05:46:01,Vendor_068,Payroll,1006,Panama
+EXP_01714,2024-04-12 06:12:00,Vendor_054,Other,4541,Panama
+EXP_01715,2024-04-23 10:38:33,Vendor_267,Infrastructure,1195,Costa Rica
+EXP_01716,2024-06-04 05:03:40,Vendor_242,Payroll,3622,Panama
+EXP_01717,2024-01-26 08:31:45,Vendor_047,Operations,1906,Mexico
+EXP_01718,2024-05-19 03:11:08,Vendor_115,Other,1776,United States
+EXP_01719,2024-05-14 09:38:28,Vendor_196,Other,307,United States
+EXP_01720,2024-08-25 21:58:52,Vendor_294,Marketing,1465,Costa Rica
+EXP_01721,2024-05-13 13:51:23,Vendor_130,Operations,1509,Panama
+EXP_01722,2024-04-16 09:47:03,Vendor_045,Marketing,3025,United States
+EXP_01723,2024-04-03 12:40:44,Vendor_155,Marketing,4357,Panama
+EXP_01724,2024-04-24 02:44:07,Vendor_082,Infrastructure,2163,Costa Rica
+EXP_01725,2024-11-11 22:54:33,Vendor_267,Marketing,2890,Panama
+EXP_01726,2024-05-26 11:53:55,Vendor_157,Other,345,Mexico
+EXP_01727,2024-02-11 01:16:22,Vendor_025,Marketing,2702,Mexico
+EXP_01728,2024-12-05 20:40:38,Vendor_182,Payroll,3581,Panama
+EXP_01729,2024-07-14 08:36:56,Vendor_174,Other,1577,Mexico
+EXP_01730,2024-07-06 02:32:15,Vendor_297,Infrastructure,2597,Costa Rica
+EXP_01731,2024-09-25 22:31:52,Vendor_041,Marketing,1580,Mexico
+EXP_01732,2024-04-14 18:28:50,Vendor_288,Payroll,1887,Mexico
+EXP_01733,2024-12-08 16:35:24,Vendor_049,Payroll,1912,United States
+EXP_01734,2024-09-24 21:17:50,Vendor_262,Other,4311,United States
+EXP_01735,2024-04-21 02:49:14,Vendor_244,Marketing,3023,Costa Rica
+EXP_01736,2024-02-05 07:17:27,Vendor_057,Payroll,2661,Mexico
+EXP_01737,2024-09-09 23:35:48,Vendor_006,Marketing,3046,United States
+EXP_01738,2024-09-08 07:08:36,Vendor_047,Other,4208,Panama
+EXP_01739,2024-04-19 02:46:15,Vendor_063,Operations,2424,Panama
+EXP_01740,2024-02-25 05:27:26,Vendor_067,Payroll,1015,Mexico
+EXP_01741,2024-03-16 14:15:33,Vendor_183,Infrastructure,992,Costa Rica
+EXP_01742,2024-03-21 01:56:25,Vendor_162,Marketing,4412,Mexico
+EXP_01743,2024-01-19 11:31:05,Vendor_297,Other,2896,United States
+EXP_01744,2024-06-22 21:13:20,Vendor_105,Other,4489,Mexico
+EXP_01745,2024-11-13 23:22:27,Vendor_263,Infrastructure,2915,Mexico
+EXP_01746,2024-12-11 08:50:48,Vendor_057,Operations,4693,Panama
+EXP_01747,2024-08-04 07:36:52,Vendor_016,Marketing,1076,Panama
+EXP_01748,2024-10-09 11:46:21,Vendor_059,Operations,849,United States
+EXP_01749,2024-10-18 10:18:27,Vendor_166,Other,3655,Costa Rica
+EXP_01750,2024-05-01 19:35:22,Vendor_250,Payroll,3268,Costa Rica
+EXP_01751,2024-07-05 16:33:48,Vendor_034,Operations,4899,United States
+EXP_01752,2024-07-13 15:14:01,Vendor_046,Payroll,3115,United States
+EXP_01753,2024-05-04 19:32:48,Vendor_299,Infrastructure,3726,Mexico
+EXP_01754,2024-10-31 10:08:24,Vendor_047,Other,368,Mexico
+EXP_01755,2024-09-16 21:01:43,Vendor_252,Payroll,3128,Costa Rica
+EXP_01756,2024-09-18 02:41:22,Vendor_166,Marketing,1111,Mexico
+EXP_01757,2024-02-22 11:22:48,Vendor_132,Other,2235,Mexico
+EXP_01758,2024-02-26 11:52:16,Vendor_070,Infrastructure,1348,Panama
+EXP_01759,2024-12-28 22:32:14,Vendor_060,Marketing,3307,United States
+EXP_01760,2024-05-28 14:13:07,Vendor_205,Other,862,United States
+EXP_01761,2024-03-15 14:51:16,Vendor_238,Operations,3071,Panama
+EXP_01762,2024-08-07 12:53:55,Vendor_106,Other,822,Panama
+EXP_01763,2024-05-20 11:16:51,Vendor_184,Marketing,1505,Mexico
+EXP_01764,2024-05-13 22:37:44,Vendor_007,Payroll,538,United States
+EXP_01765,2024-01-07 06:27:26,Vendor_031,Payroll,414,Costa Rica
+EXP_01766,2024-12-20 02:43:41,Vendor_216,Other,2212,United States
+EXP_01767,2024-03-14 09:44:38,Vendor_298,Other,691,Costa Rica
+EXP_01768,2024-10-12 03:46:13,Vendor_286,Infrastructure,4840,Panama
+EXP_01769,2024-02-19 18:22:06,Vendor_126,Operations,4390,United States
+EXP_01770,2024-07-15 13:13:28,Vendor_051,Infrastructure,3770,Panama
+EXP_01771,2024-11-29 23:56:35,Vendor_190,Infrastructure,2009,United States
+EXP_01772,2024-03-06 21:04:45,Vendor_051,Payroll,4196,Costa Rica
+EXP_01773,2024-09-30 19:17:29,Vendor_232,Payroll,4563,Panama
+EXP_01774,2024-01-25 16:58:45,Vendor_178,Marketing,2523,Mexico
+EXP_01775,2024-02-11 14:34:17,Vendor_158,Infrastructure,3362,United States
+EXP_01776,2024-03-23 15:05:26,Vendor_147,Marketing,4485,Costa Rica
+EXP_01777,2024-01-25 02:46:11,Vendor_251,Other,4995,Mexico
+EXP_01778,2024-07-25 14:51:39,Vendor_132,Marketing,3370,Panama
+EXP_01779,2024-09-02 23:51:04,Vendor_237,Payroll,4430,United States
+EXP_01780,2024-12-27 05:34:04,Vendor_012,Infrastructure,1353,United States
+EXP_01781,2024-06-01 12:31:09,Vendor_143,Payroll,3397,Mexico
+EXP_01782,2024-02-05 19:24:48,Vendor_118,Other,1553,Mexico
+EXP_01783,2024-04-12 13:30:08,Vendor_061,Operations,295,Panama
+EXP_01784,2024-02-28 09:39:30,Vendor_181,Infrastructure,889,Mexico
+EXP_01785,2024-08-20 06:52:56,Vendor_265,Payroll,2304,United States
+EXP_01786,2024-05-18 04:05:56,Vendor_029,Operations,3167,United States
+EXP_01787,2024-09-13 12:40:16,Vendor_263,Other,3653,United States
+EXP_01788,2024-11-23 12:54:07,Vendor_200,Operations,4549,United States
+EXP_01789,2024-04-25 04:46:03,Vendor_105,Payroll,912,Mexico
+EXP_01790,2024-06-20 00:51:16,Vendor_079,Payroll,2680,Mexico
+EXP_01791,2024-09-06 15:41:57,Vendor_144,Other,1631,Costa Rica
+EXP_01792,2024-10-26 16:29:42,Vendor_199,Other,504,Panama
+EXP_01793,2024-12-23 08:27:54,Vendor_106,Operations,2847,Mexico
+EXP_01794,2024-06-11 12:13:38,Vendor_089,Operations,2944,Panama
+EXP_01795,2024-10-19 04:53:08,Vendor_266,Payroll,2436,Mexico
+EXP_01796,2024-08-04 09:48:21,Vendor_251,Other,189,Costa Rica
+EXP_01797,2024-06-03 15:11:50,Vendor_152,Marketing,1505,Mexico
+EXP_01798,2024-09-04 23:33:29,Vendor_196,Other,3673,United States
+EXP_01799,2024-08-15 04:53:34,Vendor_126,Infrastructure,1717,Mexico
+EXP_01800,2024-03-11 19:08:33,Vendor_043,Infrastructure,3694,Panama
+EXP_01801,2024-10-28 20:42:28,Vendor_173,Other,1625,United States
+EXP_01802,2024-01-21 09:59:24,Vendor_054,Operations,1795,Mexico
+EXP_01803,2024-09-18 21:08:54,Vendor_253,Infrastructure,3790,United States
+EXP_01804,2024-04-26 12:10:30,Vendor_299,Payroll,4141,United States
+EXP_01805,2024-08-12 17:35:23,Vendor_196,Payroll,3262,United States
+EXP_01806,2024-12-17 03:31:14,Vendor_293,Payroll,852,Costa Rica
+EXP_01807,2024-06-21 07:12:55,Vendor_217,Other,815,Panama
+EXP_01808,2024-06-04 13:35:11,Vendor_169,Infrastructure,2541,Panama
+EXP_01809,2024-02-08 14:20:28,Vendor_222,Operations,3529,Mexico
+EXP_01810,2024-04-12 10:45:36,Vendor_128,Payroll,574,United States
+EXP_01811,2024-06-17 12:12:19,Vendor_016,Operations,2921,Mexico
+EXP_01812,2024-07-25 05:41:38,Vendor_037,Payroll,1751,Panama
+EXP_01813,2024-12-25 05:02:59,Vendor_296,Other,2217,United States
+EXP_01814,2024-05-12 14:35:38,Vendor_225,Payroll,4898,Panama
+EXP_01815,2024-06-10 04:49:28,Vendor_114,Other,3860,United States
+EXP_01816,2024-09-26 07:12:26,Vendor_022,Infrastructure,2187,United States
+EXP_01817,2024-12-09 01:08:27,Vendor_299,Infrastructure,3001,Costa Rica
+EXP_01818,2024-11-12 16:56:30,Vendor_062,Operations,3200,United States
+EXP_01819,2024-08-21 19:04:23,Vendor_182,Payroll,3692,Mexico
+EXP_01820,2024-02-23 12:16:26,Vendor_285,Infrastructure,4472,Panama
+EXP_01821,2024-01-08 14:48:35,Vendor_016,Marketing,3755,Panama
+EXP_01822,2024-08-23 14:34:36,Vendor_277,Marketing,282,Panama
+EXP_01823,2024-08-22 07:56:07,Vendor_137,Operations,1722,United States
+EXP_01824,2024-10-26 20:25:52,Vendor_283,Infrastructure,183,Mexico
+EXP_01825,2024-10-07 05:54:03,Vendor_127,Other,185,Costa Rica
+EXP_01826,2024-12-14 07:36:23,Vendor_086,Marketing,1842,Costa Rica
+EXP_01827,2024-11-05 16:17:29,Vendor_207,Infrastructure,1410,Mexico
+EXP_01828,2024-06-06 16:52:33,Vendor_151,Other,1040,Mexico
+EXP_01829,2024-03-05 15:39:01,Vendor_051,Payroll,1136,Mexico
+EXP_01830,2024-06-29 23:54:45,Vendor_231,Infrastructure,1500,United States
+EXP_01831,2024-03-17 03:33:38,Vendor_080,Payroll,3580,United States
+EXP_01832,2024-10-24 13:24:12,Vendor_131,Marketing,4920,Costa Rica
+EXP_01833,2024-04-28 11:11:32,Vendor_136,Payroll,3111,Mexico
+EXP_01834,2024-02-19 02:21:21,Vendor_170,Marketing,4813,Mexico
+EXP_01835,2024-06-01 08:25:46,Vendor_163,Operations,4003,Panama
+EXP_01836,2024-01-23 21:13:27,Vendor_199,Operations,824,Costa Rica
+EXP_01837,2024-09-29 01:01:11,Vendor_227,Marketing,287,United States
+EXP_01838,2024-05-28 18:10:52,Vendor_048,Other,4930,Mexico
+EXP_01839,2024-06-16 02:06:28,Vendor_253,Operations,2872,United States
+EXP_01840,2024-01-16 02:29:42,Vendor_103,Other,4712,Panama
+EXP_01841,2024-11-20 20:44:23,Vendor_036,Other,2680,Mexico
+EXP_01842,2024-01-27 19:02:02,Vendor_006,Other,3800,United States
+EXP_01843,2024-09-12 05:09:23,Vendor_199,Infrastructure,3039,United States
+EXP_01844,2024-04-12 14:48:49,Vendor_012,Infrastructure,1238,Costa Rica
+EXP_01845,2024-12-25 15:10:21,Vendor_103,Other,303,United States
+EXP_01846,2024-03-08 23:55:58,Vendor_187,Marketing,3480,United States
+EXP_01847,2024-10-25 14:51:16,Vendor_178,Operations,1445,United States
+EXP_01848,2024-04-26 19:44:22,Vendor_171,Payroll,460,United States
+EXP_01849,2024-11-10 23:02:22,Vendor_177,Infrastructure,1243,Panama
+EXP_01850,2024-04-01 01:51:07,Vendor_089,Infrastructure,313,United States
+EXP_01851,2024-02-24 04:55:31,Vendor_204,Payroll,1948,Costa Rica
+EXP_01852,2024-06-07 06:20:51,Vendor_211,Other,3482,Panama
+EXP_01853,2024-09-29 15:03:15,Vendor_213,Payroll,741,Panama
+EXP_01854,2024-10-12 22:58:48,Vendor_021,Other,705,United States
+EXP_01855,2024-02-01 17:37:44,Vendor_088,Infrastructure,465,Mexico
+EXP_01856,2024-06-11 13:51:09,Vendor_013,Payroll,1328,United States
+EXP_01857,2024-02-10 03:30:02,Vendor_120,Marketing,998,Panama
+EXP_01858,2024-06-11 21:42:17,Vendor_178,Operations,4382,United States
+EXP_01859,2024-07-15 13:19:51,Vendor_129,Operations,2871,Costa Rica
+EXP_01860,2024-05-11 16:39:22,Vendor_051,Operations,3164,Costa Rica
+EXP_01861,2024-10-04 21:29:43,Vendor_042,Payroll,2850,Costa Rica
+EXP_01862,2024-10-03 22:26:30,Vendor_095,Other,189,United States
+EXP_01863,2024-01-05 06:47:28,Vendor_242,Infrastructure,1088,United States
+EXP_01864,2024-01-23 05:03:51,Vendor_061,Operations,2540,Panama
+EXP_01865,2024-03-22 21:55:22,Vendor_228,Payroll,3311,Panama
+EXP_01866,2024-07-22 15:27:22,Vendor_277,Operations,392,Panama
+EXP_01867,2024-10-16 06:00:35,Vendor_018,Other,1589,Mexico
+EXP_01868,2024-01-20 23:30:36,Vendor_244,Marketing,4826,Costa Rica
+EXP_01869,2024-05-04 16:21:36,Vendor_047,Marketing,3269,Mexico
+EXP_01870,2024-09-16 00:56:16,Vendor_018,Infrastructure,4365,Mexico
+EXP_01871,2024-08-10 02:28:34,Vendor_201,Marketing,1549,Costa Rica
+EXP_01872,2024-03-18 18:01:16,Vendor_253,Marketing,1190,Mexico
+EXP_01873,2024-01-24 12:25:22,Vendor_192,Payroll,3729,United States
+EXP_01874,2024-07-16 20:26:33,Vendor_049,Payroll,2715,Costa Rica
+EXP_01875,2024-10-08 18:57:27,Vendor_094,Infrastructure,250,Mexico
+EXP_01876,2024-11-29 17:22:59,Vendor_237,Infrastructure,1083,Mexico
+EXP_01877,2024-06-30 03:48:59,Vendor_222,Payroll,1919,Mexico
+EXP_01878,2024-01-22 23:14:59,Vendor_167,Marketing,1076,United States
+EXP_01879,2024-12-25 06:21:41,Vendor_254,Other,288,Mexico
+EXP_01880,2024-12-20 01:06:48,Vendor_057,Marketing,2878,Mexico
+EXP_01881,2024-06-15 19:12:56,Vendor_006,Marketing,3856,Mexico
+EXP_01882,2024-07-09 00:38:03,Vendor_238,Other,2671,Panama
+EXP_01883,2024-02-15 17:04:55,Vendor_221,Infrastructure,1286,Costa Rica
+EXP_01884,2024-01-02 13:54:39,Vendor_224,Payroll,4001,Mexico
+EXP_01885,2024-09-05 19:10:22,Vendor_078,Infrastructure,3539,Mexico
+EXP_01886,2024-02-09 02:52:32,Vendor_020,Infrastructure,2664,Costa Rica
+EXP_01887,2024-08-13 13:56:31,Vendor_265,Infrastructure,4910,Mexico
+EXP_01888,2024-12-17 19:33:51,Vendor_204,Payroll,1447,United States
+EXP_01889,2024-06-22 18:11:55,Vendor_142,Infrastructure,3507,Mexico
+EXP_01890,2024-12-09 00:36:57,Vendor_080,Infrastructure,2725,Mexico
+EXP_01891,2024-07-20 19:46:01,Vendor_210,Operations,3852,Panama
+EXP_01892,2024-10-04 03:23:13,Vendor_256,Marketing,766,Panama
+EXP_01893,2024-12-02 20:53:54,Vendor_040,Operations,4783,United States
+EXP_01894,2024-08-18 01:59:22,Vendor_202,Payroll,872,Costa Rica
+EXP_01895,2024-05-31 02:17:08,Vendor_086,Other,3304,United States
+EXP_01896,2024-02-16 00:19:27,Vendor_043,Other,1264,Costa Rica
+EXP_01897,2024-06-20 18:58:28,Vendor_236,Operations,4694,Mexico
+EXP_01898,2024-03-28 03:50:36,Vendor_070,Operations,748,Panama
+EXP_01899,2024-09-18 22:53:45,Vendor_131,Operations,2323,United States
+EXP_01900,2024-06-01 18:48:23,Vendor_132,Marketing,4995,United States
+EXP_01901,2024-10-16 05:57:37,Vendor_248,Payroll,1159,Panama
+EXP_01902,2024-07-15 15:37:37,Vendor_155,Infrastructure,1087,Costa Rica
+EXP_01903,2024-10-21 01:18:47,Vendor_230,Operations,2290,Mexico
+EXP_01904,2024-12-25 05:50:24,Vendor_089,Marketing,4844,Costa Rica
+EXP_01905,2024-12-25 20:36:56,Vendor_229,Other,4723,Panama
+EXP_01906,2024-11-10 22:29:37,Vendor_027,Other,1885,Mexico
+EXP_01907,2024-08-06 08:37:47,Vendor_238,Other,1627,Costa Rica
+EXP_01908,2024-07-02 19:52:04,Vendor_175,Operations,4779,Mexico
+EXP_01909,2024-10-13 14:50:10,Vendor_292,Other,4419,Panama
+EXP_01910,2024-07-13 07:52:04,Vendor_061,Other,2001,Mexico
+EXP_01911,2024-09-13 13:16:59,Vendor_170,Other,2503,United States
+EXP_01912,2024-10-15 13:14:15,Vendor_263,Infrastructure,3085,Panama
+EXP_01913,2024-05-07 15:43:03,Vendor_116,Other,1950,United States
+EXP_01914,2024-09-02 14:33:25,Vendor_175,Marketing,1107,Mexico
+EXP_01915,2024-01-18 08:01:28,Vendor_221,Operations,645,Costa Rica
+EXP_01916,2024-08-24 09:59:34,Vendor_128,Infrastructure,624,Mexico
+EXP_01917,2024-10-01 14:26:09,Vendor_005,Infrastructure,4110,Panama
+EXP_01918,2024-12-13 01:24:48,Vendor_186,Operations,1837,Panama
+EXP_01919,2024-01-23 19:42:47,Vendor_172,Other,1180,Mexico
+EXP_01920,2024-08-24 20:19:44,Vendor_199,Other,2121,Costa Rica
+EXP_01921,2024-08-22 23:21:11,Vendor_231,Payroll,1438,Panama
+EXP_01922,2024-06-28 11:31:07,Vendor_288,Other,2258,Mexico
+EXP_01923,2024-04-09 02:00:24,Vendor_115,Marketing,3287,Costa Rica
+EXP_01924,2024-09-16 01:13:20,Vendor_011,Other,1430,United States
+EXP_01925,2024-02-26 22:44:20,Vendor_104,Operations,870,Panama
+EXP_01926,2024-12-14 01:53:00,Vendor_175,Other,1841,United States
+EXP_01927,2024-07-03 15:27:09,Vendor_120,Operations,4505,Panama
+EXP_01928,2024-09-15 00:08:39,Vendor_237,Infrastructure,4289,United States
+EXP_01929,2024-10-11 18:52:03,Vendor_236,Payroll,4212,Mexico
+EXP_01930,2024-01-16 11:32:14,Vendor_038,Infrastructure,1458,Costa Rica
+EXP_01931,2024-01-13 06:04:01,Vendor_272,Operations,3233,Mexico
+EXP_01932,2024-06-06 09:54:30,Vendor_251,Payroll,2896,Mexico
+EXP_01933,2024-06-04 00:52:44,Vendor_027,Infrastructure,1696,Mexico
+EXP_01934,2024-05-18 04:06:30,Vendor_123,Other,2080,Panama
+EXP_01935,2024-06-19 04:08:55,Vendor_156,Other,655,United States
+EXP_01936,2024-02-28 05:14:21,Vendor_217,Payroll,4064,Panama
+EXP_01937,2024-05-04 01:37:28,Vendor_194,Infrastructure,3671,Panama
+EXP_01938,2024-12-09 01:52:13,Vendor_161,Marketing,3159,Costa Rica
+EXP_01939,2024-01-24 17:27:01,Vendor_128,Marketing,4454,Mexico
+EXP_01940,2024-03-11 10:02:42,Vendor_178,Marketing,2860,Panama
+EXP_01941,2024-04-04 01:44:20,Vendor_126,Infrastructure,934,United States
+EXP_01942,2024-10-12 04:55:09,Vendor_174,Infrastructure,1747,Panama
+EXP_01943,2024-11-09 21:49:01,Vendor_035,Infrastructure,3159,Costa Rica
+EXP_01944,2024-10-20 07:14:10,Vendor_239,Operations,966,Costa Rica
+EXP_01945,2024-08-09 16:07:05,Vendor_041,Marketing,1003,United States
+EXP_01946,2024-07-09 07:46:07,Vendor_186,Marketing,2557,Costa Rica
+EXP_01947,2024-02-02 21:26:23,Vendor_183,Marketing,242,Mexico
+EXP_01948,2024-12-24 21:46:48,Vendor_261,Operations,3823,Mexico
+EXP_01949,2024-05-01 03:42:44,Vendor_034,Operations,2886,Costa Rica
+EXP_01950,2024-04-03 16:52:22,Vendor_187,Infrastructure,3490,Panama
+EXP_01951,2024-12-22 09:24:41,Vendor_137,Marketing,2795,Costa Rica
+EXP_01952,2024-01-14 02:52:54,Vendor_202,Marketing,2859,United States
+EXP_01953,2024-02-01 01:36:06,Vendor_143,Other,3449,Mexico
+EXP_01954,2024-08-03 06:21:31,Vendor_109,Other,3989,Mexico
+EXP_01955,2024-11-16 17:14:33,Vendor_157,Other,3833,Panama
+EXP_01956,2024-08-13 16:17:39,Vendor_255,Operations,1821,United States
+EXP_01957,2024-07-29 06:47:15,Vendor_181,Infrastructure,3253,Mexico
+EXP_01958,2024-12-09 11:54:52,Vendor_219,Payroll,4214,Mexico
+EXP_01959,2024-02-13 21:50:58,Vendor_028,Marketing,4840,United States
+EXP_01960,2024-06-28 05:39:31,Vendor_151,Other,2931,Panama
+EXP_01961,2024-11-17 02:04:56,Vendor_100,Marketing,1804,Costa Rica
+EXP_01962,2024-03-31 06:50:28,Vendor_003,Marketing,557,Panama
+EXP_01963,2024-07-30 07:42:53,Vendor_033,Marketing,1376,Mexico
+EXP_01964,2024-04-25 01:33:09,Vendor_199,Infrastructure,4874,Mexico
+EXP_01965,2024-10-16 14:26:59,Vendor_069,Marketing,3415,Panama
+EXP_01966,2024-10-31 17:33:32,Vendor_090,Infrastructure,1708,Panama
+EXP_01967,2024-10-04 07:48:48,Vendor_017,Payroll,3994,Mexico
+EXP_01968,2024-07-19 05:33:48,Vendor_034,Payroll,1196,United States
+EXP_01969,2024-02-09 12:57:58,Vendor_264,Operations,726,United States
+EXP_01970,2024-12-20 10:58:45,Vendor_060,Marketing,1390,Costa Rica
+EXP_01971,2024-04-02 16:36:03,Vendor_184,Other,4817,Mexico
+EXP_01972,2024-07-18 18:11:37,Vendor_199,Operations,4923,Mexico
+EXP_01973,2024-07-14 06:57:35,Vendor_241,Operations,3511,Costa Rica
+EXP_01974,2024-04-30 20:04:12,Vendor_232,Payroll,2244,Mexico
+EXP_01975,2024-07-18 19:19:19,Vendor_211,Other,999,Mexico
+EXP_01976,2024-10-01 01:50:19,Vendor_052,Marketing,797,Panama
+EXP_01977,2024-11-30 16:52:45,Vendor_119,Marketing,3030,United States
+EXP_01978,2024-04-12 07:28:39,Vendor_215,Payroll,4155,United States
+EXP_01979,2024-02-22 21:17:04,Vendor_149,Infrastructure,4291,United States
+EXP_01980,2024-09-27 15:39:42,Vendor_176,Payroll,3717,Costa Rica
+EXP_01981,2024-06-02 09:49:44,Vendor_269,Other,3540,Panama
+EXP_01982,2024-08-31 20:39:19,Vendor_005,Infrastructure,3516,Mexico
+EXP_01983,2024-02-10 00:58:57,Vendor_116,Other,3150,United States
+EXP_01984,2024-11-13 09:37:28,Vendor_203,Marketing,2589,United States
+EXP_01985,2024-11-03 15:51:31,Vendor_037,Infrastructure,892,Panama
+EXP_01986,2024-09-13 13:58:49,Vendor_054,Other,2175,Mexico
+EXP_01987,2024-03-24 23:06:06,Vendor_288,Marketing,3643,Costa Rica
+EXP_01988,2024-06-07 18:43:09,Vendor_284,Other,1022,Mexico
+EXP_01989,2024-03-05 16:20:27,Vendor_086,Infrastructure,1581,Costa Rica
+EXP_01990,2024-02-18 21:18:45,Vendor_045,Marketing,841,Costa Rica
+EXP_01991,2024-11-22 18:29:03,Vendor_284,Other,2133,Mexico
+EXP_01992,2024-06-16 20:55:25,Vendor_070,Operations,1545,Costa Rica
+EXP_01993,2024-11-06 12:12:01,Vendor_042,Infrastructure,474,United States
+EXP_01994,2024-02-23 05:00:57,Vendor_272,Infrastructure,3009,Panama
+EXP_01995,2024-09-24 08:51:47,Vendor_141,Infrastructure,723,United States
+EXP_01996,2024-06-08 01:42:25,Vendor_059,Marketing,1148,Costa Rica
+EXP_01997,2024-10-07 00:07:52,Vendor_240,Infrastructure,705,Costa Rica
+EXP_01998,2024-01-25 10:08:46,Vendor_047,Other,2213,Panama
+EXP_01999,2024-12-30 08:58:48,Vendor_167,Operations,2676,Panama
+EXP_02000,2024-01-30 06:21:34,Vendor_110,Other,377,United States
+EXP_02001,2024-11-23 04:29:19,Vendor_126,Other,2157,Panama
+EXP_02002,2024-08-31 01:22:12,Vendor_299,Infrastructure,1264,Panama
+EXP_02003,2024-09-19 04:31:46,Vendor_109,Operations,3981,Costa Rica
+EXP_02004,2024-01-31 03:55:46,Vendor_165,Operations,4223,Panama
+EXP_02005,2024-01-16 15:54:56,Vendor_259,Operations,3271,Costa Rica
+EXP_02006,2024-04-25 05:57:32,Vendor_076,Operations,2867,Mexico
+EXP_02007,2024-09-28 17:14:31,Vendor_007,Payroll,360,Mexico
+EXP_02008,2024-11-28 11:25:54,Vendor_186,Operations,4233,Mexico
+EXP_02009,2024-10-12 11:58:19,Vendor_276,Infrastructure,3665,Costa Rica
+EXP_02010,2024-02-02 04:00:03,Vendor_079,Operations,3918,Mexico
+EXP_02011,2024-10-17 11:58:09,Vendor_065,Other,4662,United States
+EXP_02012,2024-08-22 09:36:55,Vendor_115,Payroll,2894,Costa Rica
+EXP_02013,2024-05-18 02:50:53,Vendor_202,Other,1303,United States
+EXP_02014,2024-11-18 20:14:07,Vendor_142,Infrastructure,2112,Costa Rica
+EXP_02015,2024-05-26 20:59:55,Vendor_098,Infrastructure,1910,United States
+EXP_02016,2024-03-07 20:30:02,Vendor_217,Operations,3708,Mexico
+EXP_02017,2024-06-29 02:17:04,Vendor_074,Infrastructure,403,United States
+EXP_02018,2024-07-15 15:09:00,Vendor_293,Payroll,1196,Mexico
+EXP_02019,2024-08-05 03:27:25,Vendor_134,Other,4128,Costa Rica
+EXP_02020,2024-12-07 04:27:05,Vendor_262,Infrastructure,3718,Mexico
+EXP_02021,2024-12-04 17:05:53,Vendor_284,Infrastructure,1266,Panama
+EXP_02022,2024-12-24 09:48:01,Vendor_102,Payroll,4409,Panama
+EXP_02023,2024-09-01 06:19:56,Vendor_206,Marketing,2452,Mexico
+EXP_02024,2024-12-06 17:17:55,Vendor_141,Marketing,444,Panama
+EXP_02025,2024-09-18 15:08:42,Vendor_013,Payroll,843,Panama
+EXP_02026,2024-05-30 22:24:32,Vendor_249,Infrastructure,1721,Panama
+EXP_02027,2024-03-10 00:47:10,Vendor_123,Payroll,2641,Panama
+EXP_02028,2024-07-12 12:26:56,Vendor_010,Payroll,2022,United States
+EXP_02029,2024-02-03 22:17:41,Vendor_080,Marketing,1248,Panama
+EXP_02030,2024-01-16 01:40:20,Vendor_167,Operations,2988,Costa Rica
+EXP_02031,2024-02-29 15:47:44,Vendor_099,Infrastructure,4050,Mexico
+EXP_02032,2024-10-10 22:48:21,Vendor_207,Other,756,Costa Rica
+EXP_02033,2024-04-10 17:49:03,Vendor_151,Payroll,4812,Panama
+EXP_02034,2024-01-01 03:40:29,Vendor_037,Marketing,875,Costa Rica
+EXP_02035,2024-02-29 11:31:35,Vendor_264,Operations,1769,Panama
+EXP_02036,2024-04-27 00:17:00,Vendor_005,Infrastructure,2107,United States
+EXP_02037,2024-09-20 12:28:52,Vendor_226,Payroll,4697,United States
+EXP_02038,2024-06-08 08:07:30,Vendor_027,Marketing,1759,United States
+EXP_02039,2024-09-03 20:15:30,Vendor_124,Payroll,706,Panama
+EXP_02040,2024-06-19 11:54:36,Vendor_299,Other,3803,Mexico
+EXP_02041,2024-01-18 00:18:34,Vendor_035,Infrastructure,529,United States
+EXP_02042,2024-07-14 11:30:19,Vendor_237,Infrastructure,3472,Panama
+EXP_02043,2024-08-14 11:23:29,Vendor_102,Infrastructure,1104,Panama
+EXP_02044,2024-04-17 23:37:12,Vendor_077,Infrastructure,1712,Costa Rica
+EXP_02045,2024-09-23 17:54:32,Vendor_082,Marketing,4289,Panama
+EXP_02046,2024-11-16 22:31:18,Vendor_146,Other,2462,Costa Rica
+EXP_02047,2024-06-11 22:29:36,Vendor_193,Payroll,2300,United States
+EXP_02048,2024-11-18 20:34:56,Vendor_224,Marketing,2287,Costa Rica
+EXP_02049,2024-04-28 03:42:11,Vendor_053,Operations,1720,Panama
+EXP_02050,2024-10-18 07:12:27,Vendor_085,Infrastructure,4411,Costa Rica
+EXP_02051,2024-10-03 01:02:41,Vendor_129,Infrastructure,2941,United States
+EXP_02052,2024-04-08 05:56:12,Vendor_211,Payroll,4565,Panama
+EXP_02053,2024-04-07 00:15:30,Vendor_264,Infrastructure,1071,Mexico
+EXP_02054,2024-12-29 23:58:41,Vendor_183,Infrastructure,2388,Mexico
+EXP_02055,2024-12-10 10:56:14,Vendor_272,Payroll,1658,Panama
+EXP_02056,2024-06-15 22:13:52,Vendor_227,Other,2468,United States
+EXP_02057,2024-07-12 01:32:50,Vendor_012,Marketing,2192,Panama
+EXP_02058,2024-10-01 21:01:58,Vendor_093,Other,4809,Mexico
+EXP_02059,2024-07-16 07:28:09,Vendor_190,Payroll,383,Panama
+EXP_02060,2024-08-12 15:46:48,Vendor_086,Infrastructure,2134,Costa Rica
+EXP_02061,2024-05-20 21:57:45,Vendor_277,Infrastructure,3755,Costa Rica
+EXP_02062,2024-10-28 06:14:00,Vendor_293,Other,3724,United States
+EXP_02063,2024-10-24 19:16:55,Vendor_261,Operations,1914,United States
+EXP_02064,2024-03-06 01:21:36,Vendor_198,Marketing,771,United States
+EXP_02065,2024-11-19 18:40:15,Vendor_010,Infrastructure,2234,United States
+EXP_02066,2024-05-29 09:55:35,Vendor_088,Payroll,1582,Costa Rica
+EXP_02067,2024-01-18 14:36:39,Vendor_037,Other,2446,Mexico
+EXP_02068,2024-07-03 12:26:05,Vendor_223,Marketing,113,United States
+EXP_02069,2024-01-10 16:37:15,Vendor_175,Operations,855,United States
+EXP_02070,2024-08-18 15:57:44,Vendor_209,Infrastructure,268,Mexico
+EXP_02071,2024-10-14 22:58:18,Vendor_049,Other,2379,United States
+EXP_02072,2024-02-13 07:07:23,Vendor_024,Infrastructure,1234,Mexico
+EXP_02073,2024-03-25 09:56:37,Vendor_106,Other,2761,United States
+EXP_02074,2024-06-19 01:59:30,Vendor_263,Operations,4924,United States
+EXP_02075,2024-03-22 19:38:13,Vendor_206,Payroll,339,United States
+EXP_02076,2024-10-26 06:34:39,Vendor_169,Payroll,2387,Costa Rica
+EXP_02077,2024-11-19 01:56:38,Vendor_158,Marketing,4465,Costa Rica
+EXP_02078,2024-11-24 12:13:32,Vendor_241,Infrastructure,2687,Costa Rica
+EXP_02079,2024-01-15 13:36:55,Vendor_123,Infrastructure,1409,United States
+EXP_02080,2024-10-03 16:38:42,Vendor_020,Infrastructure,542,Costa Rica
+EXP_02081,2024-07-19 18:42:47,Vendor_056,Payroll,824,Costa Rica
+EXP_02082,2024-08-21 10:21:40,Vendor_280,Marketing,1007,Costa Rica
+EXP_02083,2024-01-03 12:38:36,Vendor_108,Payroll,1626,Panama
+EXP_02084,2024-10-02 09:05:06,Vendor_140,Other,2517,Costa Rica
+EXP_02085,2024-12-22 07:37:57,Vendor_091,Infrastructure,1243,Panama
+EXP_02086,2024-08-24 06:12:40,Vendor_271,Other,174,Costa Rica
+EXP_02087,2024-07-22 19:50:43,Vendor_210,Operations,2570,United States
+EXP_02088,2024-11-02 09:08:43,Vendor_176,Other,169,United States
+EXP_02089,2024-05-16 02:28:08,Vendor_061,Other,4940,United States
+EXP_02090,2024-01-04 01:29:38,Vendor_284,Other,4165,Panama
+EXP_02091,2024-04-05 09:18:13,Vendor_003,Payroll,231,United States
+EXP_02092,2024-06-20 14:47:07,Vendor_272,Other,1221,Mexico
+EXP_02093,2024-02-15 05:03:32,Vendor_164,Infrastructure,4297,Costa Rica
+EXP_02094,2024-10-15 02:27:04,Vendor_009,Marketing,1290,Panama
+EXP_02095,2024-07-21 00:20:53,Vendor_012,Operations,1228,Panama
+EXP_02096,2024-12-04 22:22:09,Vendor_074,Infrastructure,697,Panama
+EXP_02097,2024-07-25 06:38:11,Vendor_238,Marketing,1672,United States
+EXP_02098,2024-09-24 12:50:53,Vendor_108,Infrastructure,771,Mexico
+EXP_02099,2024-09-04 23:04:36,Vendor_013,Other,4830,Panama
+EXP_02100,2024-03-04 09:31:22,Vendor_234,Operations,3815,Costa Rica
+EXP_02101,2024-05-28 00:02:02,Vendor_245,Infrastructure,3437,Costa Rica
+EXP_02102,2024-11-25 08:18:16,Vendor_092,Operations,3966,Mexico
+EXP_02103,2024-11-24 13:30:04,Vendor_198,Payroll,2999,Costa Rica
+EXP_02104,2024-05-09 13:04:16,Vendor_116,Payroll,2408,Mexico
+EXP_02105,2024-02-23 10:07:07,Vendor_131,Other,2563,Costa Rica
+EXP_02106,2024-07-29 23:46:00,Vendor_153,Other,4090,Mexico
+EXP_02107,2024-03-17 00:11:05,Vendor_121,Payroll,3632,United States
+EXP_02108,2024-06-09 20:59:12,Vendor_108,Infrastructure,2848,Costa Rica
+EXP_02109,2024-01-24 05:40:48,Vendor_016,Marketing,2690,Costa Rica
+EXP_02110,2024-01-30 11:04:03,Vendor_299,Marketing,3130,Costa Rica
+EXP_02111,2024-08-17 03:15:40,Vendor_056,Payroll,3481,United States
+EXP_02112,2024-04-14 01:55:09,Vendor_103,Marketing,1811,United States
+EXP_02113,2024-05-04 17:05:21,Vendor_208,Infrastructure,4244,Panama
+EXP_02114,2024-08-22 02:12:32,Vendor_151,Marketing,4639,Panama
+EXP_02115,2024-02-28 03:34:03,Vendor_262,Marketing,271,Mexico
+EXP_02116,2024-09-12 15:39:31,Vendor_043,Payroll,3137,Panama
+EXP_02117,2024-07-27 11:00:39,Vendor_118,Operations,3501,Costa Rica
+EXP_02118,2024-01-30 17:49:09,Vendor_279,Operations,4201,United States
+EXP_02119,2024-05-08 21:40:59,Vendor_144,Infrastructure,1327,United States
+EXP_02120,2024-03-13 02:49:40,Vendor_228,Operations,2516,United States
+EXP_02121,2024-09-07 23:04:32,Vendor_204,Other,821,United States
+EXP_02122,2024-11-27 09:07:30,Vendor_229,Payroll,3719,Mexico
+EXP_02123,2024-06-06 07:13:33,Vendor_265,Operations,1030,Panama
+EXP_02124,2024-10-03 05:22:46,Vendor_137,Marketing,2428,United States
+EXP_02125,2024-09-10 05:21:18,Vendor_240,Operations,1178,Mexico
+EXP_02126,2024-12-01 02:36:52,Vendor_186,Payroll,3484,Costa Rica
+EXP_02127,2024-08-17 20:43:42,Vendor_151,Marketing,3065,Panama
+EXP_02128,2024-09-04 18:34:45,Vendor_291,Marketing,3649,Mexico
+EXP_02129,2024-06-12 15:08:08,Vendor_110,Payroll,2575,United States
+EXP_02130,2024-09-14 19:22:50,Vendor_040,Infrastructure,1635,United States
+EXP_02131,2024-09-22 03:49:06,Vendor_142,Infrastructure,512,United States
+EXP_02132,2024-08-05 19:36:30,Vendor_013,Payroll,938,Costa Rica
+EXP_02133,2024-04-15 14:12:37,Vendor_053,Payroll,3787,Panama
+EXP_02134,2024-04-29 14:26:02,Vendor_080,Payroll,1126,United States
+EXP_02135,2024-04-05 13:37:37,Vendor_233,Marketing,3768,Panama
+EXP_02136,2024-12-07 15:17:12,Vendor_039,Marketing,4880,Costa Rica
+EXP_02137,2024-03-25 20:32:43,Vendor_227,Payroll,2935,Mexico
+EXP_02138,2024-05-24 17:20:56,Vendor_121,Marketing,159,Panama
+EXP_02139,2024-05-28 05:27:18,Vendor_065,Other,689,Mexico
+EXP_02140,2024-06-26 07:27:09,Vendor_296,Payroll,2677,Panama
+EXP_02141,2024-05-09 10:18:34,Vendor_205,Marketing,3268,United States
+EXP_02142,2024-03-05 19:19:36,Vendor_135,Infrastructure,2134,United States
+EXP_02143,2024-03-15 07:24:03,Vendor_045,Payroll,4168,Mexico
+EXP_02144,2024-05-26 16:20:31,Vendor_278,Payroll,876,Panama
+EXP_02145,2024-05-15 05:33:45,Vendor_135,Payroll,247,Costa Rica
+EXP_02146,2024-01-11 21:57:36,Vendor_052,Operations,146,Panama
+EXP_02147,2024-01-10 09:51:12,Vendor_229,Payroll,1367,Mexico
+EXP_02148,2024-01-17 21:24:49,Vendor_068,Infrastructure,1601,Panama
+EXP_02149,2024-10-20 19:56:25,Vendor_198,Marketing,1718,Panama
+EXP_02150,2024-09-02 21:43:25,Vendor_067,Payroll,1764,Mexico
+EXP_02151,2024-06-19 02:36:58,Vendor_003,Other,4140,Mexico
+EXP_02152,2024-10-23 06:08:34,Vendor_058,Marketing,3103,Mexico
+EXP_02153,2024-05-17 17:56:13,Vendor_256,Infrastructure,2122,Panama
+EXP_02154,2024-03-24 01:05:39,Vendor_265,Operations,309,Mexico
+EXP_02155,2024-02-22 01:41:27,Vendor_016,Infrastructure,4382,Mexico
+EXP_02156,2024-01-31 10:46:42,Vendor_268,Operations,1287,Costa Rica
+EXP_02157,2024-03-13 23:17:07,Vendor_102,Marketing,3153,Costa Rica
+EXP_02158,2024-08-13 07:36:17,Vendor_287,Operations,134,Costa Rica
+EXP_02159,2024-09-23 07:46:40,Vendor_222,Marketing,2143,Mexico
+EXP_02160,2024-01-08 09:18:53,Vendor_021,Infrastructure,1376,Mexico
+EXP_02161,2024-07-19 13:11:19,Vendor_021,Infrastructure,4670,Costa Rica
+EXP_02162,2024-01-31 05:36:22,Vendor_092,Operations,4954,United States
+EXP_02163,2024-04-29 01:06:01,Vendor_284,Other,4665,United States
+EXP_02164,2024-06-27 20:21:27,Vendor_133,Infrastructure,3054,Costa Rica
+EXP_02165,2024-12-12 12:06:52,Vendor_175,Operations,363,Costa Rica
+EXP_02166,2024-09-24 22:28:57,Vendor_213,Payroll,1228,United States
+EXP_02167,2024-09-12 07:35:14,Vendor_148,Marketing,3391,Costa Rica
+EXP_02168,2024-11-23 20:55:34,Vendor_232,Payroll,4962,Mexico
+EXP_02169,2024-03-11 23:01:04,Vendor_165,Payroll,506,Costa Rica
+EXP_02170,2024-01-25 06:51:39,Vendor_145,Payroll,2793,Panama
+EXP_02171,2024-09-01 20:57:00,Vendor_298,Operations,1329,United States
+EXP_02172,2024-06-20 02:58:38,Vendor_223,Infrastructure,2211,Mexico
+EXP_02173,2024-04-20 08:32:29,Vendor_062,Payroll,3116,United States
+EXP_02174,2024-09-06 14:34:10,Vendor_096,Operations,971,Costa Rica
+EXP_02175,2024-09-26 14:47:52,Vendor_112,Infrastructure,4233,United States
+EXP_02176,2024-11-21 18:11:58,Vendor_087,Marketing,4955,Costa Rica
+EXP_02177,2024-06-29 13:46:43,Vendor_255,Infrastructure,4860,Mexico
+EXP_02178,2024-10-08 05:15:28,Vendor_113,Infrastructure,4417,Mexico
+EXP_02179,2024-04-19 12:54:02,Vendor_254,Payroll,4965,United States
+EXP_02180,2024-02-28 12:29:49,Vendor_032,Operations,572,Mexico
+EXP_02181,2024-08-09 01:40:32,Vendor_064,Other,3677,United States
+EXP_02182,2024-11-08 02:47:37,Vendor_154,Marketing,4774,United States
+EXP_02183,2024-05-12 18:52:48,Vendor_005,Operations,3932,United States
+EXP_02184,2024-09-05 03:59:13,Vendor_210,Payroll,4430,United States
+EXP_02185,2024-02-09 21:08:14,Vendor_092,Operations,2241,Panama
+EXP_02186,2024-06-17 22:14:05,Vendor_222,Other,3008,Panama
+EXP_02187,2024-09-20 18:59:30,Vendor_190,Marketing,2986,Costa Rica
+EXP_02188,2024-02-23 09:48:44,Vendor_060,Infrastructure,4844,Mexico
+EXP_02189,2024-09-26 20:44:33,Vendor_205,Marketing,4211,Panama
+EXP_02190,2024-06-30 13:26:15,Vendor_212,Other,1498,Panama
+EXP_02191,2024-05-13 22:26:07,Vendor_258,Marketing,463,Mexico
+EXP_02192,2024-02-26 07:08:15,Vendor_089,Marketing,843,United States
+EXP_02193,2024-05-23 21:05:57,Vendor_236,Payroll,3569,Panama
+EXP_02194,2024-03-27 13:01:18,Vendor_196,Infrastructure,2557,Panama
+EXP_02195,2024-06-19 21:08:48,Vendor_183,Other,3784,Panama
+EXP_02196,2024-12-28 20:57:57,Vendor_251,Payroll,2333,Panama
+EXP_02197,2024-12-27 22:17:12,Vendor_224,Marketing,4141,United States
+EXP_02198,2024-12-06 23:11:41,Vendor_171,Marketing,569,Mexico
+EXP_02199,2024-11-09 18:53:22,Vendor_198,Operations,411,Panama
+EXP_02200,2024-07-01 08:31:39,Vendor_249,Payroll,2947,Panama
+EXP_02201,2024-08-12 00:39:44,Vendor_181,Other,3249,Panama
+EXP_02202,2024-11-26 14:28:49,Vendor_277,Other,4730,Panama
+EXP_02203,2024-11-26 00:43:08,Vendor_275,Other,2269,Mexico
+EXP_02204,2024-06-15 18:10:13,Vendor_161,Other,4423,United States
+EXP_02205,2024-08-07 07:34:24,Vendor_248,Marketing,1088,Costa Rica
+EXP_02206,2024-10-03 15:39:06,Vendor_188,Marketing,1531,Mexico
+EXP_02207,2024-04-28 20:18:19,Vendor_019,Payroll,4210,Panama
+EXP_02208,2024-03-07 20:20:19,Vendor_244,Infrastructure,313,Costa Rica
+EXP_02209,2024-08-21 03:09:42,Vendor_113,Other,4798,Panama
+EXP_02210,2024-02-06 02:34:55,Vendor_278,Marketing,4247,Mexico
+EXP_02211,2024-06-21 03:36:19,Vendor_051,Payroll,4252,United States
+EXP_02212,2024-11-18 05:09:19,Vendor_123,Other,1412,Costa Rica
+EXP_02213,2024-08-07 00:19:22,Vendor_238,Infrastructure,3320,Costa Rica
+EXP_02214,2024-11-14 02:55:47,Vendor_062,Other,2555,United States
+EXP_02215,2024-07-24 22:13:17,Vendor_074,Operations,4727,United States
+EXP_02216,2024-02-05 22:27:31,Vendor_245,Other,3540,Costa Rica
+EXP_02217,2024-08-24 03:23:05,Vendor_032,Operations,2504,Costa Rica
+EXP_02218,2024-10-16 19:33:47,Vendor_153,Infrastructure,799,Costa Rica
+EXP_02219,2024-03-22 18:31:05,Vendor_144,Operations,1666,Costa Rica
+EXP_02220,2024-05-07 16:41:43,Vendor_015,Infrastructure,4869,United States
+EXP_02221,2024-01-25 01:24:17,Vendor_274,Payroll,1409,Mexico
+EXP_02222,2024-01-11 08:29:27,Vendor_245,Operations,4712,Mexico
+EXP_02223,2024-09-14 08:31:21,Vendor_279,Other,780,United States
+EXP_02224,2024-03-01 14:54:18,Vendor_055,Other,1808,Mexico
+EXP_02225,2024-06-25 05:42:56,Vendor_042,Payroll,4922,Mexico
+EXP_02226,2024-11-05 07:36:28,Vendor_052,Marketing,4000,Panama
+EXP_02227,2024-08-11 05:16:38,Vendor_011,Infrastructure,2264,Mexico
+EXP_02228,2024-06-05 00:13:58,Vendor_088,Marketing,4464,Costa Rica
+EXP_02229,2024-03-23 15:01:09,Vendor_227,Marketing,1887,Mexico
+EXP_02230,2024-09-04 22:48:13,Vendor_114,Payroll,817,United States
+EXP_02231,2024-03-24 16:04:51,Vendor_025,Payroll,820,Mexico
+EXP_02232,2024-07-09 09:33:51,Vendor_092,Operations,3334,United States
+EXP_02233,2024-06-25 10:59:32,Vendor_087,Operations,3957,Costa Rica
+EXP_02234,2024-09-22 08:24:16,Vendor_081,Operations,2287,Panama
+EXP_02235,2024-01-13 06:20:17,Vendor_250,Operations,4058,Panama
+EXP_02236,2024-06-22 19:46:01,Vendor_250,Operations,3852,Mexico
+EXP_02237,2024-09-18 16:50:30,Vendor_210,Other,4339,Mexico
+EXP_02238,2024-09-10 04:46:25,Vendor_009,Payroll,2369,United States
+EXP_02239,2024-01-24 05:07:51,Vendor_099,Infrastructure,880,Panama
+EXP_02240,2024-12-20 06:04:09,Vendor_036,Infrastructure,729,Costa Rica
+EXP_02241,2024-09-15 06:10:47,Vendor_057,Infrastructure,4630,United States
+EXP_02242,2024-02-15 15:54:27,Vendor_063,Infrastructure,4021,Mexico
+EXP_02243,2024-12-22 12:36:00,Vendor_276,Infrastructure,3177,Panama
+EXP_02244,2024-03-21 05:39:02,Vendor_213,Other,3412,Mexico
+EXP_02245,2024-09-01 13:40:32,Vendor_020,Payroll,3226,Panama
+EXP_02246,2024-12-01 00:20:46,Vendor_247,Operations,2530,United States
+EXP_02247,2024-08-31 02:43:50,Vendor_006,Operations,3641,Costa Rica
+EXP_02248,2024-09-21 00:01:28,Vendor_073,Operations,3242,Costa Rica
+EXP_02249,2024-11-17 10:29:56,Vendor_107,Payroll,1729,Costa Rica
+EXP_02250,2024-01-19 15:16:13,Vendor_093,Payroll,1573,Costa Rica
+EXP_02251,2024-02-19 04:50:22,Vendor_285,Other,579,Costa Rica
+EXP_02252,2024-03-24 21:43:29,Vendor_219,Other,2169,Mexico
+EXP_02253,2024-12-23 05:32:58,Vendor_049,Operations,660,Mexico
+EXP_02254,2024-08-15 19:49:51,Vendor_295,Payroll,2795,Costa Rica
+EXP_02255,2024-09-05 06:27:41,Vendor_288,Operations,2759,Panama
+EXP_02256,2024-10-29 22:41:20,Vendor_177,Other,2859,United States
+EXP_02257,2024-03-13 23:35:51,Vendor_299,Operations,2103,Panama
+EXP_02258,2024-07-25 00:45:32,Vendor_108,Other,4316,Panama
+EXP_02259,2024-09-23 19:53:39,Vendor_284,Marketing,2886,Costa Rica
+EXP_02260,2024-09-19 04:22:15,Vendor_065,Infrastructure,4092,Panama
+EXP_02261,2024-10-03 15:29:00,Vendor_054,Marketing,1561,Mexico
+EXP_02262,2024-01-15 23:09:33,Vendor_299,Operations,4946,United States
+EXP_02263,2024-07-24 18:27:30,Vendor_030,Operations,4984,United States
+EXP_02264,2024-09-10 19:34:26,Vendor_246,Payroll,994,United States
+EXP_02265,2024-06-15 13:17:55,Vendor_210,Infrastructure,1106,Panama
+EXP_02266,2024-11-21 08:04:40,Vendor_221,Other,4382,United States
+EXP_02267,2024-08-10 18:07:04,Vendor_170,Operations,617,United States
+EXP_02268,2024-06-24 09:21:24,Vendor_214,Other,1100,Mexico
+EXP_02269,2024-12-25 17:14:21,Vendor_069,Other,3847,Costa Rica
+EXP_02270,2024-01-05 20:13:16,Vendor_234,Other,739,Costa Rica
+EXP_02271,2024-11-12 18:45:49,Vendor_015,Marketing,829,Mexico
+EXP_02272,2024-05-09 23:32:00,Vendor_134,Other,4848,Mexico
+EXP_02273,2024-10-05 19:45:32,Vendor_206,Payroll,532,Costa Rica
+EXP_02274,2024-07-01 11:28:33,Vendor_024,Marketing,4037,Panama
+EXP_02275,2024-06-28 00:17:17,Vendor_085,Marketing,2910,Mexico
+EXP_02276,2024-01-22 00:47:17,Vendor_142,Operations,3037,United States
+EXP_02277,2024-06-27 02:04:34,Vendor_140,Infrastructure,4296,Mexico
+EXP_02278,2024-03-13 10:00:47,Vendor_122,Infrastructure,1221,Panama
+EXP_02279,2024-11-03 16:53:30,Vendor_179,Operations,2426,Mexico
+EXP_02280,2024-10-03 19:54:35,Vendor_208,Infrastructure,1978,United States
+EXP_02281,2024-01-08 03:47:06,Vendor_166,Other,3516,Mexico
+EXP_02282,2024-12-19 21:52:13,Vendor_041,Payroll,3042,Mexico
+EXP_02283,2024-04-16 00:25:42,Vendor_122,Other,1714,Mexico
+EXP_02284,2024-08-29 04:04:20,Vendor_044,Infrastructure,4625,Costa Rica
+EXP_02285,2024-08-06 18:02:33,Vendor_075,Infrastructure,1162,Costa Rica
+EXP_02286,2024-03-28 14:50:15,Vendor_272,Payroll,2572,Panama
+EXP_02287,2024-04-02 14:59:40,Vendor_166,Marketing,4624,Costa Rica
+EXP_02288,2024-08-16 14:57:20,Vendor_250,Marketing,4650,Panama
+EXP_02289,2024-03-17 11:09:17,Vendor_086,Payroll,618,Costa Rica
+EXP_02290,2024-02-19 17:38:32,Vendor_137,Marketing,3524,Panama
+EXP_02291,2024-09-03 03:36:45,Vendor_039,Infrastructure,309,Panama
+EXP_02292,2024-10-31 13:54:02,Vendor_087,Marketing,4786,Panama
+EXP_02293,2024-02-09 01:08:57,Vendor_155,Infrastructure,966,Mexico
+EXP_02294,2024-02-09 10:39:17,Vendor_160,Operations,4040,Mexico
+EXP_02295,2024-01-23 06:37:31,Vendor_064,Other,275,Panama
+EXP_02296,2024-06-04 15:55:19,Vendor_223,Marketing,4956,Panama
+EXP_02297,2024-01-22 03:48:43,Vendor_146,Operations,3629,Mexico
+EXP_02298,2024-11-06 12:34:19,Vendor_204,Marketing,316,United States
+EXP_02299,2024-01-23 04:06:59,Vendor_067,Operations,3010,Mexico
+EXP_02300,2024-05-12 08:00:59,Vendor_005,Payroll,703,Panama
+EXP_02301,2024-12-24 23:57:00,Vendor_059,Operations,1842,Mexico
+EXP_02302,2024-11-18 04:39:20,Vendor_076,Infrastructure,3403,Costa Rica
+EXP_02303,2024-12-10 06:26:28,Vendor_260,Payroll,919,Panama
+EXP_02304,2024-04-14 05:54:56,Vendor_248,Payroll,1161,Mexico
+EXP_02305,2024-05-26 09:00:39,Vendor_016,Infrastructure,2571,Costa Rica
+EXP_02306,2024-07-04 16:50:00,Vendor_075,Marketing,3570,Mexico
+EXP_02307,2024-07-17 16:56:52,Vendor_176,Payroll,3112,Mexico
+EXP_02308,2024-02-25 21:12:28,Vendor_136,Marketing,3055,United States
+EXP_02309,2024-01-01 13:19:32,Vendor_277,Other,2726,Mexico
+EXP_02310,2024-01-21 08:15:33,Vendor_282,Operations,284,Mexico
+EXP_02311,2024-01-18 16:52:24,Vendor_168,Operations,3548,United States
+EXP_02312,2024-07-04 19:35:00,Vendor_030,Infrastructure,701,Mexico
+EXP_02313,2024-07-25 05:43:29,Vendor_269,Infrastructure,1409,United States
+EXP_02314,2024-11-27 15:04:34,Vendor_001,Operations,1471,Costa Rica
+EXP_02315,2024-07-30 07:07:22,Vendor_171,Other,2866,United States
+EXP_02316,2024-07-06 02:02:49,Vendor_129,Infrastructure,4725,Costa Rica
+EXP_02317,2024-12-27 16:06:58,Vendor_168,Other,1112,United States
+EXP_02318,2024-12-27 17:35:04,Vendor_061,Infrastructure,1954,Costa Rica
+EXP_02319,2024-02-10 14:16:07,Vendor_117,Payroll,106,Mexico
+EXP_02320,2024-09-03 07:53:19,Vendor_123,Marketing,287,Costa Rica
+EXP_02321,2024-01-17 23:45:00,Vendor_260,Operations,4145,Costa Rica
+EXP_02322,2024-07-17 21:58:22,Vendor_226,Marketing,1723,Panama
+EXP_02323,2024-11-30 10:48:21,Vendor_292,Operations,1239,Costa Rica
+EXP_02324,2024-04-21 14:40:31,Vendor_186,Infrastructure,162,Mexico
+EXP_02325,2024-10-05 08:33:24,Vendor_085,Marketing,540,Panama
+EXP_02326,2024-05-28 14:31:21,Vendor_218,Other,1467,Panama
+EXP_02327,2024-04-02 14:35:13,Vendor_143,Infrastructure,686,United States
+EXP_02328,2024-08-01 11:33:44,Vendor_090,Payroll,478,Costa Rica
+EXP_02329,2024-12-20 19:41:29,Vendor_268,Marketing,1355,United States
+EXP_02330,2024-08-18 19:40:39,Vendor_076,Marketing,2587,United States
+EXP_02331,2024-09-18 06:26:39,Vendor_069,Payroll,2541,Costa Rica
+EXP_02332,2024-11-11 05:32:29,Vendor_298,Operations,4046,United States
+EXP_02333,2024-07-05 23:16:52,Vendor_160,Infrastructure,836,Mexico
+EXP_02334,2024-01-13 07:00:37,Vendor_008,Payroll,3447,Mexico
+EXP_02335,2024-07-26 19:58:54,Vendor_219,Other,973,Costa Rica
+EXP_02336,2024-02-20 08:13:52,Vendor_088,Infrastructure,4899,Costa Rica
+EXP_02337,2024-05-25 11:43:40,Vendor_141,Payroll,3338,Panama
+EXP_02338,2024-04-11 09:54:48,Vendor_029,Payroll,198,Costa Rica
+EXP_02339,2024-12-03 03:17:35,Vendor_013,Marketing,2559,Costa Rica
+EXP_02340,2024-08-17 13:06:39,Vendor_063,Marketing,3399,Mexico
+EXP_02341,2024-08-10 18:42:03,Vendor_175,Marketing,513,Mexico
+EXP_02342,2024-05-23 19:01:40,Vendor_216,Infrastructure,413,Costa Rica
+EXP_02343,2024-03-15 18:56:52,Vendor_235,Operations,2473,Panama
+EXP_02344,2024-04-09 09:44:59,Vendor_087,Infrastructure,1885,Mexico
+EXP_02345,2024-02-27 14:11:07,Vendor_074,Marketing,1532,Mexico
+EXP_02346,2024-03-04 19:59:14,Vendor_294,Marketing,4618,United States
+EXP_02347,2024-07-02 09:12:23,Vendor_069,Infrastructure,4425,Costa Rica
+EXP_02348,2024-01-13 23:11:09,Vendor_069,Payroll,1694,United States
+EXP_02349,2024-11-22 14:46:46,Vendor_223,Payroll,4872,Costa Rica
+EXP_02350,2024-04-11 11:33:43,Vendor_285,Marketing,3683,Panama
+EXP_02351,2024-12-15 17:40:35,Vendor_122,Marketing,4911,United States
+EXP_02352,2024-08-09 16:30:23,Vendor_263,Operations,437,Mexico
+EXP_02353,2024-01-17 10:05:27,Vendor_221,Payroll,4441,Costa Rica
+EXP_02354,2024-03-20 11:23:53,Vendor_164,Operations,657,Costa Rica
+EXP_02355,2024-02-07 14:56:51,Vendor_263,Marketing,4399,United States
+EXP_02356,2024-06-11 11:32:16,Vendor_092,Marketing,1316,United States
+EXP_02357,2024-12-02 19:37:02,Vendor_266,Operations,4010,Panama
+EXP_02358,2024-09-11 22:41:55,Vendor_074,Operations,3530,Mexico
+EXP_02359,2024-12-18 18:52:20,Vendor_090,Marketing,4869,Panama
+EXP_02360,2024-07-20 23:24:41,Vendor_296,Other,835,Mexico
+EXP_02361,2024-05-11 19:47:26,Vendor_129,Marketing,3425,Mexico
+EXP_02362,2024-07-31 08:55:03,Vendor_049,Payroll,2431,Costa Rica
+EXP_02363,2024-03-27 19:26:22,Vendor_086,Marketing,2365,Mexico
+EXP_02364,2024-09-01 13:36:27,Vendor_144,Infrastructure,4768,United States
+EXP_02365,2024-01-28 08:08:41,Vendor_135,Marketing,3723,Costa Rica
+EXP_02366,2024-01-26 17:54:13,Vendor_115,Other,281,Panama
+EXP_02367,2024-12-30 08:32:14,Vendor_277,Payroll,307,Mexico
+EXP_02368,2024-02-02 08:43:26,Vendor_066,Marketing,2570,Costa Rica
+EXP_02369,2024-11-12 00:29:14,Vendor_187,Operations,1293,United States
+EXP_02370,2024-04-06 19:29:13,Vendor_201,Payroll,4334,Panama
+EXP_02371,2024-07-17 22:13:40,Vendor_138,Payroll,4449,Costa Rica
+EXP_02372,2024-08-30 14:17:54,Vendor_052,Other,1289,Costa Rica
+EXP_02373,2024-03-19 19:08:51,Vendor_213,Operations,4764,United States
+EXP_02374,2024-09-18 01:57:41,Vendor_158,Infrastructure,1758,United States
+EXP_02375,2024-08-08 15:43:58,Vendor_290,Marketing,525,Mexico
+EXP_02376,2024-03-27 19:55:17,Vendor_206,Infrastructure,3677,Panama
+EXP_02377,2024-11-12 08:57:50,Vendor_136,Operations,1529,Costa Rica
+EXP_02378,2024-11-12 13:01:57,Vendor_075,Payroll,4957,United States
+EXP_02379,2024-04-06 04:26:25,Vendor_069,Other,668,United States
+EXP_02380,2024-12-01 16:52:26,Vendor_049,Other,2726,Costa Rica
+EXP_02381,2024-05-20 10:36:27,Vendor_202,Payroll,330,United States
+EXP_02382,2024-12-13 18:46:53,Vendor_062,Other,1094,United States
+EXP_02383,2024-04-16 00:57:11,Vendor_167,Infrastructure,1756,Mexico
+EXP_02384,2024-12-25 19:05:59,Vendor_205,Payroll,4139,Costa Rica
+EXP_02385,2024-11-11 06:40:21,Vendor_149,Marketing,889,Mexico
+EXP_02386,2024-09-03 02:05:17,Vendor_121,Marketing,2725,Panama
+EXP_02387,2024-11-20 15:24:29,Vendor_097,Operations,1136,United States
+EXP_02388,2024-05-02 13:58:27,Vendor_053,Payroll,4538,Mexico
+EXP_02389,2024-06-15 04:58:25,Vendor_009,Infrastructure,1712,Costa Rica
+EXP_02390,2024-07-10 16:32:05,Vendor_251,Payroll,438,Panama
+EXP_02391,2024-10-01 18:47:01,Vendor_124,Payroll,685,Panama
+EXP_02392,2024-01-03 13:48:09,Vendor_122,Infrastructure,521,Mexico
+EXP_02393,2024-08-16 01:19:14,Vendor_199,Other,1413,Mexico
+EXP_02394,2024-10-18 04:22:25,Vendor_095,Infrastructure,1413,United States
+EXP_02395,2024-08-28 21:55:15,Vendor_030,Payroll,3942,Mexico
+EXP_02396,2024-04-08 01:03:51,Vendor_092,Payroll,1277,Mexico
+EXP_02397,2024-11-09 22:05:56,Vendor_084,Payroll,1838,Mexico
+EXP_02398,2024-02-07 10:42:54,Vendor_015,Payroll,1766,Panama
+EXP_02399,2024-05-16 09:54:42,Vendor_143,Operations,4323,Costa Rica
+EXP_02400,2024-03-19 20:14:20,Vendor_209,Other,4628,Mexico
+EXP_02401,2024-05-15 01:49:51,Vendor_023,Payroll,614,Panama
+EXP_02402,2024-02-03 14:16:47,Vendor_144,Operations,3429,Panama
+EXP_02403,2024-09-02 20:43:41,Vendor_087,Payroll,4697,Mexico
+EXP_02404,2024-11-14 18:29:00,Vendor_193,Other,1088,Panama
+EXP_02405,2024-11-02 11:50:35,Vendor_173,Other,4612,United States
+EXP_02406,2024-07-05 08:01:24,Vendor_263,Infrastructure,4295,Costa Rica
+EXP_02407,2024-04-19 16:11:52,Vendor_295,Operations,1517,United States
+EXP_02408,2024-04-19 23:23:54,Vendor_050,Other,2825,Costa Rica
+EXP_02409,2024-10-01 23:36:39,Vendor_048,Marketing,2296,Panama
+EXP_02410,2024-10-18 10:57:29,Vendor_049,Payroll,2114,Mexico
+EXP_02411,2024-08-15 09:53:35,Vendor_168,Other,550,Mexico
+EXP_02412,2024-05-11 23:58:30,Vendor_167,Operations,633,Panama
+EXP_02413,2024-08-03 00:59:47,Vendor_082,Operations,3015,Mexico
+EXP_02414,2024-08-25 20:51:45,Vendor_063,Operations,4918,Panama
+EXP_02415,2024-12-02 17:31:07,Vendor_228,Infrastructure,1643,United States
+EXP_02416,2024-11-12 17:54:32,Vendor_214,Payroll,918,Panama
+EXP_02417,2024-06-17 16:46:42,Vendor_130,Marketing,1789,Panama
+EXP_02418,2024-05-30 14:45:09,Vendor_154,Operations,2393,United States
+EXP_02419,2024-06-14 16:42:37,Vendor_242,Payroll,1572,United States
+EXP_02420,2024-10-06 19:43:56,Vendor_096,Operations,2301,Panama
+EXP_02421,2024-02-06 00:40:22,Vendor_232,Operations,345,United States
+EXP_02422,2024-05-11 20:42:19,Vendor_238,Marketing,914,Costa Rica
+EXP_02423,2024-04-08 23:01:54,Vendor_018,Payroll,3214,United States
+EXP_02424,2024-09-04 01:03:14,Vendor_246,Operations,492,Mexico
+EXP_02425,2024-11-10 00:11:14,Vendor_060,Infrastructure,4358,United States
+EXP_02426,2024-05-19 23:07:30,Vendor_130,Operations,4661,United States
+EXP_02427,2024-06-24 06:41:54,Vendor_049,Payroll,4707,Panama
+EXP_02428,2024-03-23 03:11:34,Vendor_166,Other,1270,United States
+EXP_02429,2024-06-05 15:45:32,Vendor_168,Operations,3327,Costa Rica
+EXP_02430,2024-07-07 09:05:17,Vendor_253,Infrastructure,2662,Panama
+EXP_02431,2024-06-19 09:37:24,Vendor_064,Infrastructure,2293,Costa Rica
+EXP_02432,2024-06-28 12:57:07,Vendor_033,Operations,3683,Mexico
+EXP_02433,2024-03-20 18:48:05,Vendor_058,Payroll,3440,Panama
+EXP_02434,2024-05-09 00:39:41,Vendor_064,Operations,2443,Panama
+EXP_02435,2024-03-18 11:43:45,Vendor_125,Infrastructure,2461,Mexico
+EXP_02436,2024-12-22 05:10:19,Vendor_061,Operations,2716,Mexico
+EXP_02437,2024-05-21 06:22:06,Vendor_249,Infrastructure,2624,Costa Rica
+EXP_02438,2024-09-30 19:23:30,Vendor_138,Other,1242,United States
+EXP_02439,2024-03-03 03:42:41,Vendor_066,Operations,2681,Panama
+EXP_02440,2024-02-20 17:54:37,Vendor_179,Marketing,3734,Panama
+EXP_02441,2024-05-08 05:51:42,Vendor_286,Operations,4669,Costa Rica
+EXP_02442,2024-04-20 09:53:58,Vendor_281,Infrastructure,4923,Panama
+EXP_02443,2024-04-22 10:57:15,Vendor_171,Payroll,687,Mexico
+EXP_02444,2024-01-20 08:54:09,Vendor_243,Infrastructure,1289,Panama
+EXP_02445,2024-11-11 11:57:49,Vendor_120,Other,4675,United States
+EXP_02446,2024-10-24 09:23:16,Vendor_192,Payroll,160,Mexico
+EXP_02447,2024-06-25 05:52:26,Vendor_187,Marketing,1940,Costa Rica
+EXP_02448,2024-01-13 09:54:22,Vendor_227,Marketing,1402,Costa Rica
+EXP_02449,2024-02-18 15:27:21,Vendor_266,Other,4783,Panama
+EXP_02450,2024-02-21 05:26:32,Vendor_192,Other,4404,Mexico
+EXP_02451,2024-07-21 19:09:27,Vendor_240,Other,136,Mexico
+EXP_02452,2024-11-05 02:21:00,Vendor_094,Other,1257,Mexico
+EXP_02453,2024-01-07 03:33:00,Vendor_126,Operations,4930,Panama
+EXP_02454,2024-04-23 18:15:07,Vendor_099,Infrastructure,3059,Panama
+EXP_02455,2024-05-25 14:10:54,Vendor_243,Operations,1520,Costa Rica
+EXP_02456,2024-07-01 00:19:57,Vendor_020,Payroll,3423,United States
+EXP_02457,2024-02-10 16:31:29,Vendor_117,Marketing,606,Mexico
+EXP_02458,2024-12-05 18:59:02,Vendor_099,Marketing,1714,Panama
+EXP_02459,2024-10-18 11:51:31,Vendor_155,Payroll,1367,Panama
+EXP_02460,2024-08-03 21:17:00,Vendor_185,Marketing,1072,United States
+EXP_02461,2024-06-27 18:49:45,Vendor_003,Other,549,Panama
+EXP_02462,2024-09-01 00:52:04,Vendor_157,Other,4315,Panama
+EXP_02463,2024-12-30 01:38:08,Vendor_175,Other,3480,Panama
+EXP_02464,2024-02-24 05:26:32,Vendor_069,Payroll,4829,Mexico
+EXP_02465,2024-07-12 21:18:29,Vendor_021,Infrastructure,311,United States
+EXP_02466,2024-12-25 06:21:10,Vendor_298,Payroll,2431,Costa Rica
+EXP_02467,2024-07-07 14:45:32,Vendor_118,Infrastructure,3701,United States
+EXP_02468,2024-02-26 13:11:32,Vendor_277,Marketing,1164,United States
+EXP_02469,2024-07-04 16:15:20,Vendor_130,Marketing,1546,Costa Rica
+EXP_02470,2024-04-25 03:50:21,Vendor_206,Marketing,3116,Costa Rica
+EXP_02471,2024-01-30 21:26:33,Vendor_197,Infrastructure,1632,Panama
+EXP_02472,2024-01-27 15:45:08,Vendor_135,Marketing,3053,Panama
+EXP_02473,2024-09-28 17:32:05,Vendor_203,Payroll,1933,Panama
+EXP_02474,2024-08-21 13:07:53,Vendor_035,Infrastructure,2507,Mexico
+EXP_02475,2024-10-26 17:52:24,Vendor_030,Other,3405,Mexico
+EXP_02476,2024-08-02 10:28:52,Vendor_257,Infrastructure,4841,United States
+EXP_02477,2024-02-23 17:46:59,Vendor_182,Payroll,1456,Mexico
+EXP_02478,2024-06-13 14:43:39,Vendor_208,Payroll,2353,Mexico
+EXP_02479,2024-08-14 23:28:20,Vendor_129,Payroll,4097,Costa Rica
+EXP_02480,2024-09-29 10:50:50,Vendor_063,Marketing,2236,Panama
+EXP_02481,2024-04-05 18:05:16,Vendor_077,Other,1035,Costa Rica
+EXP_02482,2024-03-22 16:24:36,Vendor_015,Other,1222,Panama
+EXP_02483,2024-01-03 07:24:20,Vendor_059,Operations,1609,United States
+EXP_02484,2024-05-08 00:37:04,Vendor_151,Payroll,810,Costa Rica
+EXP_02485,2024-12-09 06:28:04,Vendor_108,Marketing,1093,Panama
+EXP_02486,2024-09-02 12:42:08,Vendor_107,Infrastructure,154,Costa Rica
+EXP_02487,2024-05-18 14:22:36,Vendor_139,Marketing,1740,Costa Rica
+EXP_02488,2024-05-09 06:02:47,Vendor_280,Payroll,2461,Panama
+EXP_02489,2024-03-28 10:26:59,Vendor_072,Marketing,3275,Mexico
+EXP_02490,2024-10-25 09:27:18,Vendor_111,Payroll,1856,Costa Rica
+EXP_02491,2024-04-17 00:08:37,Vendor_226,Infrastructure,875,United States
+EXP_02492,2024-01-12 04:03:26,Vendor_106,Infrastructure,455,Mexico
+EXP_02493,2024-04-11 09:27:42,Vendor_159,Other,3550,Costa Rica
+EXP_02494,2024-04-15 15:10:44,Vendor_150,Operations,2842,United States
+EXP_02495,2024-07-22 14:10:55,Vendor_014,Marketing,663,United States
+EXP_02496,2024-10-09 01:31:52,Vendor_005,Operations,2494,Panama
+EXP_02497,2024-04-18 16:30:52,Vendor_127,Marketing,2992,Mexico
+EXP_02498,2024-08-27 11:22:44,Vendor_273,Other,1626,Mexico
+EXP_02499,2024-05-20 22:09:01,Vendor_211,Other,4220,Panama
+EXP_02500,2024-08-23 16:26:01,Vendor_217,Infrastructure,4287,Costa Rica
+EXP_02501,2024-04-17 02:22:14,Vendor_079,Infrastructure,2476,Costa Rica
+EXP_02502,2024-10-09 15:46:23,Vendor_093,Infrastructure,1661,United States
+EXP_02503,2024-05-08 02:10:05,Vendor_238,Marketing,3119,United States
+EXP_02504,2024-12-19 10:52:42,Vendor_234,Operations,4797,United States
+EXP_02505,2024-07-12 20:21:12,Vendor_177,Operations,4537,United States
+EXP_02506,2024-02-28 13:55:50,Vendor_255,Infrastructure,3044,Panama
+EXP_02507,2024-02-12 20:33:38,Vendor_132,Other,4091,Costa Rica
+EXP_02508,2024-07-06 19:39:53,Vendor_265,Operations,641,United States
+EXP_02509,2024-05-28 14:48:58,Vendor_292,Other,2673,Mexico
+EXP_02510,2024-11-30 16:43:00,Vendor_179,Infrastructure,1253,United States
+EXP_02511,2024-07-25 02:14:35,Vendor_146,Marketing,3689,United States
+EXP_02512,2024-05-17 21:18:00,Vendor_143,Payroll,1846,Costa Rica
+EXP_02513,2024-10-17 06:26:23,Vendor_020,Operations,1272,United States
+EXP_02514,2024-09-19 06:18:48,Vendor_058,Infrastructure,1399,Panama
+EXP_02515,2024-06-26 18:24:55,Vendor_296,Infrastructure,3832,Costa Rica
+EXP_02516,2024-05-07 21:38:36,Vendor_066,Operations,3367,Costa Rica
+EXP_02517,2024-11-08 19:53:25,Vendor_013,Payroll,4604,United States
+EXP_02518,2024-03-01 08:29:50,Vendor_062,Marketing,170,Panama
+EXP_02519,2024-09-07 19:33:42,Vendor_046,Operations,1322,Costa Rica
+EXP_02520,2024-12-06 13:43:06,Vendor_093,Marketing,4740,Mexico
+EXP_02521,2024-05-02 18:46:08,Vendor_223,Infrastructure,701,United States
+EXP_02522,2024-06-17 09:16:47,Vendor_023,Operations,1588,Costa Rica
+EXP_02523,2024-04-23 11:32:39,Vendor_067,Marketing,3261,United States
+EXP_02524,2024-06-06 11:25:09,Vendor_114,Other,2994,Mexico
+EXP_02525,2024-04-16 07:20:22,Vendor_206,Other,1911,United States
+EXP_02526,2024-03-07 07:07:53,Vendor_066,Other,1872,United States
+EXP_02527,2024-12-19 22:39:42,Vendor_050,Marketing,100,Panama
+EXP_02528,2024-03-27 08:06:01,Vendor_141,Other,4744,Panama
+EXP_02529,2024-05-16 09:32:10,Vendor_258,Infrastructure,2281,Mexico
+EXP_02530,2024-07-14 06:53:51,Vendor_034,Marketing,3423,Panama
+EXP_02531,2024-06-01 22:19:13,Vendor_296,Infrastructure,2877,Costa Rica
+EXP_02532,2024-03-14 19:49:03,Vendor_253,Payroll,4716,Panama
+EXP_02533,2024-01-28 08:41:10,Vendor_069,Marketing,1008,Costa Rica
+EXP_02534,2024-07-09 10:43:35,Vendor_189,Other,2022,Mexico
+EXP_02535,2024-01-11 23:23:39,Vendor_153,Other,2086,Mexico
+EXP_02536,2024-06-29 16:02:28,Vendor_203,Payroll,4142,United States
+EXP_02537,2024-05-14 23:45:18,Vendor_077,Operations,1937,Costa Rica
+EXP_02538,2024-04-03 04:36:32,Vendor_191,Payroll,3741,United States
+EXP_02539,2024-06-12 11:31:01,Vendor_028,Other,600,United States
+EXP_02540,2024-02-04 07:45:48,Vendor_213,Other,1922,United States
+EXP_02541,2024-04-17 09:08:34,Vendor_056,Operations,1431,Costa Rica
+EXP_02542,2024-08-06 16:28:36,Vendor_112,Payroll,4446,Panama
+EXP_02543,2024-01-18 06:59:36,Vendor_243,Infrastructure,3052,Costa Rica
+EXP_02544,2024-06-25 11:44:54,Vendor_154,Payroll,1726,Panama
+EXP_02545,2024-11-18 05:32:23,Vendor_155,Infrastructure,1327,Costa Rica
+EXP_02546,2024-04-21 02:58:29,Vendor_282,Other,2155,Mexico
+EXP_02547,2024-09-15 01:25:06,Vendor_271,Other,2255,Mexico
+EXP_02548,2024-11-05 05:46:24,Vendor_050,Payroll,1977,Panama
+EXP_02549,2024-07-19 01:52:13,Vendor_068,Other,4161,United States
+EXP_02550,2024-09-07 04:47:57,Vendor_132,Operations,2964,United States
+EXP_02551,2024-04-23 04:46:52,Vendor_158,Marketing,2670,United States
+EXP_02552,2024-05-06 07:57:15,Vendor_265,Infrastructure,1496,United States
+EXP_02553,2024-05-10 22:42:34,Vendor_170,Other,4581,Costa Rica
+EXP_02554,2024-06-04 11:39:31,Vendor_270,Infrastructure,4378,Mexico
+EXP_02555,2024-10-29 20:03:35,Vendor_220,Payroll,3069,Costa Rica
+EXP_02556,2024-10-03 20:28:05,Vendor_040,Operations,3689,Costa Rica
+EXP_02557,2024-05-22 11:46:05,Vendor_289,Infrastructure,1991,Costa Rica
+EXP_02558,2024-03-25 10:13:16,Vendor_079,Other,1373,Panama
+EXP_02559,2024-06-01 15:59:36,Vendor_239,Marketing,2345,Mexico
+EXP_02560,2024-07-16 08:01:53,Vendor_060,Operations,3810,Panama
+EXP_02561,2024-11-08 11:56:22,Vendor_237,Payroll,136,United States
+EXP_02562,2024-04-23 13:24:11,Vendor_076,Other,3040,Mexico
+EXP_02563,2024-12-09 23:11:18,Vendor_039,Operations,520,Panama
+EXP_02564,2024-12-19 14:50:47,Vendor_199,Other,3179,Panama
+EXP_02565,2024-05-28 03:15:39,Vendor_105,Payroll,4315,Costa Rica
+EXP_02566,2024-09-30 13:38:57,Vendor_070,Payroll,4939,Panama
+EXP_02567,2024-05-12 19:51:56,Vendor_282,Marketing,3908,Panama
+EXP_02568,2024-09-19 09:18:06,Vendor_058,Operations,2519,United States
+EXP_02569,2024-04-01 06:33:10,Vendor_179,Marketing,2380,United States
+EXP_02570,2024-11-25 07:35:35,Vendor_222,Marketing,2434,Panama
+EXP_02571,2024-03-22 23:27:23,Vendor_144,Marketing,837,Panama
+EXP_02572,2024-06-25 11:28:32,Vendor_027,Infrastructure,1518,Panama
+EXP_02573,2024-03-09 10:06:02,Vendor_161,Payroll,4647,Costa Rica
+EXP_02574,2024-11-03 20:57:13,Vendor_151,Marketing,2141,Costa Rica
+EXP_02575,2024-12-17 16:48:36,Vendor_173,Infrastructure,1885,Costa Rica
+EXP_02576,2024-07-31 00:19:09,Vendor_211,Infrastructure,1162,United States
+EXP_02577,2024-07-01 01:06:32,Vendor_022,Infrastructure,3668,Mexico
+EXP_02578,2024-09-25 16:06:57,Vendor_298,Marketing,471,Costa Rica
+EXP_02579,2024-05-11 07:00:37,Vendor_033,Infrastructure,2696,Costa Rica
+EXP_02580,2024-12-03 02:16:33,Vendor_109,Marketing,1102,Panama
+EXP_02581,2024-05-23 23:03:14,Vendor_047,Operations,2623,Costa Rica
+EXP_02582,2024-04-29 06:24:15,Vendor_096,Payroll,4600,Mexico
+EXP_02583,2024-12-11 03:03:38,Vendor_125,Other,1518,United States
+EXP_02584,2024-08-29 09:03:09,Vendor_295,Marketing,4776,Costa Rica
+EXP_02585,2024-06-12 03:41:19,Vendor_025,Payroll,3301,United States
+EXP_02586,2024-08-29 00:39:49,Vendor_082,Marketing,726,Costa Rica
+EXP_02587,2024-04-20 14:52:52,Vendor_058,Operations,1921,United States
+EXP_02588,2024-07-12 23:01:55,Vendor_026,Payroll,4536,United States
+EXP_02589,2024-08-16 10:47:50,Vendor_297,Payroll,4407,Costa Rica
+EXP_02590,2024-02-07 00:07:25,Vendor_044,Infrastructure,3061,Costa Rica
+EXP_02591,2024-12-08 06:19:43,Vendor_085,Marketing,1746,United States
+EXP_02592,2024-12-22 12:05:38,Vendor_022,Marketing,2099,Mexico
+EXP_02593,2024-10-11 04:14:20,Vendor_226,Other,2735,Mexico
+EXP_02594,2024-07-16 19:21:13,Vendor_037,Infrastructure,2443,Mexico
+EXP_02595,2024-09-29 10:21:10,Vendor_101,Infrastructure,3259,Mexico
+EXP_02596,2024-08-07 19:15:07,Vendor_142,Other,1109,Costa Rica
+EXP_02597,2024-07-04 12:57:44,Vendor_004,Infrastructure,3318,Panama
+EXP_02598,2024-07-06 14:34:57,Vendor_024,Infrastructure,4250,United States
+EXP_02599,2024-10-20 11:05:02,Vendor_191,Operations,2912,Mexico
+EXP_02600,2024-10-30 14:21:24,Vendor_269,Payroll,3840,Mexico
+EXP_02601,2024-02-24 03:30:24,Vendor_027,Other,4138,Panama
+EXP_02602,2024-06-01 03:53:26,Vendor_081,Operations,3934,Panama
+EXP_02603,2024-08-14 14:00:49,Vendor_121,Operations,1899,Costa Rica
+EXP_02604,2024-11-09 05:37:30,Vendor_069,Operations,2984,United States
+EXP_02605,2024-02-12 15:28:00,Vendor_072,Infrastructure,1422,United States
+EXP_02606,2024-08-13 08:42:07,Vendor_246,Other,2709,Panama
+EXP_02607,2024-11-18 10:33:49,Vendor_246,Infrastructure,824,Panama
+EXP_02608,2024-04-09 08:00:58,Vendor_253,Infrastructure,2511,Panama
+EXP_02609,2024-03-13 04:56:13,Vendor_073,Operations,1415,Costa Rica
+EXP_02610,2024-02-01 21:17:01,Vendor_274,Marketing,1512,United States
+EXP_02611,2024-11-19 15:56:16,Vendor_016,Other,4948,Panama
+EXP_02612,2024-10-28 21:54:43,Vendor_179,Other,3642,Mexico
+EXP_02613,2024-11-13 22:23:50,Vendor_040,Operations,1654,United States
+EXP_02614,2024-02-21 15:52:06,Vendor_039,Operations,525,United States
+EXP_02615,2024-01-26 11:56:39,Vendor_056,Payroll,4049,Mexico
+EXP_02616,2024-05-08 21:42:35,Vendor_233,Operations,4594,Mexico
+EXP_02617,2024-08-31 08:24:12,Vendor_054,Infrastructure,403,United States
+EXP_02618,2024-06-24 12:31:20,Vendor_172,Operations,203,United States
+EXP_02619,2024-01-20 03:54:54,Vendor_189,Other,463,Panama
+EXP_02620,2024-02-22 09:49:07,Vendor_043,Marketing,4762,Costa Rica
+EXP_02621,2024-05-01 21:22:41,Vendor_004,Marketing,2947,Costa Rica
+EXP_02622,2024-12-28 20:29:45,Vendor_261,Infrastructure,2823,Panama
+EXP_02623,2024-01-20 00:58:35,Vendor_058,Marketing,4048,Mexico
+EXP_02624,2024-05-02 09:10:22,Vendor_037,Operations,1208,Mexico
+EXP_02625,2024-09-12 07:37:49,Vendor_235,Marketing,2515,Mexico
+EXP_02626,2024-04-19 01:13:01,Vendor_265,Operations,1997,Mexico
+EXP_02627,2024-11-25 20:28:27,Vendor_015,Payroll,4920,Panama
+EXP_02628,2024-05-24 01:23:24,Vendor_088,Other,814,United States
+EXP_02629,2024-11-30 21:10:37,Vendor_099,Infrastructure,2972,Panama
+EXP_02630,2024-01-26 14:34:04,Vendor_105,Payroll,1302,Mexico
+EXP_02631,2024-09-03 09:31:05,Vendor_217,Marketing,191,Panama
+EXP_02632,2024-05-27 08:52:18,Vendor_191,Infrastructure,1623,Costa Rica
+EXP_02633,2024-01-12 17:37:28,Vendor_215,Operations,4819,Costa Rica
+EXP_02634,2024-07-01 13:00:10,Vendor_198,Payroll,4079,Mexico
+EXP_02635,2024-01-29 19:14:52,Vendor_105,Other,268,Panama
+EXP_02636,2024-06-06 03:44:39,Vendor_027,Other,1419,Costa Rica
+EXP_02637,2024-09-27 13:51:11,Vendor_182,Payroll,2340,United States
+EXP_02638,2024-10-26 00:13:25,Vendor_083,Payroll,969,Mexico
+EXP_02639,2024-05-20 12:25:46,Vendor_159,Payroll,2866,Panama
+EXP_02640,2024-12-06 18:15:56,Vendor_230,Marketing,3457,Mexico
+EXP_02641,2024-05-02 19:16:09,Vendor_235,Other,3387,Costa Rica
+EXP_02642,2024-10-21 04:30:15,Vendor_288,Other,1074,United States
+EXP_02643,2024-04-07 03:12:28,Vendor_018,Marketing,4556,Costa Rica
+EXP_02644,2024-03-20 02:34:09,Vendor_284,Infrastructure,4238,Mexico
+EXP_02645,2024-06-14 05:41:30,Vendor_071,Other,2328,United States
+EXP_02646,2024-08-20 23:13:23,Vendor_215,Infrastructure,2658,Panama
+EXP_02647,2024-12-19 22:50:48,Vendor_117,Infrastructure,2609,Costa Rica
+EXP_02648,2024-08-24 10:02:31,Vendor_100,Infrastructure,2433,United States
+EXP_02649,2024-07-09 11:55:02,Vendor_088,Other,1420,Mexico
+EXP_02650,2024-06-18 14:08:35,Vendor_153,Operations,1679,Panama
+EXP_02651,2024-02-15 11:52:16,Vendor_295,Infrastructure,2008,Mexico
+EXP_02652,2024-03-19 07:48:42,Vendor_177,Operations,1884,Mexico
+EXP_02653,2024-11-11 11:51:51,Vendor_132,Marketing,2015,Panama
+EXP_02654,2024-09-06 02:58:47,Vendor_122,Operations,3080,United States
+EXP_02655,2024-01-04 17:01:12,Vendor_211,Operations,356,United States
+EXP_02656,2024-04-27 10:38:24,Vendor_068,Payroll,1340,Panama
+EXP_02657,2024-09-17 10:29:50,Vendor_057,Infrastructure,2669,Panama
+EXP_02658,2024-07-20 18:04:57,Vendor_013,Other,849,Mexico
+EXP_02659,2024-10-05 07:20:46,Vendor_193,Payroll,3422,Mexico
+EXP_02660,2024-06-29 02:48:32,Vendor_063,Operations,3386,Costa Rica
+EXP_02661,2024-05-23 08:28:37,Vendor_153,Marketing,4852,Panama
+EXP_02662,2024-03-28 06:13:35,Vendor_023,Other,833,Costa Rica
+EXP_02663,2024-06-13 02:47:48,Vendor_030,Marketing,2486,Panama
+EXP_02664,2024-03-01 16:39:22,Vendor_189,Operations,4423,Costa Rica
+EXP_02665,2024-03-23 12:29:53,Vendor_109,Marketing,1359,Mexico
+EXP_02666,2024-01-16 03:41:48,Vendor_060,Payroll,2513,Mexico
+EXP_02667,2024-08-16 15:45:06,Vendor_066,Marketing,3005,United States
+EXP_02668,2024-11-20 11:46:22,Vendor_166,Payroll,2596,Costa Rica
+EXP_02669,2024-10-01 16:26:07,Vendor_141,Infrastructure,2654,Panama
+EXP_02670,2024-06-06 21:39:03,Vendor_052,Other,3804,Costa Rica
+EXP_02671,2024-10-04 07:37:21,Vendor_180,Marketing,2209,Mexico
+EXP_02672,2024-03-12 10:01:18,Vendor_032,Payroll,3502,United States
+EXP_02673,2024-07-30 20:47:22,Vendor_214,Operations,4382,Costa Rica
+EXP_02674,2024-12-03 18:56:34,Vendor_265,Operations,1628,Mexico
+EXP_02675,2024-08-02 06:10:03,Vendor_017,Payroll,950,Panama
+EXP_02676,2024-07-22 16:29:26,Vendor_126,Other,2401,United States
+EXP_02677,2024-06-25 01:07:35,Vendor_082,Infrastructure,4774,Mexico
+EXP_02678,2024-07-17 04:09:23,Vendor_040,Infrastructure,4509,Panama
+EXP_02679,2024-12-08 16:36:05,Vendor_104,Other,3723,Costa Rica
+EXP_02680,2024-03-31 04:49:54,Vendor_219,Marketing,3395,Panama
+EXP_02681,2024-06-13 11:16:06,Vendor_182,Payroll,4626,Panama
+EXP_02682,2024-12-08 12:24:39,Vendor_156,Infrastructure,1479,Panama
+EXP_02683,2024-02-16 01:55:18,Vendor_178,Other,3598,United States
+EXP_02684,2024-02-20 08:59:47,Vendor_018,Infrastructure,1515,Mexico
+EXP_02685,2024-11-04 23:53:01,Vendor_141,Infrastructure,2369,Mexico
+EXP_02686,2024-05-23 06:47:37,Vendor_161,Marketing,2907,Panama
+EXP_02687,2024-04-04 18:38:51,Vendor_214,Infrastructure,1899,Costa Rica
+EXP_02688,2024-10-02 18:48:56,Vendor_222,Payroll,3708,Costa Rica
+EXP_02689,2024-07-05 14:09:50,Vendor_262,Other,2913,Mexico
+EXP_02690,2024-09-13 10:15:59,Vendor_045,Marketing,2102,Costa Rica
+EXP_02691,2024-11-13 03:01:11,Vendor_187,Marketing,2219,Panama
+EXP_02692,2024-11-23 16:57:25,Vendor_241,Other,555,Mexico
+EXP_02693,2024-06-18 14:44:47,Vendor_225,Payroll,3246,Mexico
+EXP_02694,2024-06-20 15:55:29,Vendor_048,Infrastructure,4805,Costa Rica
+EXP_02695,2024-05-14 13:43:59,Vendor_111,Infrastructure,2984,Mexico
+EXP_02696,2024-02-22 18:26:17,Vendor_083,Payroll,1038,United States
+EXP_02697,2024-11-04 20:28:38,Vendor_104,Operations,1784,Panama
+EXP_02698,2024-11-10 17:41:28,Vendor_074,Other,2665,United States
+EXP_02699,2024-09-21 09:08:40,Vendor_055,Payroll,3509,Mexico
+EXP_02700,2024-02-25 13:49:12,Vendor_002,Infrastructure,2185,Costa Rica
+EXP_02701,2024-04-13 08:12:24,Vendor_242,Other,2466,United States
+EXP_02702,2024-01-10 19:26:45,Vendor_258,Other,239,United States
+EXP_02703,2024-02-22 21:15:59,Vendor_010,Infrastructure,526,United States
+EXP_02704,2024-03-19 20:40:16,Vendor_076,Payroll,3002,Costa Rica
+EXP_02705,2024-11-22 08:17:19,Vendor_258,Operations,2117,Costa Rica
+EXP_02706,2024-04-23 20:45:17,Vendor_121,Other,1318,Mexico
+EXP_02707,2024-01-12 19:08:21,Vendor_215,Other,4410,Costa Rica
+EXP_02708,2024-05-10 19:46:12,Vendor_245,Other,2012,United States
+EXP_02709,2024-03-03 23:57:58,Vendor_180,Payroll,4736,Mexico
+EXP_02710,2024-01-06 14:27:24,Vendor_290,Other,3781,Costa Rica
+EXP_02711,2024-10-09 06:24:07,Vendor_073,Infrastructure,2536,Panama
+EXP_02712,2024-03-07 19:55:12,Vendor_209,Infrastructure,1552,Costa Rica
+EXP_02713,2024-09-05 10:02:37,Vendor_241,Marketing,1817,Costa Rica
+EXP_02714,2024-07-13 03:40:57,Vendor_173,Other,2299,Mexico
+EXP_02715,2024-11-27 11:05:23,Vendor_005,Operations,3274,Mexico
+EXP_02716,2024-02-16 06:14:43,Vendor_217,Marketing,1528,Mexico
+EXP_02717,2024-02-27 11:35:59,Vendor_214,Other,1411,Panama
+EXP_02718,2024-05-06 05:27:56,Vendor_038,Other,846,Panama
+EXP_02719,2024-02-08 16:36:16,Vendor_061,Payroll,2889,Costa Rica
+EXP_02720,2024-02-21 14:08:26,Vendor_095,Payroll,3206,Costa Rica
+EXP_02721,2024-10-15 15:58:11,Vendor_233,Infrastructure,3014,Mexico
+EXP_02722,2024-04-26 09:45:26,Vendor_277,Marketing,853,Mexico
+EXP_02723,2024-06-03 11:17:18,Vendor_036,Marketing,583,Panama
+EXP_02724,2024-02-09 14:55:09,Vendor_001,Marketing,3692,Panama
+EXP_02725,2024-11-08 19:19:42,Vendor_150,Infrastructure,487,Mexico
+EXP_02726,2024-12-01 13:32:53,Vendor_215,Operations,1888,Costa Rica
+EXP_02727,2024-04-06 01:09:07,Vendor_046,Operations,644,Panama
+EXP_02728,2024-08-21 23:00:17,Vendor_065,Operations,3006,Mexico
+EXP_02729,2024-08-23 03:39:39,Vendor_006,Marketing,3065,Mexico
+EXP_02730,2024-03-26 20:23:02,Vendor_081,Other,2846,Mexico
+EXP_02731,2024-06-05 00:29:43,Vendor_189,Marketing,4776,Panama
+EXP_02732,2024-01-10 23:27:52,Vendor_151,Other,1261,Costa Rica
+EXP_02733,2024-03-16 04:35:43,Vendor_148,Payroll,4326,Panama
+EXP_02734,2024-10-19 02:12:13,Vendor_028,Infrastructure,3422,Costa Rica
+EXP_02735,2024-12-21 08:40:19,Vendor_165,Operations,1758,Panama
+EXP_02736,2024-08-03 13:44:18,Vendor_135,Marketing,4561,Mexico
+EXP_02737,2024-10-12 22:25:08,Vendor_254,Marketing,520,Mexico
+EXP_02738,2024-09-09 01:52:27,Vendor_212,Payroll,4619,United States
+EXP_02739,2024-03-23 10:44:47,Vendor_280,Other,1908,Mexico
+EXP_02740,2024-03-21 11:49:48,Vendor_080,Operations,4087,Costa Rica
+EXP_02741,2024-12-27 16:17:06,Vendor_269,Infrastructure,4165,Mexico
+EXP_02742,2024-03-08 22:22:53,Vendor_015,Other,2309,United States
+EXP_02743,2024-01-06 23:16:46,Vendor_087,Other,4290,Mexico
+EXP_02744,2024-01-04 08:47:08,Vendor_223,Operations,1285,Mexico
+EXP_02745,2024-05-30 19:30:13,Vendor_091,Infrastructure,1919,Panama
+EXP_02746,2024-07-16 21:48:04,Vendor_266,Operations,4658,Costa Rica
+EXP_02747,2024-01-31 11:25:48,Vendor_106,Operations,1030,United States
+EXP_02748,2024-04-28 10:01:26,Vendor_253,Marketing,4876,Panama
+EXP_02749,2024-12-17 18:44:29,Vendor_199,Infrastructure,3486,United States
+EXP_02750,2024-06-24 18:50:00,Vendor_056,Other,1453,Mexico
+EXP_02751,2024-09-15 17:05:10,Vendor_239,Operations,756,United States
+EXP_02752,2024-01-28 08:06:02,Vendor_218,Payroll,1305,Panama
+EXP_02753,2024-06-04 12:35:33,Vendor_212,Infrastructure,2967,Mexico
+EXP_02754,2024-08-10 23:25:51,Vendor_189,Payroll,555,Panama
+EXP_02755,2024-03-03 00:38:55,Vendor_102,Other,4470,Costa Rica
+EXP_02756,2024-11-20 02:53:28,Vendor_143,Infrastructure,2184,Costa Rica
+EXP_02757,2024-10-11 03:55:11,Vendor_285,Marketing,2590,Costa Rica
+EXP_02758,2024-07-28 09:06:49,Vendor_070,Infrastructure,974,United States
+EXP_02759,2024-01-19 00:28:35,Vendor_065,Other,3207,Costa Rica
+EXP_02760,2024-01-30 02:52:13,Vendor_198,Marketing,4263,United States
+EXP_02761,2024-12-13 15:54:56,Vendor_016,Other,1533,United States
+EXP_02762,2024-11-20 05:06:47,Vendor_263,Infrastructure,4555,Panama
+EXP_02763,2024-06-09 19:06:29,Vendor_060,Other,3292,Mexico
+EXP_02764,2024-06-30 16:37:57,Vendor_010,Infrastructure,3838,Mexico
+EXP_02765,2024-10-11 19:23:41,Vendor_008,Marketing,4129,Panama
+EXP_02766,2024-11-02 22:02:38,Vendor_090,Infrastructure,674,Costa Rica
+EXP_02767,2024-09-22 20:02:28,Vendor_037,Other,1195,Panama
+EXP_02768,2024-01-09 20:11:05,Vendor_084,Other,2995,Panama
+EXP_02769,2024-10-08 01:15:22,Vendor_234,Other,2088,Mexico
+EXP_02770,2024-07-05 07:08:50,Vendor_250,Payroll,389,United States
+EXP_02771,2024-05-02 10:55:33,Vendor_240,Payroll,2567,Panama
+EXP_02772,2024-05-25 13:06:24,Vendor_104,Payroll,1688,Panama
+EXP_02773,2024-02-23 08:04:15,Vendor_211,Operations,1578,United States
+EXP_02774,2024-03-20 01:55:50,Vendor_225,Infrastructure,904,Mexico
+EXP_02775,2024-06-18 02:30:29,Vendor_279,Payroll,711,Costa Rica
+EXP_02776,2024-03-29 12:34:28,Vendor_166,Other,571,Panama
+EXP_02777,2024-09-30 09:43:08,Vendor_046,Other,2069,Costa Rica
+EXP_02778,2024-10-20 23:52:13,Vendor_002,Payroll,4564,Costa Rica
+EXP_02779,2024-05-01 22:02:26,Vendor_176,Payroll,509,Panama
+EXP_02780,2024-08-11 12:00:39,Vendor_273,Other,1725,Costa Rica
+EXP_02781,2024-05-26 18:08:12,Vendor_118,Payroll,4059,Panama
+EXP_02782,2024-11-29 04:01:55,Vendor_272,Operations,3674,United States
+EXP_02783,2024-01-11 22:02:48,Vendor_173,Operations,260,United States
+EXP_02784,2024-04-30 07:05:28,Vendor_152,Operations,2825,United States
+EXP_02785,2024-10-10 23:39:48,Vendor_193,Marketing,3966,United States
+EXP_02786,2024-10-25 20:42:18,Vendor_092,Operations,4208,Mexico
+EXP_02787,2024-10-21 20:58:46,Vendor_161,Other,3578,United States
+EXP_02788,2024-07-08 01:56:53,Vendor_106,Marketing,2086,Panama
+EXP_02789,2024-09-02 00:36:59,Vendor_229,Other,1978,Panama
+EXP_02790,2024-11-09 23:15:55,Vendor_103,Other,3526,Panama
+EXP_02791,2024-06-19 05:30:13,Vendor_132,Payroll,3417,Costa Rica
+EXP_02792,2024-07-17 12:19:15,Vendor_257,Infrastructure,4634,Panama
+EXP_02793,2024-08-04 00:10:33,Vendor_289,Operations,520,Mexico
+EXP_02794,2024-02-16 06:03:56,Vendor_101,Infrastructure,3993,Mexico
+EXP_02795,2024-10-20 15:37:15,Vendor_021,Infrastructure,599,Mexico
+EXP_02796,2024-06-05 21:27:42,Vendor_249,Payroll,345,Mexico
+EXP_02797,2024-11-10 02:42:47,Vendor_192,Infrastructure,4541,Mexico
+EXP_02798,2024-11-28 03:36:44,Vendor_073,Operations,579,Mexico
+EXP_02799,2024-01-18 06:41:46,Vendor_168,Marketing,1433,United States
+EXP_02800,2024-06-29 08:14:34,Vendor_062,Other,2667,Mexico
+EXP_02801,2024-08-22 11:32:13,Vendor_171,Operations,4365,Costa Rica
+EXP_02802,2024-09-22 01:38:50,Vendor_121,Payroll,4314,Mexico
+EXP_02803,2024-11-15 11:32:41,Vendor_216,Marketing,857,Panama
+EXP_02804,2024-07-31 16:02:26,Vendor_174,Payroll,2210,Panama
+EXP_02805,2024-11-22 09:10:12,Vendor_024,Operations,208,Costa Rica
+EXP_02806,2024-12-05 08:43:28,Vendor_138,Other,845,Mexico
+EXP_02807,2024-03-21 03:10:56,Vendor_099,Infrastructure,1616,United States
+EXP_02808,2024-03-09 04:13:00,Vendor_057,Infrastructure,1723,United States
+EXP_02809,2024-02-06 20:36:35,Vendor_247,Payroll,4612,United States
+EXP_02810,2024-08-23 08:39:04,Vendor_172,Marketing,1448,United States
+EXP_02811,2024-12-25 22:52:06,Vendor_201,Other,3411,Mexico
+EXP_02812,2024-04-17 08:33:27,Vendor_107,Payroll,809,Costa Rica
+EXP_02813,2024-10-22 10:55:38,Vendor_048,Other,3687,United States
+EXP_02814,2024-05-03 23:06:16,Vendor_286,Payroll,4813,Mexico
+EXP_02815,2024-07-22 22:02:24,Vendor_046,Marketing,4447,Mexico
+EXP_02816,2024-12-08 21:11:02,Vendor_120,Operations,837,Mexico
+EXP_02817,2024-04-23 11:31:51,Vendor_060,Infrastructure,2651,Mexico
+EXP_02818,2024-09-04 23:15:41,Vendor_147,Other,2301,Mexico
+EXP_02819,2024-07-25 19:57:21,Vendor_104,Other,4793,Panama
+EXP_02820,2024-09-22 19:07:25,Vendor_068,Marketing,1541,Mexico
+EXP_02821,2024-10-16 04:54:33,Vendor_162,Other,783,Mexico
+EXP_02822,2024-05-27 12:22:00,Vendor_215,Operations,2020,Mexico
+EXP_02823,2024-06-11 22:03:39,Vendor_118,Operations,2307,Panama
+EXP_02824,2024-06-20 04:28:48,Vendor_237,Marketing,3451,Panama
+EXP_02825,2024-05-04 06:00:43,Vendor_218,Payroll,2319,Costa Rica
+EXP_02826,2024-10-11 02:32:13,Vendor_124,Payroll,4084,Costa Rica
+EXP_02827,2024-09-07 17:21:02,Vendor_117,Other,3515,Mexico
+EXP_02828,2024-07-08 06:06:20,Vendor_263,Other,370,United States
+EXP_02829,2024-01-15 19:34:34,Vendor_170,Marketing,1989,Mexico
+EXP_02830,2024-02-28 09:14:16,Vendor_196,Operations,4824,Costa Rica
+EXP_02831,2024-07-09 22:39:12,Vendor_150,Marketing,1379,United States
+EXP_02832,2024-11-19 16:22:43,Vendor_246,Payroll,4094,United States
+EXP_02833,2024-08-27 16:11:37,Vendor_282,Operations,3564,Costa Rica
+EXP_02834,2024-11-17 20:23:01,Vendor_191,Other,2930,Mexico
+EXP_02835,2024-10-05 03:59:01,Vendor_174,Payroll,1667,Costa Rica
+EXP_02836,2024-01-01 22:48:51,Vendor_081,Infrastructure,2137,United States
+EXP_02837,2024-03-22 04:51:21,Vendor_172,Payroll,893,Panama
+EXP_02838,2024-02-04 07:04:41,Vendor_164,Operations,1130,Mexico
+EXP_02839,2024-01-07 18:58:38,Vendor_297,Operations,959,Costa Rica
+EXP_02840,2024-01-08 13:50:17,Vendor_111,Marketing,4634,Costa Rica
+EXP_02841,2024-01-07 09:49:04,Vendor_207,Operations,650,Costa Rica
+EXP_02842,2024-01-14 23:31:00,Vendor_070,Infrastructure,1665,Panama
+EXP_02843,2024-06-12 12:49:17,Vendor_098,Infrastructure,777,Panama
+EXP_02844,2024-09-13 05:41:24,Vendor_005,Operations,561,Mexico
+EXP_02845,2024-06-25 17:34:58,Vendor_185,Other,1622,Mexico
+EXP_02846,2024-07-07 06:34:18,Vendor_204,Operations,1334,Mexico
+EXP_02847,2024-02-15 05:47:30,Vendor_012,Other,1236,Costa Rica
+EXP_02848,2024-02-24 23:51:47,Vendor_239,Operations,4312,Panama
+EXP_02849,2024-11-01 16:17:54,Vendor_280,Payroll,4758,Mexico
+EXP_02850,2024-08-05 17:09:01,Vendor_115,Operations,2348,Panama
+EXP_02851,2024-02-11 22:38:06,Vendor_210,Payroll,223,United States
+EXP_02852,2024-06-12 14:50:42,Vendor_133,Other,4351,Mexico
+EXP_02853,2024-03-09 15:02:26,Vendor_223,Operations,4604,Panama
+EXP_02854,2024-05-06 17:15:02,Vendor_181,Other,4661,Mexico
+EXP_02855,2024-03-14 03:24:56,Vendor_028,Infrastructure,4949,Panama
+EXP_02856,2024-02-29 07:49:30,Vendor_193,Marketing,4967,Panama
+EXP_02857,2024-04-10 23:22:22,Vendor_256,Other,4030,Costa Rica
+EXP_02858,2024-03-07 09:57:16,Vendor_111,Payroll,3876,United States
+EXP_02859,2024-02-10 20:45:43,Vendor_194,Marketing,2984,Mexico
+EXP_02860,2024-10-22 00:10:33,Vendor_124,Operations,4589,Panama
+EXP_02861,2024-09-29 08:39:07,Vendor_091,Payroll,2197,Mexico
+EXP_02862,2024-03-22 13:04:48,Vendor_136,Marketing,2872,Panama
+EXP_02863,2024-07-23 16:38:00,Vendor_283,Marketing,1901,United States
+EXP_02864,2024-12-30 19:10:04,Vendor_229,Other,3773,Panama
+EXP_02865,2024-02-19 15:25:59,Vendor_145,Operations,243,Panama
+EXP_02866,2024-09-07 03:19:26,Vendor_242,Operations,265,Mexico
+EXP_02867,2024-08-17 09:25:41,Vendor_031,Operations,3238,United States
+EXP_02868,2024-12-13 10:21:25,Vendor_261,Other,168,Panama
+EXP_02869,2024-02-14 07:58:18,Vendor_060,Other,2601,Mexico
+EXP_02870,2024-06-16 13:50:17,Vendor_089,Operations,124,Panama
+EXP_02871,2024-08-15 13:41:42,Vendor_101,Marketing,4028,Mexico
+EXP_02872,2024-09-08 00:51:03,Vendor_298,Operations,2457,United States
+EXP_02873,2024-07-24 16:36:12,Vendor_279,Other,4207,Costa Rica
+EXP_02874,2024-03-01 07:46:46,Vendor_121,Operations,676,United States
+EXP_02875,2024-09-06 16:39:58,Vendor_243,Other,4429,Mexico
+EXP_02876,2024-12-20 06:10:36,Vendor_077,Operations,2982,United States
+EXP_02877,2024-10-29 11:19:28,Vendor_273,Marketing,690,Mexico
+EXP_02878,2024-07-06 04:18:54,Vendor_058,Marketing,1767,Mexico
+EXP_02879,2024-06-12 22:14:20,Vendor_247,Other,1398,United States
+EXP_02880,2024-12-19 07:54:21,Vendor_096,Other,4808,Costa Rica
+EXP_02881,2024-12-02 04:30:59,Vendor_045,Payroll,4347,United States
+EXP_02882,2024-03-16 08:53:50,Vendor_291,Infrastructure,3623,Mexico
+EXP_02883,2024-02-04 01:16:51,Vendor_258,Payroll,2363,Costa Rica
+EXP_02884,2024-05-24 09:07:20,Vendor_259,Other,4854,Mexico
+EXP_02885,2024-05-10 02:22:06,Vendor_246,Other,3963,Costa Rica
+EXP_02886,2024-11-26 21:59:07,Vendor_240,Operations,4505,United States
+EXP_02887,2024-07-24 22:42:48,Vendor_128,Payroll,4344,United States
+EXP_02888,2024-02-27 16:23:30,Vendor_202,Infrastructure,3627,Mexico
+EXP_02889,2024-06-16 11:19:22,Vendor_276,Payroll,3446,Costa Rica
+EXP_02890,2024-03-04 15:29:18,Vendor_207,Marketing,3118,Mexico
+EXP_02891,2024-06-08 22:40:56,Vendor_040,Marketing,1304,Costa Rica
+EXP_02892,2024-08-16 22:14:12,Vendor_056,Payroll,3976,Mexico
+EXP_02893,2024-01-21 01:53:14,Vendor_160,Payroll,2351,United States
+EXP_02894,2024-10-01 11:07:49,Vendor_096,Other,4659,Panama
+EXP_02895,2024-07-30 06:43:58,Vendor_116,Operations,1073,Mexico
+EXP_02896,2024-09-27 08:27:50,Vendor_212,Marketing,4522,Panama
+EXP_02897,2024-09-14 01:16:34,Vendor_087,Infrastructure,4344,United States
+EXP_02898,2024-10-12 08:48:45,Vendor_268,Operations,1400,Panama
+EXP_02899,2024-06-25 14:44:19,Vendor_044,Payroll,4108,Costa Rica
+EXP_02900,2024-07-10 04:13:52,Vendor_083,Marketing,134,Panama
+EXP_02901,2024-11-10 11:04:23,Vendor_211,Payroll,100,Mexico
+EXP_02902,2024-04-21 22:13:14,Vendor_009,Marketing,2615,Panama
+EXP_02903,2024-08-18 10:22:14,Vendor_157,Infrastructure,2750,Costa Rica
+EXP_02904,2024-12-21 06:31:40,Vendor_189,Operations,2040,United States
+EXP_02905,2024-08-27 11:27:23,Vendor_131,Infrastructure,1120,Costa Rica
+EXP_02906,2024-06-20 08:49:32,Vendor_215,Infrastructure,191,Mexico
+EXP_02907,2024-04-30 14:05:05,Vendor_115,Operations,4789,Costa Rica
+EXP_02908,2024-04-13 21:23:34,Vendor_123,Operations,3991,Panama
+EXP_02909,2024-01-30 08:37:47,Vendor_192,Infrastructure,2246,Panama
+EXP_02910,2024-12-16 07:29:12,Vendor_148,Payroll,4193,Costa Rica
+EXP_02911,2024-05-05 04:00:52,Vendor_028,Operations,2657,Panama
+EXP_02912,2024-09-19 02:49:33,Vendor_124,Infrastructure,1688,Panama
+EXP_02913,2024-01-06 19:03:06,Vendor_077,Infrastructure,1976,Mexico
+EXP_02914,2024-06-09 06:53:57,Vendor_075,Infrastructure,3763,Mexico
+EXP_02915,2024-04-25 06:32:47,Vendor_186,Payroll,3995,Mexico
+EXP_02916,2024-10-20 05:00:20,Vendor_039,Other,3514,United States
+EXP_02917,2024-07-05 09:21:04,Vendor_234,Other,1061,United States
+EXP_02918,2024-04-29 20:56:53,Vendor_248,Operations,4441,Mexico
+EXP_02919,2024-10-03 18:00:13,Vendor_131,Other,2948,Costa Rica
+EXP_02920,2024-01-20 06:25:01,Vendor_005,Marketing,3643,Costa Rica
+EXP_02921,2024-06-01 20:05:42,Vendor_259,Operations,4474,Costa Rica
+EXP_02922,2024-02-11 22:54:12,Vendor_245,Operations,2921,Mexico
+EXP_02923,2024-03-06 10:47:14,Vendor_078,Infrastructure,952,United States
+EXP_02924,2024-02-02 18:10:07,Vendor_115,Marketing,3681,Panama
+EXP_02925,2024-09-23 08:46:22,Vendor_004,Other,4626,Costa Rica
+EXP_02926,2024-10-12 20:23:01,Vendor_131,Operations,2589,Mexico
+EXP_02927,2024-02-25 12:05:47,Vendor_227,Marketing,3931,Mexico
+EXP_02928,2024-04-24 07:15:55,Vendor_128,Payroll,3632,Panama
+EXP_02929,2024-04-29 07:18:50,Vendor_009,Payroll,2412,United States
+EXP_02930,2024-12-10 19:27:34,Vendor_118,Infrastructure,2592,United States
+EXP_02931,2024-03-02 20:55:05,Vendor_188,Marketing,2370,Mexico
+EXP_02932,2024-08-17 06:18:17,Vendor_139,Operations,368,Panama
+EXP_02933,2024-10-23 08:54:19,Vendor_125,Payroll,2798,United States
+EXP_02934,2024-09-22 01:29:33,Vendor_223,Payroll,3502,Panama
+EXP_02935,2024-04-23 23:43:52,Vendor_259,Other,4177,Panama
+EXP_02936,2024-07-12 12:59:56,Vendor_067,Other,532,Mexico
+EXP_02937,2024-12-27 20:41:03,Vendor_085,Marketing,902,Panama
+EXP_02938,2024-09-27 16:29:58,Vendor_062,Other,1403,Panama
+EXP_02939,2024-04-24 09:06:58,Vendor_014,Marketing,3028,Panama
+EXP_02940,2024-12-19 14:53:20,Vendor_122,Operations,4763,Costa Rica
+EXP_02941,2024-06-24 12:30:38,Vendor_279,Operations,842,Panama
+EXP_02942,2024-08-04 01:37:49,Vendor_123,Operations,782,Panama
+EXP_02943,2024-07-12 07:54:52,Vendor_077,Other,3158,Mexico
+EXP_02944,2024-07-05 18:04:15,Vendor_272,Other,1949,United States
+EXP_02945,2024-12-17 05:35:02,Vendor_146,Infrastructure,1401,United States
+EXP_02946,2024-10-26 20:19:23,Vendor_269,Payroll,1895,Panama
+EXP_02947,2024-09-26 20:24:46,Vendor_056,Operations,995,Mexico
+EXP_02948,2024-10-18 02:36:42,Vendor_218,Other,580,Mexico
+EXP_02949,2024-10-26 17:25:04,Vendor_173,Payroll,4137,Panama
+EXP_02950,2024-04-18 19:04:52,Vendor_040,Operations,390,Panama
+EXP_02951,2024-07-14 23:32:27,Vendor_159,Operations,2794,United States
+EXP_02952,2024-08-06 16:55:23,Vendor_032,Payroll,3910,United States
+EXP_02953,2024-03-30 13:38:20,Vendor_248,Payroll,2074,United States
+EXP_02954,2024-10-04 20:43:19,Vendor_129,Other,4114,Panama
+EXP_02955,2024-05-08 06:39:37,Vendor_291,Payroll,289,United States
+EXP_02956,2024-11-29 03:48:54,Vendor_036,Payroll,476,Mexico
+EXP_02957,2024-08-06 10:32:30,Vendor_066,Other,358,Costa Rica
+EXP_02958,2024-10-08 00:21:21,Vendor_285,Operations,926,Costa Rica
+EXP_02959,2024-12-05 15:07:08,Vendor_157,Payroll,2519,Costa Rica
+EXP_02960,2024-04-18 22:59:08,Vendor_043,Infrastructure,1930,Mexico
+EXP_02961,2024-10-01 05:02:55,Vendor_275,Marketing,3116,Costa Rica
+EXP_02962,2024-07-15 23:10:39,Vendor_121,Payroll,2252,Panama
+EXP_02963,2024-08-16 13:14:04,Vendor_192,Payroll,1549,Panama
+EXP_02964,2024-03-16 00:53:57,Vendor_031,Marketing,3024,Costa Rica
+EXP_02965,2024-06-15 12:43:50,Vendor_019,Infrastructure,3432,Costa Rica
+EXP_02966,2024-05-08 14:56:29,Vendor_285,Operations,3217,United States
+EXP_02967,2024-01-21 09:52:22,Vendor_073,Infrastructure,4839,Mexico
+EXP_02968,2024-01-05 12:15:46,Vendor_076,Marketing,3697,United States
+EXP_02969,2024-07-02 08:20:43,Vendor_188,Payroll,2414,Mexico
+EXP_02970,2024-09-08 23:16:07,Vendor_179,Operations,1657,United States
+EXP_02971,2024-03-24 21:55:34,Vendor_137,Infrastructure,1816,Panama
+EXP_02972,2024-05-16 21:05:39,Vendor_162,Infrastructure,3567,Mexico
+EXP_02973,2024-08-04 02:53:29,Vendor_290,Operations,1272,Costa Rica
+EXP_02974,2024-03-18 20:51:40,Vendor_047,Infrastructure,2427,Mexico
+EXP_02975,2024-12-15 17:40:15,Vendor_024,Marketing,4720,Mexico
+EXP_02976,2024-08-19 22:56:03,Vendor_284,Operations,3011,United States
+EXP_02977,2024-10-05 08:22:43,Vendor_174,Marketing,1607,Costa Rica
+EXP_02978,2024-12-30 11:52:36,Vendor_262,Operations,2064,United States
+EXP_02979,2024-02-27 11:29:49,Vendor_230,Marketing,4993,Costa Rica
+EXP_02980,2024-02-29 01:37:14,Vendor_191,Payroll,3235,United States
+EXP_02981,2024-06-10 17:59:29,Vendor_118,Payroll,4617,Costa Rica
+EXP_02982,2024-08-31 13:02:55,Vendor_053,Infrastructure,3829,Mexico
+EXP_02983,2024-10-23 01:52:40,Vendor_192,Operations,1004,Panama
+EXP_02984,2024-09-12 15:03:17,Vendor_060,Operations,4921,Costa Rica
+EXP_02985,2024-01-06 06:10:51,Vendor_011,Marketing,3299,United States
+EXP_02986,2024-02-03 20:13:11,Vendor_260,Infrastructure,2441,Mexico
+EXP_02987,2024-11-13 04:48:58,Vendor_270,Infrastructure,3498,United States
+EXP_02988,2024-01-31 22:11:10,Vendor_141,Operations,2951,Mexico
+EXP_02989,2024-12-30 00:13:09,Vendor_143,Payroll,1245,Mexico
+EXP_02990,2024-08-02 05:29:18,Vendor_113,Operations,3694,Costa Rica
+EXP_02991,2024-10-03 15:06:45,Vendor_264,Operations,483,United States
+EXP_02992,2024-09-15 04:03:35,Vendor_011,Other,2086,Mexico
+EXP_02993,2024-03-19 04:28:12,Vendor_099,Marketing,2430,United States
+EXP_02994,2024-11-09 02:51:28,Vendor_023,Marketing,2911,Mexico
+EXP_02995,2024-11-27 22:59:43,Vendor_239,Other,1066,Costa Rica
+EXP_02996,2024-05-24 10:59:00,Vendor_109,Infrastructure,718,Panama
+EXP_02997,2024-08-27 20:30:38,Vendor_263,Marketing,1119,Panama
+EXP_02998,2024-07-25 19:41:17,Vendor_160,Infrastructure,2053,Panama
+EXP_02999,2024-01-15 15:59:41,Vendor_220,Payroll,4144,Panama
+EXP_03000,2024-03-23 01:01:49,Vendor_172,Infrastructure,305,Costa Rica
