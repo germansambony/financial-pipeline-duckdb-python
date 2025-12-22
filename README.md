@@ -62,7 +62,7 @@ Basado en el modelo implementado , en `Respuestas_prueba.sql`, se han respondido
 
 ## 5. Dashboard Ejecutivo - Innova Finance
 
-El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad en tiempo real.
+El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad en tiempo real. El archivo `DASHBOARD BI INNOVA.pbix` contiene el tablero.
 
 ![Dashboard Innova Finance](INNOVA_BI_DASH.png) 
 
