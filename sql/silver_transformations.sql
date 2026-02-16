@@ -11,7 +11,7 @@ CREATE SCHEMA IF NOT EXISTS SILVER;
 
 -- 1. CLIENTES:
 -- Grano: Un registro por customer_id (Primary key) y country
--- Para Slowly Changing Dimensions SCD Tipo 2 
+-- Para Slowly Changing Dimensions SCD Tipo 2 para el country SCD Tipo 1 para los demas
 
 
 CREATE OR REPLACE TABLE SILVER.S_CUSTOMERS AS
@@ -158,3 +158,4 @@ LEFT JOIN SILVER.S_SUBSCRIPTIONS S
     AND TRY_CAST(R.start_date AS TIMESTAMP) = S.S_START_DATE
 
 WHERE S.S_SUBSCRIPTION_ID IS NULL; -- SOLO LOS QUE NO PASARON A SILVER
+
