@@ -31,7 +31,8 @@ Para satisfacer las necesidades del equipo financiero, el modelo Gold se estruct
 -   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada con logica recursiva para eficiencia en Power BI.
 -   **`SILVER.S_CUSTOMERS`**: Atributos del cliente (segmento, país, canal).
 -   **`SILVER.S_EMPLOYEES`**: Datos de nómina y geografía.
-
+-   **`SILVER.S_EXPENSES`**: Gastos 
+Nota: Dependiendo de las necesidades en especifico, la dimensiones en que se mencionan de la capa SILVER deberian pasar a la capa GOLD con su respectiva eficiencia en codigo. Guiadas hacia nuevos dashboards interactivos.
 ---
 
 ##  3. Pipeline ELT y Orquestación
