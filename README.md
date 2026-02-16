@@ -33,7 +33,7 @@ El modelo está diseñado para separar los hechos (métricas cuantitativas) de l
 -   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada dinámicamente para soportar *Time Intelligence*.
 -   **`SILVER.S_CUSTOMERS` / `S_EMPLOYEES`**: Dimensiones de entidades con soporte de historial.
 -   **`SILVER.S_EXPENSES`**: Actúa como dimensión contextual para los gastos, permitiendo categorizar proveedores y tipos de egresos. 
-    *   *Nota:* En una fase productiva, esta tabla se normalizaría en `DIM_PROVIDER` y `DIM_CATEGORY` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball.
+    *Nota:* En una fase productiva, estas tablas se normalizarían en `DIM_PROVIDER`, `DIM_CATEGORY`,`DIM_CUSTOMERS` y `DIM_EMPLOYEES` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball y que sea segun las necesidades del cliente en los dash y la interaccion del usuario analista.
  
 
 ##  3. Pipeline ELT y Orquestación
