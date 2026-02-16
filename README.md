@@ -77,8 +77,30 @@ El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad e
 
 ## 6. Escalabilidad y Futuro 
 
-### Escalabilidad a Nuevos Países y Monedas:
--   **Multimoneda:** Para escalar a otras divisas, simplemente se propone añadir una tabla de tasas de cambio diarias `S_EXCHANGE_RATES`, cruzarlas mediante un `JOIN` en la capa SILVER y obtener la transformacion en las tablas silver con las columnas `amount_local` y `amount_usd`, realizando la conversión dinámicamente.
+Para que esta sección demuestre un nivel **Senior**, debemos dejar de hablar de "hacer un join" y pasar a hablar de **"Arquitectura de Referencia"**. Un Senior no solo resuelve el problema técnico, sino que piensa en la auditoría, la precisión de los datos y la facilidad de mantenimiento.
+
+Aquí tienes una versión expandida y robustecida para tu archivo `README.md`:
+
+---
+
+
+#### 🌍 Escalabilidad Global y Soporte Multimoneda
+Para transformar este pipeline en una solución de alcance global que soporte la expansión de **Innova**, se proponen las siguientes mejoras estructurales:
+
+*   **Módulo de Conversión FX (Foreign Exchange):**
+    *   **Normalización ISO:** Implementar el estándar **ISO 4217** para códigos de moneda (USD, MXN, COP, etc.) asegurando la integridad de los datos entre diferentes sistemas fuente.
+    *   **Capa de Referencia:** Integración de una tabla `DIM_EXCHANGE_RATES` con granularidad diaria. En la **Capa Silver**, se realizaría un *Temporal Join* entre las transacciones y las tasas de cambio basadas en la fecha del evento.
+    *   **Doble Contabilidad (Reporting vs. Functional):** El modelo Gold evolucionará para almacenar cada métrica en dos dimensiones: `amount_local` (para auditoría fiscal local) y `amount_reporting_usd` (para consolidación financiera global), permitiendo análisis de impacto por volatilidad cambiaria.
+
+*   **Arquitectura Metadata-Driven para Nuevos Países:**
+    *   **Localización Dinámica:** En lugar de hardcodear lógicas por país, se propone un esquema basado en configuración (YAML/JSON). Esto permitiría añadir un nuevo país (ej. Colombia o Brasil) simplemente registrando sus reglas de impuestos y periodos fiscales en la tabla de metadatos, sin modificar el código core del pipeline.
+    *   **Estrategia de Particionamiento:** Para mantener el rendimiento de **DuckDB** ante el crecimiento masivo de datos, se implementará un particionamiento físico de los archivos **Parquet** por `year`, `month` y `country`. Esto permite que las consultas de Power BI solo escaneen los datos necesarios (*Partition Pruning*).
+
+*   **Llaves Subrogadas y Unicidad Global:**
+    *   Implementación de **Surrogate Keys** mediante funciones HASH (ej. `MD5` o `SHA256`) combinando el ID natural y el código de país. Esto garantiza que un `Client_001` en México no colisione con un `Client_001` en EE.UU. si los sistemas operacionales son independientes.
+
+---
+
 
 
 ### Automatización y DevOps:
@@ -120,6 +142,13 @@ Para explorar la Base de datos generada `innova.duckdb`, se recomienda utilizar:
 * **DataGrip:** Ideal para análisis avanzado de SQL.
 
 ---
+
+## 8 🚀 Roadmap de Evolución (Hacia un Entorno Productivo)
+Este proyecto fue concebido como un MVP (Producto Mínimo Viable) robusto y escalable. Para elevar esta arquitectura a un estándar de producción empresarial ("Production-Ready"), se proponen los siguientes hitos técnicos:
+Contenedorización e Inmutabilidad: Implementar Docker para encapsular el entorno de ejecución, garantizando que el pipeline sea reproducible y agnóstico a la infraestructura. Esto facilitaría su despliegue en orquestadores corporativos como Apache Airflow, Prefect o clusters de Kubernetes.
+Data Observability & Quality: Integrar Great Expectations para establecer contratos de datos y reglas de validación automática. El objetivo es implementar un "Circuit Breaker" que detenga el pipeline ante la detección de duplicados, nulos en llaves primarias o desviaciones estadísticas anómalas en métricas críticas como el MRR.
+Arquitectura Event-Driven & Carga Incremental: Evolucionar la ingesta hacia un sistema de State Management. Mediante el uso de Cloud Triggers (S3 Triggers o Event Grid), el pipeline procesaría únicamente los deltas de datos (archivos nuevos), optimizando drásticamente los costos de cómputo y el tiempo de respuesta.
+Infraestructura como Código (IaC): Definir la provisión de todos los recursos (almacenamiento, permisos y motor de base de datos) mediante Terraform o AWS CDK, permitiendo despliegues consistentes, versionados y automatizados en entornos de Desarrollo, Staging y Producción.
 
 **Autor:** [German Camilo Sambony Ledezma] - Data Engineer 
 **Contacto:** [camilosambony@gmail.com/[LinkedIn](https://www.linkedin.com/in/germansambony-dataengineer/)]
