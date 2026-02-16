@@ -10,7 +10,8 @@ CREATE SCHEMA IF NOT EXISTS SILVER;
 
 
 -- 1. CLIENTES:
--- Grano: Un registro por customer_id (Primary key)
+-- Grano: Un registro por customer_id (Primary key) y country
+-- Para Slowly Changing Dimensions SCD Tipo 2 
 
 
 CREATE OR REPLACE TABLE SILVER.S_CUSTOMERS AS
@@ -21,9 +22,18 @@ SELECT
     NULLIF(TRIM(UPPER(segment)),'')                  AS S_SEGMENT,
     TRY_CAST(registration_date AS TIMESTAMP)         AS S_REGISTRATION_TIMESTAMP,
     filename                                         AS S_FILENAME,
-    CURRENT_TIMESTAMP                                AS S_LOAD_TIMESTAMP
+    CURRENT_TIMESTAMP                                AS S_LOAD_TIMESTAMP,
+     CASE
+        WHEN ROW_NUMBER() OVER (
+            PARTITION BY customer_id
+            ORDER BY registration_date DESC
+        ) = 1
+        THEN TRUE
+        ELSE FALSE
+    END                                             AS IS_CURRENT
 FROM raw_customers
-QUALIFY ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY registration_date DESC) = 1;
+QUALIFY ROW_NUMBER() OVER (PARTITION BY customer_id,country ORDER BY registration_date DESC) = 1;
+
 
 
 -- 2. EMPLEADOS
@@ -146,4 +156,5 @@ FROM raw_subscriptions R
 LEFT JOIN SILVER.S_SUBSCRIPTIONS S
     ON TRIM(R.subscription_id) = S.S_SUBSCRIPTION_ID
     AND TRY_CAST(R.start_date AS TIMESTAMP) = S.S_START_DATE
+
 WHERE S.S_SUBSCRIPTION_ID IS NULL; -- SOLO LOS QUE NO PASARON A SILVER
