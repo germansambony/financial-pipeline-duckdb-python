@@ -102,16 +102,9 @@ El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad e
 
 ---
 
-## 6. Escalabilidad y Futuro 
-
-Para que esta sección demuestre un nivel **Senior**, debemos dejar de hablar de "hacer un join" y pasar a hablar de **"Arquitectura de Referencia"**. Un Senior no solo resuelve el problema técnico, sino que piensa en la auditoría, la precisión de los datos y la facilidad de mantenimiento.
-
-Aquí tienes una versión expandida y robustecida para tu archivo `README.md`:
-
----
 
 
-#### 🌍 Escalabilidad Global y Soporte Multimoneda
+#### 🌍 6. Escalabilidad Global y Soporte Multimoneda
 Para transformar este pipeline en una solución de alcance global que soporte la expansión de **Innova**, se proponen las siguientes mejoras estructurales:
 
 *   **Módulo de Conversión FX (Foreign Exchange):**
@@ -127,7 +120,6 @@ Para transformar este pipeline en una solución de alcance global que soporte la
     *   Implementación de **Surrogate Keys** mediante funciones HASH (ej. `MD5` o `SHA256`) combinando el ID natural y el código de país. Esto garantiza que un `Client_001` en México no colisione con un `Client_001` en EE.UU. si los sistemas operacionales son independientes.
 
 ---
-
 
 
 
