@@ -32,8 +32,9 @@ El modelo está diseñado para separar los hechos (métricas cuantitativas) de l
 ### Tablas de Dimensiones (Dims):
 -   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada dinámicamente para soportar *Time Intelligence*.
 -   **`SILVER.S_CUSTOMERS` / `S_EMPLOYEES`**: Dimensiones de entidades con soporte de historial.
--   **`SILVER.S_EXPENSES`**: Actúa como dimensión contextual para los gastos, permitiendo categorizar proveedores y tipos de egresos. 
--   **Nota:* En una fase productiva, estas tablas se normalizarían en `DIM_PROVIDER`, `DIM_CATEGORY`,`DIM_CUSTOMERS` y `DIM_EMPLOYEES` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball y que sea segun las necesidades del cliente en los dash y la interaccion del usuario analista.
+-   **`SILVER.S_EXPENSES`**: Actúa como dimensión contextual para los gastos, permitiendo categorizar proveedores y tipos de egresos.
+  
+   *Nota:* En una fase productiva, las tablas en capa silver se normalizarían en `DIM_PROVIDER`, `DIM_CATEGORY`,`DIM_CUSTOMERS` y `DIM_EMPLOYEES` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball y que se realicen segun las necesidades del cliente en los dash y la interaccion del usuario analista.
  
 
 ##  3. Pipeline ELT y Orquestación
@@ -129,12 +130,7 @@ Para transformar este pipeline en una solución de alcance global que soporte la
 
 
 
-### Automatización y DevOps:
--   **dbt (data build tool):** Para una implementación productiva, propongo migrar las transformaciones SQL a dbt (data build tool) para obtener las siguientes ventajas:
-Modelado Incremental (Append): Optimización del pipeline cambiando la materialización de table (overwrite) a incremental. Esto permite procesar solo las nuevas transacciones diarias, reduciendo drásticamente el consumo de cómputo y memoria. Ademas datos mas precisos para posibles SCD tipo 1 guardados en el esquema de RAW, con la carga y compiliacion exacata de cada consideracion de duplicado en el historial.
-Gestión de Infraestructura: Configuración de perfiles de conexión para asignar modelos pesados (Capa Gold) a clusters de alta memoria y modelos ligeros a clusters económicos.
-Data Quality & Alarms: Implementación de tests de unicidad y consistencia financiera con alertas automáticas ante anomalías en métricas críticas como el MRR.
-Seguridad: Aplicación de políticas de encriptación a nivel de columna para datos sensibles de nómina y clientes, asegurando el cumplimiento de normativas de privacidad.
+
 
 ### IA y Machine Learning:
 -   **Forecast Financiero:** Utilizar modelos de series temporales (Prophet o ARIMA) sobre la tabla `FACT_MRR_MONTHLY` para predecir ingresos futuros.
