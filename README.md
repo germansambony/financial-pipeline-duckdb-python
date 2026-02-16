@@ -33,7 +33,7 @@ El modelo está diseñado para separar los hechos (métricas cuantitativas) de l
 -   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada dinámicamente para soportar *Time Intelligence*.
 -   **`SILVER.S_CUSTOMERS` / `S_EMPLOYEES`**: Dimensiones de entidades con soporte de historial.
 -   **`SILVER.S_EXPENSES`**: Actúa como dimensión contextual para los gastos, permitiendo categorizar proveedores y tipos de egresos. 
-    *Nota:* En una fase productiva, estas tablas se normalizarían en `DIM_PROVIDER`, `DIM_CATEGORY`,`DIM_CUSTOMERS` y `DIM_EMPLOYEES` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball y que sea segun las necesidades del cliente en los dash y la interaccion del usuario analista.
+-   **Nota:* En una fase productiva, estas tablas se normalizarían en `DIM_PROVIDER`, `DIM_CATEGORY`,`DIM_CUSTOMERS` y `DIM_EMPLOYEES` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball y que sea segun las necesidades del cliente en los dash y la interaccion del usuario analista.
  
 
 ##  3. Pipeline ELT y Orquestación
@@ -46,6 +46,32 @@ El flujo de datos es gobernado por un orquestador central en Python (`main_orche
 4.  **Exposición (`bi_views.sql` y `main_orchestrator`):** Crea vistas optimizadas para consumo externo, el orquestador realiza el pipeline  y exporta archivos **.Parquet**, asegurando un rendimiento superior y menor peso que el formato CSV. Esto para ser leido desde Power Bi
 
 ---
+
+```mermaid
+graph TD
+subgraph "1. Ingesta (EL)"
+A[CSV Sources] -->|extract.py| B[(Capa RAW)]
+end
+
+subgraph "2. Transformación (T)"
+    B -->|silver_transformations.sql| C[(Capa SILVER)]
+    C -->|Vigencia: SCD Tipo 2| C
+end
+
+subgraph "3. Modelado Analítico"
+    C -->|gold_metrics.sql| D{Capa GOLD}
+    D -->|Fact| F1[FACT_MRR]
+    D -->|Fact| F2[FACT_CASHFLOW]
+    D -->|Dim| D1[DIM_DATE]
+end
+
+subgraph "4. Exposición de Datos"
+    F1 & F2 & D1 -->|bi_views.sql| V[Vistas BI]
+    V -->|main_orchestrator.py| P[Archivos .Parquet]
+    P -->|Import| PB[Power BI Dashboard]
+end
+
+```
 
 ##  4. Consultas clave de Negocio (Resultados 2024)
 
