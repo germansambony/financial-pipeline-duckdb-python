@@ -1,39 +1,40 @@
 
 
 ---
+# 📊 Data Warehouse Financiero: El Backend de la Inteligencia SaaS
 
-# 📊Data Warehouse: El Backend de la Inteligencia SaaS
-
-Este proyecto implementa un Pipeline de Datos integral. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando una arquitectura de medallas (Medallion Architecture), un proceso ELT y un modelo dimensional con la metodología de Ralph Kimball para un Star Schema (Modelo en Estrella)  para potenciar la toma de decisiones estratégicas.
+Este proyecto implementa un Pipeline de Datos integral (End-to-End) para una empresa SaaS. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando **Arquitectura de Medallion**, un proceso **ELT** y un modelo dimensional basado en la metodología de **Ralph Kimball (Star Schema)** para potenciar la toma de decisiones estratégicas.
 
 ---
 
-##  1. Arquitectura de la Solución
+## 🏗️ 1. Arquitectura de la Solución
 
-Se ha seleccionado una arquitectura basada en **DuckDB** por su alto rendimiento en procesamiento analítico (OLAP) y su facilidad de orquestación mediante Python.
+Se ha seleccionado una arquitectura basada en **DuckDB** por su alto rendimiento en procesamiento analítico (OLAP) y su versatilidad para ser orquestado mediante Python en entornos locales o de nube.
 
 ### Capas de Datos (Medallion Architecture):
-1.  **Capa RAW (Bronce):** Ingesta directa de archivos CSV. Los datos se extraen y cargan (EL) con  metadatos para procesos de soporte, trazabilidad y auditoría (`filename`, `load_date`).
-2.  **Capa SILVER (Plata):** Limpieza, transformacion y estandarización. Se eliminan duplicados mediante lógica de ventanas, se aplica Slowly Changing Dimensions SCD Tipo 2 para el country SCD Tipo 1 para los demas campos, se formatean y transforman tipos de datos, se crean nuevas columnas de transformacion y se manejan inconsistencias de negocio (ej. fechas de fin de suscripción inválidas).
-3.  **Capa GOLD (Oro):** Modelado analítico. Aquí reside el **Modelo en Estrella**, optimizado para consultas de BI y métricas complejas como MRR, CAC y FCF.
+1.  **Capa RAW (Bronce):** Ingesta inmutable de archivos CSV. Los datos se extraen y cargan (EL) preservando los originales e incluyendo metadatos de auditoría (`filename`, `load_date`).
+2.  **Capa SILVER (Plata):** Fase de limpieza y estandarización. Se eliminan duplicados y se implementa lógica de **SCD (Slowly Changing Dimensions)**:
+    *   **SCD Tipo 2:** Aplicado a la geografía (`country`) para mantener la trazabilidad histórica de los movimientos de los clientes.
+    *   **SCD Tipo 1:** Para atributos que no requieren historial.
+    *   Se manejan inconsistencias de negocio (ej. validación de rangos de fechas en suscripciones).
+3.  **Capa GOLD (Oro):** Capa de consumo final. Aquí reside el **Modelo en Estrella**, con tablas de hechos y dimensiones optimizadas para herramientas de BI (Power BI) y cálculos de métricas complejas (MRR, CAC, FCF).
 
 ---
 
-##  2. Modelo Dimensional Propuesto
+## 📉 2. Modelo Dimensional (Kimball)
 
-Para satisfacer las necesidades del equipo financiero, el modelo Gold se estructura de la siguiente manera:
+El modelo está diseñado para separar los hechos (métricas cuantitativas) de las dimensiones (contexto), facilitando el filtrado y la agregación:
 
 ### Tablas de Hechos (Facts):
--   **`GOLD.FACT_MRR_MONTHLY`**: Grano mensual por suscripción activa. Utiliza lógica recursiva para "llenar los huecos" de meses entre la fecha de inicio y fin, permitiendo ver la evolución del ingreso recurrente MRR.
--   **`GOLD.FACT_CASHFLOW`**: Grano transaccional. Consolida entradas (Pagos) y salidas (Gastos) en una única estructura para calcular el flujo de caja neto.
+-   **`GOLD.FACT_MRR_MONTHLY`**: Grano mensual por suscripción activa. Utiliza lógica recursiva para el llenado de periodos (*gap filling*), permitiendo analizar el crecimiento del ingreso recurrente.
+-   **`GOLD.FACT_CASHFLOW`**: Consolidado transaccional de entradas (Pagos) y salidas (Gastos) para el cálculo de flujo de caja neto.
 
 ### Tablas de Dimensiones (Dims):
--   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada con logica recursiva para eficiencia en Power BI.
--   **`SILVER.S_CUSTOMERS`**: Atributos del cliente (segmento, país, canal).
--   **`SILVER.S_EMPLOYEES`**: Datos de nómina y geografía.
--   **`SILVER.S_EXPENSES`**: Gastos 
-Nota: Dependiendo de las necesidades en especifico, la dimensiones en que se mencionan de la capa SILVER deberian pasar a la capa GOLD con su respectiva eficiencia en codigo. Guiadas hacia nuevos dashboards interactivos.
----
+-   **`GOLD.DIM_DATE`**: Dimensión de tiempo generada dinámicamente para soportar *Time Intelligence*.
+-   **`SILVER.S_CUSTOMERS` / `S_EMPLOYEES`**: Dimensiones de entidades con soporte de historial.
+-   **`SILVER.S_EXPENSES`**: Actúa como dimensión contextual para los gastos, permitiendo categorizar proveedores y tipos de egresos. 
+    *   *Nota:* En una fase productiva, esta tabla se normalizaría en `DIM_PROVIDER` y `DIM_CATEGORY` dentro de la capa GOLD para cumplir estrictamente con el estándar Kimball.
+ 
 
 ##  3. Pipeline ELT y Orquestación
 
