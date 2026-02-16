@@ -56,7 +56,7 @@ end
 
 subgraph "2. Transformación (T)"
     B -->|silver_transformations.sql| C[(Capa SILVER)]
-    C -->|Vigencia: SCD Tipo 2| C
+    C -.->|Deduplicación, Limpieza & SCD Tipo 2| C
 end
 
 subgraph "3. Modelado Analítico"
