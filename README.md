@@ -2,9 +2,9 @@
 
 ---
 
-# 📊 Innova Financial Data Warehouse: El Backend de la Inteligencia SaaS
+# 📊Data Warehouse: El Backend de la Inteligencia SaaS
 
-Este proyecto implementa un Pipeline de Datos integral para **Innova**, una empresa SaaS líder en soluciones financieras. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando una arquitectura de medallas (Medallion Architecture), un proceso ELT y un modelo dimensional en estrella (Star Schema) para potenciar la toma de decisiones estratégicas.
+Este proyecto implementa un Pipeline de Datos integral. La solución transforma datos transaccionales crudos en una arquitectura de **Data Warehouse moderna**, utilizando una arquitectura de medallas (Medallion Architecture), un proceso ELT y un modelo dimensional con la metodología de Ralph Kimball para un Star Schema (Modelo en Estrella)  para potenciar la toma de decisiones estratégicas.
 
 ---
 
@@ -14,7 +14,7 @@ Se ha seleccionado una arquitectura basada en **DuckDB** por su alto rendimiento
 
 ### Capas de Datos (Medallion Architecture):
 1.  **Capa RAW (Bronce):** Ingesta directa de archivos CSV. Los datos se extraen y cargan (EL) con  metadatos para procesos de soporte, trazabilidad y auditoría (`filename`, `load_date`).
-2.  **Capa SILVER (Plata):** Limpieza, transformacion y estandarización. Se eliminan duplicados mediante lógica de ventanas (`QUALIFY`), se formatean y transforman tipos de datos, se crean nuevas columnas de transformacion y se manejan inconsistencias de negocio (ej. fechas de fin de suscripción inválidas).
+2.  **Capa SILVER (Plata):** Limpieza, transformacion y estandarización. Se eliminan duplicados mediante lógica de ventanas, se aplica Slowly Changing Dimensions SCD Tipo 2 para el country SCD Tipo 1 para los demas campos, se formatean y transforman tipos de datos, se crean nuevas columnas de transformacion y se manejan inconsistencias de negocio (ej. fechas de fin de suscripción inválidas).
 3.  **Capa GOLD (Oro):** Modelado analítico. Aquí reside el **Modelo en Estrella**, optimizado para consultas de BI y métricas complejas como MRR, CAC y FCF.
 
 ---
@@ -77,11 +77,11 @@ El modelo Gold se conecta a un tablero en Power BI, proporcionando visibilidad e
 
 ### Escalabilidad a Nuevos Países y Monedas:
 -   **Multimoneda:** Para escalar a otras divisas, simplemente se propone añadir una tabla de tasas de cambio diarias `S_EXCHANGE_RATES`, cruzarlas mediante un `JOIN` en la capa SILVER y obtener la transformacion en las tablas silver con las columnas `amount_local` y `amount_usd`, realizando la conversión dinámicamente.
--   **Nuevos Países:** La estructura actual funciona a cualquier país sin complicaciones. Solo requiere añadir el nuevo valor en la fuente y el modelo lo absorberá automáticamente.
+
 
 ### Automatización y DevOps:
--   **dbt (data build tool):** Para una implementación productiva en Innova, propongo migrar las transformaciones SQL a dbt (data build tool) para obtener las siguientes ventajas:
-Modelado Incremental (Append): Optimización del pipeline cambiando la materialización de table (overwrite) a incremental. Esto permite procesar solo las nuevas transacciones diarias, reduciendo drásticamente el consumo de cómputo y memoria.
+-   **dbt (data build tool):** Para una implementación productiva, propongo migrar las transformaciones SQL a dbt (data build tool) para obtener las siguientes ventajas:
+Modelado Incremental (Append): Optimización del pipeline cambiando la materialización de table (overwrite) a incremental. Esto permite procesar solo las nuevas transacciones diarias, reduciendo drásticamente el consumo de cómputo y memoria. Ademas datos mas precisos para posibles SCD tipo 1 guardados en el esquema de RAW, con la carga y compiliacion exacata de cada consideracion de duplicado en el historial.
 Gestión de Infraestructura: Configuración de perfiles de conexión para asignar modelos pesados (Capa Gold) a clusters de alta memoria y modelos ligeros a clusters económicos.
 Data Quality & Alarms: Implementación de tests de unicidad y consistencia financiera con alertas automáticas ante anomalías en métricas críticas como el MRR.
 Seguridad: Aplicación de políticas de encriptación a nivel de columna para datos sensibles de nómina y clientes, asegurando el cumplimiento de normativas de privacidad.
