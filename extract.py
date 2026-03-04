@@ -121,7 +121,7 @@ class ExtractorLoad:
                     self.con.sql("""
                         INSERT INTO metadata_files (filename, table_name, load_date, rows_loaded)
                         VALUES (?, ?, ?, ?)
-                    """, [filename, table_name, datetime.now(), len(df)])
+                    """, params=[filename, table_name, datetime.now(), len(df)])
                     
                     print(f"      ✅ Cargado: {len(df)} filas nuevas -> {table_name}")
                 else:
@@ -129,7 +129,7 @@ class ExtractorLoad:
                     self.con.sql("""
                         INSERT INTO metadata_files (filename, table_name, load_date, rows_loaded)
                         VALUES (?, ?, ?, 0)
-                    """, [filename, table_name, datetime.now()])
+                    """,  params=[filename, table_name, datetime.now()])
                     print(f"      ⏭️  Sin datos nuevos: 0 filas")
 
         print("\n [EXTRACT] Carga incremental completada")

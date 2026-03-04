@@ -1,6 +1,6 @@
 import duckdb
 import os
-from extract import Extractor_load 
+from extract import ExtractorLoad 
 
 class FinancialPipeline:
     def __init__(self, db_path: str = "innova.duckdb"):
@@ -20,8 +20,8 @@ class FinancialPipeline:
 
     def execute_pipeline(self, data_folder: str):
         # 1. Extracción y Carga a RAW
-        EL = Extractor_load(self.db_path)
-        EL.extract_data(data_folder)
+        EL = ExtractorLoad(self.db_path)
+        EL._extract_data(data_folder)
 
         # 2. Transformación a Capa SILVER 
         print("\n Iniciando Tranformacion y Limpieza (DWH) CAPA SILVER...")
