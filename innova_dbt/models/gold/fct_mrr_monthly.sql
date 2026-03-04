@@ -1,4 +1,4 @@
-{{ config(materialized='incremental', schema='GOLD', unique_key='G_SUBSCRIPTION_ID || G_YEAR_MONTH') }}
+{{ config(materialized='table', schema='GOLD', unique_key='G_SUBSCRIPTION_ID || G_YEAR_MONTH') }}
 
 WITH RECURSIVE ADD_MONTHS_REGISTERS AS (
     SELECT 

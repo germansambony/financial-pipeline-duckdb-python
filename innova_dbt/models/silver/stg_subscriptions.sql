@@ -17,8 +17,19 @@ SELECT
     filename                                          AS S_FILENAME,
     CURRENT_TIMESTAMP                                 AS S_LOAD_TIMESTAMP
 FROM {{ source('RAW', 'raw_subscriptions') }}
+WHERE 1=1
+
 {% if is_incremental() %}
-WHERE S_LOAD_TIMESTAMP > (SELECT COALESCE(MAX(S_LOAD_TIMESTAMP), '1900-01-01') FROM {{ this }})
+    AND S_LOAD_TIMESTAMP > (
+        SELECT COALESCE(MAX(S_LOAD_TIMESTAMP), '1900-01-01')
+        FROM {{ this }}
+    )
 {% endif %}
-AND CAST(COALESCE(end_date, '2099-12-31') AS DATE) >= TRY_CAST(start_date AS DATE)
-QUALIFY ROW_NUMBER() OVER (PARTITION BY subscription_id ORDER BY start_date DESC) = 1
+
+AND CAST(COALESCE(end_date, '2099-12-31') AS DATE) 
+    >= TRY_CAST(start_date AS DATE)
+dbt
+QUALIFY ROW_NUMBER() OVER (
+    PARTITION BY subscription_id 
+    ORDER BY start_date DESC
+) = 1
