@@ -1,0 +1,29 @@
+name: 'innova_dbt'
+version: '1.0.0'
+
+config-version: 2
+
+profile: 'innova_dbt'
+
+vars:
+  # Configuración de la base de datos
+  database: 'innova'
+  schema_raw: 'RAW'
+  schema_silver: 'SILVER'
+  schema_gold: 'GOLD'
+
+# Configuración de modelos
+models:
+  innova_dbt:
+    bronze:
+      +materialized: table
+    silver:
+      +materialized: incremental
+    gold:
+      +materialized: incremental
+      +unique_key: "CONCAT(G_TRANSACTION_REF, G_FLOW_DATE)"
+
+# Configuración de semiconductores
+seeds:
+  innova_dbt:
+    +schema: seeds

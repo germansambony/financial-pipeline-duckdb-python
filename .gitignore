@@ -3,3 +3,7 @@ __pycache__/
 venv/
 .env
 *.parquet
+innova_dbt/target/
+innova_dbt/logs/
+innova_dbt/dbt_packages/
+innova_dbt/package-lock.yml

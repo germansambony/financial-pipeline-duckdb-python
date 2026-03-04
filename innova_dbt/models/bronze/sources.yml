@@ -1,0 +1,137 @@
+version: 2
+
+sources:
+  - name: RAW
+    description: Capa Bronze - Datos crudos ingestados desde CSV
+    schema: main
+    database: innova
+    freshness:
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 24, period: hour}
+    loaded_at_field: load_date
+    tables:
+      - name: raw_customers
+        description: Datos crudos de clientes
+        identifier: raw_customers
+        columns:
+          - name: customer_id
+            description: Identificador único del cliente
+          - name: country
+            description: País del cliente
+          - name: acquisition_channel
+            descripción: Canal de adquisición del cliente
+          - name: segment
+            description: Segmento del cliente
+          - name: registration_date
+            description: Fecha de registro del cliente
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro
+
+      - name: raw_subscriptions
+        description: Datos crudos de suscripciones
+        identifier: raw_subscriptions
+        columns:
+          - name: subscription_id
+            description: Identificador único de la suscripción
+          - name: customer_id
+            description: Identificador del cliente
+          - name: plan
+            description: Tipo de plan de suscripción
+          - name: start_date
+            description: Fecha de inicio de la suscripción
+          - name: end_date
+            description: Fecha de fin de la suscripción
+          - name: status
+            description: Estado de la suscripción
+          - name: monthly_price_usd
+            description: Precio mensual en USD
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro
+
+      - name: raw_transactions
+        description: Datos crudos de transacciones
+        identifier: raw_transactions
+        columns:
+          - name: transaction_id
+            description: Identificador único de la transacción
+          - name: customer_id
+            description: Identificador del cliente
+          - name: product_id
+            description: Identificador del producto
+          - name: date
+            description: Fecha de la transacción
+          - name: country
+            description: País de la transacción
+          - name: quantity
+            description: Cantidad de productos
+          - name: unit_price_usd
+            description: Precio unitario en USD
+          - name: total_usd
+            description: Total en USD
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro
+
+      - name: raw_payments
+        description: Datos crudos de pagos
+        identifier: raw_payments
+        columns:
+          - name: payment_id
+            description: Identificador único del pago
+          - name: transaction_id
+            description: Identificador de la transacción
+          - name: payment_date
+            description: Fecha del pago
+          - name: method
+            description: Método de pago
+          - name: amount_usd
+            description: Monto en USD
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro
+
+      - name: raw_expenses
+        description: Datos crudos de gastos
+        identifier: raw_expenses
+        columns:
+          - name: expense_id
+            description: Identificador único del gasto
+          - name: date
+            description: Fecha del gasto
+          - name: provider
+            description: Proveedor del gasto
+          - name: category
+            description: Categoría del gasto
+          - name: country
+            description: País del gasto
+          - name: amount_usd
+            description: Monto en USD
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro
+
+      - name: raw_employees
+        description: Datos crudos de empleados
+        identifier: raw_employees
+        columns:
+          - name: employee_id
+            description: Identificador único del empleado
+          - name: area
+            description: Área del empleado
+          - name: salary_usd
+            description: Salario en USD
+          - name: country
+            description: País del empleado
+          - name: hire_date
+            description: Fecha de contratación
+          - name: filename
+            description: Nombre del archivo fuente
+          - name: load_date
+            description: Fecha de carga del registro

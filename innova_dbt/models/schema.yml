@@ -1,0 +1,235 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Tabla de clientes limpiada y deduplicada
+    tests:
+      - dbt_utils.recency:
+          datepart: day
+          field: S_LOAD_TIMESTAMP
+          interval: 1
+          config:
+            severity: warn
+    columns:
+      - name: S_CUSTOMER_ID
+        description: Identificador único del cliente
+        tests:
+          - unique
+          - not_null
+
+      - name: S_COUNTRY
+        description: País del cliente
+        tests:
+          - not_null
+
+      - name: S_ACQUISITION_CHANNEL
+        description: Canal de adquisición
+        tests:
+          - not_null
+
+      - name: S_REGISTRATION_TIMESTAMP
+        description: Fecha de registro
+        tests:
+          - not_null
+
+  - name: stg_subscriptions
+    description: Tabla de suscripciones validada
+    tests:
+      - dbt_utils.recency:
+          datepart: day
+          field: S_LOAD_TIMESTAMP
+          interval: 1
+          config:
+            severity: warn
+    columns:
+      - name: S_SUBSCRIPTION_ID
+        description: Identificador único de la suscripción
+        tests:
+          - unique
+          - not_null
+
+      - name: S_CUSTOMER_ID
+        description: Identificador del cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: S_CUSTOMER_ID
+
+      - name: S_START_DATE
+        description: Fecha de inicio
+        tests:
+          - not_null
+
+      - name: S_END_DATE
+        description: Fecha de fin
+        tests:
+          - not_null
+
+      - name: S_STATUS
+        description: Estado de la suscripción
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ACTIVE', 'PAUSED', 'CANCELED', 'CANCELLED', 'EXPIRED']
+
+      - name: S_MONTHLY_PRICE
+        description: Precio mensual
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_employees
+    description: Tabla de empleados limpiada
+    columns:
+      - name: S_EMPLOYEE_ID
+        description: Identificador único del empleado
+        tests:
+          - unique
+          - not_null
+
+      - name: S_SALARY_USD
+        description: Salario en USD
+        tests:
+          - not_null
+
+  - name: stg_transactions
+    description: Tabla de transacciones limpiada
+    columns:
+      - name: S_TRANSACTION_ID
+        description: Identificador único de la transacción
+        tests:
+          - unique
+          - not_null
+
+      - name: S_CUSTOMER_ID
+        description: Identificador del cliente
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: S_CUSTOMER_ID
+
+      - name: S_TOTAL_USD
+        description: Total en USD
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_payments
+    description: Tabla de pagos limpiada
+    columns:
+      - name: S_PAYMENT_ID
+        description: Identificador único del pago
+        tests:
+          - unique
+          - not_null
+
+      - name: S_TRANSACTION_ID
+        description: Identificador de la transacción
+        tests:
+          - not_null
+
+      - name: S_AMOUNT_USD
+        description: Monto en USD
+        tests:
+          - not_null
+
+  - name: stg_expenses
+    description: Tabla de gastos limpiada
+    columns:
+      - name: S_EXPENSE_ID
+        description: Identificador único del gasto
+        tests:
+          - unique
+          - not_null
+
+      - name: S_AMOUNT_USD
+        description: Monto en USD
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: fct_mrr_monthly
+    description: Tabla de hechos MRR mensual
+    tests:
+      - dbt_utils.recency:
+          datepart: day
+          field: G_MONTHS_ADD
+          interval: 2
+          config:
+            severity: warn
+    columns:
+      - name: G_SUBSCRIPTION_ID
+        description: Identificador de suscripción
+        tests:
+          - not_null
+
+      - name: G_CUSTOMER_ID
+        description: Identificador de cliente
+        tests:
+          - not_null
+
+      - name: G_MONTHLY_PRICE
+        description: Precio mensual
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: G_MONTHS_ADD
+        description: Mes del MRR
+        tests:
+          - not_null
+
+  - name: fct_cashflow
+    description: Tabla de hechos de flujo de caja
+    columns:
+      - name: G_TRANSACTION_REF
+        description: Referencia de la transacción
+        tests:
+          - not_null
+
+      - name: G_FLOW_DATE
+        description: Fecha del flujo
+        tests:
+          - not_null
+
+      - name: G_FLOW_TYPE
+        description: Tipo de flujo (INFLOW/OUTFLOW)
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['INFLOW', 'OUTFLOW']
+
+      - name: G_NET_AMOUNT_USD
+        description: Monto neto en USD
+        tests:
+          - not_null
+
+  - name: dim_date
+    description: Dimensión de fecha
+    columns:
+      - name: DATE_ID
+        description: Fecha
+        tests:
+          - unique
+          - not_null
+
+      - name: YEAR
+        description: Año
+        tests:
+          - not_null
+
+      - name: MONTH
+        description: Mes
+        tests:
+          - not_null
+
+      - name: YEAR_MONTH
+        description: Año y mes combinados
+        tests:
+          - not_null

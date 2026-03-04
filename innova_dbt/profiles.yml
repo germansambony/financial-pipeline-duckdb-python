@@ -1,0 +1,8 @@
+innova_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../innova.duckdb'
+      threads: 4
+      schema: main
