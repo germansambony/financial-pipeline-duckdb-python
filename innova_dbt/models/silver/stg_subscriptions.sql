@@ -28,7 +28,7 @@ WHERE 1=1
 
 AND CAST(COALESCE(end_date, '2099-12-31') AS DATE) 
     >= TRY_CAST(start_date AS DATE)
-dbt
+
 QUALIFY ROW_NUMBER() OVER (
     PARTITION BY subscription_id 
     ORDER BY start_date DESC
